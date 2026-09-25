@@ -1,0 +1,67 @@
+# Telleo
+
+> Telleo (telleo.ai) is an AI voice agent platform for Indian businesses. Its agents make outbound calls (new leads called in about 60 seconds, list campaigns, reminders) and answer inbound calls in Hindi, English and Hinglish; capture answers into a built-in CRM; book meetings, send WhatsApp/email follow-ups and transfer hot leads live to a human; and analyse and health-grade every call. Built by Vidyayatan Technologies LLP, the team behind Vacademy (vacademy.io).
+
+Key facts: pricing ₹3.99/min on monthly plans from ₹3,499/month, or ₹3.49/min with no minimum on the ₹19,999/year annual plan (CRM included); prices exclude 18% GST; DLT registration ₹5,900/year at actuals; telephony included; 80+ voices across 7 speech engines; Hindi, English and Hinglish live, other Indian languages set up on request; live voice pipeline hosted in Mumbai. Telleo does not hold SOC 2/ISO 27001/HIPAA certification and has no native Salesforce/HubSpot/Zoho apps (webhooks instead). Live test line: +91 80353 74489.
+
+## Product
+
+- [AI voice agents: outbound and inbound calls, live transfer, guardrails](https://telleo.ai/ai-voice-agents/)
+- [No-code agent builder and AI-assisted scripting](https://telleo.ai/agent-builder/)
+- [What happens after a call: outcome rules, booking, WhatsApp/email, workflows](https://telleo.ai/automations/)
+- [Call intelligence for AI and human calls](https://telleo.ai/call-intelligence/)
+- [Per-call health verdicts and QA](https://telleo.ai/call-quality-monitoring/)
+- [Voices, Hindi/Hinglish quality, languages](https://telleo.ai/voices-and-languages/)
+- [How a Telleo call works, stage by stage](https://telleo.ai/how-it-works/)
+- [Pricing with worked examples](https://telleo.ai/pricing/)
+- [Security, data handling and calling compliance](https://telleo.ai/security/)
+- [30-question FAQ](https://telleo.ai/faq/)
+
+## Use cases
+
+- [Lead Qualification](https://telleo.ai/use-cases/lead-qualification/)
+- [Instant Lead Callback](https://telleo.ai/use-cases/instant-lead-callback/)
+- [Appointment Booking](https://telleo.ai/use-cases/appointment-booking/)
+- [Payment Reminders](https://telleo.ai/use-cases/payment-reminders/)
+- [Lead Reactivation](https://telleo.ai/use-cases/lead-reactivation/)
+- [Feedback Surveys](https://telleo.ai/use-cases/feedback-surveys/)
+- [AI Receptionist](https://telleo.ai/use-cases/ai-receptionist/)
+- [Event Confirmation](https://telleo.ai/use-cases/event-confirmation/)
+- [Application Follow-up](https://telleo.ai/use-cases/application-follow-up/)
+
+## Industries
+
+- [Education](https://telleo.ai/industries/education/)
+- [Real Estate](https://telleo.ai/industries/real-estate/)
+- [Healthcare](https://telleo.ai/industries/healthcare/)
+- [Lending](https://telleo.ai/industries/lending/)
+- [Insurance](https://telleo.ai/industries/insurance/)
+- [E-commerce & D2C](https://telleo.ai/industries/ecommerce/)
+- [Automotive](https://telleo.ai/industries/automotive/)
+- [Travel & Hospitality](https://telleo.ai/industries/travel-hospitality/)
+- [Recruitment](https://telleo.ai/industries/recruitment/)
+
+## Comparisons
+
+- [Telleo vs telecallers](https://telleo.ai/compare/telleo-vs-telecallers/)
+- [Telleo vs IVR and robocalls](https://telleo.ai/compare/telleo-vs-ivr/)
+- [Telleo vs Ringg AI](https://telleo.ai/compare/telleo-vs-ringg/)
+- [Telleo vs Vomyra](https://telleo.ai/compare/telleo-vs-vomyra/)
+- [Telleo vs build your own](https://telleo.ai/compare/telleo-vs-build-your-own/)
+
+## Blog
+
+- [What Is an AI Voice Agent? A Plain Guide for Indian Businesses](https://telleo.ai/blog/what-is-an-ai-voice-agent/)
+- [How Much Does AI Calling Cost in India? 2026 Per-Minute Guide](https://telleo.ai/blog/ai-calling-cost-india/)
+- [Speed to Lead: Why Calling New Leads in 60 Seconds Wins](https://telleo.ai/blog/speed-to-lead/)
+- [How to Write an AI Calling Agent Script (With Templates)](https://telleo.ai/blog/ai-calling-script-template/)
+- [TRAI and DLT Rules for AI Calling in India: A 2026 Guide](https://telleo.ai/blog/trai-dlt-rules-ai-calling/)
+- [Hinglish Voice AI: The Hardest Test and How to Judge It](https://telleo.ai/blog/hinglish-voice-ai/)
+- [AI Calling Vendor Checklist: 20 Questions to Ask Before You Buy](https://telleo.ai/blog/ai-calling-vendor-checklist/)
+- [How to Measure AI Call Quality: Metrics That Actually Matter](https://telleo.ai/blog/measure-ai-call-quality/)
+
+## Company
+
+- [About Telleo](https://telleo.ai/about/)
+- [Book a demo](https://telleo.ai/demo/)
+- Full site text for models: https://telleo.ai/llms-full.txt
