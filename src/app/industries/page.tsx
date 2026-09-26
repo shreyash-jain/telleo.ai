@@ -14,7 +14,7 @@ export default function IndustriesIndex() {
       path="/industries/"
       eyebrow="Industries"
       h1="AI calling agents for the way your industry sells."
-      lede="Telleo started in admissions calling for education institutes, where parents switch languages, interrupt and ask about fees. The same agent now qualifies buyers, books visits, reminds borrowers and screens candidates across Indian businesses."
+      lede="Telleo started in admissions calling for education institutes, where parents switch languages, interrupt and ask about fees. The same agent can be set up to qualify buyers, book visits, remind borrowers and screen candidates for other Indian businesses."
     >
       <JsonLd
         data={{

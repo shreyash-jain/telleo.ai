@@ -16,7 +16,7 @@ export const INDUSTRIES: Industry[] = [
     label: "Education",
     title: "AI Calling Agent for Education and Admissions in India",
     description:
-      "Call every admission enquiry within a minute, book demo classes and remind parents about fees in Hindi, English or Hinglish. Built first for education.",
+      "Call new admission enquiries within about a minute, book demo classes and remind parents about fees in Hindi, English or Hinglish. Built first for education.",
     icon: "GraduationCap",
     summary: "Admission enquiries, demo classes, fee reminders and parent calls in Hindi, English or Hinglish.",
     h1: "AI calling for coaching institutes, schools and colleges",
@@ -72,7 +72,7 @@ export const INDUSTRIES: Industry[] = [
       {
         title: "Re-engage last season's enquiries",
         body:
-          "Enquiries that went cold get a fresh call when a new batch or crash course opens. Interested families go straight to a counsellor.",
+          "Enquiries that went cold, from families who have consented to hear from you, get a fresh call when a new batch or crash course opens. Interested families go straight to a counsellor.",
         useCase: "lead-reactivation",
       },
       {
@@ -114,11 +114,7 @@ export const INDUSTRIES: Industry[] = [
         text: "Weekend batch की fee पूरे साल की पचासी हज़ार रुपये है, और यह तीन installments में दी जा सकती है। क्या वो पहले एक free demo class attend करना चाहेगा?",
         en: "The weekend batch fee is eighty-five thousand rupees for the full year, payable in three instalments. Would he like to attend a free demo class first?",
       },
-      {
-        who: "caller",
-        text: "हाँ, इस Sunday हो सकती है?",
-        en: "Yes, can it be this Sunday?",
-      },
+      { who: "caller", text: "हाँ, इस Sunday सुबह ग्यारह बजे हो सकती है?", en: "Yes, can it be this Sunday at 11 am?" },
       {
         who: "agent",
         text: "जी, इस Sunday सुबह ग्यारह बजे की demo class book कर दी है। Details WhatsApp पर भेज दूँ?",
@@ -134,7 +130,7 @@ export const INDUSTRIES: Industry[] = [
       "Who decides: student or parent",
       "Fee or scholarship questions raised",
       "Demo class or counselling day and time",
-      "Callback time, if the family was busy",
+      "Callback request, if the family was busy",
     ],
     rollout: [
       {
@@ -161,7 +157,7 @@ export const INDUSTRIES: Industry[] = [
     cautions: [
       "The agent only knows what is in its script. Keep fees, batch dates and scholarship rules current, or it will quote old figures.",
       "Many enquiry forms are filled by students. Decide in the script when the agent should ask for a parent, especially before it discusses fees.",
-      "DLT registration is required for commercial calling in India. Telleo registers it with you, and you choose the hours calls go out.",
+      "DLT registration is required for commercial calling in India, and under TRAI's September 2026 amendment, once it takes effect, AI calls must also be declared to your telecom operator in advance. Telleo registers DLT with you, and you choose the hours calls go out.",
       "WhatsApp confirmations and brochures need approved WhatsApp templates before you go live.",
     ],
     faqs: [
@@ -175,11 +171,11 @@ export const INDUSTRIES: Industry[] = [
       },
       {
         q: "What happens if a parent wants to talk to a person?",
-        a: "The agent can transfer the call live to a counsellor's number you set. If the parent would rather be called later, it records the callback time and the lead is assigned for a human call.",
+        a: "The agent can transfer the call live to a counsellor's number you set. If the parent would rather be called later, the call is marked as a callback request, with their words in the transcript. Add Callback to the outcomes that assign to a counsellor if you want those families handed to a person; otherwise workflow calls go back on your retry path.",
       },
       {
         q: "Can it call students who enquired months ago?",
-        a: "Yes. Import the list as a CSV and run a campaign within the hours you choose. Automation skips leads already assigned to a counsellor, so families your team is working on are left alone.",
+        a: "Only with consent. Under TRAI's September 2026 amendment, once it takes effect, an enquiry supports commercial calls for only seven days, so older enquiries need explicit consent you can show. For families who have consented, import the list as a CSV and run a campaign within your calling hours. A bulk campaign calls every lead you select, including families a counsellor is already working, so leave those out of the list. Only workflow calls skip leads already assigned to a counsellor.",
       },
       {
         q: "Can Telleo also review my counsellors' own calls?",
@@ -198,7 +194,7 @@ export const INDUSTRIES: Industry[] = [
     label: "Real estate",
     title: "AI Calling Agent for Real Estate in India",
     description:
-      "Call property leads within a minute, qualify budget, location and timeline, and book site visits in Hindi or English. Your sales team meets ready buyers.",
+      "Call property leads within about a minute, qualify budget, location and timeline, and book site visits in Hindi or English. Your sales team meets ready buyers.",
     icon: "Building2",
     summary: "Call property leads fast, qualify budget and location, and book site visits.",
     h1: "AI calling for real estate developers and brokers",
@@ -228,7 +224,7 @@ export const INDUSTRIES: Industry[] = [
     ],
     plays: [
       {
-        title: "Call ad and website leads within a minute",
+        title: "Call ad and website leads in about a minute",
         body:
           "Meta and Google lead-form enquiries, and website forms sent by webhook, trigger a call within about a minute, weekends included, inside the hours you set.",
         useCase: "instant-lead-callback",
@@ -254,7 +250,7 @@ export const INDUSTRIES: Industry[] = [
       {
         title: "Reactivate old enquiries",
         body:
-          "Run a campaign over past enquiries when a new phase, price or offer launches, and pass the interested ones to sales.",
+          "When a new phase, price or offer launches, run a campaign over past enquiries who have consented to hear from you, and pass the interested ones to sales.",
         useCase: "lead-reactivation",
       },
       {
@@ -336,7 +332,7 @@ export const INDUSTRIES: Industry[] = [
       {
         step: "Go live on new leads, then the backlog",
         detail:
-          "Run fresh leads first and listen to the recordings for a few days. Then run a campaign over past enquiries.",
+          "Run fresh leads first and review the transcripts for a few days. Then run a campaign over past enquiries you have explicit consent to call.",
       },
     ],
     cautions: [
@@ -356,11 +352,11 @@ export const INDUSTRIES: Industry[] = [
       },
       {
         q: "What if a buyer wants to negotiate on the call?",
-        a: "Set a handoff number. The agent says a short bridge line and connects the buyer to your sales manager live. You can also make 'wants to negotiate' a disposition that assigns the lead to a senior salesperson.",
+        a: "Set a handoff number. The agent says a short bridge line and connects the buyer to your sales manager live. You can also make 'wants to negotiate' a disposition that assigns the lead to your sales team.",
       },
       {
         q: "Will it call the same lead twice by mistake?",
-        a: "Leads are de-duplicated by phone or email, a 30-second guard stops a number being dialled twice by accident, and automation skips leads already assigned to a salesperson. Retries for unanswered calls follow the gap and limit you set.",
+        a: "Leads are de-duplicated by phone or email, a 30-second guard stops a number being dialled twice by accident, and workflow calls skip leads already assigned to a salesperson (a bulk campaign calls whoever you select), and workflow calls retry unanswered numbers with the gap and limit you set.",
       },
       {
         q: "Do we need our own SIMs or dialer?",
@@ -375,12 +371,12 @@ export const INDUSTRIES: Industry[] = [
     label: "Healthcare",
     title: "AI Calling Agent for Clinics, Hospitals & Labs in India",
     description:
-      "Book appointments, send reminders and make report-ready and follow-up calls in Hindi or English. The agent handles scheduling and never gives medical advice.",
+      "Book appointments, send reminders and make report-ready and follow-up calls in Hindi or English, scripted to pass medical questions to your staff.",
     icon: "Stethoscope",
-    summary: "Appointment booking, reminders, report-ready and follow-up calls. Scheduling only, no medical advice.",
+    summary: "Appointment booking, reminders, report-ready and follow-up calls. Appointment booking, reminders, report-ready and follow-up calls, scripted to pass medical questions to staff.",
     h1: "AI calling for clinics, hospitals and diagnostic labs",
     lede:
-      "Front desks spend hours on calls that follow a script: booking, reminding, telling patients a report is ready. Telleo makes those calls in Hindi, English or Hinglish and passes anything clinical to your staff.",
+      "Front desks spend hours on calls that follow a script: booking, reminding, telling patients a report is ready. Telleo makes those calls in Hindi, English or Hinglish, and you script it to pass anything clinical to your staff.",
     challenges: [
       {
         title: "The front desk is also the phone line",
@@ -419,7 +415,7 @@ export const INDUSTRIES: Industry[] = [
       {
         title: "Report-ready calls",
         body:
-          "The agent tells the patient their report is ready and when they can collect it. It does not read out or explain results.",
+          "The agent tells the patient their report is ready and when they can collect it. Script it not to read out or explain results.",
       },
       {
         title: "Post-visit follow-up and feedback",
@@ -428,9 +424,9 @@ export const INDUSTRIES: Industry[] = [
         useCase: "feedback-surveys",
       },
       {
-        title: "Take bookings from your IVR",
+        title: "Take bookings from the Telleo IVR",
         body:
-          "Callers who pick the appointment option on your IVR menu can be handed to the agent. Anything else is transferred to the desk.",
+          "Callers who pick the appointment option on an IVR menu set up on your Telleo number can be handed to the agent. Anything else is transferred to the desk.",
         useCase: "ai-receptionist",
       },
       {
@@ -469,8 +465,8 @@ export const INDUSTRIES: Industry[] = [
       },
       {
         who: "agent",
-        text: "Report के बारे में Doctor साहब ही बताएँगे, Saturday को उनसे बात कर लीजिए। आपका appointment Saturday सुबह ग्यारह बजे book हो गया है। Confirmation WhatsApp पर भेज दूँ?",
-        en: "The doctor is the right person to go through your report, please ask on Saturday. Your appointment is booked for Saturday at 11 am. Shall I send the confirmation on WhatsApp?",
+        text: "Report के बारे में Doctor साहब ही बताएँगे, Saturday को उनसे बात कर लीजिए। Saturday सुबह ग्यारह बजे का time note कर लिया है, हमारी team आपका appointment update कर देगी। Confirmation WhatsApp पर भेज दूँ?",
+        en: "The doctor is the right person to go through your report, please ask on Saturday. I've noted Saturday at 11 am, and our team will update your appointment. Shall I send the confirmation on WhatsApp?",
       },
       { who: "caller", text: "हाँ, भेज दीजिए।", en: "Yes, please send it." },
     ],
@@ -498,7 +494,7 @@ export const INDUSTRIES: Industry[] = [
       {
         step: "Set outcomes",
         detail:
-          "Send reschedules and cancellations to the front desk. Assign patients flagged with a concern to a nurse or coordinator to call back.",
+          "Assign reschedules, cancellations and patients flagged with a concern to the staff on this list, so a nurse or coordinator can call back.",
       },
       {
         step: "Add bookings from new enquiries",
@@ -509,13 +505,13 @@ export const INDUSTRIES: Industry[] = [
     cautions: [
       "Don't let the agent discuss diagnoses, results, medicines or doses. Script it to hand every clinical question to your staff, and check recordings to confirm it does.",
       "It is not an emergency line. Script it to tell anyone describing an emergency to go to the nearest hospital or call emergency services, and transfer the call to your desk.",
-      "Telleo does not hold HIPAA or other healthcare certifications. Patient calls are sensitive: limit full transcripts to roles that need them, and keep health details out of call fields you do not need.",
+      "Telleo does not hold HIPAA or other healthcare certifications. Patient calls are sensitive: Patient calls are sensitive, and transcripts can't be restricted by role: give call-log access only to the people who need it, and keep health details out of call fields you do not need., and keep health details out of call fields you do not need.",
       "If you run separate appointment software, bookings made by the agent reach it only through a webhook or when your front desk enters them.",
     ],
     faqs: [
       {
         q: "Can the agent answer medical questions?",
-        a: "No, and it should not. Configure it to say the doctor or your staff will answer, and to offer a callback. Every call is transcribed (and recorded, with recording on), so you can check how it handled the question.",
+        a: "It should not, and nothing stops it except your script. Configure it to say the doctor or your staff will answer, and to offer a callback. Every call is transcribed (and recorded, with recording on), so you can check how it handled the question.",
       },
       {
         q: "Will it work with our hospital management system?",
@@ -523,7 +519,7 @@ export const INDUSTRIES: Industry[] = [
       },
       {
         q: "Can patients reach the agent by calling us?",
-        a: "Yes, through your IVR. An IVR menu option, for example 'press 2 to book an appointment', can hand the caller to the AI agent.",
+        a: "Yes, through the Telleo IVR. An IVR menu option on your Telleo line, for example 'press 2 to book an appointment', can hand the caller to the AI agent.",
       },
       {
         q: "Which languages can patients use?",
@@ -531,7 +527,7 @@ export const INDUSTRIES: Industry[] = [
       },
       {
         q: "Who can see what patients said?",
-        a: "Full transcripts are visible only to roles you give permission to see caller details. Other staff see outcomes and summaries.",
+        a: "Transcripts, summaries and captured answers are visible to staff who can open the call log, so keep call-log access to the people who need it. Recordings, when switched on, play there too, and full phone numbers can be restricted by role.",
       },
     ],
   },
@@ -572,7 +568,7 @@ export const INDUSTRIES: Industry[] = [
     ],
     plays: [
       {
-        title: "Call new loan leads within a minute",
+        title: "Call new loan leads in about a minute",
         body:
           "Meta, Google and website leads get a call within about a minute of the form, inside the hours you allow.",
         useCase: "instant-lead-callback",
@@ -592,13 +588,13 @@ export const INDUSTRIES: Industry[] = [
       {
         title: "Courteous EMI reminders",
         body:
-          "A reminder before the due date with the amount and date from your list. If the borrower mentions a problem, the call is marked for your team, never argued.",
+          "A reminder before the due date with the amount and date from your list. If the borrower mentions a problem, script the agent to mark the call for your team rather than press the point.",
         useCase: "payment-reminders",
       },
       {
         title: "Re-engage dropped leads",
         body:
-          "When your products or criteria change, call older leads again and pass the interested ones to your team.",
+          "When your products or criteria change, call older leads who have consented to be contacted and pass the interested ones to your team.",
         useCase: "lead-reactivation",
       },
     ],
@@ -633,8 +629,8 @@ export const INDUSTRIES: Industry[] = [
       { who: "caller", text: "कल दोपहर तीन बजे।", en: "Tomorrow at 3 in the afternoon." },
       {
         who: "agent",
-        text: "ठीक है, कल दोपहर तीन बजे हमारी team आपको call करेगी। क्या और किसी चीज़ में मदद कर सकती हूँ?",
-        en: "Okay, our team will call you tomorrow at 3 pm. Is there anything else I can help with?",
+        text: "ठीक है, मैंने note कर लिया है कि कल दोपहर तीन बजे के आसपास बात करना ठीक रहेगा, हमारी team आपसे संपर्क करेगी। क्या और किसी चीज़ में मदद कर सकती हूँ?",
+        en: "Okay, I've noted that tomorrow around 3 pm suits you, and our team will be in touch. Is there anything else I can help with?",
       },
       { who: "caller", text: "नहीं, बस। Thank you.", en: "No, that's all. Thank you." },
     ],
@@ -671,9 +667,9 @@ export const INDUSTRIES: Industry[] = [
       },
     ],
     cautions: [
-      "Reminder calls must stay courteous. The agent is for reminders, not collections pressure: it never threatens, and disputes or hardship go to a person.",
-      "An RBI circular on recovery agents (RBI/2022-23/108, August 2022) says regulated lenders and their agents must not call borrowers about overdue loans before 8 am or after 7 pm, or call persistently. Set calling windows and retry limits to match, and check current RBI directions with your compliance team.",
-      "The agent does not collect payments, verify KYC documents or give financial advice. It tells applicants what is pending and sends your link.",
+      "Reminder calls must stay courteous. The agent is for reminders, not collections pressure: script it never to threaten, and to send disputes or hardship cases to a person.",
+      "RBI's rules on recovery agents (first issued in circular RBI/2022-23/108 in August 2022, now part of RBI's Responsible Business Conduct Directions) say regulated lenders and their agents must not call borrowers about overdue loans before 8 am or after 7 pm, or call persistently. Set calling windows and retry limits to match, and check current RBI directions with your compliance team.",
+      "The agent does not collect payments or verify KYC documents; script it not to give financial advice. It tells applicants what is pending and sends your link. It tells applicants what is pending and sends your link.",
       "DLT registration is required for commercial calling in India. Telleo registers it with you.",
     ],
     faqs: [
@@ -687,11 +683,11 @@ export const INDUSTRIES: Industry[] = [
       },
       {
         q: "Can it make collection calls on overdue loans?",
-        a: "We recommend using it for courteous reminders only, before and just after the due date. Anything beyond a reminder, and every dispute or hardship case, should go to a trained person. RBI's August 2022 circular on recovery agents rules out calls about overdue loans before 8 am or after 7 pm.",
+        a: "We recommend using it for courteous reminders only, before and just after the due date. Anything beyond a reminder, and every dispute or hardship case, should go to a trained person. RBI's rules on recovery agents (first issued in its August 2022 circular, now part of its Responsible Business Conduct Directions) rule out calls about overdue loans before 8 am or after 7 pm; for microfinance loans the window is 9 am to 6 pm.",
       },
       {
         q: "How do we control when and how often borrowers are called?",
-        a: "Campaigns run inside time windows you choose. Retries follow the gap and maximum attempts you set, a daily cap limits total calls, and duplicate protection stops a number being dialled twice by accident.",
+        a: "Campaigns run inside time windows you choose. Workflow calls retry with the gap and maximum attempts you set; a campaign never re-dials on its own, so you decide if and when to re-run it. A daily cap limits total calls, and duplicate protection stops a number being dialled twice by accident.",
       },
       {
         q: "Is every call recorded?",
@@ -731,7 +727,7 @@ export const INDUSTRIES: Industry[] = [
     ],
     plays: [
       {
-        title: "Call new leads within a minute",
+        title: "Call new leads in about a minute",
         body:
           "Meta, Google and website leads get a call within about a minute, while the customer still remembers filling the form.",
         useCase: "instant-lead-callback",
@@ -745,7 +741,7 @@ export const INDUSTRIES: Industry[] = [
       {
         title: "Renewal reminders",
         body:
-          "Calls ahead of the renewal date with the policy and due date from your list. Customers with questions are transferred to an advisor or given a callback.",
+          "Calls ahead of the renewal date with the policy and due date from your list. Customers with questions are transferred to an advisor or flagged for an advisor's callback.",
         useCase: "payment-reminders",
       },
       {
@@ -757,7 +753,7 @@ export const INDUSTRIES: Industry[] = [
       {
         title: "Reach lapsed customers",
         body:
-          "Call customers whose policy lapsed and ask if they would like an advisor to call about renewing.",
+          "Call lapsed customers who have consented to be contacted and ask if they would like an advisor to call about renewing.",
         useCase: "lead-reactivation",
       },
       {
@@ -806,8 +802,8 @@ export const INDUSTRIES: Industry[] = [
       { who: "caller", text: "दस बजे के बाद।", en: "After 10." },
       {
         who: "agent",
-        text: "ठीक है, कल सुबह दस बजे के बाद advisor आपको call करेंगे। Renewal की details WhatsApp पर भेज दूँ?",
-        en: "Okay, an advisor will call you tomorrow after 10 am. Shall I send the renewal details on WhatsApp?",
+        text: "ठीक है, मैंने note कर लिया है कि कल सुबह दस बजे के बाद बात करना ठीक रहेगा, advisor आपसे संपर्क करेंगे। Renewal की details WhatsApp पर भेज दूँ?",
+        en: "Okay, I've noted that tomorrow after 10 am suits you, and an advisor will be in touch. Shall I send the renewal details on WhatsApp?",
       },
       { who: "caller", text: "हाँ, भेज दीजिए।", en: "Yes, please send them." },
     ],
@@ -818,7 +814,7 @@ export const INDUSTRIES: Industry[] = [
       "Renewal intent: renew, change or not renewing",
       "Reason for not renewing",
       "Documents still pending",
-      "Preferred advisor callback time",
+      "Whether they want an advisor to call back",
     ],
     rollout: [
       {
@@ -829,12 +825,12 @@ export const INDUSTRIES: Industry[] = [
       {
         step: "Script the boundary",
         detail:
-          "The agent reminds, qualifies and books callbacks. Premiums, cover comparisons and recommendations go to licensed advisors by live transfer or callback.",
+          "The agent reminds, qualifies and flags callback requests. Premiums, cover comparisons and recommendations go to licensed advisors by live transfer or callback.",
       },
       {
         step: "Route by outcome",
         detail:
-          "Customers who want to renew go to the advisor who owns the policy. Reasons for not renewing are captured for your manager. Unanswered calls retry on your schedule.",
+          "Customers who want to renew go to the advisor who owns the policy. Reasons for not renewing are captured for your manager. Re-run the renewal campaign later over the customers who didn't answer.",
       },
       {
         step: "Add new-lead calls",
@@ -843,7 +839,7 @@ export const INDUSTRIES: Industry[] = [
       },
     ],
     cautions: [
-      "The agent should not recommend, compare or quote policies. Leave advice and selling to your licensed staff, and script it to transfer or book a callback when asked.",
+      "The agent should not recommend, compare or quote policies. Leave advice and selling to your licensed staff, and script it to transfer the call or flag a callback request when asked.",
       "Only give the agent premiums or due amounts that come from your records. It repeats what it is given and does not calculate anything.",
       "WhatsApp sends need approved templates, and the agent sends only what the customer agreed to on the call.",
       "DLT registration is required for commercial calling in India. Telleo registers it with you, and you choose the calling hours.",
@@ -926,7 +922,7 @@ export const INDUSTRIES: Industry[] = [
       {
         title: "Win back past buyers",
         body:
-          "Call past customers when a product is back in stock or a new range launches, and send interested ones your link on WhatsApp.",
+          "Call past customers who have consented to hear from you when a product is back in stock or a new range launches, and send interested ones your link on WhatsApp.",
         useCase: "lead-reactivation",
       },
     ],
@@ -977,7 +973,7 @@ export const INDUSTRIES: Industry[] = [
       {
         step: "Send orders to Telleo by webhook",
         detail:
-          "Point your store or order tool's COD-order webhook at Telleo, with items, order value and address as fields. If your platform cannot send webhooks, a daily CSV import works to start.",
+          "Send each new COD order to Telleo's webhook as simple fields (phone, items, order value, address), using your order tool or a connector that reshapes the store's own webhook. If your platform cannot send webhooks, a daily CSV import works to start.",
       },
       {
         step: "Keep the confirmation call short",
@@ -998,7 +994,7 @@ export const INDUSTRIES: Industry[] = [
     cautions: [
       "There is no native Shopify, WooCommerce or courier integration. Orders come in and outcomes go out through webhooks, HTTP requests or CSV.",
       "The agent does not take payment or edit orders itself, and it cannot look an order up on its own. It reads out the details you send and records what the customer wants; your system or team acts on it.",
-      "Abandoned-checkout and win-back calls are sales calls. Register DLT with us, keep to sensible hours, and make 'do not call' a disposition that stops further calls.",
+      "Abandoned-checkout and win-back calls are sales calls. Register DLT with us, keep to sensible hours, call past buyers only with their consent, and make 'do not call' a disposition that stops retries, then leave those numbers out of future campaign lists.",
     ],
     faqs: [
       {
@@ -1030,7 +1026,7 @@ export const INDUSTRIES: Industry[] = [
     label: "Automotive",
     title: "AI Calling Agent for Car and Bike Dealers in India",
     description:
-      "Call new enquiries within a minute, book test drives, remind customers about service and follow up on quotes in Hindi or English. Telephony included.",
+      "Call new enquiries within about a minute, book test drives, remind customers about service and follow up on quotes in Hindi or English. Telephony included.",
     icon: "Car",
     summary: "Test-drive booking, service reminders and follow-up on enquiries and quotes.",
     h1: "AI calling for car and two-wheeler dealerships",
@@ -1158,7 +1154,7 @@ export const INDUSTRIES: Industry[] = [
       {
         step: "Run service reminders as a campaign",
         detail:
-          "Run the service-due list in a morning window each week, with retries for numbers that did not answer.",
+          "Run the service-due list in a morning window each week, and re-run it later over the numbers that didn't answer.",
       },
     ],
     cautions: [
@@ -1170,7 +1166,7 @@ export const INDUSTRIES: Industry[] = [
     faqs: [
       {
         q: "Can the agent quote on-road prices?",
-        a: "Only prices you put in the script. Many dealers have it give a range and let sales send the exact quote; the agent can transfer the call or book a callback.",
+        a: "Only prices you put in the script. You can have it give a range and let sales send the exact quote; the agent can transfer the call, or the call is marked as a callback request for sales to follow up.",
       },
       {
         q: "Can it book service appointments?",
@@ -1178,7 +1174,7 @@ export const INDUSTRIES: Industry[] = [
       },
       {
         q: "Can customers call in and reach the agent?",
-        a: "Yes, through an IVR option, for example 'press 1 to book a service'. Anything the agent cannot handle can be transferred to your desk.",
+        a: "Yes, through an IVR menu option on a Telleo number, for example 'press 1 to book a service'. Anything the agent cannot handle can be transferred to your desk.",
       },
       {
         q: "Do we need new phone lines?",
@@ -1249,7 +1245,7 @@ export const INDUSTRIES: Industry[] = [
       {
         title: "Re-engage past enquiries and guests",
         body:
-          "Call past enquiries and guests when a new package launches or a season opens, and pass the interested ones to a consultant.",
+          "Call past enquiries and guests who have consented to hear from you when a new package launches or a season opens, and pass the interested ones to a consultant.",
         useCase: "lead-reactivation",
       },
     ],
@@ -1300,7 +1296,7 @@ export const INDUSTRIES: Industry[] = [
       {
         step: "Route qualified trips",
         detail:
-          "Assign trips with dates and a budget to consultants round-robin. Keep 'just browsing' leads for a later re-engagement campaign.",
+          "Assign trips with dates and a budget to consultants round-robin. Keep 'just browsing' leads aside, and include them in a later re-engagement campaign only if they have consented to be contacted.",
       },
       {
         step: "Add confirmations and feedback",
@@ -1369,7 +1365,7 @@ export const INDUSTRIES: Industry[] = [
     ],
     plays: [
       {
-        title: "Call new applicants within a minute",
+        title: "Call new applicants in about a minute",
         body:
           "Applications from job ads or your careers form get a call within about a minute of arriving, inside the hours you set.",
         useCase: "instant-lead-callback",
@@ -1401,7 +1397,7 @@ export const INDUSTRIES: Industry[] = [
       {
         title: "Reactivate your candidate database",
         body:
-          "When a new mandate opens, call past applicants to see who is available now.",
+          "When a new mandate opens, call past applicants who have consented to hear from you to see who is available now.",
         useCase: "lead-reactivation",
       },
     ],
@@ -1454,7 +1450,7 @@ export const INDUSTRIES: Industry[] = [
       {
         step: "Add reminders and joining calls",
         detail:
-          "Use workflow steps to call the day before each interview and a few days before joining.",
+          "Each day, import tomorrow's interviews and this week's joiners as a CSV and run them as a short campaign.",
       },
     ],
     cautions: [
@@ -1478,7 +1474,7 @@ export const INDUSTRIES: Industry[] = [
       },
       {
         q: "How many candidates can it call in a day?",
-        a: "The default daily cap is 500 calls, and you can change it. Unanswered numbers are retried on the gap and attempt limit you set.",
+        a: "The default daily cap is 500 calls, and you can change it. Unanswered calls from a workflow are retried on the gap and attempt limit you set; a campaign doesn't re-dial, so re-run it over the candidates who didn't answer.",
       },
       {
         q: "Can candidates talk to a recruiter during the call?",

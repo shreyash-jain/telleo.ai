@@ -159,7 +159,7 @@ export default function Page() {
       </p>
       <p><strong>The business:</strong> a coaching institute gets 1,500 new enquiries a month and calls every one, with retries for unanswered numbers.</p>
       <ul>
-        <li>1,000 leads are reached across all attempts. Conversations average 2 minutes 40 seconds; Telleo bills each call per minute, rounded up, so each bills as 3 minutes. That is <strong>3,000 minutes</strong>.</li>
+        <li>1,000 leads are reached across all attempts. Assume each conversation lasts 2 minutes 40 seconds; Telleo bills each call per minute, rounded up, so each bills as 3 minutes. That is <strong>3,000 minutes</strong>.</li>
         <li>300 more calls reach voicemail or are cut short. To be safe, we assume each bills as 1 minute: <strong>300 minutes</strong>.</li>
         <li>Total: <strong>3,300 billable minutes</strong>.</li>
       </ul>
@@ -221,7 +221,7 @@ export default function Page() {
           { label: "Plivo — Voice pricing for India (2026)", url: "https://www.plivo.com/voice/pricing/in/", checked: "2026-09-25" },
           { label: "Sarvam AI — API pricing (2026)", url: "https://www.sarvam.ai/api-pricing", checked: "2026-09-25" },
           { label: "Meta for Developers — WhatsApp Business Platform pricing (2026)", url: "https://developers.facebook.com/docs/whatsapp/pricing", checked: "2026-09-25" },
-          { label: "TRAI — Telecom Commercial Communications Customer Preference (Amendment) Regulations (12 February 2025)", url: "https://trai.gov.in/sites/default/files/2025-02/Regulation_12022025.pdf", checked: "2026-09-25" },
+          { label: "TRAI — Telecom Commercial Communications Customer Preference (Second Amendment) Regulations, 2025 (12 February 2025)", url: "https://trai.gov.in/sites/default/files/2025-02/Regulation_12022025.pdf", checked: "2026-09-25" },
           { label: "TRAI — Press Release No. 91/2026: clarifications on the 1600 and 140 series (10 July 2026)", url: "https://trai.gov.in/sites/default/files/2026-07/PR_No91of2026.pdf", checked: "2026-09-25" },
         ]}
       />

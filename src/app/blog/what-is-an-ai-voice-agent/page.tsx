@@ -91,7 +91,7 @@ export default function Page() {
           },
           {
             title: "After the call, the transcript becomes data",
-            body: "Another pass over the transcript pulls out the outcome, the answers to your questions, and any promised callback time, and then triggers the next step: assign to a rep, send a WhatsApp, or schedule a retry.",
+            body: "Another pass over the transcript pulls out the outcome, the answers to your questions, and whether the caller asked for a callback, and then triggers the next step: assign to a rep, send a WhatsApp, or schedule a retry.",
           },
         ]}
       />
@@ -142,7 +142,7 @@ export default function Page() {
 
       <h2 id="outbound-inbound">Outbound vs inbound calls</h2>
       <p>
-        <strong>Outbound</strong> means the agent dials. Typical jobs: calling back a new enquiry, fee or payment reminders, appointment confirmations, re-engaging old leads, and short feedback calls. Outbound is where most businesses start, because the volume is predictable and the goal is clear.
+        <strong>Outbound</strong> means the agent dials. Typical jobs: calling back a new enquiry, fee or payment reminders, appointment confirmations, re-engaging old leads, and short feedback calls. Outbound is a good first use, because the volume is predictable and the goal is clear.
       </p>
       <p>
         <strong>Inbound</strong> means the agent answers. Typical jobs: answering after office hours, taking the “I want to talk to someone” option from an IVR menu, answering common questions, and booking callbacks for the team.
@@ -208,7 +208,7 @@ export default function Page() {
       <Sources
         items={[
           { label: "Google Cloud — Speech-to-Text: select a transcription model (telephony model description)", url: "https://docs.cloud.google.com/speech-to-text/docs/transcription-model", checked: "2026-09-25" },
-          { label: "TRAI — Telecom Commercial Communications Customer Preference (Amendment) Regulations (12 February 2025)", url: "https://trai.gov.in/sites/default/files/2025-02/Regulation_12022025.pdf", checked: "2026-09-25" },
+          { label: "TRAI — Telecom Commercial Communications Customer Preference (Second Amendment) Regulations, 2025 (12 February 2025)", url: "https://trai.gov.in/sites/default/files/2025-02/Regulation_12022025.pdf", checked: "2026-09-25" },
           { label: "TRAI — Press Release No. 91/2026: clarifications on the 1600 and 140 series (10 July 2026)", url: "https://trai.gov.in/sites/default/files/2026-07/PR_No91of2026.pdf", checked: "2026-09-25" },
         ]}
       />

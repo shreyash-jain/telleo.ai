@@ -1,6 +1,6 @@
 # Telleo
 
-> Telleo (telleo.ai) is an AI voice agent platform for Indian businesses. Its agents make outbound calls (new leads called in about 60 seconds, list campaigns, reminders) and answer inbound calls in Hindi, English and Hinglish; capture answers into a built-in CRM; book meetings, send WhatsApp/email follow-ups and transfer hot leads live to a human; and analyse and health-grade every call. Built by Vidyayatan Technologies LLP, the team behind Vacademy (vacademy.io).
+> Telleo (telleo.ai) is an AI voice agent platform for Indian businesses. Its agents make outbound calls (new leads called in about 60 seconds, list campaigns, reminders) and answer inbound calls in Hindi, English and Hinglish; capture answers into Telleo's CRM (included on the annual plan or as Pro + CRM); book meetings, send WhatsApp/email follow-ups and transfer hot leads live to a human; and analyse and health-grade every AI call. Built by Vidyayatan Technologies LLP, the team behind Vacademy (vacademy.io).
 
 Key facts: pricing ₹3.99/min on monthly plans from ₹3,499/month, or ₹3.49/min with no minimum on the ₹19,999/year annual plan (CRM included); prices exclude 18% GST; DLT registration ₹5,900/year at actuals; telephony included; 80+ voices across 7 speech engines; Hindi, English and Hinglish live, other Indian languages set up on request; live voice pipeline hosted in Mumbai. Telleo does not hold SOC 2/ISO 27001/HIPAA certification and has no native Salesforce/HubSpot/Zoho apps (webhooks instead). Live test line: +91 80353 74489.
 
@@ -51,13 +51,13 @@ Key facts: pricing ₹3.99/min on monthly plans from ₹3,499/month, or ₹3.49/
 
 ## Blog
 
-- [What Is an AI Voice Agent? A Plain Guide for Indian Businesses](https://telleo.ai/blog/what-is-an-ai-voice-agent/)
+- [What Is an AI Voice Agent? A Plain Guide for Indian Teams](https://telleo.ai/blog/what-is-an-ai-voice-agent/)
 - [How Much Does AI Calling Cost in India? 2026 Per-Minute Guide](https://telleo.ai/blog/ai-calling-cost-india/)
 - [Speed to Lead: Why Calling New Leads in 60 Seconds Wins](https://telleo.ai/blog/speed-to-lead/)
 - [How to Write an AI Calling Agent Script (With Templates)](https://telleo.ai/blog/ai-calling-script-template/)
 - [TRAI and DLT Rules for AI Calling in India: A 2026 Guide](https://telleo.ai/blog/trai-dlt-rules-ai-calling/)
 - [Hinglish Voice AI: The Hardest Test and How to Judge It](https://telleo.ai/blog/hinglish-voice-ai/)
-- [AI Calling Vendor Checklist: 20 Questions to Ask Before You Buy](https://telleo.ai/blog/ai-calling-vendor-checklist/)
+- [AI Calling Vendor Checklist: 20 Questions Before You Buy](https://telleo.ai/blog/ai-calling-vendor-checklist/)
 - [How to Measure AI Call Quality: Metrics That Actually Matter](https://telleo.ai/blog/measure-ai-call-quality/)
 
 ## Company

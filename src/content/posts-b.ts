@@ -40,7 +40,7 @@ export const POSTS_B: Post[] = [
   },
   {
     slug: "ai-calling-vendor-checklist",
-    title: "AI Calling Vendor Checklist: 20 Questions to Ask Before You Buy",
+    title: "AI Calling Vendor Checklist: 20 Questions Before You Buy",
     description:
       "20 questions to ask an AI calling vendor before you buy: call quality, languages, telephony, DLT, workflows, QA, billing pulse, data access and exit terms.",
     category: "Guides",

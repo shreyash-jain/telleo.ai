@@ -12,7 +12,7 @@ const FAULTS = [
   { c: "rose", h: "Voice synthesis stalled", m: "The voice engine stopped mid-reply. The agent reconnects and repeats, and the call is flagged." },
   { c: "amber", h: "Long silence", m: "A gap of 3.5 seconds or more during a real conversation, with what the agent was doing at the time." },
   { c: "amber", h: "Caller answers were discarded", m: "Something the caller said never reached the conversation. The exact words are shown." },
-  { c: "amber", h: "The agent kept restarting a reply", m: "Three near-identical replies in a row: usually a script or interruption problem." },
+  { c: "amber", h: "The agent kept restarting a reply", m: "Two near-identical replies in a row (three turns it red): usually a script or interruption problem." },
   { c: "amber", h: "Probably an answering machine", m: "An estimate only. It never changes the outcome on its own." },
   { c: "amber", h: "Transfer failed · slow responses", m: "A handover that didn't connect, or replies that took too long, measured on the call." },
 ];
@@ -21,8 +21,8 @@ const FAQS = [
   { q: "Is call health the same as call intelligence?", a: "No. Call intelligence is about the conversation: outcome, objections, sentiment. Call health is about the machinery: could the agent hear, did it speak on time, did anything go silent or get lost. You get both on every AI call." },
   { q: "What does ‘not measured’ mean?", a: "Some signals can't be measured on every call. When that happens, the panel says so instead of showing zero, so a clean-looking number is never a guess." },
   { q: "Can we hear the call?", a: "With recording switched on for your line, yes: play the recording next to the transcript and the timings. Every AI call has a full transcript either way." },
-  { q: "Who can see transcripts?", a: "Anyone with dashboard access sees the health verdict. The full transcript and diagnostics are limited to roles with permission to see caller details." },
-  { q: "Can we export calls for our own QA?", a: "Yes. Search and filter the call log by outcome, agent, date and more, and export the results." },
+  { q: "Who can see transcripts?", a: "Health verdicts and technical diagnostics are shown to your account admins. Anyone with access to the call log can open transcripts; they are not restricted per role. Health verdicts and technical diagnostics are shown only to your account admins, and on the call log you choose which roles see full phone numbers., and on the call log you choose which roles see full phone numbers." },
+  { q: "Can we export calls for our own QA?", a: "Yes. Search and filter the call log by outcome, date, team, counsellor and more, and export the results." },
 ];
 
 export default function Page() {
@@ -31,8 +31,8 @@ export default function Page() {
       path="/call-quality-monitoring/"
       dark
       eyebrow="Call health & QA"
-      h1="Every AI call gets a health check. Bad calls find you."
-      lede="Most teams learn about a bad AI call from an angry customer. Telleo grades every call green, amber or red with a plain reason, so you can open the three calls that matter instead of listening to three hundred."
+      h1="Every AI call gets a health check. Bad calls stand out."
+      lede="Too often, a team learns about a bad AI call from an angry customer. Telleo grades every AI call green, amber or red with a plain reason, so you can open the three calls that matter instead of listening to three hundred."
       visual={<HealthLog dark />}
       faqs={FAQS}
     >
@@ -69,11 +69,11 @@ export default function Page() {
                 <dl className="grid grid-cols-2 gap-px bg-line text-sm">
                   {[
                     ["Verdict", <span key="v" className="flex items-center gap-1.5 font-bold text-amber"><span className="h-2 w-2 rounded-full bg-amber" /> Long silence</span>],
-                    ["Worst gap", "4.1 s · waiting for caller"],
+                    ["Worst gap", "4.1 s · after the caller's turn"],
                     ["Interruptions handled", "3"],
                     ["Answers discarded", "0"],
                     ["Repeated replies", "0"],
-                    ["Voicemail score", <span key="m" className="text-slate-400">not measured</span>],
+                    ["Speech-to-text delay", <span key="m" className="text-slate-400">not measured</span>],
                   ].map(([k, v], i) => (
                     <div key={i} className="bg-white px-5 py-3">
                       <dt className="text-xs text-slate-500">{k}</dt>
@@ -91,20 +91,20 @@ export default function Page() {
             body={
               <CheckList
                 items={[
-                  "A health dot on every row, with the headline on hover.",
+                  "A health dot on every AI call, with the headline on hover.",
                   "Transcript, recording (when switched on) and timings on every call.",
                   "Live status while a call is in progress.",
-                  "Search, filter and export by outcome, agent and date.",
-                  "Full transcripts only for roles allowed to see caller details.",
+                  "Search, filter and export by outcome, date, team, counsellor and call type.",
+                  "Full phone numbers only for roles allowed to see them; diagnostics for admins.",
                 ]}
               />
             }
             visual={
               <div className="grid grid-cols-2 gap-3">
                 {[
-                  { I: Search, t: "Search & filter", d: "By outcome, agent, date" },
+                  { I: Search, t: "Search & filter", d: "By outcome, counsellor, date" },
                   { I: Radio, t: "Live status", d: "Watch calls as they happen" },
-                  { I: Eye, t: "Role-based access", d: "Transcripts by permission" },
+                  { I: Eye, t: "Role-based access", d: "Numbers and diagnostics by role" },
                   { I: Download, t: "Export", d: "Take calls into your QA" },
                 ].map((x) => (
                   <div key={x.t} className="card p-5">
@@ -128,7 +128,7 @@ export default function Page() {
           </div>
           <Steps
             items={[
-              { title: "Filter to red and amber", body: "Open the week's red calls first, then a sample of amber ones. Read the headline before you listen." },
+              { title: "Scan for red and amber", body: "Scan the call log's health dots and open the week's red calls first, then a sample of amber ones. Read the headline before you listen." },
               { title: "Read three healthy calls too", body: "Pick three green calls at random. A healthy call can still have a weak script." },
               { title: "Check outcomes against transcripts", body: "Did “Demo_Booked” really have a day and time? Did “Not_Interested” really say no?" },
               { title: "Fix the script, not the symptom", body: "Change the opening line, a question or an outcome, then use the feedback tool to revise and re-test on your own phone." },

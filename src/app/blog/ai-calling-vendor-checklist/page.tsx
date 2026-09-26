@@ -115,7 +115,7 @@ export default function Page() {
       <p>
         <strong>8. Who registers us on DLT and declares our automated calling, and who pays for it?</strong> Commercial
         calls in India go through TRAI’s DLT framework. TRAI’s September 2026 amendment defines Application-to-Person
-        (A2P) calls to include artificial-voice calls, and requires senders to declare them to their operator in advance,
+        (A2P) calls to include artificial-voice calls, and, once its A2P provisions take effect (60 days after Gazette publication), will require senders to declare them to their operator in advance,
         with the number ranges used. Calls made without that declaration are treated as spam. Ask exactly which steps the
         vendor handles and which stay with you.
       </p>
@@ -250,7 +250,7 @@ export default function Page() {
         <p>
           Leads come in from Meta and Google lead forms, CSV and anything that can send a webhook, and outcomes can go out
           by webhook. We don’t have native integrations with third-party CRMs. Every AI call has a transcript, an outcome from your own list and a green, amber or red health
-          verdict. Full transcripts are visible only to roles allowed to see caller details. Ask us all 20 questions. See
+          verdict. Health verdicts and diagnostics are admin-only, and full phone numbers can be restricted by role. Ask us all 20 questions. See
           also our <Link href="/security/">security page</Link>.
         </p>
       </WhereTelleoFits>

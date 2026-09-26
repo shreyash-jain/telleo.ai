@@ -3,7 +3,7 @@ import type { Post } from "./types";
 export const POSTS_A: Post[] = [
   {
     slug: "what-is-an-ai-voice-agent",
-    title: "What Is an AI Voice Agent? A Plain Guide for Indian Businesses",
+    title: "What Is an AI Voice Agent? A Plain Guide for Indian Teams",
     description:
       "An AI voice agent holds a real phone conversation. How it hears, thinks and speaks, what it can and can't do, and how to pilot one in an Indian business.",
     category: "Guides",
@@ -43,7 +43,7 @@ export const POSTS_A: Post[] = [
     slug: "speed-to-lead",
     title: "Speed to Lead: Why Calling New Leads in 60 Seconds Wins",
     description:
-      "Firms that tried to reach web leads within an hour were nearly 7x as likely to qualify them (HBR). What the research says, plus a 60-second callback playbook.",
+      "Firms that tried to reach web leads within an hour were nearly 7x as likely to qualify them as those trying an hour later (HBR). Plus a callback playbook.",
     category: "Playbooks",
     keywords: [
       "speed to lead",

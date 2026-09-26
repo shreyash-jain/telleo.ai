@@ -8,7 +8,7 @@ export const metadata = pageMetadata("/agent-builder/");
 const FIELDS = [
   { I: MessageSquareText, t: "Opening line", d: "The first sentence the caller hears. Who you are, why you're calling, and a question. It can use the lead's name and form answers." },
   { I: FileText, t: "Persona and script", d: "Who the agent is, what it may and may not say, the facts it can use (fees, timings, locations) and how to handle objections." },
-  { I: ClipboardList, t: "Questions to answer", d: "What every call must find out: budget, timeline, class, location. The answers land on the lead as fields." },
+  { I: ClipboardList, t: "Questions to answer", d: "What every call must find out: budget, timeline, class, location. The answers are saved with the call, filed against your questions, and can feed your workflows." },
   { I: ListChecks, t: "Outcomes", d: "Your own closed list: Demo_Booked, Callback, Not_Interested, Hot_Lead. The agent picks one after every call." },
   { I: Mic, t: "Voice, pace, expressiveness", d: "Any of 80+ voices, a speaking pace, and a modulation level from Off to Lively." },
   { I: PhoneForwarded, t: "Handoff numbers", d: "Where live transfers go when a caller asks for a person or a lead is hot." },
@@ -21,7 +21,7 @@ const FAQS = [
   { q: "Can the agent use details from the lead's form?", a: "Yes. The agent knows the lead's name and any fields captured on the form, so it can say “you asked about the 2 BHK in Wakad” instead of a generic opener." },
   { q: "How do we test an agent before it calls customers?", a: "Preview the voice, then have the agent call your own phone. Every test call gets the same transcript, outcome and health verdict as a real one, so you can fix the script before launch." },
   { q: "Can we have different agents for different jobs?", a: "Yes. Most teams run several: one for new-lead qualification, one for reminders, one for inbound. Each has its own script, voice, outcomes and handover rules." },
-  { q: "Can the script include our prices and policies?", a: "Yes, and it should. The agent only states facts that are in its script, so put in exactly what it may say about fees, offers and timings, and tell it to transfer anything else." },
+  { q: "Can the script include our prices and policies?", a: "Yes, and it should. The agent is told not to invent facts and to say so when it doesn't have one, so put in exactly what it may say about fees, offers and timings, and tell it to transfer anything else." },
   { q: "What stops the agent from rambling?", a: "Every agent follows built-in rules on top of your script: one question at a time, answer the caller's question first, stop the script when the caller is frustrated, and never read lists aloud." },
 ];
 
@@ -92,16 +92,16 @@ export default function Page() {
             title="Start from a playbook, not a blank page."
             body={
               <>
-                <p>A gallery of ready agents answers a few questions about your business and builds the rest: admissions and enquiry calls, fee and payment reminders, re-engagement of old leads, parent and customer updates, and more.</p>
+                <p>Pick a ready agent from the gallery, answer a few questions about your business, and it builds the rest: admissions calls, fee reminders, re-engagement, parent updates and more.</p>
                 <p>Templates are education-first today, because that&apos;s where Telleo started. The builder works the same for any industry; our team helps you set up the first agent.</p>
               </>
             }
             visual={
               <div className="grid grid-cols-2 gap-3">
-                {["Admissions enquiry", "Fee reminder", "Re-engage old leads", "Parent update", "Demo booking", "Feedback call"].map((t, i) => (
+                {["Admissions counsellor", "Fee reminder", "Re-engagement", "Parent update", "Doubt solver", "Study mentor"].map((t, i) => (
                   <div key={t} className={`rounded-2xl border p-4 ${i === 0 ? "border-brand bg-brand-50" : "border-line bg-white"}`}>
                     <p className="text-sm font-bold text-ink">{t}</p>
-                    <p className="mt-1 text-xs text-slate-500">Hinglish · 4 questions · 5 outcomes</p>
+                    <p className="mt-1 text-xs text-slate-500">Answer a few questions to build it</p>
                   </div>
                 ))}
               </div>
@@ -122,7 +122,7 @@ export default function Page() {
               "Answer the caller's question before going back to the script.",
               "One question per turn, then stop and listen.",
               "If the caller sounds frustrated, drop the script and deal with it.",
-              "Stay in the caller's language; don't switch without a reason.",
+              "Stay in the agent's language; switch only if the caller asks or keeps speaking another language.",
               "No bullet points or lists read aloud; numbers spoken as words.",
               "A phone number or booked time is read back once to confirm. Nothing else is echoed.",
               "Never address someone by a word that isn't a name.",

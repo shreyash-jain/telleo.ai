@@ -18,13 +18,6 @@ type Scenario = {
   actions: { icon: "cal" | "wa" | "user" | "clock"; text: string | ((d: Date) => string) }[];
 };
 
-const tomorrowAt = (d: Date, h: number) => {
-  const t = new Date(d);
-  t.setDate(t.getDate() + 1);
-  t.setHours(h, 0, 0, 0);
-  return t.toLocaleString("en-IN", { weekday: "short", day: "numeric", month: "short", hour: "numeric", minute: "2-digit" });
-};
-
 const SCENARIOS: Scenario[] = [
   {
     key: "admissions",
@@ -96,21 +89,22 @@ const SCENARIOS: Scenario[] = [
       { who: "agent", text: "नमस्ते Sharma जी, Lakshmi Finance से Kavya बोल रही हूँ। आपकी EMI की due date 5 तारीख है, बस याद दिलाने के लिए call किया।", en: "Hello Sharma ji, Kavya from Lakshmi Finance. Your EMI is due on the 5th; just a reminder." },
       { who: "caller", text: "हाँ पता है, salary आते ही कर दूँगा।", en: "Yes, I know. I'll pay as soon as my salary comes in.", capture: 0 },
       { who: "agent", text: "जी बिल्कुल। Payment link WhatsApp पर भेज दूँ, ताकि आसानी रहे?", en: "Of course. Shall I send the payment link on WhatsApp to make it easy?" },
-      { who: "caller", text: "हाँ भेज दो। और कल शाम एक बार call कर लेना।", en: "Yes, send it. And call me once tomorrow evening.", capture: 1 },
-      { who: "agent", text: "ठीक है, कल शाम call के लिए note कर लिया है। Link अभी भेज रही हूँ। और कुछ मदद चाहिए?", en: "Okay, I've noted tomorrow evening for a call. Sending the link now. Anything else I can help with?" },
-      { who: "caller", text: "नहीं, बस इतना ही। धन्यवाद।", en: "No, that's all. Thanks.", capture: 2 },
+      { who: "caller", text: "हाँ, भेज दो।", en: "Yes, send it.", capture: 1 },
+      { who: "agent", text: "ठीक है, link अभी भेज रही हूँ। और कुछ मदद चाहिए?", en: "Okay, sending the link now. Anything else I can help with?" },
+      { who: "caller", text: "बस, कल शाम एक बार call कर लेना।", en: "Just call me once tomorrow evening.", capture: 2 },
+      { who: "agent", text: "ठीक है, मैं team को बोल देती हूँ कि कल शाम आपको call करें। धन्यवाद Sharma जी!", en: "Okay, I'll ask our team to call you tomorrow evening. Thank you, Sharma ji!" },
     ],
     captures: [
       { label: "Will pay", value: "After salary" },
-      { label: "Callback · \"कल शाम\"", value: (d) => tomorrowAt(d, 18) },
       { label: "Payment link", value: "Accepted" },
+      { label: "Callback", value: "Requested: “कल शाम”" },
     ],
     disposition: "Promise_To_Pay",
     score: 7,
     actions: [
       { icon: "wa", text: "WhatsApp sent: payment link template" },
-      { icon: "clock", text: (d) => `Callback time saved for the team: ${tomorrowAt(d, 18)}` },
-      { icon: "user", text: "No human needed; lead status updated" },
+      { icon: "clock", text: "Callback request flagged for the team" },
+      { icon: "user", text: "Outcome saved to the CRM" },
     ],
   },
 ];

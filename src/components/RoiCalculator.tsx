@@ -37,7 +37,7 @@ export function RoiCalculator() {
 
   const r = useMemo(() => {
     const connected = leads * (connect / 100);
-    const minutes = connected * Math.ceil(mins);
+    const minutes = connected * mins;
     const telleo = minutes * RATE_ANNUAL + 19999 / 12;
     const callers = Math.max(1, Math.ceil(leads / (perDay * 25)));
     const team = callers * salary;
@@ -48,8 +48,8 @@ export function RoiCalculator() {
     <div className="grid overflow-hidden rounded-[1.75rem] border border-white/10 bg-ink-2 lg:grid-cols-[1.1fr_1fr]">
       <div className="space-y-6 p-6 md:p-8">
         <Slider label="New leads per month" value={leads} min={200} max={30000} step={100} onChange={setLeads} format={(v) => v.toLocaleString("en-IN")} />
-        <Slider label="Share of calls answered" hint="Your connect rate. Unanswered calls are retried and not billed." value={connect} min={20} max={90} step={5} onChange={setConnect} format={(v) => `${v}%`} />
-        <Slider label="Minutes per answered call" hint="Billed per minute, rounded up." value={mins} min={1} max={8} step={1} onChange={setMins} format={(v) => `${v} min`} />
+        <Slider label="Share of calls answered" hint="Your connect rate. Unanswered calls are not billed; workflow calls retry them automatically." value={connect} min={20} max={90} step={5} onChange={setConnect} format={(v) => `${v}%`} />
+        <Slider label="Billed minutes per answered call" hint="Each call rounds up to the next whole minute, so a 1 min 10 s call counts as 2." value={mins} min={1} max={8} step={1} onChange={setMins} format={(v) => `${v} min`} />
         <Slider label="Your cost per telecaller per month" hint="Salary plus overheads. Use your own number." value={salary} min={10000} max={60000} step={1000} onChange={setSalary} format={inr} />
         <Slider label="Leads one telecaller can call per day" hint="Assumes 25 working days a month." value={perDay} min={40} max={250} step={10} onChange={setPerDay} format={(v) => `${v}`} />
       </div>
@@ -70,7 +70,7 @@ export function RoiCalculator() {
           <div className="rounded-2xl bg-white/[0.05] p-4">
             <p className="text-xs text-slate-400">First call after a lead arrives</p>
             <p className="mt-1 text-2xl font-extrabold text-brand-300">~60 s</p>
-            <p className="text-xs text-slate-500">nights and Sundays too</p>
+            <p className="text-xs text-slate-500">inside your calling hours</p>
           </div>
         </div>
         <p className="text-xs leading-relaxed text-slate-500">

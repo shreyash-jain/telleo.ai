@@ -8,9 +8,9 @@ export function OutcomeFlow() {
     { d: "Hot_Lead / Interested", a: "Assign to a rep now", I: UserCheck, c: "text-brand-700 bg-brand-50" },
     { d: "Meeting agreed", a: "Book it on your calendar", I: CalendarCheck, c: "text-brand-700 bg-brand-50" },
     { d: "\"Send me details\"", a: "WhatsApp or email the template", I: MessageCircle, c: "text-brand-700 bg-brand-50" },
-    { d: "\"Call me kal shaam\"", a: "Save the exact callback time", I: Clock3, c: "text-sky bg-sky/10" },
-    { d: "No answer", a: "Retry after a gap, up to N times", I: RefreshCw, c: "text-amber bg-amber-50" },
-    { d: "Not interested / wrong person", a: "Stop. Never re-dial", I: CircleSlash, c: "text-slate-600 bg-mist" },
+    { d: "\"Call me kal shaam\"", a: "Flag the callback for your team", I: Clock3, c: "text-sky bg-sky/10" },
+    { d: "No answer", a: "Retry workflow calls after a gap", I: RefreshCw, c: "text-amber bg-amber-50" },
+    { d: "Not interested / wrong person", a: "Stop retries for this lead", I: CircleSlash, c: "text-slate-600 bg-mist" },
     { d: "Any outcome", a: "Fire a webhook to your systems", I: Webhook, c: "text-violet bg-violet-50" },
   ];
   return (
@@ -60,7 +60,7 @@ export function IntelligenceCard() {
         <div className="grid grid-cols-2 gap-3">
           <div className="rounded-xl bg-paper p-3">
             <p className="text-xs text-slate-500">Objections</p>
-            <p className="mt-1 font-semibold text-ink">Fees <span className="font-normal text-amber">· partly handled</span></p>
+            <p className="mt-1 font-semibold text-ink">Fees <span className="font-normal text-amber">· not handled</span></p>
             <p className="font-semibold text-ink">Travel time <span className="font-normal text-brand-700">· handled</span></p>
           </div>
           <div className="rounded-xl bg-paper p-3">
@@ -151,7 +151,7 @@ export function BuilderMock() {
         {f("Max call length", "6 minutes")}
       </div>
       <div className="flex items-center gap-2 border-t border-line bg-brand-50 px-5 py-3 text-sm text-brand-800">
-        <Sparkles className="h-4 w-4" /> Script drafted from your brief · 3 suggestions from last week&apos;s calls
+        <Sparkles className="h-4 w-4" /> Script drafted from your brief · 3 suggested fixes
       </div>
     </div>
   );

@@ -9,17 +9,17 @@ const OUTPUT = [
   { I: Target, t: "What the call was for", d: "The inferred goal and call type: sales outreach, follow-up, demo booking, payment, support." },
   { I: ListTodo, t: "Action items", d: "Each with an owner (rep or lead), a due hint and a priority." },
   { I: MessageSquareWarning, t: "Objections", d: "Every objection raised, whether it was handled, and how." },
-  { I: TrendingUp, t: "Sentiment", d: "For the lead and the caller, and whether it improved, stayed flat or declined." },
+  { I: TrendingUp, t: "Sentiment", d: "For the lead and the rep, and whether it improved, stayed flat or declined." },
   { I: BarChart3, t: "Two scores", d: "How well the rep advanced the goal, and how the call landed for the lead, with conversion likelihood." },
   { I: Headphones, t: "Coaching", d: "Specific tips, talk ratio, and verbatim highlights worth sharing with the team." },
 ];
 
 const FAQS = [
-  { q: "What does call intelligence cost?", a: "It is included on every AI call at no extra charge. For your team's human calls it is billed per minute of recording analysed, and only when the analysis succeeds." },
+  { q: "What does call intelligence cost?", a: "It is included at no extra charge on AI calls that are recorded and at least 20 seconds long. For your team's human calls it is billed per minute of recording analysed, and only when the analysis succeeds." },
   { q: "Which calls can it analyse?", a: "Telleo AI calls, your team's click-to-call calls on Telleo, Exotel or Airtel IQ, and recordings of calls made anywhere else, which you can upload against the lead." },
   { q: "Does it understand Hindi and Hinglish?", a: "Yes. Calls are transcribed in Hindi, English or a mix, including callers who switch languages mid-sentence, and the analysis reads the whole conversation." },
   { q: "Can we change what reps are scored on?", a: "Yes. The default rubric is rapport, needs discovery, objection handling and next step secured. You can change the qualities and add a hint about what your calls are meant to achieve." },
-  { q: "Who can see the analysis?", a: "Reps see their own calls. A sales head sees their reporting line in the team view. Full transcripts are limited to roles with permission to see caller details." },
+  { q: "Who can see the analysis?", a: "In the team view, a sales head sees only their own reporting line. Per-call analysis and transcripts are not restricted per role, so give call-log access only to people who should read calls." },
   { q: "Does it identify who is speaking?", a: "It infers the rep and the lead from what is said; there is no separate voice-based speaker separation yet. For two-person sales calls this is usually clear." },
 ];
 

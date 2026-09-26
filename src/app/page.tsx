@@ -19,7 +19,7 @@ import { TEST_LINE, TEST_LINE_DISPLAY, bookHref } from "@/lib/site";
 const HBR = "https://hbr.org/2011/03/the-short-life-of-online-sales-leads";
 
 const STATS = [
-  { v: "~60 s", l: "from form fill to first call" },
+  { v: "~60 s", l: "from lead arriving to first call" },
   { v: "80+", l: "voices across 7 speech engines" },
   { v: "3", l: "languages live: Hindi, English, Hinglish" },
   { v: "₹3.49", l: "per minute on the annual plan" },
@@ -38,7 +38,7 @@ const PILLARS = [
   { href: "/agent-builder/", I: Bot, t: "No-code agent builder", d: "Opening line, script, questions, outcomes, voice and handoff numbers. Drafted from a brief, improved from real calls." },
   { href: "/automations/", I: Zap, t: "Actions after every call", d: "Assign, retry, stop, book, send WhatsApp or email, fire a webhook. Rules you set, run within a minute of hang-up." },
   { href: "/call-intelligence/", I: BrainCircuit, t: "Call intelligence", d: "Summaries, objections, sentiment, talk ratio, coaching tips and rep scores for AI calls and your team's calls." },
-  { href: "/call-quality-monitoring/", I: CircleGauge, t: "Call health & QA", d: "Every call gets a green, amber or red verdict with the reason, so you find the bad call before a customer complains." },
+  { href: "/call-quality-monitoring/", I: CircleGauge, t: "Call health & QA", d: "Every AI call gets a green, amber or red verdict with the reason, so you find the bad call before a customer complains." },
   { href: "/voices-and-languages/", I: Languages, t: "Voices & languages", d: "Everyday phone Hindi, Indian English and Hinglish, with correct grammar and honorifics. Regional languages on request." },
 ];
 
@@ -49,14 +49,14 @@ const HUMAN = [
   { t: "Hindi grammar that fits the voice", d: "A female voice says “कर रही हूँ”, a male voice “कर रहा हूँ”. Unsure of the caller's gender? It says “Rahul जी”, never a guess.", ex: "मैं आपकी मदद कर रही हूँ" },
   { t: "Everyday phone Hindi", d: "“Enquiry”, not “पूछताछ”. It speaks the Hinglish your customers speak, not a textbook.", ex: "आपका demo confirm हो गया" },
   { t: "It sounds like a phone line", d: "Telephone-band voice shaping and a faint room tone, so it sounds like a calling desk, not a studio recording.", ex: "Sounds like a calling desk" },
-  { t: "It turns “kal shaam” into a time", d: "Relative times become an exact date and time on the lead, so nobody has to guess what “tomorrow evening” meant.", ex: "कल शाम → Sat, 6:00 pm" },
+  { t: "It turns “kal shaam” into a booking", d: "When a caller agrees a day and time in their own words, the analysis resolves it to an exact date and time and books it on your booking page.", ex: "कल शाम 6 बजे → Sat, 6:00 pm, booked" },
   { t: "It knows when to stop", d: "If it can't hear the caller twice, it closes politely instead of apologising in a loop. It won't hang up on someone who speaks after goodbye.", ex: "No loops, no rude hang-ups" },
 ];
 
 const COMPARE = [
-  { k: "First call after a lead arrives", a: "About 60 seconds, any hour", b: "When someone is free", c: "Instant, but one-way" },
+  { k: "First call after a lead arrives", a: "About 60 seconds, inside your calling hours", b: "When someone is free", c: "Instant, but one-way" },
   { k: "Holds a real conversation", a: "Yes, with interruptions", b: "Yes", c: "No, press 1 / press 2" },
-  { k: "Hindi, English, Hinglish", a: "All three, same agent", b: "Depends on who you hire", c: "Pre-recorded only" },
+  { k: "Hindi, English, Hinglish", a: "All three, one language per agent", b: "Depends on who you hire", c: "Pre-recorded only" },
   { k: "Captures answers into the CRM", a: "Every call, automatically", b: "If they remember to", c: "Keypad inputs only" },
   { k: "Books meetings and sends WhatsApp", a: "On the call, automatically", b: "Manually, later", c: "No" },
   { k: "Every call transcribed and analysed", a: "Yes, with a health verdict", b: "Rarely reviewed", c: "No" },
@@ -86,9 +86,9 @@ const FAQS = [
   { q: "What happens when a lead is ready to buy?", a: "You choose. The agent can transfer the call live to your team's numbers, book a meeting on your booking page, or mark the lead hot and assign it to a rep the moment the call ends." },
   { q: "Can we hear and check every call?", a: "Yes. Every AI call is transcribed (and recorded, with recording switched on for your line), gets a summary, an outcome and a lead score, and a green, amber or red health verdict that tells you if anything went wrong on the call." },
   { q: "How is Telleo priced?", a: "Per minute of conversation: ₹3.99 a minute on monthly plans from ₹3,499 a month, or ₹3.49 a minute with no minimum on the ₹19,999-a-year annual plan. Telephony, recordings and analysis of AI calls are included. Prices exclude GST; DLT registration is charged at actuals." },
-  { q: "Does it work with our CRM?", a: "Telleo comes with its own CRM, so outcomes, owners and follow-ups land in one place. If you run another system, leads can come in by webhook or CSV and outcomes can go out by webhook." },
-  { q: "Is AI calling allowed in India?", a: "Yes, within TRAI's rules. Commercial calling needs DLT registration, which we complete with you. Since TRAI's September 2026 amendment, AI voice calls count as application-to-person (A2P) calls that must be declared to the telecom operator, and an enquiry supports commercial calls for seven days; after that you need explicit consent. Read our TRAI and DLT guide and confirm your case with counsel." },
-  { q: "What will the agent not do?", a: "It won't negotiate complex deals, take card payments on the call, or give medical, legal or financial advice. Script it to hand those moments to your team. It can send a payment link on WhatsApp if the caller agrees." },
+  { q: "Does it work with our CRM?", a: "Telleo has its own CRM (included on the Annual plan, or ₹2,000 a month on Pro + CRM), so outcomes, owners and follow-ups land in one place. If you run another system, leads can come in by webhook or CSV and outcomes can go out by webhook." },
+  { q: "Is AI calling allowed in India?", a: "Yes, within TRAI's rules. Commercial calling needs DLT registration, which we complete with you. Under TRAI's September 2026 amendment, once it comes into force (30 to 60 days after Gazette publication), AI voice calls count as application-to-person (A2P) calls that must be declared to the telecom operator, and an enquiry supports commercial calls for seven days; after that you need explicit consent. Read our TRAI and DLT guide and confirm your case with counsel." },
+  { q: "What will the agent not do?", a: "It isn't built to negotiate complex deals or take card payments on the call, and your script should keep it from giving medical, legal or financial advice. Script it to hand those moments to your team. It can send a payment link on WhatsApp if the caller agrees." },
 ];
 
 export default function Home() {
@@ -174,8 +174,8 @@ export default function Home() {
           <div>
             <SectionHeading
               eyebrow="The problem"
-              title="Leads go cold in hours. Most teams call back in days."
-              lede="A lead is most likely to talk to you in the first hour after they ask. By the time a busy team gets to them, they have filled three other forms, stopped picking up unknown numbers, or bought."
+              title="Leads go cold in hours. Many teams take a day or more to call back."
+              lede="A lead is most likely to talk to you in the first hour after they ask. By the time a busy team gets to them, they may have enquired elsewhere, stopped picking up unknown numbers, or bought."
             />
             <ul className="mt-8 space-y-4">
               {[
@@ -194,7 +194,7 @@ export default function Home() {
           <figure className="rounded-[1.75rem] border border-line bg-paper p-6 md:p-8">
             <div className="grid grid-cols-2 gap-4">
               {[
-                { v: "7×", l: "more likely to qualify a lead when contacted within an hour, versus an hour later" },
+                { v: "7×", l: "more likely to qualify a lead when firms tried to contact it within an hour, versus an hour later" },
                 { v: "60×", l: "more likely than companies that waited 24 hours or longer" },
                 { v: "42 h", l: "average first response among companies that replied within 30 days" },
                 { v: "23%", l: "of companies never responded to the lead at all" },
@@ -244,8 +244,8 @@ export default function Home() {
               <h3 className="text-2xl font-extrabold tracking-tight text-ink">Your script, your outcomes, your rules.</h3>
               <p className="mt-3 leading-relaxed text-slate-600">
                 Every agent is built from the same few fields: what it says first, what it must find out, the outcomes it
-                can choose, who it hands over to, and how long it may talk. Telleo drafts all of it from a short brief,
-                scores the script against what works on real calls, and suggests fixes from last week&apos;s conversations.
+                can choose, who it hands over to, and how long it may talk. Telleo drafts the script, opening line, questions and outcomes from a short brief,
+                scores the script against a rubric built from real call failures, and revises it from your feedback and the agent&apos;s recent calls.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <Link href="/agent-builder/" className="btn btn-dark">Explore the agent builder <ArrowRight className="h-4 w-4" /></Link>
@@ -261,7 +261,7 @@ export default function Home() {
         <SectionHeading
           eyebrow="The platform"
           title="Not just a voice bot. The whole calling desk."
-          lede="Telleo is the agent, the phone lines, the CRM that acts on every outcome, and the quality team that checks every call."
+          lede="Telleo is the agent, the phone lines, the CRM that acts on every outcome, and the quality team that checks every AI call."
         />
         <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {PILLARS.map((p) => (
@@ -322,7 +322,7 @@ export default function Home() {
                   "Hot leads assigned to a rep, or transferred live while the caller is still on the line.",
                   "Meetings booked on your booking page when a day and time were agreed.",
                   "WhatsApp and email sent only when the caller said yes, tracked for delivery and never sent twice.",
-                  "Unanswered calls retried after a gap you set; “not interested” is never dialled again.",
+                  "Unanswered workflow calls retried after a gap you set; a “not interested” stops that lead's retries.",
                   "A call where nobody really spoke is marked Incomplete, never Not interested.",
                 ]}
               />
@@ -340,7 +340,7 @@ export default function Home() {
             center
             eyebrow="See every call"
             title="Know what happened on every call. Including your team's."
-            lede="Call intelligence analyses AI calls for free and your human calls for a small per-minute fee. Call health grades every AI call so problems surface on their own."
+            lede="Call intelligence analyses AI calls for free and your human calls for a small per-minute fee. Call health grades every AI call green, amber or red, so a bad call stands out in the call log."
           />
           <div className="mt-14 grid gap-8 lg:grid-cols-2">
             <div>
@@ -397,10 +397,10 @@ export default function Home() {
                 dark
                 eyebrow="Cost calculator"
                 title="What would it cost to call every lead?"
-                lede="Move the sliders to match your business. Telleo is billed per minute of conversation; unanswered calls are retried, not charged."
+                lede="Move the sliders to match your business. Telleo is billed per minute of conversation; unanswered calls aren't charged, and workflow calls retry them automatically."
               />
               <ul className="mt-8 space-y-3 text-slate-300">
-                <li className="flex gap-3"><Timer className="mt-0.5 h-5 w-5 shrink-0 text-brand" /> Every lead called in about a minute, day or night.</li>
+                <li className="flex gap-3"><Timer className="mt-0.5 h-5 w-5 shrink-0 text-brand" /> Every lead called in about a minute, inside the hours you set.</li>
                 <li className="flex gap-3"><UserCheck className="mt-0.5 h-5 w-5 shrink-0 text-brand" /> Your team spends its time on leads that said yes.</li>
                 <li className="flex gap-3"><Repeat className="mt-0.5 h-5 w-5 shrink-0 text-brand" /> Follow-ups and retries happen without reminders.</li>
               </ul>
@@ -458,7 +458,7 @@ export default function Home() {
               <SectionHeading
                 eyebrow="Fits how you work"
                 title="Leads in from anywhere. Outcomes out to anywhere."
-                lede="Telleo brings its own phone lines and CRM, so you can start on day one without an IT project. If you already run other systems, connect them by webhook or file."
+                lede="Telleo brings its own phone lines and CRM, so you can start without an IT project. If you already run other systems, connect them by webhook or file."
               />
               <p className="mt-6 text-sm text-slate-500">
                 No native Salesforce, HubSpot or Zoho app yet. Anything that can send or receive a webhook works.
@@ -486,7 +486,7 @@ export default function Home() {
         <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
           {[
             { I: ShieldCheck, t: "Can't run away", d: "Daily call caps, duplicate protection, a maximum call length per agent, and no dialling without balance." },
-            { I: Lock, t: "Transcripts by permission", d: "Full transcripts are visible only to roles you allow to see caller details." },
+            { I: Lock, t: "Admin-only diagnostics", d: "Health verdicts and technical diagnostics are for your admins, and you choose which roles see full phone numbers." },
             { I: BadgeCheck, t: "DLT done with you", d: "We complete DLT registration with you and you choose the hours campaigns run. ₹5,900 a year at actuals." },
             { I: PhoneForwarded, t: "Humans stay in charge", d: "Live transfer, a handover rule for every outcome, and nothing is sent that the caller didn't agree to." },
           ].map((x) => (

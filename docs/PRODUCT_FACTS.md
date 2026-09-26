@@ -15,16 +15,27 @@ WhatsApp sales: +91 99933 36616. Live test line (talk to an AI agent): +91 80353
 
 - **Outbound AI calls** start three ways: a workflow step (e.g. "new lead arrives → call it"),
   a bulk campaign over a list, or one click on a lead.
+- **Retries happen only for workflow calls.** Nothing re-dials an unanswered bulk-campaign call: an unanswered
+  call produces no bot report (Plivo only fetches the bot on pickup), so it just shows as No answer / Busy in the
+  call log. Re-run the campaign to call again; the same lead is not re-dialled within 60 minutes or more than 3
+  times in 24 hours by default. The queue itself re-attempts only failed placements (max 3).
+- **Calling hours are enforced for workflow AND bulk-campaign calls:** a queued AI dial outside the account's
+  calling shifts waits and is placed automatically when the hours open. Only a one-click call placed by a person
+  ignores them. Default shift 09:00–21:00 (Asia/Kolkata). (AiCallQueueService, AiCallQueueDrainJob.)
 - **New leads can be called within about 60 seconds** of arriving (workflow trigger).
-- **Inbound:** an IVR menu option can hand the caller to an AI agent.
+- **Inbound:** the IVR on a Telleo (Plivo) number can hand the caller to an AI agent, as a menu option or as the
+  first step so the AI answers straight away. Not the customer's existing third-party IVR. Inbound lead capture
+  (turning unknown callers into leads) is OFF by default.
 - **Live transfer to a human** mid-call (per-agent handoff numbers). The agent says a bridge line, then the call is connected.
 - **Telephony is included.** Calls run on Telleo's lines (Plivo) — no SIMs, dialers or telecom contracts.
   Optionally a dedicated AI line (your own Plivo sub-account and caller ID). Your human team can stay on
   Airtel IQ or Exotel for click-to-call; the AI line is separate.
 - **Every AI call has a full transcript.** Call **recording is a switch on the calling line**: when it is on (the normal setup), every call is recorded. Say "record every call" only as "recording can be switched on for every call".
+- New-lead workflow calls share one queue with bulk-campaign calls, so a running campaign can delay them.
 - **Guardrails (all real):** daily call cap (default 500/day, configurable); 30-second duplicate
-  protection so a lead is never dialled twice by accident; automation skips leads already assigned to a
-  rep; maximum call length per agent (default 6 minutes); idle hang-up after two nudges; answering-machine
+  protection so a lead is never dialled twice by accident; by default **workflow** calls skip leads already
+  assigned to a rep (a workflow's AI-call step can be set to "also call leads that already have a counsellor");
+  bulk campaigns and one-click calls do NOT skip them; maximum call length per agent (default 6 minutes); idle hang-up after two nudges; answering-machine
   detection (a call where nobody really spoke is marked *Incomplete*, never *Not interested*);
   **no balance, no dialling** — calls stop before a bill can run away.
 - Campaigns can run inside time windows you choose (workflow time-window conditions).
@@ -69,20 +80,30 @@ out) · **dispositions** (your own outcome list) · handoff numbers · max call 
 ## 4. After every call
 
 **End-of-call analysis** returns: disposition (from *your* list) · 2–3 sentence summary · lead rating 1–10 ·
-extracted answers (only what was actually said) · callback requested + time ("kal shaam" becomes an exact
-date and time, saved on the call and shown in the call log) · meeting requested + time.
-**Not built:** an automatic re-dial AT the requested callback time. A "Callback" outcome goes on the normal retry
-path (fixed gap), and the exact requested time is visible to the team. Never say "calls back at the time the
-caller asked".
+extracted answers (only what was actually said) · callback requested (true/false) + the caller's own words ·
+meeting requested + an exact date and time (relative phrases like "kal shaam 6 baje" are resolved for MEETINGS).
+**Callbacks (verified in code 2026-09-25):** Telleo's voice bot sends only `callbackRequested` and
+`callbackTimeText` (the caller's words). It never sends a resolved `callbackAt`, so NO exact callback time is
+stored for AI calls, and callbackTimeText is not shown in the UI. There is no re-dial at a requested time.
+Say only: "the call is marked as a callback request, with what the caller said in the transcript". Callback
+outcomes go on the retry path (workflow calls) or to a rep if the customer assigns them.
 Guards: a call where the caller said nothing is *Incomplete*; a meeting only counts if a specific day and
 time were agreed.
 
 **Actions:**
-- Outcome rules: **assign** to a sales rep/counsellor on the dispositions you pick; **stop** on others;
+- Outcome rules: **assign** to a sales rep/counsellor on the dispositions you pick: the lead keeps its existing
+  owner, or goes round-robin (optionally only to on-shift reps) through the counsellor pool linked to the list; if
+  the list has no pool, or the pool is manual, nobody is assigned. No per-disposition assignee; **stop** on others. Agent-defined dispositions
+  not on the stop list are ASSIGNED by default. A stop ends that lead's automated retries only; it is not a
+  do-not-call list (a later campaign or click can dial the number again);
   **retry** unanswered calls with a gap and a maximum number of attempts; when retries run out, hand to a
   human or stop.
-- Lead status is stamped (AI qualified / not interested / no answer / retry pending).
+- Lead status is stamped (AI qualified / not interested / no answer / retry pending) ONLY if the account has created
+  lead statuses with those keys (nothing seeds them), and only when an AI report arrives (a picked-up call).
 - **Auto-books the meeting** on your booking page when a time was agreed.
+- When an agent has a full written script (≥600 chars) the live agent follows the SCRIPT; extraction questions
+  only drive the post-call analysis. Answers are saved on the call (and passed to workflows), not written to
+  lead fields.
 - **Sends WhatsApp (approved templates) or email** — after the call, or during it when the agent promises
   something ("I'll WhatsApp you the brochure") and the caller said yes. Only sends what the caller accepted;
   every send is tracked for delivery and never sent twice.
@@ -93,9 +114,13 @@ CSV/Excel import, manual entry. Round-robin assignment to reps; de-duplication b
 
 ## 5. Call intelligence (AI calls and human calls)
 
-- **Every AI call is analysed automatically at no extra charge.**
+- Every connected AI call gets the agent's own end-of-call analysis (§4). The deeper **Call Intelligence** analysis
+  below runs automatically and free on AI calls that are **recorded** and last at least the minimum length (20 s
+  by default); with recording off, AI calls get only the end-of-call analysis.
 - **Human calls** (click-to-call on Plivo/Exotel/Airtel, or uploaded recordings of calls made anywhere) are
-  transcribed in Hindi, English or Hinglish and scored, charged per minute of recording.
+  transcribed in Hindi, English or Hinglish and scored, charged per minute of recording, automatically only when CRM
+  Intelligence is switched on (off by default), a recording exists and the call lasts at least the minimum length
+  (20 s by default, adjustable). A user can also run Analyze on one recorded call, which skips the length check.
 - Output per call: inferred goal of the call · call type · summary · action items with owner and priority ·
   status (positive / neutral / negative / callback / not interested / wrong number…) · key topics ·
   **objections and whether they were handled** · questions the lead asked · commitments · risk flags ·
@@ -110,8 +135,15 @@ CSV/Excel import, manual entry. Round-robin assignment to reps; de-duplication b
   hear the caller · long silence · caller answers were discarded · the agent kept restarting a reply · voice
   synthesis stalled · probably an answering machine · transfer failed · slow responses.
 - A signal that could not be measured is shown as **"not measured", never as zero**.
-- Transcript, recording and timings on every call; live call status; search, filters and export on the call log.
-- Full transcripts are visible only to roles with permission to see caller details.
+- Transcript on every AI call, recording when switched on, timings; live call status; search, filters and export on
+  the call log (filters: outcome, date, team, counsellor, direction, type, provider, status, name, number; there is
+  NO filter by health or by agent, and no alerts for red calls).
+- **Visibility (verified 2026-09-25):** health verdicts and diagnostics are shown to account ADMINS only. Full phone
+  numbers on the Call Log (table, export, call details) are masked for every role, admins included, until an admin
+  sets that role to show full numbers (Settings → Display Settings). It is a Call Log display setting only; lead
+  lists, the lead board and lead profiles still show full numbers. Transcripts are NOT role-gated (the
+  call-intelligence transcript endpoint has no per-call access check; flagged to the owner as a security issue).
+  Never claim transcripts are restricted by role.
 
 ## 7. Pricing (public, mirrors vacademy.io/voice, Sept 2026)
 
@@ -125,7 +157,8 @@ All prices exclude 18% GST. DLT / PE registration (Indian telecom regulation) �
 | Annual (recommended) | ₹19,999 / year upfront | **₹3.49/min flat from minute one, no minimum** — pay nothing for minutes in quiet months · **includes the full CRM** (vacademy.io/voice: "CRM + Voice Annual") |
 | Enterprise | Custom | volume rates, dedicated line — talk to us |
 
-Volume rate ₹3.49/min applies to usage beyond 1,750 minutes in a month. Billing is per minute of call
+Volume rate ₹3.49/min applies to usage beyond 1,750 minutes in a month. The platform adds a per-engine surcharge
+by default (Sarvam voices cost more, Edge less); say "rates are for our standard voices". Billing is per minute of call
 (rounded up). Call intelligence on AI calls is free.
 
 ## 8. Never claim
@@ -137,6 +170,10 @@ Volume rate ₹3.49/min applies to usage beyond 1,750 minutes in a month. Billin
 - A public API/SDK/MCP server, or native integrations with Salesforce, HubSpot, Zoho, LeadSquared, Shopify etc.
   (Say instead: "anything that can send or receive a webhook".)
 - Guaranteed TRAI/DND compliance. (Say: we register DLT with you and you choose calling windows.)
+- That the agent "never" gives medical/legal/financial advice or "never argues": there is no built-in guard, and
+  every agent's prompt includes a sales rule to redirect a first brush-off once. Say "script it to…".
+- The TRAI Sept 2026 amendment as already in force: it takes effect 30 days after Gazette publication (A2P
+  provisions after 60 days).
 - Outcomes like "3x conversions". Use sourced public research, clearly attributed, or none.
 
 ## 9. Sourced facts usable anywhere
@@ -149,6 +186,8 @@ Volume rate ₹3.49/min applies to usage beyond 1,750 minutes in a month. Billin
   within an hour were nearly **7×** as likely to qualify it as those that tried an hour later, and more than
   **60×** as likely as those that waited 24 hours or longer.
   https://hbr.org/2011/03/the-short-life-of-online-sales-leads
+- RBI/2022-23/108 (12 Aug 2022, recovery calls only 8 am–7 pm) was repealed on 28 Nov 2025 and folded into RBI's
+  Responsible Business Conduct Directions; cite it that way.
 - TRAI Press Release 119/2026 (18 Sept 2026), TCCCPR (Third Amendment) Regulations, 2026: A2P calls are defined
   as calls "initiated by an application, software system or automated platform without direct human dialing,
   including using autodialing, robo-calls and pre-recorded/artificial voice technologies"; every entity using

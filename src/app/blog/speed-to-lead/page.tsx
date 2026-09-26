@@ -113,7 +113,7 @@ export default function Page() {
           { title: "Clean before you call", body: "De-duplicate by phone number so a lead who submitted twice is called once, and skip leads that a salesperson already owns." },
           { title: "Check the calling window", body: "Inside your calling hours, call now. Outside them, send an instant WhatsApp or SMS acknowledgement and queue the call for the start of the next window." },
           { title: "Make the first call within a minute", body: "The first call confirms the enquiry, asks a few qualifying questions and aims for one concrete next step." },
-          { title: "Route by outcome, automatically", body: "Qualified or high intent goes to a person now. Callback requests get a real time on someone’s list. Unanswered goes on the retry plan. Not interested and wrong number stop." },
+          { title: "Route by outcome, automatically", body: "Qualified or high intent goes to a person now. Callback requests go to a person, who reads when the lead asked to be called. Unanswered goes on the retry plan. Not interested and wrong number stop." },
           { title: "Log everything", body: "Time of enquiry, time of first attempt, outcome, answers and recording. Without timestamps you cannot measure speed to lead at all." },
         ]}
       />
@@ -123,7 +123,7 @@ export default function Page() {
         The first call is not a sales pitch. Its job is to confirm interest, learn enough to route the lead, and agree the next step. Keep it to two or three minutes.
       </p>
       <ol>
-        <li><strong>Who and why:</strong> “Hi Rohan, this is Priya from [your institute]. You just enquired about our weekend batch on our website.”</li>
+        <li><strong>Who and why:</strong> “Hi Rohan, this is Priya, an AI assistant from [your institute]. You just enquired about our weekend batch on our website.”</li>
         <li><strong>Permission:</strong> “Is this a good time for two minutes?” If not, get a specific day and time and end the call.</li>
         <li><strong>Three to five qualifying questions,</strong> one at a time. Typically: what they need, when they want to start, who decides, location, and a budget range where relevant.</li>
         <li><strong>One next step with a day and time:</strong> a counselling call, a site visit, a demo class. “Thursday at 5 pm” is a next step; “we’ll be in touch” is not.</li>
@@ -182,10 +182,10 @@ export default function Page() {
 
       <WhereTelleoFits>
         <p>
-          Telleo can call a new lead within about 60 seconds of it arriving, using a workflow such as “new lead arrives → call it”. Leads come in from Meta lead ads, Google lead forms, any website form via webhook, or CSV import, and are de-duplicated by phone or email. Automation skips leads already assigned to a rep, a 30-second guard stops the same lead being dialled twice by accident, and campaigns can be limited to the time windows you choose.
+          Telleo can call a new lead within about 60 seconds of it arriving, using a workflow such as “new lead arrives → call it”. Leads come in from Meta lead ads, Google lead forms, any website form via webhook, or CSV import, and are de-duplicated by phone or email. Workflow calls skip leads already assigned to a rep, a 30-second guard stops the same lead being dialled twice by accident, and campaigns can be limited to the time windows you choose.
         </p>
         <p>
-          After each call, outcome rules assign the lead to a rep, stop, or retry unanswered calls with a gap and a maximum number of attempts. If a caller asks for a later time (“kal shaam”), the analysis turns it into an exact date and time, saved on the call and shown in the call log for your team. Agents can transfer live to a person mid-call and book meetings on your booking page. See <Link href="/automations/">automations</Link> and <Link href="/how-it-works/">how it works</Link>.
+          After each call, outcome rules assign the lead to a rep, stop, or retry unanswered calls with a gap and a maximum number of attempts. If a caller asks for a later time (“kal shaam”), the call is marked as a callback request with their words in the transcript, so your team can follow up. Agents can transfer live to a person mid-call and book meetings on your booking page. See <Link href="/automations/">automations</Link> and <Link href="/how-it-works/">how it works</Link>.
         </p>
       </WhereTelleoFits>
 

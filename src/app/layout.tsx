@@ -5,7 +5,7 @@ import "./globals.css";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { Tracking } from "@/components/Tracking";
-import { COMPANY, SITE, SITE_NAME, TEST_LINE, WHATSAPP_NUMBER } from "@/lib/site";
+import { COMPANY, SITE, SITE_NAME, WHATSAPP_NUMBER } from "@/lib/site";
 
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"], weight: ["400", "500", "600", "700", "800"], variable: "--font-jakarta", display: "swap" });
 const deva = Noto_Sans_Devanagari({ subsets: ["devanagari"], weight: ["400", "500", "600", "700"], variable: "--font-deva", display: "swap" });
@@ -15,11 +15,11 @@ const mono = JetBrains_Mono({ subsets: ["latin"], weight: ["400", "500"], variab
 const GTM_ID = "GTM-5C4DDJ6W";
 
 const DESCRIPTION =
-  "Telleo's AI voice agents call every new lead in about 60 seconds, qualify them, book meetings and hand hot leads to your team, in Hindi, English and Hinglish. From ₹3.49 a minute.";
+  "Telleo's AI voice agents call new leads in about a minute, qualify them, book meetings and hand hot leads to your team, in Hindi, English and Hinglish.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),
-  title: { default: "Telleo: AI Voice Agents for Indian Businesses | Hindi, English, Hinglish", template: "%s | Telleo" },
+  title: { default: "Telleo: AI Voice Agents in Hindi, English & Hinglish", template: "%s | Telleo" },
   description: DESCRIPTION,
   applicationName: SITE_NAME,
   manifest: "/site.webmanifest",
@@ -71,7 +71,6 @@ const jsonLd = {
       sameAs: ["https://vacademy.io"],
       contactPoint: [
         { "@type": "ContactPoint", contactType: "sales", telephone: `+${WHATSAPP_NUMBER}`, areaServed: "IN", availableLanguage: ["en", "hi"] },
-        { "@type": "ContactPoint", contactType: "customer support", telephone: TEST_LINE, areaServed: "IN", availableLanguage: ["en", "hi"] },
       ],
     },
     {

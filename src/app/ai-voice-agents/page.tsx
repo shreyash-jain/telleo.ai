@@ -13,16 +13,16 @@ const GUARDS = [
   { I: CreditCard, t: "No balance, no dialling", d: "Calls stop before a bill can run away. Top up and they resume." },
   { I: Hourglass, t: "Daily call cap", d: "500 calls a day by default, set to whatever your team can follow up." },
   { I: Copy, t: "Duplicate protection", d: "A lead can't be dialled twice by accident in the same 30 seconds." },
-  { I: UserX, t: "Skips assigned leads", d: "Automated calls leave alone leads that a rep already owns." },
+  { I: UserX, t: "Skips assigned leads", d: "Workflow calls leave alone leads that a rep already owns." },
   { I: Clock3, t: "Maximum call length", d: "6 minutes by default per agent, so a runaway call can't run up minutes." },
   { I: PhoneOff, t: "Idle hang-up", d: "If the line goes quiet, it nudges twice, then ends the call politely." },
   { I: Voicemail, t: "Voicemail aware", d: "A call where nobody really spoke is marked Incomplete, never Not interested." },
-  { I: Ban, t: "Stops on no", d: "Not interested or wrong person? Your rules stop further calls to that lead." },
+  { I: Ban, t: "Stops on no", d: "Not interested or wrong person? Your rules stop automated retries to that lead." },
 ];
 
 const FAQS = [
   { q: "How quickly does Telleo call a new lead?", a: "When a workflow starts the call as the lead arrives, the first call typically goes out in about a minute. Bulk campaigns work through a list at the pace your daily cap allows." },
-  { q: "Can the agent answer our incoming calls?", a: "Yes. An option in the Telleo IVR can hand callers to an AI agent, which answers questions from its script, captures the enquiry and transfers to a person when needed. Connecting your existing business number is worked out during setup." },
+  { q: "Can the agent answer our incoming calls?", a: "Yes. An option in the Telleo IVR can hand callers to an AI agent, which answers questions from its script, captures the enquiry and transfers to a person when needed. It works through an IVR on a Telleo number; it does not plug into an IVR you run with another provider." },
   { q: "How does live transfer work?", a: "Each agent has handoff numbers. When the caller asks for a person or your script says a lead is hot, the agent says a short bridge line and the call is connected to your team, while the caller is still on the line." },
   { q: "What caller ID do leads see?", a: "Calls go out on Telleo's lines. If you want your own dedicated caller ID for AI calls, we can set up a separate AI line for your account." },
   { q: "How long can a call be?", a: "You set a maximum per agent. The default is 6 minutes, which is plenty for qualification and booking; longer consultative calls should go to your team." },
@@ -91,7 +91,7 @@ export default function Page() {
                   "Live transfer while the caller is still on the line, after a short bridge line.",
                   "Or assign the hot lead to a rep the moment the call ends, with the summary and answers attached.",
                   "Meetings the caller agreed to are booked on your booking page automatically.",
-                  "The exact callback time the caller asked for is saved on the lead for your team.",
+                  "Callback requests are flagged on the call, with the caller's own words in the transcript.",
                 ]}
               />
             </>
@@ -102,7 +102,7 @@ export default function Page() {
                 <span className="grid h-10 w-10 place-items-center rounded-full bg-brand-50"><PhoneForwarded className="h-5 w-5 text-brand-700" /></span>
                 <div>
                   <p className="font-bold text-ink">Transferring to Counselling desk</p>
-                  <p className="text-sm text-slate-500">Hot lead · score 9/10 · asked about fees and batch timing</p>
+                  <p className="text-sm text-slate-500">Live transfer · a short bridge line, then your desk picks up</p>
                 </div>
               </div>
               <div className="mt-5 grid grid-cols-2 gap-3 text-sm">
@@ -119,7 +119,7 @@ export default function Page() {
       <section className="border-y border-line bg-paper">
         <div className="wrap py-20 md:py-24">
           <p className="eyebrow">Guardrails</p>
-          <h2 className="h-section mt-3 max-w-3xl text-ink">Safe to leave running overnight.</h2>
+          <h2 className="h-section mt-3 max-w-3xl text-ink">Safe to leave running unattended.</h2>
           <p className="lede mt-4 max-w-2xl">An AI that calls your customers needs limits it can&apos;t talk its way past. These are built into every account.</p>
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {GUARDS.map((g) => (

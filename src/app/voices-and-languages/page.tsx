@@ -16,14 +16,15 @@ const LANGS = [
 const ENGINES = [
   { e: "Google Chirp3-HD", n: "The default for new agents. Natural Hindi voices, picked by ear." },
   { e: "Sarvam Bulbul", n: "Indian-built voices with the widest Hindi palette." },
-  { e: "Smallest Lightning", n: "Standard and Pro voice sets for Hindi and English." },
-  { e: "Rumik", n: "The lowest-cost option for simpler scripts." },
+  { e: "Smallest Lightning", n: "Standard voice set for Hindi and English." },
+  { e: "Smallest Lightning Pro", n: "Pro voice set for Hindi and English." },
+  { e: "Rumik", n: "Preset male and female voices; audition on your script before choosing." },
   { e: "Microsoft Edge voices", n: "A handful of Hindi and Indian-English voices." },
   { e: "Deepgram Aura-2", n: "English voices with an American accent, for English-only calls." },
 ];
 
 const FAQS = [
-  { q: "How many voices are there?", a: "More than 80, male and female, across seven speech engines. You can audition any of them before you choose, and the preview plays exactly the voice and settings the caller will hear." },
+  { q: "How many voices are there?", a: "More than 80, male and female, across seven speech engines. You can audition any of them before you choose, and the preview uses the same engine, voice and pace the call will use (the phone-line shaping is added on the live call)." },
   { q: "Can the agent switch languages mid-call?", a: "Callers often mix Hindi and English, and a Hinglish agent handles that naturally. Each agent has a main language; it stays in it rather than drifting, which keeps calls consistent." },
   { q: "Why write Hindi in Devanagari?", a: "Indian voice engines pronounce Hindi best when it is written in Devanagari, with English business words like demo, fees or booking kept in English. Romanised Hindi reads worse on the phone, so Telleo's scripts and replies follow that rule." },
   { q: "Can you clone our own voice?", a: "Not today. Choose from the voice library; we can help you pick one that fits your brand and your callers." },

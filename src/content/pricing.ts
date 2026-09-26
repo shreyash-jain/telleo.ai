@@ -63,9 +63,8 @@ export const PLANS: Plan[] = [
     features: [
       "Everything in Pro",
       "Full CRM with pipelines and workflows",
-      "Automations after every call",
       "Pure pay-per-use calling",
-      "Best per-minute rate on any plan",
+      "Our best published per-minute rate",
     ],
     cta: "Talk to sales",
     highlight: true,
@@ -83,7 +82,6 @@ export const PLANS: Plan[] = [
       "Everything in Annual",
       "Dedicated AI calling line and caller ID",
       "Volume per-minute pricing",
-      "Regional languages set up with you",
       "Agents built with our team",
     ],
     cta: "Contact us",
@@ -101,7 +99,8 @@ export const PRICING_NOTES = [
   "All prices exclude 18% GST.",
   "DLT / PE registration, required for commercial calling in India, is ₹5,900 a year, charged at actuals.",
   "Calls are billed per minute of conversation, rounded up to the next minute.",
-  "Beyond 1,750 minutes in a month, every minute is ₹3.49 on monthly plans.",
+  "Rates are for our standard voices. A few premium voice engines are priced differently; we confirm the rate before you pick one.",
+  "On monthly plans, minutes beyond 1,750 in a month are billed at ₹3.49.",
   "AI call analysis is included on AI calls. Analysis of your team's human calls is billed per minute of recording.",
 ];
 

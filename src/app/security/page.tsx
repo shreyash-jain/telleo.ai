@@ -12,11 +12,11 @@ const BLOCKS = [
   },
   {
     I: Eye, t: "Who can see it",
-    d: "Access follows the roles in your account. Outcomes and health verdicts are visible on the dashboard; full transcripts and diagnostics, which contain what callers said, are limited to roles you allow to see caller details. A sales head sees their own reporting line.",
+    d: "Transcripts, summaries and outcomes are visible to team members who can open the call log, and are not restricted per role; health verdicts and technical diagnostics are for your admins, and you choose which roles see full phone numbers. A sales head sees their own reporting line in the team view.",
   },
   {
     I: MapPin, t: "Where it runs",
-    d: "The live voice pipeline runs on servers in Mumbai. The platform that stores your CRM data and call records is hosted outside India, in Singapore. If data residency in India is a requirement for you, tell us before you start.",
+    d: "The live voice pipeline runs on servers in Mumbai. The platform that stores your CRM data and call records is not hosted only in India. If data residency in India is a requirement for you, tell us before you start.",
   },
   {
     I: ServerCog, t: "Who processes it",
@@ -34,9 +34,9 @@ const BLOCKS = [
 
 const CALLING = [
   { I: BadgeCheck, t: "DLT registration", d: "Commercial calling in India requires DLT registration. We complete it with you; it is charged at actuals, ₹5,900 a year." },
-  { I: PhoneOff, t: "Who and when", d: "You decide which leads are called and the hours campaigns run. Not-interested leads are stopped by your rules and never re-dialled." },
+  { I: PhoneOff, t: "Who and when", d: "You decide which leads are called and the hours campaigns run. Your outcome rules stop automated retries to not-interested leads; leave them out of bulk campaigns and manual calls too." },
   { I: ShieldCheck, t: "Built-in limits", d: "Daily call caps, 30-second duplicate protection, a maximum call length per agent and no dialling without balance." },
-  { I: UserCheck, t: "Honest agents", d: "We recommend every agent says it is an AI assistant in its opening line, and scripts that avoid advice only a licensed person should give." },
+  { I: UserCheck, t: "Honest agents", d: "We recommend that every agent says it is an AI assistant in its opening line, and that its script steers away from advice only a licensed person should give." },
 ];
 
 export default function Page() {
@@ -73,7 +73,7 @@ export default function Page() {
             ))}
           </div>
           <p className="mt-8 text-slate-600">
-            TRAI&apos;s September 2026 amendment to the commercial-communication rules treats AI voice calls as application-to-person (A2P) calls that must be declared in advance to the telecom operator, and limits calls based on a customer&apos;s enquiry to seven days from that enquiry. Talk to us about how this applies to your campaigns. Read our{" "}
+            Once it comes into force (30 days after Gazette publication; the A2P provisions after 60 days), TRAI&apos;s September 2026 amendment to the commercial-communication rules treats AI voice calls as application-to-person (A2P) calls that must be declared in advance to the telecom operator, and limits calls based on a customer&apos;s enquiry to seven days from that enquiry. Talk to us about how this applies to your campaigns. Read our{" "}
             <Link href="/blog/trai-dlt-rules-ai-calling/" className="font-semibold text-brand-700 underline underline-offset-4">guide to TRAI and DLT rules</Link>{" "}
             and confirm your specific case with your telecom provider or counsel.
           </p>

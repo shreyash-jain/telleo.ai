@@ -51,7 +51,7 @@ const INCLUDED: [string, boolean, string][] = [
 ];
 
 const FAQS = [
-  { q: "How are minutes counted?", a: "Per minute of connected conversation, rounded up to the next minute. Calls that aren't answered don't use minutes; they go back on your retry path." },
+  { q: "How are minutes counted?", a: "Per minute of connected conversation, rounded up to the next minute. Calls that aren't answered don't use minutes. Workflow calls are retried after your gap; re-run a campaign to call its unanswered leads again." },
   { q: "What does the Starter minimum mean?", a: "Starter bills at least ₹3,499 a month, which covers about 875 minutes at ₹3.99. Use more and you pay for what you use; use less and the minimum applies. It's meant as an entry plan for up to three months." },
   { q: "When does ₹3.49 a minute apply?", a: "On the Annual plan, from the first minute. On monthly plans, for every minute beyond 1,750 in a month." },
   { q: "What else might we pay for?", a: "DLT registration, which Indian regulation requires for commercial calling (₹5,900 a year, at actuals); WhatsApp template messages, charged by Meta through your WhatsApp provider; analysis of your team's human calls, per minute of recording; and 18% GST." },
@@ -65,7 +65,7 @@ export default function Page() {
     <PageShell
       path="/pricing/"
       eyebrow="Pricing"
-      h1="Pay for the minutes your agents talk. Nothing else to add up."
+      h1="Pay for the minutes your agents talk. The few extras are listed below."
       lede="Telephony, speech, voices, transcripts and analysis of AI calls are all in the per-minute rate. From ₹3.99 a minute on monthly plans, or ₹3.49 a minute with no minimum on the annual plan."
       faqs={FAQS}
       faqTitle="Pricing questions"
@@ -119,7 +119,7 @@ export default function Page() {
           <div>
             <p className="eyebrow">What&apos;s in the rate</p>
             <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-ink md:text-4xl">Included, and what isn&apos;t.</h2>
-            <p className="mt-4 text-lg leading-relaxed text-slate-600">No hidden speech, language-model or telephony line items. The few things billed separately are listed here.</p>
+            <p className="mt-4 text-lg leading-relaxed text-slate-600">Speech, language model and telephony are part of the per-minute rate, not separate line items. The main things billed separately are listed here.</p>
           </div>
           <ul className="divide-y divide-line overflow-hidden rounded-2xl border border-line">
             {INCLUDED.map(([k, inc, n]) => (

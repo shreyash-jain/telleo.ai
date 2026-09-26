@@ -10,15 +10,15 @@ const ANALYSIS = [
   ["Summary", "Two or three sentences a rep can read in five seconds"],
   ["Lead score", "1 to 10, how warm the lead sounded"],
   ["Answers", "Only what the caller actually said, filed against your questions"],
-  ["Callback", "Requested? “kal shaam” saved as an exact date and time"],
+  ["Callback", "Flagged when the caller asks to be called later; their words stay in the transcript"],
   ["Meeting", "Only counted when a specific day and time were agreed"],
 ];
 
 const FAQS = [
   { q: "How soon after the call do the actions run?", a: "Within about a minute of hang-up. The call is analysed once, the outcome is written to the lead, and your rules run straight after." },
   { q: "Will it send a WhatsApp the caller didn't agree to?", a: "No. The agent only sends what it offered and the caller accepted on the call, using WhatsApp templates you have had approved. Each send is tracked for delivery and never sent twice." },
-  { q: "Does it call back at the time the caller asked for?", a: "It saves the requested time as an exact date and time on the lead, so your team or your retry rules can act on it. Unanswered calls are retried after the gap you set." },
-  { q: "What if the caller never really spoke?", a: "Then the call is marked Incomplete, not Not interested, and goes back on your retry path. Voicemails and silent pickups never close a lead by mistake." },
+  { q: "Does it call back at the time the caller asked for?", a: "Not automatically. The call is marked as a callback request, with what the caller said in the transcript, so your team can follow up, or you can assign Callback outcomes to a rep. Calls started by a workflow are retried after the gap you set." },
+  { q: "What if the caller never really spoke?", a: "Then the call is marked Incomplete, not Not interested. Workflow calls are retried after your gap; a campaign doesn't re-dial, so re-run it over those leads. Voicemails and silent pickups never close a lead by mistake." },
   { q: "Can outcomes go to our other systems?", a: "Yes. Workflows can call any URL with an HTTP request or webhook, so outcomes can reach your own CRM, sheet or ERP. There are no native Salesforce, HubSpot or Zoho apps yet." },
   { q: "Where do leads come from?", a: "Meta lead ads, Google lead forms, any website form via webhook, CSV or Excel imports, and manual entry. Leads can be assigned round-robin to reps and de-duplicated by phone or email." },
 ];
@@ -63,11 +63,11 @@ export default function Page() {
             body={
               <CheckList
                 items={[
-                  "Assign to a rep on the outcomes you pick, round-robin or to a named owner.",
-                  "Retry unanswered calls after a gap, up to the number of attempts you set.",
-                  "Stop on not interested or wrong person, so nobody is called again.",
+                  "Assign to a rep on the outcomes you pick, round-robin across your team.",
+                  "Retry unanswered workflow calls after a gap, up to the number of attempts you set.",
+                  "Stop on not interested or wrong person, so automated retries end there.",
                   "When retries run out, hand the lead to a person or close it: your choice.",
-                  "The lead's status is updated: AI qualified, not interested, no answer or retry pending.",
+                  "If you add the matching lead statuses, the lead is marked AI qualified, not interested, no answer or retry pending.",
                 ]}
               />
             }
@@ -77,7 +77,7 @@ export default function Page() {
                   { I: UserCheck, t: "Assign", d: "Hot_Lead, Demo_Booked → rep" },
                   { I: RefreshCw, t: "Retry", d: "No answer → again in 2 h, max 3" },
                   { I: Tag, t: "Stamp", d: "Lead status: AI qualified" },
-                  { I: PhoneCall, t: "Stop", d: "Not_Interested → never re-dial" },
+                  { I: PhoneCall, t: "Stop", d: "Not_Interested → stop retries" },
                 ].map((x) => (
                   <div key={x.t} className="card p-5">
                     <x.I className="h-5 w-5 text-brand-700" />
@@ -104,7 +104,7 @@ export default function Page() {
                 lines={[
                   { who: "agent", text: "क्या मैं इसी number पर course brochure WhatsApp कर दूँ?", en: "Shall I WhatsApp the course brochure to this number?" },
                   { who: "caller", text: "हाँ, भेज दीजिए।", en: "Yes, send it." },
-                  { who: "agent", text: "भेज दिया है। Brochure में fees और batch timings दोनों हैं। कोई और सवाल है?", en: "Sent. It has both fees and batch timings. Any other question?" },
+                  { who: "agent", text: "भेज रही हूँ। Brochure में fees और batch timings दोनों हैं। कोई और सवाल है?", en: "Sending it now. It has both fees and batch timings. Any other question?" },
                 ]}
               />
             }

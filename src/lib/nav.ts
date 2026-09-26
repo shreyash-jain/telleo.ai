@@ -3,7 +3,7 @@ export const PRODUCT_NAV = [
   { href: "/ai-voice-agents/", label: "AI voice agents", desc: "Outbound and inbound calls that qualify and book" },
   { href: "/agent-builder/", label: "Agent builder", desc: "Script, questions, outcomes and voice, no code" },
   { href: "/automations/", label: "Automations & actions", desc: "Bookings, WhatsApp, transfers, retries" },
-  { href: "/call-intelligence/", label: "Call intelligence", desc: "Summaries, objections, coaching on every call" },
+  { href: "/call-intelligence/", label: "Call intelligence", desc: "Summaries, objections, coaching on AI and team calls" },
   { href: "/call-quality-monitoring/", label: "Call health & QA", desc: "A green, amber or red verdict per call" },
   { href: "/voices-and-languages/", label: "Voices & languages", desc: "80+ voices, Hindi, English and Hinglish" },
 ] as const;

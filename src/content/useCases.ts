@@ -42,7 +42,7 @@ export const USE_CASES: UseCase[] = [
       {
         step: "One question at a time",
         detail:
-          "It asks your extraction questions in order: need, budget, timeline, location, who decides. It does not read the caller's answers back to them.",
+          "It asks the questions in your script one at a time: need, budget, timeline, location, who decides. Your extraction questions tell the post-call analysis what to pull out. It does not read the caller's answers back to them.",
       },
       {
         step: "Handles questions and interruptions",
@@ -111,12 +111,12 @@ export const USE_CASES: UseCase[] = [
       "Timeline to decide or start",
       "Preferred location, branch or mode",
       "Lead rating from 1 to 10, with a 2 to 3 sentence summary",
-      "Meeting or callback day and time, if agreed",
+      "Meeting day and time if agreed, or a callback request",
     ],
     outcomes: [
       {
         when: "The lead fits (your Qualified disposition)",
-        then: "Assigned to a sales rep, round-robin if you use it, with the summary, rating and answers on the lead. Lead status is stamped AI qualified.",
+        then: "Assigned to a sales rep, round-robin if you use it, with the summary, rating and answers on the lead. The lead is marked AI qualified if that status exists in your CRM.",
       },
       {
         when: "The caller wants to talk to someone now",
@@ -124,15 +124,15 @@ export const USE_CASES: UseCase[] = [
       },
       {
         when: "Not interested or not a fit",
-        then: "The workflow stops and the lead is stamped not interested, so nobody spends another call on it.",
+        then: "The outcome is saved as not interested and automated retries stop.",
       },
       {
         when: "The caller says 'call me tomorrow evening'",
-        then: "Saved as Callback with the exact date and time they gave, shown on the call record, and the lead goes on your retry path.",
+        then: "Saved as a callback request, with their words in the transcript, and the lead goes on your retry path.",
       },
       {
         when: "No answer, or nobody really spoke",
-        then: "Marked no answer or Incomplete, never Not interested. Retried after the gap you set, up to your maximum attempts, then handed to a human or stopped.",
+        then: "Marked no answer or Incomplete, never Not interested. Workflow calls are retried after the gap you set, up to your maximum attempts, then handed to a human or stopped; a campaign doesn't re-dial, so re-run it over the leads who didn't answer.",
       },
     ],
     metrics: [
@@ -154,7 +154,7 @@ export const USE_CASES: UseCase[] = [
     faqs: [
       {
         q: "How is the 1 to 10 lead rating decided?",
-        a: "After the call, the transcript is analysed against your script and the answers the caller actually gave. The rating comes with a 2 to 3 sentence summary, so a rep can see why one lead scored 8 and another 4. Routing runs on your dispositions, not on the number, so you decide who reaches a rep.",
+        a: "After the call, the transcript is analysed against your dispositions and extraction questions, and the rating reflects how interested the caller was. The rating comes with a 2 to 3 sentence summary, so a rep can see why one lead scored 8 and another 4. Routing runs on your dispositions, not on the number, so you decide who reaches a rep.",
       },
       {
         q: "Will it fill in answers the caller didn't give?",
@@ -166,7 +166,7 @@ export const USE_CASES: UseCase[] = [
       },
       {
         q: "Which CRM do the results go to?",
-        a: "The call, recording, transcript, rating and answers sit on the lead in Telleo's CRM. To send results to another system, add a webhook or HTTP request step to the workflow. It works with anything that can send or receive a webhook.",
+        a: "The call, transcript, recording (when switched on), rating and answers are saved on the call, linked to the lead in Telleo's CRM. To send results to another system, add a webhook or HTTP request step to the workflow. It works with anything that can send or receive a webhook.",
       },
       {
         q: "Which languages can it qualify leads in?",
@@ -187,7 +187,7 @@ export const USE_CASES: UseCase[] = [
     label: "Instant lead callback",
     title: "Instant Lead Callback: AI Calls New Leads in About a Minute",
     description:
-      "Call every Meta, Google or website lead about 60 seconds after they submit. Telleo's AI agent confirms interest, asks your questions and books a next step.",
+      "Call every Meta, Google or website lead about a minute after it reaches Telleo, inside your calling hours, then qualify it and book a next step.",
     icon: "Zap",
     summary:
       "Call every new lead from ads and forms in about a minute, while they still remember filling the form.",
@@ -301,7 +301,7 @@ export const USE_CASES: UseCase[] = [
       },
       {
         when: "Interested but busy right now",
-        then: "Saved as Callback with the exact time they gave ('kal shaam' becomes a date and time) and put on your retry path.",
+        then: "Saved as a callback request, with the time they gave ('kal shaam') in the transcript, and put on your retry path.",
       },
       {
         when: "No answer or voicemail",
@@ -309,7 +309,7 @@ export const USE_CASES: UseCase[] = [
       },
       {
         when: "Not interested, or the form was filled by mistake",
-        then: "The workflow stops and the lead is stamped not interested.",
+        then: "The workflow stops and the outcome is saved as not interested.",
       },
     ],
     metrics: [
@@ -331,11 +331,11 @@ export const USE_CASES: UseCase[] = [
     faqs: [
       {
         q: "How fast is the first call, really?",
-        a: "A workflow triggered by a new lead can place the call about 60 seconds after the lead arrives in Telleo. The real gap also depends on how quickly your ad platform or form delivers the lead, and on the time window and daily cap you set.",
+        a: "A workflow triggered by a new lead can place the call about 60 seconds after the lead arrives in Telleo. The real gap also depends on how quickly your ad platform or form delivers the lead, on your calling hours and daily cap, and on whether one of your bulk campaigns is still working through its list, because new-lead calls wait in the same queue.",
       },
       {
         q: "What happens to leads that come in at night?",
-        a: "You decide. Add a time-window condition to the workflow so calls only go out in the hours you choose. Leads that arrive outside it can be called when the window opens, with a campaign over those leads or one click each.",
+        a: "Workflow calls respect your calling hours, 9 am to 9 pm unless you change them. A lead that arrives at night waits in the queue and is called automatically when the hours open.",
       },
       {
         q: "Will a lead get two calls if they submit the form twice?",
@@ -347,7 +347,7 @@ export const USE_CASES: UseCase[] = [
       },
       {
         q: "Won't a call one minute after the form feel pushy?",
-        a: "The person has just asked you for information, and the opening line says why you are calling. If they are busy, the agent asks for a better time and saves it, instead of pushing on with questions.",
+        a: "The person has just asked you for information, and the opening line says why you are calling. If they say they are busy, the agent makes one short offer of a specific time for the next step; if they still decline, it asks when to call back and ends the call, and the call is marked as a callback request with their words in the transcript, instead of pushing on with questions.",
       },
     ],
   },
@@ -366,7 +366,7 @@ export const USE_CASES: UseCase[] = [
       "Agree a day and time on the call, book it on your booking page and send the confirmation on WhatsApp.",
     h1: "Book demos, site visits and consultations on the call",
     lede:
-      "The AI agent offers slots, agrees a specific day and time with the caller, and the meeting lands on your booking page automatically. A WhatsApp confirmation goes out if the caller wants one, and a reminder call the day before checks they are still coming.",
+      "The AI agent offers slots, agrees a specific day and time with the caller, and the meeting lands on your booking page automatically. A WhatsApp confirmation goes out if the caller wants one, and you can run a reminder campaign the day before to check they are still coming.",
     problem: {
       heading: "Every booking takes three calls and a WhatsApp thread",
       body: [
@@ -389,7 +389,7 @@ export const USE_CASES: UseCase[] = [
       {
         step: "Agree a specific slot",
         detail:
-          "A meeting only counts when a specific day and time were agreed. 'Sometime next week' is saved as a callback, not a booking.",
+          "A meeting only counts when a specific day and time were agreed. 'Sometime next week' is not saved as a booking; the lead goes to a person or back on your retry path.",
       },
       {
         step: "Read it back once",
@@ -449,7 +449,7 @@ export const USE_CASES: UseCase[] = [
       },
       {
         when: "The caller wants a meeting but can't fix a time",
-        then: "Saved as Callback with any time they mentioned, as an exact date and time, and the lead goes on your retry path.",
+        then: "Saved as a callback request, with any time they mentioned in the transcript, and the lead goes on your retry path.",
       },
       {
         when: "The caller wants to speak to the doctor, manager or counsellor first",
@@ -461,7 +461,7 @@ export const USE_CASES: UseCase[] = [
       },
       {
         when: "No answer",
-        then: "Retried after your gap, up to your maximum attempts. Calls where nobody spoke are marked Incomplete, never Not interested.",
+        then: "Workflow calls are retried after your gap, up to your maximum attempts; a reminder campaign doesn't re-dial, so re-run it over those customers. Calls where nobody spoke are marked Incomplete, never Not interested.",
       },
     ],
     metrics: [
@@ -486,7 +486,7 @@ export const USE_CASES: UseCase[] = [
       },
       {
         q: "What counts as a booking?",
-        a: "Only a specific day and time that the caller agreed to. 'I will come next week' is not a booking. It is saved as a callback, so nobody waits for a visitor who never fixed a time.",
+        a: "Only a specific day and time that the caller agreed to. 'I will come next week' is not a booking, so nobody waits for a visitor who never fixed a time; the lead goes to a person or back on your retry path.",
       },
       {
         q: "Can it send the address or joining link?",
@@ -614,7 +614,7 @@ export const USE_CASES: UseCase[] = [
       },
       {
         when: "The customer asks not to be called about this",
-        then: "Your Do not call disposition stops the workflow for that customer.",
+        then: "Your Do not call disposition stops automated retries for that customer; it is not a do-not-call list, so remove them from future due lists.",
       },
     ],
     metrics: [
@@ -675,7 +675,7 @@ export const USE_CASES: UseCase[] = [
       "Call through old enquiry lists, find who is still interested and send them back to your reps.",
     h1: "Re-engage the old leads your team stopped calling",
     lede:
-      "Most businesses have a list of last season's enquiries that nobody followed up properly. The AI agent calls through it, finds out where each person stands now and sends the ones who are still interested to a rep.",
+      "Many businesses have a list of last season's enquiries that nobody followed up properly. The AI agent calls the people on it who have given consent you can show, finds out where each person stands now and sends the ones who are still interested to a rep.",
     problem: {
       heading: "Old leads are paid for, then forgotten",
       body: [
@@ -688,7 +688,7 @@ export const USE_CASES: UseCase[] = [
       {
         step: "Import and clean the list",
         detail:
-          "Upload the old leads as CSV or Excel. Duplicates are matched by phone or email, and leads already assigned to a rep are skipped.",
+          "Upload the old leads as CSV or Excel. Duplicates are matched by phone or email. A bulk campaign does not skip leads a rep is already working, so leave those out of the selection.",
       },
       {
         step: "Remind them who you are",
@@ -708,7 +708,7 @@ export const USE_CASES: UseCase[] = [
       {
         step: "Route and close",
         detail:
-          "Interested leads go to a rep. 'Later' is saved with the time they gave. The rest are stopped so they are not called again by this campaign.",
+          "Interested leads go to a rep. 'Later' is saved with what they said about timing in the transcript. The rest are stopped so they are not called again by this campaign.",
       },
     ],
     sampleCall: [
@@ -763,7 +763,7 @@ export const USE_CASES: UseCase[] = [
       "Current status: still looking, bought elsewhere, later, not relevant",
       "New timeline to buy or start",
       "What has changed since the first enquiry (budget, requirement)",
-      "Callback day and time, if they asked for one",
+      "Callback request, if they asked for one",
       "Consent to receive a brochure or offer on WhatsApp",
       "Lead rating from 1 to 10",
     ],
@@ -774,7 +774,7 @@ export const USE_CASES: UseCase[] = [
       },
       {
         when: "Interested, but later",
-        then: "Saved as Callback with the exact date and time they gave ('Wednesday evening' becomes a date and time) and put on your retry path.",
+        then: "Saved with your Later disposition, with what they said about timing in the transcript. Set Later to assign, so a rep can call them back.",
       },
       {
         when: "Wants details",
@@ -782,11 +782,11 @@ export const USE_CASES: UseCase[] = [
       },
       {
         when: "Bought elsewhere or no longer relevant",
-        then: "The workflow stops and the lead is stamped not interested, so nobody calls them again for this.",
+        then: "The outcome is saved as not interested and automated retries stop; leave it out when you re-run the campaign.",
       },
       {
         when: "No answer",
-        then: "Retried after your gap, up to your maximum attempts, then stopped. Old lists have more dead numbers, so keep attempts low.",
+        then: "A bulk campaign does not re-dial by itself: unanswered calls show as No answer in the call log, so run the campaign again later over those leads. Old lists have more dead numbers, so keep re-runs few.",
       },
     ],
     metrics: [
@@ -796,9 +796,9 @@ export const USE_CASES: UseCase[] = [
       "Meetings and sales from reactivated leads, tracked in your CRM",
     ],
     setup: [
-      "Import the old list and let de-duplication by phone or email run.",
+      "Import only the old leads who have given consent you can show (under TRAI's September 2026 amendment, once it takes effect, an enquiry alone covers calls for just seven days), and let de-duplication by phone or email run.",
       "Write an opening line that names the old enquiry, using the fields from the list.",
-      "Add dispositions: Interested, Later, Bought elsewhere, Not relevant, Wrong number, Do not call.",
+      "Add dispositions: Interested, Later, Bought elsewhere, Not relevant, Wrong number, Do not call. Set Interested and Later to assign, and the rest to stop.",
       "Link the approved WhatsApp templates for your current offer, brochure or price list.",
       "Run it as a bulk campaign inside your chosen time windows, with a daily cap your reps can keep up with.",
     ],
@@ -806,11 +806,11 @@ export const USE_CASES: UseCase[] = [
     faqs: [
       {
         q: "How old can the leads be?",
-        a: "Check consent first. Under TRAI's September 2026 amendment, an enquiry supports commercial calls for only seven days from the date it was made, so older leads need explicit consent that you can show. For leads you may call, older lists have more wrong numbers and switched-off phones; set fewer retries and watch the wrong-number share after the first day.",
+        a: "Check consent first. Under TRAI's September 2026 amendment, once it takes effect, an enquiry supports commercial calls for only seven days from the date it was made, so older leads need explicit consent that you can show. For leads you may call, older lists have more wrong numbers and switched-off phones; keep campaign re-runs few and watch the wrong-number share after the first day.",
       },
       {
         q: "Will it call people who are already with a rep?",
-        a: "No. The automation skips leads that are already assigned to a rep, and duplicates are matched by phone or email before calls start.",
+        a: "A bulk campaign will, if you select them: it calls the leads you pick whether or not a rep has them, so leave those out of the selection. A workflow's AI call skips leads already assigned to a rep. Duplicates are matched by phone or email.",
       },
       {
         q: "How many calls go out in a day?",
@@ -818,7 +818,7 @@ export const USE_CASES: UseCase[] = [
       },
       {
         q: "What if someone asks never to be called again?",
-        a: "Add a Do not call disposition and set it to stop. The workflow stops for that lead and it is not dialled again by that campaign.",
+        a: "Add a Do not call disposition and set it to stop. That ends automated retries for the lead, but it is not a do-not-call list: a later campaign or a one-click call can still dial the number, so remove it from future lists.",
       },
       {
         q: "Can the agent offer a discount?",
@@ -849,7 +849,7 @@ export const USE_CASES: UseCase[] = [
     problem: {
       heading: "Survey links get ignored and scores come without reasons",
       body: [
-        "A survey link on WhatsApp or email gets a few replies, often from people who are either delighted or upset. Everyone in between never opens it.",
+        "A survey link on WhatsApp or email gets a few replies, often from people who are either delighted or upset. Many of the people in between never open it.",
         "When a manager calls customers personally, the answers are richer, but only a handful of calls get made each week and the notes are hard to compare.",
         "A short, consistent call asks every customer the same questions in the same order and saves the answers side by side. An unhappy customer on the phone can also be passed to a person while it still matters.",
       ],
@@ -873,7 +873,7 @@ export const USE_CASES: UseCase[] = [
       {
         step: "Then the reason",
         detail:
-          "It asks what drove the score, with one follow-up at most. It does not argue or read the answer back.",
+          "It asks what drove the score, with one follow-up at most. Script it not to argue; it does not read the answer back.",
       },
       {
         step: "Route the unhappy ones",
@@ -918,7 +918,7 @@ export const USE_CASES: UseCase[] = [
       "Score (0 to 10, or your own scale)",
       "Main reason for the score, in the customer's words",
       "Specific complaint, if any (delivery, staff, product, billing)",
-      "Whether they want a call back from your team, and when",
+      "Whether they want a call back from your team",
       "Suggestion for improvement",
       "Whether they would buy or visit again",
     ],
@@ -933,11 +933,11 @@ export const USE_CASES: UseCase[] = [
       },
       {
         when: "The customer asks for a call back",
-        then: "Saved as Callback with the exact time they gave ('after 6 pm' becomes a date and time) on the call record.",
+        then: "Saved as a callback request on the call record, with what they said ('after 6 pm') in the transcript. Set Callback to assign so a person calls back.",
       },
       {
         when: "No answer",
-        then: "Retried after your gap, up to your maximum attempts, then stopped. Calls where nobody spoke are marked Incomplete and carry no score.",
+        then: "Workflow calls are retried after your gap, up to your maximum attempts, then stopped; a weekly campaign doesn't re-dial, so re-run it over those customers. Calls where nobody spoke are marked Incomplete and carry no score.",
       },
     ],
     metrics: [
@@ -947,9 +947,9 @@ export const USE_CASES: UseCase[] = [
       "Time from a low score to a call back from your team",
     ],
     setup: [
-      "Pick the scale (0 to 10 NPS, 1 to 5, or yes/no) and add it to the extraction questions along with the reason question.",
+      "Pick the scale (0 to 10 NPS, 1 to 5, or yes/no), put the score and reason questions in the script, and add them as extraction questions so the analysis saves the answers.",
       "Keep the script to three or four questions and about two minutes.",
-      "Add dispositions such as Promoter, Passive, Detractor and Complaint, and assign Detractor and Complaint to a person.",
+      "Add dispositions such as Promoter, Passive, Detractor and Complaint. Set Promoter and Passive to stop, and assign Detractor and Complaint to a person.",
       "Trigger calls from a workflow after the service, or run a weekly campaign over a list.",
       "Choose a calm voice and pace, and check it with the voice preview.",
       "Optionally link an approved WhatsApp template with your review link for happy customers who agree to it.",
@@ -987,10 +987,10 @@ export const USE_CASES: UseCase[] = [
     label: "AI receptionist",
     title: "AI Receptionist for Inbound Calls in Hindi and English",
     description:
-      "An AI receptionist on your IVR that answers inbound calls, handles common questions, captures the enquiry and transfers to a person when the caller needs one.",
+      "An AI receptionist on the Telleo IVR that answers inbound calls, handles common questions, captures the enquiry and transfers to a person when the caller needs one.",
     icon: "Headset",
     summary:
-      "Answer inbound calls through your IVR, handle common questions, capture the enquiry and transfer when needed.",
+      "Answer inbound calls through the Telleo IVR, handle common questions, capture the enquiry and transfer when needed.",
     h1: "An AI receptionist for the calls your front desk can't take",
     lede:
       "Callers ring your line, pick an option on the IVR and talk to the AI agent. It answers the common questions from your script, notes down the enquiry and transfers the call to a person when the caller needs one.",
@@ -1006,7 +1006,7 @@ export const USE_CASES: UseCase[] = [
       {
         step: "The caller dials in",
         detail:
-          "Your IVR plays its menu. The option you choose for enquiries hands the caller to the AI agent.",
+          "Your Telleo IVR plays its menu. The option you choose for enquiries hands the caller to the AI agent.",
       },
       {
         step: "Greet and listen",
@@ -1021,7 +1021,7 @@ export const USE_CASES: UseCase[] = [
       {
         step: "Capture the enquiry",
         detail:
-          "It asks your extraction questions one at a time: name, what they need, preferred branch, a good time for a call back.",
+          "It asks the questions in your script one at a time: name, what they need, preferred branch, a good time for a call back.",
       },
       {
         step: "Transfer when needed",
@@ -1087,11 +1087,11 @@ export const USE_CASES: UseCase[] = [
       },
       {
         when: "The transfer is not picked up",
-        then: "The call's health report flags the failed transfer, and the enquiry is on the call record for your team to call back.",
+        then: "The enquiry, summary and transcript are already on the call record, so your team can call back. Keep handoff numbers staffed: the health report only flags a transfer that could not be set up, not one nobody answered.",
       },
       {
         when: "The caller asks for a call back",
-        then: "Saved as Callback with the exact date and time they gave, and assigned to your team through your dispositions.",
+        then: "Saved as a callback request, with what they said in the transcript, and assigned to your team if Callback is on your assign list. Switch on inbound lead capture so callers who are not yet leads can be assigned too.",
       },
       {
         when: "The caller wants a visit or appointment",
@@ -1117,7 +1117,7 @@ export const USE_CASES: UseCase[] = [
     faqs: [
       {
         q: "Does it replace my IVR?",
-        a: "No, it sits behind it. An IVR menu option hands the caller to the AI agent, and the agent can transfer the call to a person when needed.",
+        a: "It doesn't plug into your current IVR. The agent is reached through an IVR menu option on a Telleo number, and it can transfer the caller to a person when needed., and the agent can transfer the call to a person when needed.",
       },
       {
         q: "Can it answer on my existing business number?",
@@ -1133,7 +1133,7 @@ export const USE_CASES: UseCase[] = [
       },
       {
         q: "Are inbound calls recorded?",
-        a: "Yes. Every call is transcribed, and recorded when recording is switched on for your line. Full transcripts are visible only to roles with permission to see caller details.",
+        a: "Yes. Every call is transcribed, and recorded when recording is switched on for your line.",
       },
       {
         q: "Which languages can callers use?",
@@ -1246,7 +1246,7 @@ export const USE_CASES: UseCase[] = [
       },
       {
         when: "Maybe, or not sure yet",
-        then: "Saved as Callback with any time they gave, and put on your retry path.",
+        then: "Saved with your Maybe disposition. Set Maybe to assign so a person follows up, or include the Maybes in the day-of reminder campaign.",
       },
       {
         when: "Wants to talk to someone before deciding",
@@ -1254,7 +1254,7 @@ export const USE_CASES: UseCase[] = [
       },
       {
         when: "No answer",
-        then: "Retried after your gap, up to your maximum attempts, then stopped. Calls where nobody spoke are marked Incomplete.",
+        then: "Calls started from a workflow are retried after your gap, up to your maximum attempts; a campaign does not re-dial on its own, so run it again over the leads who didn't answer. Calls where nobody spoke are marked Incomplete.",
       },
     ],
     metrics: [
@@ -1291,7 +1291,7 @@ export const USE_CASES: UseCase[] = [
       },
       {
         q: "Can it tell me how many people are coming?",
-        a: "Each call gets a disposition from your list, such as Confirmed or Can't attend, plus the number of people if you ask for it. Filter and export the call log to get your headcount.",
+        a: "Each call gets a disposition from your list, such as Confirmed or Can't attend, and the number of people is in each call's extracted answers if you ask for it. Filter the call log by disposition and export it to count confirmations.",
       },
     ],
   },
@@ -1417,11 +1417,11 @@ export const USE_CASES: UseCase[] = [
       },
       {
         when: "No longer interested",
-        then: "The workflow stops and the lead is stamped not interested, so your team can close the file.",
+        then: "The workflow stops and the outcome is saved as not interested, so your team can close the file.",
       },
       {
         when: "No answer",
-        then: "Retried after your gap, up to your maximum attempts, then handed to a person or stopped.",
+        then: "Calls from a workflow are retried after your gap, up to your maximum attempts, then handed to a person or stopped. A campaign does not re-dial on its own, so re-run it over the still-pending list.",
       },
     ],
     metrics: [
@@ -1446,7 +1446,7 @@ export const USE_CASES: UseCase[] = [
       },
       {
         q: "Will it ask for Aadhaar or PAN numbers?",
-        a: "It shouldn't, and we recommend keeping ID numbers out of the script. Identity details belong in your secure upload flow, not in a call transcript. Full transcripts are visible only to roles with permission to see caller details.",
+        a: "It shouldn't, and we recommend keeping ID numbers out of the script. Identity details belong in your secure upload flow, not in a call transcript. Transcripts are visible to anyone with call-log access, which is another reason to keep ID numbers out of calls.",
       },
       {
         q: "How does the agent know what is pending for each applicant?",

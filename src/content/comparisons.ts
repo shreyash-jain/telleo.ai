@@ -21,9 +21,9 @@ export const COMPARISONS: Comparison[] = [
     other: "an in-house telecalling team",
     h1: "Telleo vs an in-house telecalling team",
     lede:
-      "Most Indian sales and admissions teams already have telecallers. The useful question is not AI or people, but which calls each should make. This page compares an AI voice agent with a human calling team, job by job, so you can split the work sensibly.",
+      "Many Indian sales and admissions teams already have telecallers. The useful question is not AI or people, but which calls each should make. This page compares an AI voice agent with a human calling team, job by job, so you can split the work sensibly.",
     verdict:
-      "Use Telleo for the first call to every new lead, reminders, retries and routine qualification, where speed and consistency matter most. Keep your telecallers for negotiation, complex questions and relationships, and let Telleo hand them qualified leads with a call summary. Most teams do best with both working together.",
+      "Use Telleo for the first call to every new lead, reminders, retries and routine qualification, where speed and consistency matter most. Keep your telecallers for negotiation, complex questions and relationships, and let Telleo hand them qualified leads with a call summary. Many teams will want both, working together.",
     rows: [
       {
         dimension: "Cost basis",
@@ -72,7 +72,7 @@ export const COMPARISONS: Comparison[] = [
       {
         dimension: "Record keeping",
         telleo:
-          "Every AI call transcribed; recording can be switched on for every call. Disposition, summary, lead rating and the caller's answers saved to the lead automatically.",
+          "Every AI call transcribed; recording can be switched on for every call. Disposition, summary, lead rating and the caller's answers saved on the call automatically.",
         other: "Depends on each caller updating the CRM after every call.",
       },
       {
@@ -95,7 +95,7 @@ export const COMPARISONS: Comparison[] = [
       },
       {
         dimension: "Best for",
-        telleo: "First calls, reminders, re-engagement and qualification at volume.",
+        telleo: "First calls, reminders, re-engagement of leads who have consented, and qualification at volume.",
         other: "Closing, negotiation, escalations and key accounts.",
       },
     ],
@@ -104,13 +104,13 @@ export const COMPARISONS: Comparison[] = [
       "A big part of your team's day goes on unanswered calls, retries and reminders.",
       "You want every call transcribed, summarised and logged without relying on manual notes.",
       "Your lead volume rises and falls, and you don't want to hire for the peak.",
-      "Your callers speak Hindi, English or Hinglish.",
+      "The people you call speak Hindi, English or Hinglish.",
     ],
     chooseOtherIf: [
       "Your sale needs negotiation, custom pricing or long consultative conversations.",
       "Customers expect a named relationship manager who knows their history.",
       "Calls involve sensitive or emotional situations that need human judgement.",
-      "Your callers mainly speak a language Telleo does not yet run in production.",
+      "The people you call mainly speak a language Telleo does not yet run in production.",
       "Your call volume is small enough for one person to handle comfortably.",
     ],
     sections: [
@@ -118,13 +118,13 @@ export const COMPARISONS: Comparison[] = [
         heading: "Where a telecaller's time goes",
         body: [
           "Much of a telecaller's day is not conversation. It is dialling, waiting on numbers that do not pick up, redialling later and typing notes afterwards.",
-          "Telleo takes that routine layer. It dials, retries unanswered calls with a gap and a maximum number of attempts, and writes the outcome to the lead. Your team picks up where a real conversation is needed.",
+          "Telleo takes that routine layer. It dials, retries unanswered workflow calls with a gap and a maximum number of attempts, and writes the outcome to the lead. Your team picks up where a real conversation is needed.",
         ],
       },
       {
         heading: "Speed to lead",
         body: [
-          "Research reported in Harvard Business Review in 2011, covering 1.25 million leads at 42 US companies, found that firms which tried to contact a web lead within an hour were nearly 7 times as likely to qualify it as those that tried an hour later, and more than 60 times as likely as those that waited 24 hours or longer. Among companies that responded within 30 days, the average response time was 42 hours.",
+          "Research reported in Harvard Business Review in 2011, covering 1.25 million leads at 42 US companies, found that firms which tried to contact a web lead within an hour were nearly 7 times as likely to qualify it as those that tried an hour later, and more than 60 times as likely as those that waited 24 hours or longer. In a separate audit of 2,241 U.S. companies, the same authors found that among companies that responded within 30 days, the average response time was 42 hours.",
           "Telleo can call a new lead within about 60 seconds of it arriving from a Meta lead ad, a Google lead form or a website form. If the lead is interested, outcome rules assign it to a rep along with the call summary.",
         ],
       },
@@ -138,7 +138,7 @@ export const COMPARISONS: Comparison[] = [
       {
         heading: "How the two work together",
         body: [
-          "Telleo is built to sit next to a human team. Outcome rules assign a lead to a counsellor or sales rep on the outcomes you pick, automation skips leads already assigned to a rep, and a live transfer can bring a person into the call.",
+          "Telleo is built to sit next to a human team. Outcome rules assign a lead to a counsellor or sales rep on the outcomes you pick, workflow calls skip leads already assigned to a rep, and a live transfer can bring a person into the call.",
           "Your team can keep using Airtel IQ or Exotel for click-to-call. Those calls, or recordings uploaded from anywhere, can be transcribed in Hindi, English or Hinglish and scored against your rubric, with coaching tips and a rep leaderboard.",
         ],
       },
@@ -202,7 +202,7 @@ export const COMPARISONS: Comparison[] = [
     lede:
       "An IVR asks callers to press keys. A voice broadcast plays the same recording to everyone. Both are useful, and both are mostly one-way. Telleo holds a spoken conversation, captures the answer and acts on it. Here is how they compare and where each one fits.",
     verdict:
-      "If the message is the same for everyone and needs no reply, such as an alert or simple call routing, an IVR or recorded broadcast is the simpler tool. If you need something back, like interest, a preferred time or a booking, Telleo fits better because it understands spoken replies and turns them into CRM actions. The two also work together: an IVR option can hand the caller to a Telleo agent.",
+      "If the message is the same for everyone and needs no reply, such as an alert or simple call routing, an IVR or recorded broadcast is the simpler tool. If you need something back, like interest, a preferred time or a booking, Telleo fits better because it understands spoken replies and turns them into CRM actions. On inbound, an IVR menu option on a Telleo number can hand the caller to a Telleo agent.",
     rows: [
       {
         dimension: "How the caller responds",
@@ -225,7 +225,7 @@ export const COMPARISONS: Comparison[] = [
       {
         dimension: "What gets captured",
         telleo:
-          "Outcome from your own list, a short summary, a 1 to 10 lead rating, the caller's answers, and any callback or meeting time, saved as an exact date and time.",
+          "Outcome from your own list, a short summary, a 1 to 10 lead rating, the caller's answers, any callback request, and any agreed meeting time as an exact date and time.",
         other: "Key presses and whether the call was answered.",
       },
       {
@@ -261,7 +261,7 @@ export const COMPARISONS: Comparison[] = [
       {
         dimension: "Best for",
         telleo:
-          "Qualification, reminders that need a reply, re-engagement and bookings.",
+          "Qualification, reminders that need a reply, re-engagement of leads who have consented, and bookings.",
         other: "Alerts, announcements and routing inbound callers to the right team.",
       },
     ],
@@ -295,7 +295,7 @@ export const COMPARISONS: Comparison[] = [
       {
         heading: "Using both together",
         body: [
-          "On inbound, an IVR menu option can hand the caller to a Telleo AI agent. Keep the menu for routing and let the agent take the calls where someone needs to talk.",
+          "On inbound, an IVR menu option can hand the caller to a Telleo AI agent. Set up the IVR on your Telleo number for routing, and point the options where someone needs to talk at the agent.",
           "After every AI call, outcome rules decide what happens: assign to a rep, retry with a gap, stop, book the meeting, or send the WhatsApp message or email the caller agreed to.",
         ],
       },
@@ -357,7 +357,7 @@ export const COMPARISONS: Comparison[] = [
       {
         dimension: "Entry price",
         telleo:
-          "Starter (trial plan, up to 3 months): ₹3,499/month minimum billing at ₹3.99/min. Annual: ₹19,999/year upfront, then ₹3.49/min from minute one. Prices exclude 18% GST.",
+          "Starter (trial plan, up to 3 months): ₹3,499/month minimum billing at ₹3.99/min. Annual: ₹19,999/year upfront, then ₹3.49/min from minute one, with the full CRM included. Starter and Pro do not include the CRM; Pro + CRM is ₹8,999/month. Prices exclude 18% GST.",
         other:
           "Free credits on sign-up. Phone number ₹499 per month. Advanced analytics ₹2 per call. Their page notes final amounts may vary with exchange rates and taxes.",
       },
@@ -399,7 +399,7 @@ export const COMPARISONS: Comparison[] = [
       {
         dimension: "Call analysis",
         telleo:
-          "Every AI call analysed free: outcome from your list, summary, 1 to 10 lead rating, extracted answers, callback and meeting times. Human calls can be analysed and scored too, per minute of recording.",
+          "Every AI call analysed free: outcome from your list, summary, 1 to 10 lead rating, extracted answers, callback requests and agreed meeting times. Human calls can be analysed and scored too, per minute of recording.",
         other:
           "Custom post-call analysis fields, call history and an analytics dashboard. Advanced analytics at ₹2 per call.",
       },
@@ -420,9 +420,9 @@ export const COMPARISONS: Comparison[] = [
       {
         dimension: "Security and compliance",
         telleo:
-          "No certifications claimed. We register DLT with you. Full transcripts visible only to roles with permission.",
+          "No certifications claimed. We register DLT with you. Health verdicts and diagnostics are admin-only; full phone numbers on the call log can be restricted by role.",
         other:
-          "Per their docs: SOC 2 Type II audit completed, ISO 27001 certified, GDPR and HIPAA compliant, with a public trust centre. On-prem or private cloud deployment for an additional fee.",
+          "Per their docs: SOC 2 Type II audit completed, ISO 27001 certified, GDPR and HIPAA compliant, with a public trust centre. Per their pricing page, on-premise or virtual private cloud deployment is available on the Enterprise plan, and their FAQ says it costs an additional fee.",
       },
       {
         dimension: "Best for",
@@ -437,7 +437,7 @@ export const COMPARISONS: Comparison[] = [
       "You want lead capture, assignment, retries, bookings and WhatsApp or email follow-up in the same tool as the calls.",
       "You want your human team's calls transcribed and scored, not only AI calls.",
       "You prefer simple rupee pricing, with an annual plan that has no monthly minimum.",
-      "You want a plain health verdict on every call that tells you what went wrong.",
+      "You want a plain health verdict on every AI call that tells you what went wrong.",
     ],
     chooseOtherIf: [
       "You need languages beyond the three Telleo runs in production, or international ones like French or Spanish.",
@@ -513,7 +513,7 @@ export const COMPARISONS: Comparison[] = [
     faqs: [
       {
         q: "Is Telleo cheaper than Ringg AI?",
-        a: "On published per-minute rates, Telleo's ₹3.49 to ₹3.99 a minute (excluding GST) is lower than Ringg's ₹6 per connected minute. But Ringg prorates by the second while Telleo rounds up to the minute, Ringg has a monthly minimum whose amount is not published, and Telleo's annual plan has a ₹19,999 upfront fee. Compare on your own call volume and call lengths.",
+        a: "On published per-minute rates, Telleo's ₹3.49 to ₹3.99 a minute (excluding GST) is lower than Ringg's ₹6 per connected minute. But Ringg prorates by the second while Telleo rounds up to the minute, Ringg has a monthly minimum whose amount is not published, Telleo's monthly plans have a ₹3,499 or ₹6,999 minimum, and Telleo's annual plan has a ₹19,999 upfront fee. Compare on your own call volume and call lengths.",
       },
       {
         q: "Does Ringg AI support Hindi?",
@@ -564,7 +564,7 @@ export const COMPARISONS: Comparison[] = [
       {
         dimension: "Entry price",
         telleo:
-          "Starter (trial plan, up to 3 months): ₹3,499/month minimum billing at ₹3.99/min. Annual: ₹19,999/year upfront, then ₹3.49/min. Prices exclude 18% GST.",
+          "Starter (trial plan, up to 3 months): ₹3,499/month minimum billing at ₹3.99/min. Annual: ₹19,999/year upfront, then ₹3.49/min, with the full CRM included. Starter and Pro do not include the CRM; Pro + CRM is ₹8,999/month. Prices exclude 18% GST.",
         other:
           "₹599 for a 7-day trial with 500 credits. Developer ₹15,000/month with 2,500 minutes. Unlimited Solo ₹19,999/month, Team ₹39,999/month, Business ₹79,999/month. Concurrency 2, 2, 6 and 15 calls respectively.",
       },
@@ -626,7 +626,7 @@ export const COMPARISONS: Comparison[] = [
       {
         dimension: "Security and compliance",
         telleo:
-          "No certifications claimed. We register DLT with you. Full transcripts visible only to roles with permission.",
+          "No certifications claimed. We register DLT with you. Health verdicts and diagnostics are admin-only; full phone numbers on the call log can be restricted by role.",
         other:
           "Public security page: API-key or OAuth 2.1 access, encryption in transit and at rest, role-based access, audit logs and a DPA. Security review on Enterprise. Live calls need business KYC first.",
       },
@@ -756,14 +756,14 @@ export const COMPARISONS: Comparison[] = [
       {
         dimension: "Pricing model",
         telleo:
-          "One rupee per-minute rate that includes telephony: ₹3.49/min on the annual plan, ₹3.99/min on monthly plans. Excludes 18% GST.",
+          "A per-minute rate in rupees that includes telephony: ₹3.49/min on the annual plan, ₹3.99/min on monthly plans. Excludes 18% GST.",
         other:
           "In US dollars and in parts. Vapi: $0.05/min hosting, with models passed through at cost, plus telephony. Retell: $0.07 to $0.31/min for voice agents, depending on the LLM and voice chosen.",
       },
       {
         dimension: "Entry cost",
         telleo:
-          "Starter ₹3,499/month minimum billing (a trial plan, up to 3 months), Pro ₹6,999/month, or ₹19,999/year on the annual plan.",
+          "Starter ₹3,499/month minimum billing (a trial plan, up to 3 months), Pro ₹6,999/month, or ₹19,999/year on the annual plan. The full CRM and workflow automations come with the annual plan, or with Pro + CRM at ₹8,999/month.",
         other:
           "Vapi: $0 to start with $5 free credits; support packages from $29/month. Retell: $10 free credits and 20 free concurrent calls. Pipecat and LiveKit Agents: free and open source.",
       },
@@ -805,7 +805,7 @@ export const COMPARISONS: Comparison[] = [
       {
         dimension: "Quality monitoring",
         telleo:
-          "A green, amber or red health verdict on every call with a plain headline.",
+          "A green, amber or red health verdict on every AI call with a plain headline.",
         other:
           "Vapi lists critical monitoring and call simulation; Retell lists simulation testing. With a framework, you build dashboards and alerts.",
       },
@@ -846,7 +846,7 @@ export const COMPARISONS: Comparison[] = [
       {
         heading: "What building your own involves",
         body: [
-          "A phone agent needs speech-to-text, a language model, text-to-speech, telephony, turn-taking, hosting, and somewhere for results to go. Vapi and Retell AI host the real-time pipeline and let you choose the providers. Pipecat (BSD-2 licence, maintained by Daily) and LiveKit Agents (Apache 2.0) are open-source frameworks; you run the servers yourself, or use Pipecat Cloud for Pipecat.",
+          "A phone agent needs speech-to-text, a language model, text-to-speech, telephony, turn-taking, hosting, and somewhere for results to go. Vapi and Retell AI host the real-time pipeline and let you choose the providers. Pipecat (BSD-2 licence, maintained by Daily) and LiveKit Agents (Apache 2.0) are open-source frameworks; you run the servers yourself, or use a hosted option such as Pipecat Cloud for Pipecat or LiveKit Cloud for LiveKit Agents.",
           "In every case your team still writes the prompts, connects your data, picks a carrier and decides what happens after each call.",
         ],
       },
@@ -861,7 +861,7 @@ export const COMPARISONS: Comparison[] = [
         heading: "The part that takes longest",
         body: [
           "A first working agent is quick on any of these tools. Pipecat's quickstart promises a first bot in five minutes, and Retell says you can go live in minutes. Making it hold up on real Indian phone lines is the long part: callers interrupt, say \"haan\" mid-sentence, go silent, or hand the phone to someone else.",
-          "Telleo's agents already handle barge-in on phone lines, never repeat a sentence, avoid parroting answers back, match Hindi verbs to the voice's gender and close politely if they cannot hear the caller twice. Every call also gets a health verdict, so problems like long silences or a failed transfer show up in plain words.",
+          "Telleo's agents already handle barge-in on phone lines, never repeat a sentence, avoid parroting answers back, match Hindi verbs to the voice's gender and close politely if they cannot hear the caller twice. Every AI call also gets a health verdict, so problems like long silences or a failed transfer show up in plain words.",
         ],
       },
     ],

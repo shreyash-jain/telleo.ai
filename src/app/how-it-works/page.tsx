@@ -11,7 +11,7 @@ const STAGES = [
   },
   {
     I: ShieldCheck, t: "2. Checks before dialling",
-    d: "Before a number is dialled, Telleo confirms there is balance on the account, the daily cap isn't reached, the lead wasn't just called, and (for automated calls) no rep already owns the lead.",
+    d: "Before a number is dialled, Telleo confirms there is balance on the account, the daily cap isn't reached, the lead wasn't just called, and (for workflow calls) no rep already owns the lead.",
     x: ["No balance, no dialling", "30-second duplicate protection", "Daily cap, 500 by default"],
   },
   {
@@ -52,10 +52,10 @@ const STAGES = [
 ];
 
 const FAQS = [
-  { q: "How long does it take the agent to reply?", a: "Speed was a design goal from day one: the whole voice pipeline runs in Mumbai to keep the round trip short, and slow replies are flagged. Every call's timings are measured and shown in its health panel, so you can check for yourself." },
+  { q: "How long does it take the agent to reply?", a: "Speed is a design goal: the live voice pipeline runs on servers in Mumbai, next to the Indian phone network, to keep the round trip short, and slow replies are flagged. Every call's timings are measured and shown in its health panel, so you can check for yourself." },
   { q: "What if the caller interrupts?", a: "The agent stops talking and listens. Short acknowledgements like “haan” or “okay” are treated as the caller following along, so the agent carries on instead of restarting." },
   { q: "What if the line is bad and it can't hear?", a: "It asks once in natural words. If it still can't hear, it closes politely rather than apologising in a loop, and the call is flagged in call health." },
-  { q: "What if the call reaches voicemail?", a: "A call where nobody really spoke is marked Incomplete, not Not interested, and goes back on your retry path." },
+  { q: "What if the call reaches voicemail?", a: "A call where nobody really spoke is marked Incomplete, not Not interested; workflow calls are retried, and a campaign can be re-run to call them again." },
   { q: "Does the analysis make things up?", a: "It is limited to your own outcome list and only records answers that were actually said. A meeting is only counted when a specific day and time were agreed on the call." },
 ];
 

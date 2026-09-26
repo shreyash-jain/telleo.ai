@@ -1,11 +1,11 @@
 # Telleo — full site text
 
-Generated 2026-09-25 from https://telleo.ai. Short summary: https://telleo.ai/llms.txt
+Generated 2026-09-26 from https://telleo.ai. Short summary: https://telleo.ai/llms.txt
 
 
 ---
 
-# Telleo: AI Voice Agents for Indian Businesses | Hindi, English, Hinglish
+# Telleo: AI Voice Agents in Hindi, English & Hinglish
 URL: https://telleo.ai/
 
 AI voice agents for Indian businesses
@@ -41,7 +41,7 @@ Outcome appears when the call ends.
 
 Illustrative calls with fictional businesses. Hindi lines shown with an English gloss.
 
-from form fill to first call~60 sfrom form fill to first call
+from lead arriving to first call~60 sfrom lead arriving to first call
 voices across 7 speech engines80+voices across 7 speech engines
 languages live: Hindi, English, Hinglish3languages live: Hindi, English, Hinglish
 per minute on the annual plan₹3.49per minute on the annual plan
@@ -61,8 +61,8 @@ Built for teams that live on the phone
 
 The problem
 
-## Leads go cold in hours. Most teams call back in days.
-A lead is most likely to talk to you in the first hour after they ask. By the time a busy team gets to them, they have filled three other forms, stopped picking up unknown numbers, or bought.
+## Leads go cold in hours. Many teams take a day or more to call back.
+A lead is most likely to talk to you in the first hour after they ask. By the time a busy team gets to them, they may have enquired elsewhere, stopped picking up unknown numbers, or bought.
 
 - Your callers can't dial every lead within the hour, at 9 pm, or on a Sunday.
 - Half the day goes on unanswered calls, voicemails and wrong numbers.
@@ -70,7 +70,7 @@ A lead is most likely to talk to you in the first hour after they ask. By the ti
 - Nobody has time to listen to calls, so nobody knows why leads are lost.
 
 7×
-more likely to qualify a lead when contacted within an hour, versus an hour later
+more likely to qualify a lead when firms tried to contact it within an hour, versus an hour later
 
 60×
 more likely than companies that waited 24 hours or longer
@@ -128,16 +128,16 @@ Counselling desk, 2 numbers
 Max call length
 6 minutes
 
-Script drafted from your brief · 3 suggestions from last week's calls
+Script drafted from your brief · 3 suggested fixes
 
 ### Your script, your outcomes, your rules.
-Every agent is built from the same few fields: what it says first, what it must find out, the outcomes it can choose, who it hands over to, and how long it may talk. Telleo drafts all of it from a short brief, scores the script against what works on real calls, and suggests fixes from last week's conversations.
+Every agent is built from the same few fields: what it says first, what it must find out, the outcomes it can choose, who it hands over to, and how long it may talk. Telleo drafts the script, opening line, questions and outcomes from a short brief, scores the script against a rubric built from real call failures, and revises it from your feedback and the agent's recent calls.
 Explore the agent builder How a call works
 
 The platform
 
 ## Not just a voice bot. The whole calling desk.
-Telleo is the agent, the phone lines, the CRM that acts on every outcome, and the quality team that checks every call.
+Telleo is the agent, the phone lines, the CRM that acts on every outcome, and the quality team that checks every AI call.
 
 ### AI voice agents
 Outbound and inbound calls that qualify, book and remind, with live transfer to your team when a lead is hot.
@@ -156,7 +156,7 @@ Summaries, objections, sentiment, talk ratio, coaching tips and rep scores for A
 Learn more
 
 ### Call health & QA
-Every call gets a green, amber or red verdict with the reason, so you find the bad call before a customer complains.
+Every AI call gets a green, amber or red verdict with the reason, so you find the bad call before a customer complains.
 Learn more
 
 ### Voices & languages
@@ -194,9 +194,9 @@ A female voice says “कर रही हूँ”, a male voice “कर र
 Telephone-band voice shaping and a faint room tone, so it sounds like a calling desk, not a studio recording.
 Sounds like a calling desk
 
-### It turns “kal shaam” into a time
-Relative times become an exact date and time on the lead, so nobody has to guess what “tomorrow evening” meant.
-कल शाम → Sat, 6:00 pm
+### It turns “kal shaam” into a booking
+When a caller agrees a day and time in their own words, the analysis resolves it to an exact date and time and books it on your booking page.
+कल शाम 6 बजे → Sat, 6:00 pm, booked
 
 ### It knows when to stop
 If it can't hear the caller twice, it closes politely instead of apologising in a loop. It won't hang up on someone who speaks after goodbye.
@@ -210,7 +210,7 @@ When the caller hangs up, Telleo reads the whole conversation and picks the outc
 - Hot leads assigned to a rep, or transferred live while the caller is still on the line.
 - Meetings booked on your booking page when a day and time were agreed.
 - WhatsApp and email sent only when the caller said yes, tracked for delivery and never sent twice.
-- Unanswered calls retried after a gap you set; “not interested” is never dialled again.
+- Unanswered workflow calls retried after a gap you set; a “not interested” stops that lead's retries.
 - A call where nobody really spoke is marked Incomplete, never Not interested.
 
 See automations
@@ -220,16 +220,16 @@ runs within a minute of hang-up
 - Hot_Lead / Interested Assign to a rep now
 - Meeting agreed Book it on your calendar
 - "Send me details" WhatsApp or email the template
-- "Call me kal shaam" Save the exact callback time
-- No answer Retry after a gap, up to N times
+- "Call me kal shaam" Flag the callback for your team
+- No answer Retry workflow calls after a gap
 - Not interested / wrong person
-- Stop. Never re-dial
+- Stop retries for this lead
 - Any outcome Fire a webhook to your systems
 
 See every call
 
 ## Know what happened on every call. Including your team's.
-Call intelligence analyses AI calls for free and your human calls for a small per-minute fee. Call health grades every AI call so problems surface on their own.
+Call intelligence analyses AI calls for free and your human calls for a small per-minute fee. Call health grades every AI call green, amber or red, so a bad call stands out in the call log.
 
 Call with Anjali Verma · 6m 12s
 Human call · rep: Karan · Hinglish
@@ -239,7 +239,7 @@ Two-line update
 Interested in the weekend batch; worried about fees. Next: send the instalment plan and call back Saturday.
 
 Objections
-Fees · partly handled
+Fees · not handled
 Travel time · handled
 
 Sentiment · talk ratio
@@ -275,20 +275,20 @@ Use cases
 ## Nine jobs Telleo does on the phone every day.
 
 All use cases
-Lead qualification Ask every lead your qualifying questions, rate it 1 to 10 and send the ready ones to a rep. Instant lead callback Call every new lead from ads and forms in about a minute, while they still remember filling the form. Appointment booking Agree a day and time on the call, book it on your booking page and send the confirmation on WhatsApp. Payment reminders Remind customers about fees, EMIs, premiums and renewals, and note when each one plans to pay. Lead reactivation Call through old enquiry lists, find who is still interested and send them back to your reps. Feedback surveys Ask customers how it went, get a score and the reason behind it, and send unhappy ones to a person. AI receptionist Answer inbound calls through your IVR, handle common questions, capture the enquiry and transfer when needed. Event confirmation Confirm who is coming to your webinar, demo class or open house, and remind them before it starts. Application follow-up Call applicants who stopped halfway, find what is blocking them and send the link to finish.
+Lead qualification Ask every lead your qualifying questions, rate it 1 to 10 and send the ready ones to a rep. Instant lead callback Call every new lead from ads and forms in about a minute, while they still remember filling the form. Appointment booking Agree a day and time on the call, book it on your booking page and send the confirmation on WhatsApp. Payment reminders Remind customers about fees, EMIs, premiums and renewals, and note when each one plans to pay. Lead reactivation Call through old enquiry lists, find who is still interested and send them back to your reps. Feedback surveys Ask customers how it went, get a score and the reason behind it, and send unhappy ones to a person. AI receptionist Answer inbound calls through the Telleo IVR, handle common questions, capture the enquiry and transfer when needed. Event confirmation Confirm who is coming to your webinar, demo class or open house, and remind them before it starts. Application follow-up Call applicants who stopped halfway, find what is blocking them and send the link to finish.
 
 Cost calculator
 
 ## What would it cost to call every lead?
-Move the sliders to match your business. Telleo is billed per minute of conversation; unanswered calls are retried, not charged.
+Move the sliders to match your business. Telleo is billed per minute of conversation; unanswered calls aren't charged, and workflow calls retry them automatically.
 
 -
 -
-- Every lead called in about a minute, day or night.
+- Every lead called in about a minute, inside the hours you set.
 - Your team spends its time on leads that said yes.
 - Follow-ups and retries happen without reminders.
 
-New leads per month 3,000 Share of calls answered 55% Your connect rate. Unanswered calls are retried and not billed. Minutes per answered call 2 min Billed per minute, rounded up. Your cost per telecaller per month ₹22,000 Salary plus overheads. Use your own number. Leads one telecaller can call per day 120 Assumes 25 working days a month.
+New leads per month 3,000 Share of calls answered 55% Your connect rate. Unanswered calls are not billed; workflow calls retry them automatically. Billed minutes per answered call 2 min Each call rounds up to the next whole minute, so a 1 min 10 s call counts as 2. Your cost per telecaller per month ₹22,000 Salary plus overheads. Use your own number. Leads one telecaller can call per day 120 Assumes 25 working days a month.
 Telleo on the annual plan
 ₹13,184/month
 3,300 minutes at ₹3.49/min + the ₹19,999 yearly fee spread over 12 months. About ₹4 per lead.
@@ -299,7 +299,7 @@ Telecallers to call every lead once
 
 First call after a lead arrives
 ~60 s
-nights and Sundays too
+inside your calling hours
 
 An estimate, not a quote. Excludes 18% GST, DLT registration and WhatsApp template fees. Keep your best people for the hot leads Telleo hands over; the saving is in the dialling, not the closing.
 
@@ -310,9 +310,9 @@ The usual answer is Telleo plus a smaller, sharper human team. Here is the hones
 
 | Telleo | Telecalling team | IVR / robocalls |
 
-First call after a lead arrives | About 60 seconds, any hour | When someone is free | Instant, but one-way |
+First call after a lead arrives | About 60 seconds, inside your calling hours | When someone is free | Instant, but one-way |
 Holds a real conversation | Yes, with interruptions | Yes | No, press 1 / press 2 |
-Hindi, English, Hinglish | All three, same agent | Depends on who you hire | Pre-recorded only |
+Hindi, English, Hinglish | All three, one language per agent | Depends on who you hire | Pre-recorded only |
 Captures answers into the CRM | Every call, automatically | If they remember to | Keypad inputs only |
 Books meetings and sends WhatsApp | On the call, automatically | Manually, later | No |
 Every call transcribed and analysed | Yes, with a health verdict | Rarely reviewed | No |
@@ -324,7 +324,7 @@ Telleo vs telecallers Telleo vs IVR Telleo vs Ringg AI Telleo vs Vomyra Telleo v
 Fits how you work
 
 ## Leads in from anywhere. Outcomes out to anywhere.
-Telleo brings its own phone lines and CRM, so you can start on day one without an IT project. If you already run other systems, connect them by webhook or file.
+Telleo brings its own phone lines and CRM, so you can start without an IT project. If you already run other systems, connect them by webhook or file.
 
 No native Salesforce, HubSpot or Zoho app yet. Anything that can send or receive a webhook works.
 
@@ -371,8 +371,8 @@ Safe to switch on
 ### Can't run away
 Daily call caps, duplicate protection, a maximum call length per agent, and no dialling without balance.
 
-### Transcripts by permission
-Full transcripts are visible only to roles you allow to see caller details.
+### Admin-only diagnostics
+Health verdicts and technical diagnostics are for your admins, and you choose which roles see full phone numbers.
 
 ### DLT done with you
 We complete DLT registration with you and you choose the hours campaigns run. ₹5,900 a year at actuals.
@@ -419,9 +419,8 @@ Flat from the first minute · no monthly minimum
 
 - Everything in Pro
 - Full CRM with pipelines and workflows
-- Automations after every call
 - Pure pay-per-use calling
-- Best per-minute rate on any plan
+- Our best published per-minute rate
 Talk to sales
 Enterprise
 High-volume or multi-team calling on a dedicated line.
@@ -432,7 +431,6 @@ For large or multi-team calling
 - Everything in Annual
 - Dedicated AI calling line and caller ID
 - Volume per-minute pricing
-- Regional languages set up with you
 - Agents built with our team
 Contact us
 
@@ -441,7 +439,8 @@ Prefer monthly with the CRM? Pro + CRM, monthly: ₹8,999/month (₹6,999 voice 
 - • All prices exclude 18% GST.
 - • DLT / PE registration, required for commercial calling in India, is ₹5,900 a year, charged at actuals.
 - • Calls are billed per minute of conversation, rounded up to the next minute.
-- • Beyond 1,750 minutes in a month, every minute is ₹3.49 on monthly plans.
+- • Rates are for our standard voices. A few premium voice engines are priced differently; we confirm the rate before you pick one.
+- • On monthly plans, minutes beyond 1,750 in a month are billed at ₹3.49.
 - • AI call analysis is included on AI calls. Analysis of your team's human calls is billed per minute of recording.
 
 Full pricing, examples and FAQ
@@ -453,7 +452,7 @@ FAQ
 More in the full FAQ .
 From the blog
 
-- What Is an AI Voice Agent? A Plain Guide for Indian Businesses
+- What Is an AI Voice Agent? A Plain Guide for Indian Teams
 - How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
 - Speed to Lead: Why Calling New Leads in 60 Seconds Wins
 - How to Write an AI Calling Agent Script (With Templates)
@@ -478,13 +477,13 @@ How is Telleo priced? +
 Per minute of conversation: ₹3.99 a minute on monthly plans from ₹3,499 a month, or ₹3.49 a minute with no minimum on the ₹19,999-a-year annual plan. Telephony, recordings and analysis of AI calls are included. Prices exclude GST; DLT registration is charged at actuals.
 
 Does it work with our CRM? +
-Telleo comes with its own CRM, so outcomes, owners and follow-ups land in one place. If you run another system, leads can come in by webhook or CSV and outcomes can go out by webhook.
+Telleo has its own CRM (included on the Annual plan, or ₹2,000 a month on Pro + CRM), so outcomes, owners and follow-ups land in one place. If you run another system, leads can come in by webhook or CSV and outcomes can go out by webhook.
 
 Is AI calling allowed in India? +
-Yes, within TRAI's rules. Commercial calling needs DLT registration, which we complete with you. Since TRAI's September 2026 amendment, AI voice calls count as application-to-person (A2P) calls that must be declared to the telecom operator, and an enquiry supports commercial calls for seven days; after that you need explicit consent. Read our TRAI and DLT guide and confirm your case with counsel.
+Yes, within TRAI's rules. Commercial calling needs DLT registration, which we complete with you. Under TRAI's September 2026 amendment, once it comes into force (30 to 60 days after Gazette publication), AI voice calls count as application-to-person (A2P) calls that must be declared to the telecom operator, and an enquiry supports commercial calls for seven days; after that you need explicit consent. Read our TRAI and DLT guide and confirm your case with counsel.
 
 What will the agent not do? +
-It won't negotiate complex deals, take card payments on the call, or give medical, legal or financial advice. Script it to hand those moments to your team. It can send a payment link on WhatsApp if the caller agrees.
+It isn't built to negotiate complex deals or take card payments on the call, and your script should keep it from giving medical, legal or financial advice. Script it to hand those moments to your team. It can send a payment link on WhatsApp if the caller agrees.
 
 Book a demo
 
@@ -550,10 +549,10 @@ runs within a minute of hang-up
 - Hot_Lead / Interested Assign to a rep now
 - Meeting agreed Book it on your calendar
 - "Send me details" WhatsApp or email the template
-- "Call me kal shaam" Save the exact callback time
-- No answer Retry after a gap, up to N times
+- "Call me kal shaam" Flag the callback for your team
+- No answer Retry workflow calls after a gap
 - Not interested / wrong person
-- Stop. Never re-dial
+- Stop retries for this lead
 - Any outcome Fire a webhook to your systems
 
 Inbound
@@ -582,10 +581,10 @@ The agent qualifies. Your team closes. Every agent has handoff numbers and rules
 - Live transfer while the caller is still on the line, after a short bridge line.
 - Or assign the hot lead to a rep the moment the call ends, with the summary and answers attached.
 - Meetings the caller agreed to are booked on your booking page automatically.
-- The exact callback time the caller asked for is saved on the lead for your team.
+- Callback requests are flagged on the call, with the caller's own words in the transcript.
 
 Transferring to Counselling desk
-Hot lead · score 9/10 · asked about fees and batch timing
+Live transfer · a short bridge line, then your desk picks up
 
 Name
 Rahul Sharma
@@ -603,7 +602,7 @@ Asked for instalments
 
 Guardrails
 
-## Safe to leave running overnight.
+## Safe to leave running unattended.
 An AI that calls your customers needs limits it can't talk its way past. These are built into every account.
 
 - No balance, no dialling
@@ -617,7 +616,7 @@ A lead can't be dialled twice by accident in the same 30 seconds.
 
 -
 - Skips assigned leads
-Automated calls leave alone leads that a rep already owns.
+Workflow calls leave alone leads that a rep already owns.
 
 Maximum call length
 6 minutes by default per agent, so a runaway call can't run up minutes.
@@ -629,7 +628,7 @@ If the line goes quiet, it nudges twice, then ends the call politely.
 A call where nobody really spoke is marked Incomplete, never Not interested.
 
 Stops on no
-Not interested or wrong person? Your rules stop further calls to that lead.
+Not interested or wrong person? Your rules stop automated retries to that lead.
 
 How it sounds
 Everyday phone Hindi, Indian English and Hinglish. 80+ voices, correct grammar and honorifics.
@@ -645,7 +644,7 @@ How quickly does Telleo call a new lead? +
 When a workflow starts the call as the lead arrives, the first call typically goes out in about a minute. Bulk campaigns work through a list at the pace your daily cap allows.
 
 Can the agent answer our incoming calls? +
-Yes. An option in the Telleo IVR can hand callers to an AI agent, which answers questions from its script, captures the enquiry and transfers to a person when needed. Connecting your existing business number is worked out during setup.
+Yes. An option in the Telleo IVR can hand callers to an AI agent, which answers questions from its script, captures the enquiry and transfers to a person when needed. It works through an IVR on a Telleo number; it does not plug into an IVR you run with another provider.
 
 How does live transfer work? +
 Each agent has handoff numbers. When the caller asks for a person or your script says a lead is hot, the agent says a short bridge line and the call is connected to your team, while the caller is still on the line.
@@ -661,7 +660,7 @@ Yes. Your team can keep calling on Exotel or Airtel IQ, or use Telleo's click-to
 
 ## From the blog
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Businesses
+What Is an AI Voice Agent? A Plain Guide for Indian Teams
 Playbooks
 Speed to Lead: Why Calling New Leads in 60 Seconds Wins
 Playbooks
@@ -707,7 +706,7 @@ Counselling desk, 2 numbers
 Max call length
 6 minutes
 
-Script drafted from your brief · 3 suggestions from last week's calls
+Script drafted from your brief · 3 suggested fixes
 
 Eight fields
 
@@ -719,7 +718,7 @@ Persona and script
 Who the agent is, what it may and may not say, the facts it can use (fees, timings, locations) and how to handle objections.
 
 Questions to answer
-What every call must find out: budget, timeline, class, location. The answers land on the lead as fields.
+What every call must find out: budget, timeline, class, location. The answers are saved with the call, filed against your questions, and can feed your workflows.
 
 Outcomes
 Your own closed list: Demo_Booked, Callback, Not_Interested, Hot_Lead. The agent picks one after every call.
@@ -757,26 +756,26 @@ Script review
 Templates
 
 ## Start from a playbook, not a blank page.
-A gallery of ready agents answers a few questions about your business and builds the rest: admissions and enquiry calls, fee and payment reminders, re-engagement of old leads, parent and customer updates, and more.
+Pick a ready agent from the gallery, answer a few questions about your business, and it builds the rest: admissions calls, fee reminders, re-engagement, parent updates and more.
 Templates are education-first today, because that's where Telleo started. The builder works the same for any industry; our team helps you set up the first agent.
 
-Admissions enquiry
-Hinglish · 4 questions · 5 outcomes
+Admissions counsellor
+Answer a few questions to build it
 
 Fee reminder
-Hinglish · 4 questions · 5 outcomes
+Answer a few questions to build it
 
-Re-engage old leads
-Hinglish · 4 questions · 5 outcomes
+Re-engagement
+Answer a few questions to build it
 
 Parent update
-Hinglish · 4 questions · 5 outcomes
+Answer a few questions to build it
 
-Demo booking
-Hinglish · 4 questions · 5 outcomes
+Doubt solver
+Answer a few questions to build it
 
-Feedback call
-Hinglish · 4 questions · 5 outcomes
+Study mentor
+Answer a few questions to build it
 
 Rules on top of your script
 
@@ -786,7 +785,7 @@ Your script says what to talk about. Telleo adds the rules that keep a phone cal
 - Answer the caller's question before going back to the script.
 - One question per turn, then stop and listen.
 - If the caller sounds frustrated, drop the script and deal with it.
-- Stay in the caller's language; don't switch without a reason.
+- Stay in the agent's language; switch only if the caller asks or keeps speaking another language.
 - No bullet points or lists read aloud; numbers spoken as words.
 - A phone number or booked time is read back once to confirm. Nothing else is echoed.
 - Never address someone by a word that isn't a name.
@@ -806,7 +805,7 @@ Can we have different agents for different jobs? +
 Yes. Most teams run several: one for new-lead qualification, one for reminders, one for inbound. Each has its own script, voice, outcomes and handover rules.
 
 Can the script include our prices and policies? +
-Yes, and it should. The agent only states facts that are in its script, so put in exactly what it may say about fees, offers and timings, and tell it to transfer anything else.
+Yes, and it should. The agent is told not to invent facts and to say so when it doesn't have one, so put in exactly what it may say about fees, offers and timings, and tell it to transfer anything else.
 
 What stops the agent from rambling? +
 Every agent follows built-in rules on top of your script: one question at a time, answer the caller's question first, stop the script when the caller is frustrated, and never read lists aloud.
@@ -843,10 +842,10 @@ runs within a minute of hang-up
 - Hot_Lead / Interested Assign to a rep now
 - Meeting agreed Book it on your calendar
 - "Send me details" WhatsApp or email the template
-- "Call me kal shaam" Save the exact callback time
-- No answer Retry after a gap, up to N times
+- "Call me kal shaam" Flag the callback for your team
+- No answer Retry workflow calls after a gap
 - Not interested / wrong person
-- Stop. Never re-dial
+- Stop retries for this lead
 - Any outcome Fire a webhook to your systems
 
 End-of-call analysis
@@ -858,18 +857,18 @@ Outcome | Picked from your own list, e.g. Demo_Booked |
 Summary | Two or three sentences a rep can read in five seconds |
 Lead score | 1 to 10, how warm the lead sounded |
 Answers | Only what the caller actually said, filed against your questions |
-Callback | Requested? “kal shaam” saved as an exact date and time |
+Callback | Flagged when the caller asks to be called later; their words stay in the transcript |
 Meeting | Only counted when a specific day and time were agreed |
 
 Outcome rules
 
 ## Assign, retry or stop. Decided by you, once.
 
-- Assign to a rep on the outcomes you pick, round-robin or to a named owner.
-- Retry unanswered calls after a gap, up to the number of attempts you set.
-- Stop on not interested or wrong person, so nobody is called again.
+- Assign to a rep on the outcomes you pick, round-robin across your team.
+- Retry unanswered workflow calls after a gap, up to the number of attempts you set.
+- Stop on not interested or wrong person, so automated retries end there.
 - When retries run out, hand the lead to a person or close it: your choice.
-- The lead's status is updated: AI qualified, not interested, no answer or retry pending.
+- If you add the matching lead statuses, the lead is marked AI qualified, not interested, no answer or retry pending.
 
 Assign
 Hot_Lead, Demo_Booked → rep
@@ -881,7 +880,7 @@ Stamp
 Lead status: AI qualified
 
 Stop
-Not_Interested → never re-dial
+Not_Interested → stop retries
 
 Promises kept
 
@@ -894,7 +893,7 @@ Mid-call send Telleo agent · transcript
 
 - Caller हाँ, भेज दीजिए।Yes, send it.
 
-- AI agent भेज दिया है। Brochure में fees और batch timings दोनों हैं। कोई और सवाल है?Sent. It has both fees and batch timings. Any other question?
+- AI agent भेज रही हूँ। Brochure में fees और batch timings दोनों हैं। कोई और सवाल है?Sending it now. It has both fees and batch timings. Any other question?
 
 Meetings
 
@@ -936,10 +935,10 @@ Will it send a WhatsApp the caller didn't agree to? +
 No. The agent only sends what it offered and the caller accepted on the call, using WhatsApp templates you have had approved. Each send is tracked for delivery and never sent twice.
 
 Does it call back at the time the caller asked for? +
-It saves the requested time as an exact date and time on the lead, so your team or your retry rules can act on it. Unanswered calls are retried after the gap you set.
+Not automatically. The call is marked as a callback request, with what the caller said in the transcript, so your team can follow up, or you can assign Callback outcomes to a rep. Calls started by a workflow are retried after the gap you set.
 
 What if the caller never really spoke? +
-Then the call is marked Incomplete, not Not interested, and goes back on your retry path. Voicemails and silent pickups never close a lead by mistake.
+Then the call is marked Incomplete, not Not interested. Workflow calls are retried after your gap; a campaign doesn't re-dial, so re-run it over those leads. Voicemails and silent pickups never close a lead by mistake.
 
 Can outcomes go to our other systems? +
 Yes. Workflows can call any URL with an HTTP request or webhook, so outcomes can reach your own CRM, sheet or ERP. There are no native Salesforce, HubSpot or Zoho apps yet.
@@ -953,7 +952,7 @@ Speed to Lead: Why Calling New Leads in 60 Seconds Wins
 Compliance
 TRAI and DLT Rules for AI Calling in India: A 2026 Guide
 Guides
-AI Calling Vendor Checklist: 20 Questions to Ask Before You Buy
+AI Calling Vendor Checklist: 20 Questions Before You Buy
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -983,7 +982,7 @@ Two-line update
 Interested in the weekend batch; worried about fees. Next: send the instalment plan and call back Saturday.
 
 Objections
-Fees · partly handled
+Fees · not handled
 Travel time · handled
 
 Sentiment · talk ratio
@@ -1013,7 +1012,7 @@ Objections
 Every objection raised, whether it was handled, and how.
 
 Sentiment
-For the lead and the caller, and whether it improved, stayed flat or declined.
+For the lead and the rep, and whether it improved, stayed flat or declined.
 
 Two scores
 How well the rep advanced the goal, and how the call landed for the lead, with conversion likelihood.
@@ -1069,7 +1068,7 @@ Minimum call length for analysis: 20 seconds · connected calls only
 
 ## Frequently asked questions
 What does call intelligence cost? +
-It is included on every AI call at no extra charge. For your team's human calls it is billed per minute of recording analysed, and only when the analysis succeeds.
+It is included at no extra charge on AI calls that are recorded and at least 20 seconds long. For your team's human calls it is billed per minute of recording analysed, and only when the analysis succeeds.
 
 Which calls can it analyse? +
 Telleo AI calls, your team's click-to-call calls on Telleo, Exotel or Airtel IQ, and recordings of calls made anywhere else, which you can upload against the lead.
@@ -1081,7 +1080,7 @@ Can we change what reps are scored on? +
 Yes. The default rubric is rapport, needs discovery, objection handling and next step secured. You can change the qualities and add a hint about what your calls are meant to achieve.
 
 Who can see the analysis? +
-Reps see their own calls. A sales head sees their reporting line in the team view. Full transcripts are limited to roles with permission to see caller details.
+In the team view, a sales head sees only their own reporting line. Per-call analysis and transcripts are not restricted per role, so give call-log access only to people who should read calls.
 
 Does it identify who is speaking? +
 It infers the rep and the lead from what is said; there is no separate voice-based speaker separation yet. For two-person sales calls this is usually clear.
@@ -1090,7 +1089,7 @@ It infers the rep and the lead from what is said; there is no separate voice-bas
 Pricing
 How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
 Guides
-AI Calling Vendor Checklist: 20 Questions to Ask Before You Buy
+AI Calling Vendor Checklist: 20 Questions Before You Buy
 Voice AI
 How to Measure AI Call Quality: Metrics That Actually Matter
 
@@ -1110,8 +1109,8 @@ URL: https://telleo.ai/call-quality-monitoring/
 
 Call health & QA
 
-# Every AI call gets a health check. Bad calls find you.
-Most teams learn about a bad AI call from an angry customer. Telleo grades every call green, amber or red with a plain reason, so you can open the three calls that matter instead of listening to three hundred.
+# Every AI call gets a health check. Bad calls stand out.
+Too often, a team learns about a bad AI call from an angry customer. Telleo grades every AI call green, amber or red with a plain reason, so you can open the three calls that matter instead of listening to three hundred.
 Book a demo Talk to our AI: +91 80353 74489
 
 Call log · today
@@ -1143,7 +1142,7 @@ Caller answers were discarded
 Something the caller said never reached the conversation. The exact words are shown.
 
 The agent kept restarting a reply
-Three near-identical replies in a row: usually a script or interruption problem.
+Two near-identical replies in a row (three turns it red): usually a script or interruption problem.
 
 Probably an answering machine
 An estimate only. It never changes the outcome on its own.
@@ -1159,30 +1158,30 @@ When a caller's answer is lost, you see the exact words, not just a count. When 
 
 Call health · Vikram Rao · 3:05
 Verdict Long silence
-Worst gap4.1 s · waiting for caller
+Worst gap4.1 s · after the caller's turn
 Interruptions handled3
 Answers discarded0
 Repeated replies0
-Voicemail scorenot measured
+Speech-to-text delaynot measured
 
 The call log
 
 ## Search, listen, export.
 
-- A health dot on every row, with the headline on hover.
+- A health dot on every AI call, with the headline on hover.
 - Transcript, recording (when switched on) and timings on every call.
 - Live status while a call is in progress.
-- Search, filter and export by outcome, agent and date.
-- Full transcripts only for roles allowed to see caller details.
+- Search, filter and export by outcome, date, team, counsellor and call type.
+- Full phone numbers only for roles allowed to see them; diagnostics for admins.
 
 Search & filter
-By outcome, agent, date
+By outcome, counsellor, date
 
 Live status
 Watch calls as they happen
 
 Role-based access
-Transcripts by permission
+Numbers and diagnostics by role
 
 Export
 Take calls into your QA
@@ -1190,8 +1189,8 @@ Take calls into your QA
 ## A 20-minute weekly QA routine.
 What we recommend to every team running AI calls. It catches script problems early and keeps the agent sounding like you.
 
-- 1 Filter to red and amber
-Open the week's red calls first, then a sample of amber ones. Read the headline before you listen.
+- 1 Scan for red and amber
+Scan the call log's health dots and open the week's red calls first, then a sample of amber ones. Read the headline before you listen.
 
 - 2 Read three healthy calls too
 Pick three green calls at random. A healthy call can still have a weak script.
@@ -1213,10 +1212,10 @@ Can we hear the call? +
 With recording switched on for your line, yes: play the recording next to the transcript and the timings. Every AI call has a full transcript either way.
 
 Who can see transcripts? +
-Anyone with dashboard access sees the health verdict. The full transcript and diagnostics are limited to roles with permission to see caller details.
+Health verdicts and technical diagnostics are shown to your account admins. Anyone with access to the call log can open transcripts; they are not restricted per role. Health verdicts and technical diagnostics are shown only to your account admins, and on the call log you choose which roles see full phone numbers., and on the call log you choose which roles see full phone numbers.
 
 Can we export calls for our own QA? +
-Yes. Search and filter the call log by outcome, agent, date and more, and export the results.
+Yes. Search and filter the call log by outcome, date, team, counsellor and more, and export the results.
 
 ## From the blog
 Voice AI
@@ -1315,10 +1314,13 @@ The default for new agents. Natural Hindi voices, picked by ear.
 Indian-built voices with the widest Hindi palette.
 
 - Smallest Lightning
-Standard and Pro voice sets for Hindi and English.
+Standard voice set for Hindi and English.
+
+- Smallest Lightning Pro
+Pro voice set for Hindi and English.
 
 - Rumik
-The lowest-cost option for simpler scripts.
+Preset male and female voices; audition on your script before choosing.
 
 - Microsoft Edge voices
 A handful of Hindi and Indian-English voices.
@@ -1330,7 +1332,7 @@ Also per agent: speaking pace and a modulation level (Off, Subtle, Conversationa
 
 ## Frequently asked questions
 How many voices are there? +
-More than 80, male and female, across seven speech engines. You can audition any of them before you choose, and the preview plays exactly the voice and settings the caller will hear.
+More than 80, male and female, across seven speech engines. You can audition any of them before you choose, and the preview uses the same engine, voice and pace the call will use (the phone-line shaping is added on the live call).
 
 Can the agent switch languages mid-call? +
 Callers often mix Hindi and English, and a Hinglish agent handles that naturally. Each agent has a main language; it stays in it rather than drifting, which keeps calls consistent.
@@ -1349,7 +1351,7 @@ The voice engines support Tamil, Telugu, Marathi, Bengali, Gujarati, Kannada, Ma
 
 ## From the blog
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Businesses
+What Is an AI Voice Agent? A Plain Guide for Indian Teams
 Playbooks
 How to Write an AI Calling Agent Script (With Templates)
 Voice AI
@@ -1386,7 +1388,7 @@ A new lead arrives from an ad or form, a workflow reaches its call step, a campa
 -
 
 ## 2. Checks before dialling
-Before a number is dialled, Telleo confirms there is balance on the account, the daily cap isn't reached, the lead wasn't just called, and (for automated calls) no rep already owns the lead.
+Before a number is dialled, Telleo confirms there is balance on the account, the daily cap isn't reached, the lead wasn't just called, and (for workflow calls) no rep already owns the lead.
 
 - No balance, no dialling
 - 30-second duplicate protection
@@ -1450,7 +1452,7 @@ Your rules run: assign, book, send, retry or stop. The minutes are billed, the c
 
 ## Frequently asked questions
 How long does it take the agent to reply? +
-Speed was a design goal from day one: the whole voice pipeline runs in Mumbai to keep the round trip short, and slow replies are flagged. Every call's timings are measured and shown in its health panel, so you can check for yourself.
+Speed is a design goal: the live voice pipeline runs on servers in Mumbai, next to the Indian phone network, to keep the round trip short, and slow replies are flagged. Every call's timings are measured and shown in its health panel, so you can check for yourself.
 
 What if the caller interrupts? +
 The agent stops talking and listens. Short acknowledgements like “haan” or “okay” are treated as the caller following along, so the agent carries on instead of restarting.
@@ -1459,14 +1461,14 @@ What if the line is bad and it can't hear? +
 It asks once in natural words. If it still can't hear, it closes politely rather than apologising in a loop, and the call is flagged in call health.
 
 What if the call reaches voicemail? +
-A call where nobody really spoke is marked Incomplete, not Not interested, and goes back on your retry path.
+A call where nobody really spoke is marked Incomplete, not Not interested; workflow calls are retried, and a campaign can be re-run to call them again.
 
 Does the analysis make things up? +
 It is limited to your own outcome list and only records answers that were actually said. A meeting is only counted when a specific day and time were agreed on the call.
 
 ## From the blog
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Businesses
+What Is an AI Voice Agent? A Plain Guide for Indian Teams
 Playbooks
 Speed to Lead: Why Calling New Leads in 60 Seconds Wins
 Voice AI
@@ -1488,7 +1490,7 @@ URL: https://telleo.ai/pricing/
 
 Pricing
 
-# Pay for the minutes your agents talk. Nothing else to add up.
+# Pay for the minutes your agents talk. The few extras are listed below.
 Telephony, speech, voices, transcripts and analysis of AI calls are all in the per-minute rate. From ₹3.99 a minute on monthly plans, or ₹3.49 a minute with no minimum on the annual plan.
 Book a demo Talk to our AI: +91 80353 74489
 
@@ -1524,9 +1526,8 @@ Flat from the first minute · no monthly minimum
 
 - Everything in Pro
 - Full CRM with pipelines and workflows
-- Automations after every call
 - Pure pay-per-use calling
-- Best per-minute rate on any plan
+- Our best published per-minute rate
 Talk to sales
 Enterprise
 High-volume or multi-team calling on a dedicated line.
@@ -1537,7 +1538,6 @@ For large or multi-team calling
 - Everything in Annual
 - Dedicated AI calling line and caller ID
 - Volume per-minute pricing
-- Regional languages set up with you
 - Agents built with our team
 Contact us
 
@@ -1546,7 +1546,8 @@ Prefer monthly with the CRM? Pro + CRM, monthly: ₹8,999/month (₹6,999 voice 
 - • All prices exclude 18% GST.
 - • DLT / PE registration, required for commercial calling in India, is ₹5,900 a year, charged at actuals.
 - • Calls are billed per minute of conversation, rounded up to the next minute.
-- • Beyond 1,750 minutes in a month, every minute is ₹3.49 on monthly plans.
+- • Rates are for our standard voices. A few premium voice engines are priced differently; we confirm the rate before you pick one.
+- • On monthly plans, minutes beyond 1,750 in a month are billed at ₹3.49.
 - • AI call analysis is included on AI calls. Analysis of your team's human calls is billed per minute of recording.
 
 Worked examples
@@ -1576,7 +1577,7 @@ Annual saves about ₹63,500 a year because quiet months cost nothing in minutes
 What's in the rate
 
 ## Included, and what isn't.
-No hidden speech, language-model or telephony line items. The few things billed separately are listed here.
+Speech, language model and telephony are part of the per-minute rate, not separate line items. The main things billed separately are listed here.
 
 - Telephony (calls on Telleo's lines) Included in the per-minute rate
 - AI agents: speech, language model, voices Included in the per-minute rate
@@ -1590,7 +1591,7 @@ No hidden speech, language-model or telephony line items. The few things billed 
 
 ## Estimate your own month.
 Your numbers, the annual rate, and how many telecallers the same coverage would take.
-New leads per month 3,000 Share of calls answered 55% Your connect rate. Unanswered calls are retried and not billed. Minutes per answered call 2 min Billed per minute, rounded up. Your cost per telecaller per month ₹22,000 Salary plus overheads. Use your own number. Leads one telecaller can call per day 120 Assumes 25 working days a month.
+New leads per month 3,000 Share of calls answered 55% Your connect rate. Unanswered calls are not billed; workflow calls retry them automatically. Billed minutes per answered call 2 min Each call rounds up to the next whole minute, so a 1 min 10 s call counts as 2. Your cost per telecaller per month ₹22,000 Salary plus overheads. Use your own number. Leads one telecaller can call per day 120 Assumes 25 working days a month.
 Telleo on the annual plan
 ₹13,184/month
 3,300 minutes at ₹3.49/min + the ₹19,999 yearly fee spread over 12 months. About ₹4 per lead.
@@ -1601,13 +1602,13 @@ Telecallers to call every lead once
 
 First call after a lead arrives
 ~60 s
-nights and Sundays too
+inside your calling hours
 
 An estimate, not a quote. Excludes 18% GST, DLT registration and WhatsApp template fees. Keep your best people for the hot leads Telleo hands over; the saving is in the dialling, not the closing.
 
 ## Pricing questions
 How are minutes counted? +
-Per minute of connected conversation, rounded up to the next minute. Calls that aren't answered don't use minutes; they go back on your retry path.
+Per minute of connected conversation, rounded up to the next minute. Calls that aren't answered don't use minutes. Workflow calls are retried after your gap; re-run a campaign to call its unanswered leads again.
 
 What does the Starter minimum mean? +
 Starter bills at least ₹3,499 a month, which covers about 875 minutes at ₹3.99. Use more and you pay for what you use; use less and the minimum applies. It's meant as an entry plan for up to three months.
@@ -1633,7 +1634,7 @@ How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
 Compliance
 TRAI and DLT Rules for AI Calling in India: A 2026 Guide
 Guides
-AI Calling Vendor Checklist: 20 Questions to Ask Before You Buy
+AI Calling Vendor Checklist: 20 Questions Before You Buy
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -1652,7 +1653,7 @@ URL: https://telleo.ai/use-cases/
 Use cases
 
 # Nine calls your team shouldn't be making by hand.
-Each of these is a repeatable phone job with a clear goal, a few questions and a next step. That is exactly where an AI voice agent is faster, more consistent and cheaper than a person, while your team keeps the conversations that need judgment.
+Each of these is a repeatable phone job with a clear goal, a few questions and a next step. That is where an AI voice agent can be faster, more consistent and cheaper than calling by hand, while your team keeps the conversations that need judgment.
 Book a demo Talk to our AI: +91 80353 74489
 
 ## Lead qualification
@@ -1704,7 +1705,7 @@ Ask customers how it went, get a score and the reason behind it, and send unhapp
 See the playbook
 
 ## AI receptionist
-Answer inbound calls through your IVR, handle common questions, capture the enquiry and transfer when needed.
+Answer inbound calls through the Telleo IVR, handle common questions, capture the enquiry and transfer when needed.
 
 - Caller's name
 - What they called about
@@ -1729,7 +1730,7 @@ See the playbook
 
 ## From the blog
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Businesses
+What Is an AI Voice Agent? A Plain Guide for Indian Teams
 Playbooks
 Speed to Lead: Why Calling New Leads in 60 Seconds Wins
 Playbooks
@@ -1752,7 +1753,7 @@ URL: https://telleo.ai/industries/
 Industries
 
 # AI calling agents for the way your industry sells.
-Telleo started in admissions calling for education institutes, where parents switch languages, interrupt and ask about fees. The same agent now qualifies buyers, books visits, reminds borrowers and screens candidates across Indian businesses.
+Telleo started in admissions calling for education institutes, where parents switch languages, interrupt and ask about fees. The same agent can be set up to qualify buyers, book visits, remind borrowers and screen candidates for other Indian businesses.
 Book a demo Talk to our AI: +91 80353 74489
 
 ## Education
@@ -1766,13 +1767,13 @@ Explore education
 ## Real estate
 Call property leads fast, qualify budget and location, and book site visits.
 
-- Call ad and website leads within a minute
+- Call ad and website leads in about a minute
 - Qualify budget, location and timeline
 - Book site visits
 Explore real estate
 
 ## Healthcare
-Appointment booking, reminders, report-ready and follow-up calls. Scheduling only, no medical advice.
+Appointment booking, reminders, report-ready and follow-up calls. Appointment booking, reminders, report-ready and follow-up calls, scripted to pass medical questions to staff.
 
 - Book appointments from enquiries
 - Reminder calls before the visit
@@ -1782,7 +1783,7 @@ Explore healthcare
 ## Lending
 Qualify loan leads, follow up on unfinished applications and make courteous EMI reminders.
 
-- Call new loan leads within a minute
+- Call new loan leads in about a minute
 - Qualify loan enquiries
 - Nudge unfinished applications and KYC
 Explore lending
@@ -1790,7 +1791,7 @@ Explore lending
 ## Insurance
 Qualify leads, remind before renewals and chase pending documents. Advice stays with your team.
 
-- Call new leads within a minute
+- Call new leads in about a minute
 - Qualify interest
 - Renewal reminders
 Explore insurance
@@ -1822,7 +1823,7 @@ Explore travel & hospitality
 ## Recruitment
 Candidate screening calls, interview scheduling and joining confirmations.
 
-- Call new applicants within a minute
+- Call new applicants in about a minute
 - Screening calls
 - Interview scheduling
 Explore recruitment
@@ -1848,11 +1849,11 @@ Every comparison lists the cases where the other option is the better choice. Th
 Book a demo Talk to our AI: +91 80353 74489
 
 ## Telleo vs an in-house telecalling team
-Use Telleo for the first call to every new lead, reminders, retries and routine qualification, where speed and consistency matter most. Keep your telecallers for negotiation, complex questions and relationships, and let Telleo hand them qualified leads with a call summary. Most teams do best with both working together.
+Use Telleo for the first call to every new lead, reminders, retries and routine qualification, where speed and consistency matter most. Keep your telecallers for negotiation, complex questions and relationships, and let Telleo hand them qualified leads with a call summary. Many teams will want both, working together.
 Read the comparison
 
 ## Telleo vs IVR menus and pre-recorded calls
-If the message is the same for everyone and needs no reply, such as an alert or simple call routing, an IVR or recorded broadcast is the simpler tool. If you need something back, like interest, a preferred time or a booking, Telleo fits better because it understands spoken replies and turns them into CRM actions. The two also work together: an IVR option can hand the caller to a Telleo agent.
+If the message is the same for everyone and needs no reply, such as an alert or simple call routing, an IVR or recorded broadcast is the simpler tool. If you need something back, like interest, a preferred time or a booking, Telleo fits better because it understands spoken replies and turns them into CRM actions. On inbound, an IVR menu option on a Telleo number can hand the caller to a Telleo agent.
 Read the comparison
 
 ## Telleo vs Ringg AI
@@ -1873,7 +1874,7 @@ How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
 Voice AI
 Hinglish Voice AI: The Hardest Test and How to Judge It
 Guides
-AI Calling Vendor Checklist: 20 Questions to Ask Before You Buy
+AI Calling Vendor Checklist: 20 Questions Before You Buy
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -1897,7 +1898,7 @@ Book a demo Talk to our AI: +91 80353 74489
 
 Guides
 
-## What Is an AI Voice Agent? A Plain Guide for Indian Businesses
+## What Is an AI Voice Agent? A Plain Guide for Indian Teams
 An AI voice agent holds a real phone conversation. How it hears, thinks and speaks, what it can and can't do, and how to pilot one in an Indian business.
 Read the guide
 
@@ -1909,7 +1910,7 @@ AI calling in India is sold per minute, with platform fees, or as 'unlimited' bu
 Playbooks
 
 ## Speed to Lead: Why Calling New Leads in 60 Seconds Wins
-Firms that tried to reach web leads within an hour were nearly 7x as likely to qualify them (HBR). What the research says, plus a 60-second callback playbook.
+Firms that tried to reach web leads within an hour were nearly 7x as likely to qualify them as those trying an hour later (HBR). Plus a callback playbook.
 8 min read
 Playbooks
 
@@ -1928,7 +1929,7 @@ Why Hinglish breaks voice AI: code-switching, Devanagari vs romanised text, gend
 9 min read
 Guides
 
-## AI Calling Vendor Checklist: 20 Questions to Ask Before You Buy
+## AI Calling Vendor Checklist: 20 Questions Before You Buy
 20 questions to ask an AI calling vendor before you buy: call quality, languages, telephony, DLT, workflows, QA, billing pulse, data access and exit terms.
 8 min read
 Voice AI
@@ -1981,7 +1982,7 @@ Can it handle callers who mix Hindi and English? +
 Yes. That is the normal case on Indian calls, and a Hinglish agent is built for it.
 
 How many voices can we choose from? +
-More than 80 male and female voices across seven speech engines, with a preview that plays exactly what the caller will hear.
+More than 80 male and female voices across seven speech engines, with a preview that plays the same engine and voice the call will use.
 
 ## Setting up
 How long does it take to go live? +
@@ -2007,20 +2008,20 @@ Can our human team keep using Exotel or Airtel IQ? +
 Yes. Your people can stay on their current provider while the AI calls on Telleo's line. Their calls can still be analysed by call intelligence.
 
 Can the agent transfer a call to a person? +
-Yes. Each agent has handoff numbers, and it transfers live after a short bridge line when the caller asks or your rules say the lead is hot.
+Yes. Each agent has handoff numbers, and it transfers live after a short bridge line when the caller asks or your script says the lead is hot.
 
 Can it answer inbound calls? +
-Yes, through an option in the Telleo IVR that hands callers to an AI agent. Connecting your existing business number is worked out during setup.
+Yes, through an option in the Telleo IVR that hands callers to an AI agent. It works through an IVR on a Telleo number; it does not plug into an IVR you run with another provider.
 
 Is AI calling legal in India? +
-Yes, within TRAI's rules. Commercial calling needs DLT registration, which we complete with you. Under TRAI's September 2026 amendment, AI voice calls are application-to-person (A2P) calls that must be declared in advance to the telecom operator, and a customer's enquiry supports commercial calls for seven days from the enquiry; beyond that you need explicit, verifiable consent. You choose who is called and when. Confirm your specific case with counsel.
+Yes, within TRAI's rules. Commercial calling needs DLT registration, which we complete with you. Under TRAI's September 2026 amendment, once it comes into force (30 to 60 days after Gazette publication), AI voice calls are application-to-person (A2P) calls that must be declared in advance to the telecom operator, and a customer's enquiry supports commercial calls for seven days from the enquiry; beyond that you need explicit, verifiable consent. You choose who is called and when. Confirm your specific case with counsel.
 
 How many calls can it make? +
 A daily cap protects every account, 500 calls a day by default, and can be raised to match what your team can follow up.
 
 ## After the call
 What do we get after each call? +
-An outcome from your own list, a short summary, a lead score from 1 to 10, the answers the caller gave, and any callback time or meeting agreed, all on the lead.
+An outcome from your own list, a short summary, a lead score from 1 to 10, the answers the caller gave, whether they asked for a callback, and any meeting agreed, all on the call record.
 
 Can it book meetings? +
 Yes. Link a booking page and meetings are booked automatically when the caller agrees a specific day and time.
@@ -2029,17 +2030,17 @@ Can it send WhatsApp messages? +
 Yes, with WhatsApp templates you have had approved, and only when the caller accepted on the call. Sends are tracked for delivery and never duplicated.
 
 Does it call back at the time the caller asked? +
-It saves the requested time as an exact date and time on the lead so your team can act on it. Unanswered calls are retried automatically after the gap you set.
+Not automatically. The call is marked as a callback request, with what the caller said in the transcript, so your team can follow up. Calls started by a workflow are retried after the gap you set.
 
 Does it work with our CRM? +
-Telleo includes its own CRM. For other systems, leads can come in by webhook or CSV, and outcomes can go out by webhook or HTTP request. There are no native Salesforce, HubSpot or Zoho apps yet.
+Telleo has its own CRM, included on the Annual plan or for ₹2,000 a month with Pro + CRM. For other systems, leads can come in by webhook or CSV, and outcomes can go out by webhook or HTTP request. There are no native Salesforce, HubSpot or Zoho apps yet.
 
 ## Pricing
 How much does it cost? +
 ₹3.99 a minute on monthly plans from ₹3,499 a month, or ₹3.49 a minute with no minimum on the ₹19,999-a-year annual plan, which includes the CRM. Prices exclude GST.
 
 Do unanswered calls cost money? +
-Minutes are billed on connected conversation, rounded up to the next minute. Unanswered calls go back on your retry path.
+No. Minutes are billed on connected conversation, rounded up to the next minute. Unanswered workflow calls are retried after the gap you set; a bulk campaign doesn't re-dial, so re-run it to call them again.
 
 Is call analysis extra? +
 Not on AI calls; it's included. Analysing your team's human calls is billed per minute of recording.
@@ -2049,13 +2050,13 @@ No. Calls draw on your balance and stop when it runs out, and daily caps and a m
 
 ## Data and limits
 Who can see transcripts and recordings? +
-Call outcomes and health verdicts are visible on the dashboard. Full transcripts and diagnostics are limited to roles you allow to see caller details.
+Transcripts, summaries and outcomes are visible to anyone on your team who can open the call log; they are not restricted per role. In the call-intelligence team view, a sales head sees only their own reporting line. Health verdicts and technical diagnostics are shown to your account admins, and on the call log you choose which roles see full phone numbers.
 
 Do you have SOC 2 or ISO 27001? +
 Not today, and we won't claim otherwise. Our security page explains how data is handled.
 
 What won't the agent do? +
-It won't negotiate complex deals, take card payments on the call, or give medical, legal or financial advice. Script it to hand those moments to your team.
+It can't take card payments on the call, and it isn't built to negotiate complex deals. There is no built-in block on medical, legal or financial advice, so script it to hand those moments to your team.
 
 Who is behind Telleo? +
 Telleo is built by Vidyayatan Technologies LLP, the team behind Vacademy. It started as the AI calling inside Vacademy's CRM for education institutes.
@@ -2064,7 +2065,7 @@ More detail: pricing , security , TRAI and DLT rules .
 
 ## From the blog
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Businesses
+What Is an AI Voice Agent? A Plain Guide for Indian Teams
 Pricing
 How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
 Compliance
@@ -2094,10 +2095,10 @@ Book a demo Talk to our AI: +91 80353 74489
 For each call: the transcript, the analysis (outcome, summary, score, answers), timings and call-health diagnostics, and the recording when recording is switched on for your line. For each lead: the fields you capture in the CRM.
 
 ## Who can see it
-Access follows the roles in your account. Outcomes and health verdicts are visible on the dashboard; full transcripts and diagnostics, which contain what callers said, are limited to roles you allow to see caller details. A sales head sees their own reporting line.
+Transcripts, summaries and outcomes are visible to team members who can open the call log, and are not restricted per role; health verdicts and technical diagnostics are for your admins, and you choose which roles see full phone numbers. A sales head sees their own reporting line in the team view.
 
 ## Where it runs
-The live voice pipeline runs on servers in Mumbai. The platform that stores your CRM data and call records is hosted outside India, in Singapore. If data residency in India is a requirement for you, tell us before you start.
+The live voice pipeline runs on servers in Mumbai. The platform that stores your CRM data and call records is not hosted only in India. If data residency in India is a requirement for you, tell us before you start.
 
 ## Who processes it
 Like every voice AI product, Telleo relies on specialist providers: telephony (Plivo), speech recognition, language models and voice engines (for example Google Cloud and Sarvam). Audio and text pass through them to run the call and the analysis.
@@ -2115,15 +2116,15 @@ DLT registration
 Commercial calling in India requires DLT registration. We complete it with you; it is charged at actuals, ₹5,900 a year.
 
 Who and when
-You decide which leads are called and the hours campaigns run. Not-interested leads are stopped by your rules and never re-dialled.
+You decide which leads are called and the hours campaigns run. Your outcome rules stop automated retries to not-interested leads; leave them out of bulk campaigns and manual calls too.
 
 Built-in limits
 Daily call caps, 30-second duplicate protection, a maximum call length per agent and no dialling without balance.
 
 Honest agents
-We recommend every agent says it is an AI assistant in its opening line, and scripts that avoid advice only a licensed person should give.
+We recommend that every agent says it is an AI assistant in its opening line, and that its script steers away from advice only a licensed person should give.
 
-TRAI's September 2026 amendment to the commercial-communication rules treats AI voice calls as application-to-person (A2P) calls that must be declared in advance to the telecom operator, and limits calls based on a customer's enquiry to seven days from that enquiry. Talk to us about how this applies to your campaigns. Read our guide to TRAI and DLT rules and confirm your specific case with your telecom provider or counsel.
+Once it comes into force (30 days after Gazette publication; the A2P provisions after 60 days), TRAI's September 2026 amendment to the commercial-communication rules treats AI voice calls as application-to-person (A2P) calls that must be declared in advance to the telecom operator, and limits calls based on a customer's enquiry to seven days from that enquiry. Talk to us about how this applies to your campaigns. Read our guide to TRAI and DLT rules and confirm your specific case with your telecom provider or counsel.
 
 What we don't claim
 
@@ -2136,7 +2137,7 @@ Questions from your security or legal team: hello@telleo.ai . Privacy policy: va
 Compliance
 TRAI and DLT Rules for AI Calling in India: A 2026 Guide
 Guides
-AI Calling Vendor Checklist: 20 Questions to Ask Before You Buy
+AI Calling Vendor Checklist: 20 Questions Before You Buy
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -2159,7 +2160,7 @@ Telleo is built by Vidyayatan Technologies LLP, the team behind Vacademy, a plat
 Book a demo Talk to our AI: +91 80353 74489
 
 ## Why we built it
-Institutes buy leads from ads and portals, and the first team to call a parent usually wins the admission. Counsellors can't call every enquiry within minutes, at night and on Sundays, in the language the parent prefers. So we built an agent that could.
+Institutes buy leads from ads and portals, and research reported in Harvard Business Review found that firms which tried to reach a web lead within an hour were nearly seven times as likely to qualify it as those that tried an hour later. Counsellors can't call every enquiry within minutes, late in the evening and on Sundays, in the language the parent prefers. So we built an agent that could.
 Admissions calls turned out to be a hard school. Parents interrupt, switch between Hindi and English mid-sentence, say “haan” while you're talking, and hang up on anything that sounds like a robot. Every one of those moments became a rule in the product: how it handles interruptions, why it never repeats itself or echoes answers back, how it conjugates Hindi verbs for its own voice, how it reads a phone number.
 The same problems exist in real estate, lending, insurance, healthcare and every other business where leads arrive faster than people can call them. Telleo is that agent, with the CRM, automations and call analysis around it.
 
@@ -2176,7 +2177,7 @@ Say what we don't do
 No invented case studies, no certifications we don't hold. If a competitor fits you better, our comparison pages say so.
 
 Talk to an agent
-+91 80353 74489 A live Telleo agent answers.
++91 80353 74489 A live AI agent answers.
 
 Sales on WhatsApp
 +91 99933 36616 Weekdays, Indian business hours.
@@ -2275,7 +2276,7 @@ The agent greets the lead by name and mentions what they enquired about, using t
 - 3
 
 ### One question at a time
-It asks your extraction questions in order: need, budget, timeline, location, who decides. It does not read the caller's answers back to them.
+It asks the questions in your script one at a time: need, budget, timeline, location, who decides. Your extraction questions tell the post-call analysis what to pull out. It does not read the caller's answers back to them.
 
 - 4
 
@@ -2302,18 +2303,18 @@ Into your CRM
 - Timeline to decide or start
 - Preferred location, branch or mode
 - Lead rating from 1 to 10, with a 2 to 3 sentence summary
-- Meeting or callback day and time, if agreed
+- Meeting day and time if agreed, or a callback request
 
 After the call
 
 ## What happens next
 When | Then |
 
-The lead fits (your Qualified disposition) | Assigned to a sales rep, round-robin if you use it, with the summary, rating and answers on the lead. Lead status is stamped AI qualified. |
+The lead fits (your Qualified disposition) | Assigned to a sales rep, round-robin if you use it, with the summary, rating and answers on the lead. The lead is marked AI qualified if that status exists in your CRM. |
 The caller wants to talk to someone now | Live transfer to your handoff number. The agent says a short bridge line and connects the call. |
-Not interested or not a fit | The workflow stops and the lead is stamped not interested, so nobody spends another call on it. |
-The caller says 'call me tomorrow evening' | Saved as Callback with the exact date and time they gave, shown on the call record, and the lead goes on your retry path. |
-No answer, or nobody really spoke | Marked no answer or Incomplete, never Not interested. Retried after the gap you set, up to your maximum attempts, then handed to a human or stopped. |
+Not interested or not a fit | The outcome is saved as not interested and automated retries stop. |
+The caller says 'call me tomorrow evening' | Saved as a callback request, with their words in the transcript, and the lead goes on your retry path. |
+No answer, or nobody really spoke | Marked no answer or Incomplete, never Not interested. Workflow calls are retried after the gap you set, up to your maximum attempts, then handed to a human or stopped; a campaign doesn't re-dial, so re-run it over the leads who didn't answer. |
 
 ## Set it up
 
@@ -2337,7 +2338,7 @@ Education Admission enquiries, demo classes, fee reminders and parent calls in H
 
 ## Questions about lead qualification
 How is the 1 to 10 lead rating decided? +
-After the call, the transcript is analysed against your script and the answers the caller actually gave. The rating comes with a 2 to 3 sentence summary, so a rep can see why one lead scored 8 and another 4. Routing runs on your dispositions, not on the number, so you decide who reaches a rep.
+After the call, the transcript is analysed against your dispositions and extraction questions, and the rating reflects how interested the caller was. The rating comes with a 2 to 3 sentence summary, so a rep can see why one lead scored 8 and another 4. Routing runs on your dispositions, not on the number, so you decide who reaches a rep.
 
 Will it fill in answers the caller didn't give? +
 No. Extracted answers are only what was actually said on the call. If the caller skipped the budget question, the budget field stays empty instead of being guessed.
@@ -2346,7 +2347,7 @@ Can it hand a hot lead to a rep during the call? +
 Yes. Add handoff numbers to the agent. When the caller wants to talk to a person now, the agent says a short bridge line and connects the call live.
 
 Which CRM do the results go to? +
-The call, recording, transcript, rating and answers sit on the lead in Telleo's CRM. To send results to another system, add a webhook or HTTP request step to the workflow. It works with anything that can send or receive a webhook.
+The call, transcript, recording (when switched on), rating and answers are saved on the call, linked to the lead in Telleo's CRM. To send results to another system, add a webhook or HTTP request step to the workflow. It works with anything that can send or receive a webhook.
 
 Which languages can it qualify leads in? +
 Hindi, English and Hinglish are in production. Tamil, Telugu, Marathi, Bengali, Gujarati, Kannada, Malayalam, Punjabi and Odia are supported by the voice engines and are set up with you on request.
@@ -2455,9 +2456,9 @@ When | Then |
 
 The caller agrees a specific day and time | The meeting is booked on your booking page automatically, and the WhatsApp the caller accepted (location, brochure) is sent and tracked for delivery. |
 The caller wants to talk to a person now | Live transfer to the rep's handoff number during the call. |
-Interested but busy right now | Saved as Callback with the exact time they gave ('kal shaam' becomes a date and time) and put on your retry path. |
+Interested but busy right now | Saved as a callback request, with the time they gave ('kal shaam') in the transcript, and put on your retry path. |
 No answer or voicemail | Marked no answer or Incomplete, never Not interested. Retried after your gap, up to your maximum attempts, then handed to a human or stopped. |
-Not interested, or the form was filled by mistake | The workflow stops and the lead is stamped not interested. |
+Not interested, or the form was filled by mistake | The workflow stops and the outcome is saved as not interested. |
 
 ## Set it up
 
@@ -2481,10 +2482,10 @@ Education Admission enquiries, demo classes, fee reminders and parent calls in H
 
 ## Questions about instant lead callback
 How fast is the first call, really? +
-A workflow triggered by a new lead can place the call about 60 seconds after the lead arrives in Telleo. The real gap also depends on how quickly your ad platform or form delivers the lead, and on the time window and daily cap you set.
+A workflow triggered by a new lead can place the call about 60 seconds after the lead arrives in Telleo. The real gap also depends on how quickly your ad platform or form delivers the lead, on your calling hours and daily cap, and on whether one of your bulk campaigns is still working through its list, because new-lead calls wait in the same queue.
 
 What happens to leads that come in at night? +
-You decide. Add a time-window condition to the workflow so calls only go out in the hours you choose. Leads that arrive outside it can be called when the window opens, with a campaign over those leads or one click each.
+Workflow calls respect your calling hours, 9 am to 9 pm unless you change them. A lead that arrives at night waits in the queue and is called automatically when the hours open.
 
 Will a lead get two calls if they submit the form twice? +
 Leads are de-duplicated by phone or email, and a 30-second duplicate guard stops the same lead being dialled twice by accident. The automation also skips leads already assigned to a rep.
@@ -2493,7 +2494,7 @@ Which lead sources can trigger the call? +
 Meta (Facebook and Instagram) lead ads, Google lead forms, any website form via webhook, CSV or Excel imports and manual entry. Any other tool works if it can send a webhook.
 
 Won't a call one minute after the form feel pushy? +
-The person has just asked you for information, and the opening line says why you are calling. If they are busy, the agent asks for a better time and saves it, instead of pushing on with questions.
+The person has just asked you for information, and the opening line says why you are calling. If they say they are busy, the agent makes one short offer of a specific time for the next step; if they still decline, it asks when to call back and ends the call, and the call is marked as a callback request with their words in the transcript, instead of pushing on with questions.
 
 ## More use cases
 Lead qualification Appointment booking Payment reminders Lead reactivation Feedback surveys AI receptionist
@@ -2515,7 +2516,7 @@ URL: https://telleo.ai/use-cases/appointment-booking/
 Use case
 
 # Book demos, site visits and consultations on the call
-The AI agent offers slots, agrees a specific day and time with the caller, and the meeting lands on your booking page automatically. A WhatsApp confirmation goes out if the caller wants one, and a reminder call the day before checks they are still coming.
+The AI agent offers slots, agrees a specific day and time with the caller, and the meeting lands on your booking page automatically. A WhatsApp confirmation goes out if the caller wants one, and you can run a reminder campaign the day before to check they are still coming.
 Book a demo +91 80353 74489
 
 Sample call · Appointment booking Telleo agent · transcript
@@ -2561,7 +2562,7 @@ It offers days and hours from your script, one question at a time, and understan
 - 3
 
 ### Agree a specific slot
-A meeting only counts when a specific day and time were agreed. 'Sometime next week' is saved as a callback, not a booking.
+A meeting only counts when a specific day and time were agreed. 'Sometime next week' is not saved as a booking; the lead goes to a person or back on your retry path.
 
 - 4
 
@@ -2595,10 +2596,10 @@ After the call
 When | Then |
 
 A specific day and time are agreed | Booked on your booking page automatically. The WhatsApp or email confirmation the caller accepted is sent and tracked for delivery. |
-The caller wants a meeting but can't fix a time | Saved as Callback with any time they mentioned, as an exact date and time, and the lead goes on your retry path. |
+The caller wants a meeting but can't fix a time | Saved as a callback request, with any time they mentioned in the transcript, and the lead goes on your retry path. |
 The caller wants to speak to the doctor, manager or counsellor first | Live transfer to the handoff number you set for this agent. |
 Reminder call: the caller can't make it | Recorded with your disposition, such as Rescheduled or Cancelled, and assigned to a rep who updates the booking. |
-No answer | Retried after your gap, up to your maximum attempts. Calls where nobody spoke are marked Incomplete, never Not interested. |
+No answer | Workflow calls are retried after your gap, up to your maximum attempts; a reminder campaign doesn't re-dial, so re-run it over those customers. Calls where nobody spoke are marked Incomplete, never Not interested. |
 
 ## Set it up
 
@@ -2617,14 +2618,14 @@ No answer | Retried after your gap, up to your maximum attempts. Calls where nob
 - Time from a lead arriving to a meeting booked
 
 ## Where teams use it most
-Education Admission enquiries, demo classes, fee reminders and parent calls in Hindi, English or Hinglish. Real estate Call property leads fast, qualify budget and location, and book site visits. Healthcare Appointment booking, reminders, report-ready and follow-up calls. Scheduling only, no medical advice. Insurance Qualify leads, remind before renewals and chase pending documents. Advice stays with your team. Automotive Test-drive booking, service reminders and follow-up on enquiries and quotes.
+Education Admission enquiries, demo classes, fee reminders and parent calls in Hindi, English or Hinglish. Real estate Call property leads fast, qualify budget and location, and book site visits. Healthcare Appointment booking, reminders, report-ready and follow-up calls. Appointment booking, reminders, report-ready and follow-up calls, scripted to pass medical questions to staff. Insurance Qualify leads, remind before renewals and chase pending documents. Advice stays with your team. Automotive Test-drive booking, service reminders and follow-up on enquiries and quotes.
 
 ## Questions about appointment booking
 Does the agent see my live calendar? +
 The agent offers times from your script. After the call, the agreed day and time are booked on your booking page. Keep the slot rules in the script in line with your real availability, so it only offers times you can keep.
 
 What counts as a booking? +
-Only a specific day and time that the caller agreed to. 'I will come next week' is not a booking. It is saved as a callback, so nobody waits for a visitor who never fixed a time.
+Only a specific day and time that the caller agreed to. 'I will come next week' is not a booking, so nobody waits for a visitor who never fixed a time; the lead goes to a person or back on your retry path.
 
 Can it send the address or joining link? +
 Yes, as an approved WhatsApp template or an email, once the caller agrees to receive it. Every send is tracked for delivery and never sent twice.
@@ -2729,7 +2730,7 @@ The customer gives a date to pay | The date is saved on the call record with the
 The customer says they have already paid | Marked with your Already paid disposition and assigned to accounts to check, instead of being called again. |
 Dispute, wrong amount or a request for more time | Assigned to a person on your team with the summary, or transferred live if you set a handoff number. |
 No answer | Retried after the gap you set, up to your maximum attempts. Calls where nobody spoke are marked Incomplete. |
-The customer asks not to be called about this | Your Do not call disposition stops the workflow for that customer. |
+The customer asks not to be called about this | Your Do not call disposition stops automated retries for that customer; it is not a do-not-call list, so remove them from future due lists. |
 
 ## Set it up
 
@@ -2790,7 +2791,7 @@ URL: https://telleo.ai/use-cases/lead-reactivation/
 Use case
 
 # Re-engage the old leads your team stopped calling
-Most businesses have a list of last season's enquiries that nobody followed up properly. The AI agent calls through it, finds out where each person stands now and sends the ones who are still interested to a rep.
+Many businesses have a list of last season's enquiries that nobody followed up properly. The AI agent calls the people on it who have given consent you can show, finds out where each person stands now and sends the ones who are still interested to a rep.
 Book a demo +91 80353 74489
 
 Sample call · Lead reactivation Telleo agent · transcript
@@ -2826,7 +2827,7 @@ On the call
 - 1
 
 ### Import and clean the list
-Upload the old leads as CSV or Excel. Duplicates are matched by phone or email, and leads already assigned to a rep are skipped.
+Upload the old leads as CSV or Excel. Duplicates are matched by phone or email. A bulk campaign does not skip leads a rep is already working, so leave those out of the selection.
 
 - 2
 
@@ -2846,7 +2847,7 @@ A new batch, a new project, a new model. If they want details, it sends the What
 - 5
 
 ### Route and close
-Interested leads go to a rep. 'Later' is saved with the time they gave. The rest are stopped so they are not called again by this campaign.
+Interested leads go to a rep. 'Later' is saved with what they said about timing in the transcript. The rest are stopped so they are not called again by this campaign.
 
 Into your CRM
 
@@ -2855,7 +2856,7 @@ Into your CRM
 - Current status: still looking, bought elsewhere, later, not relevant
 - New timeline to buy or start
 - What has changed since the first enquiry (budget, requirement)
-- Callback day and time, if they asked for one
+- Callback request, if they asked for one
 - Consent to receive a brochure or offer on WhatsApp
 - Lead rating from 1 to 10
 
@@ -2865,16 +2866,16 @@ After the call
 When | Then |
 
 Still interested and ready to talk | Assigned to a rep with the summary and rating, or transferred live to your handoff number. |
-Interested, but later | Saved as Callback with the exact date and time they gave ('Wednesday evening' becomes a date and time) and put on your retry path. |
+Interested, but later | Saved with your Later disposition, with what they said about timing in the transcript. Set Later to assign, so a rep can call them back. |
 Wants details | The WhatsApp template they agreed to (brochure, price list) is sent and tracked for delivery. |
-Bought elsewhere or no longer relevant | The workflow stops and the lead is stamped not interested, so nobody calls them again for this. |
-No answer | Retried after your gap, up to your maximum attempts, then stopped. Old lists have more dead numbers, so keep attempts low. |
+Bought elsewhere or no longer relevant | The outcome is saved as not interested and automated retries stop; leave it out when you re-run the campaign. |
+No answer | A bulk campaign does not re-dial by itself: unanswered calls show as No answer in the call log, so run the campaign again later over those leads. Old lists have more dead numbers, so keep re-runs few. |
 
 ## Set it up
 
-- Import the old list and let de-duplication by phone or email run.
+- Import only the old leads who have given consent you can show (under TRAI's September 2026 amendment, once it takes effect, an enquiry alone covers calls for just seven days), and let de-duplication by phone or email run.
 - Write an opening line that names the old enquiry, using the fields from the list.
-- Add dispositions: Interested, Later, Bought elsewhere, Not relevant, Wrong number, Do not call.
+- Add dispositions: Interested, Later, Bought elsewhere, Not relevant, Wrong number, Do not call. Set Interested and Later to assign, and the rest to stop.
 - Link the approved WhatsApp templates for your current offer, brochure or price list.
 - Run it as a bulk campaign inside your chosen time windows, with a daily cap your reps can keep up with.
 
@@ -2890,16 +2891,16 @@ Education Admission enquiries, demo classes, fee reminders and parent calls in H
 
 ## Questions about lead reactivation
 How old can the leads be? +
-Check consent first. Under TRAI's September 2026 amendment, an enquiry supports commercial calls for only seven days from the date it was made, so older leads need explicit consent that you can show. For leads you may call, older lists have more wrong numbers and switched-off phones; set fewer retries and watch the wrong-number share after the first day.
+Check consent first. Under TRAI's September 2026 amendment, once it takes effect, an enquiry supports commercial calls for only seven days from the date it was made, so older leads need explicit consent that you can show. For leads you may call, older lists have more wrong numbers and switched-off phones; keep campaign re-runs few and watch the wrong-number share after the first day.
 
 Will it call people who are already with a rep? +
-No. The automation skips leads that are already assigned to a rep, and duplicates are matched by phone or email before calls start.
+A bulk campaign will, if you select them: it calls the leads you pick whether or not a rep has them, so leave those out of the selection. A workflow's AI call skips leads already assigned to a rep. Duplicates are matched by phone or email.
 
 How many calls go out in a day? +
 The default daily cap is 500 calls and you can change it. Set it to what your reps can follow up, not to the most the system can dial.
 
 What if someone asks never to be called again? +
-Add a Do not call disposition and set it to stop. The workflow stops for that lead and it is not dialled again by that campaign.
+Add a Do not call disposition and set it to stop. That ends automated retries for the lead, but it is not a do-not-call list: a later campaign or a one-click call can still dial the number, so remove it from future lists.
 
 Can the agent offer a discount? +
 It talks about the offers you describe in the script. Write them exactly, with dates and conditions, and tell it to send price questions it can't answer to a rep.
@@ -2952,7 +2953,7 @@ Sample call · Feedback surveys Telleo agent · transcript
 - Caller No, that's it.
 
 ## Survey links get ignored and scores come without reasons
-A survey link on WhatsApp or email gets a few replies, often from people who are either delighted or upset. Everyone in between never opens it.
+A survey link on WhatsApp or email gets a few replies, often from people who are either delighted or upset. Many of the people in between never open it.
 When a manager calls customers personally, the answers are richer, but only a handful of calls get made each week and the notes are hard to compare.
 A short, consistent call asks every customer the same questions in the same order and saves the answers side by side. An unhappy customer on the phone can also be passed to a person while it still matters.
 
@@ -2978,7 +2979,7 @@ It asks for a 0 to 10 score, or whichever scale you use.
 - 4
 
 ### Then the reason
-It asks what drove the score, with one follow-up at most. It does not argue or read the answer back.
+It asks what drove the score, with one follow-up at most. Script it not to argue; it does not read the answer back.
 
 - 5
 
@@ -2992,7 +2993,7 @@ Into your CRM
 - Score (0 to 10, or your own scale)
 - Main reason for the score, in the customer's words
 - Specific complaint, if any (delivery, staff, product, billing)
-- Whether they want a call back from your team, and when
+- Whether they want a call back from your team
 - Suggestion for improvement
 - Whether they would buy or visit again
 
@@ -3003,14 +3004,14 @@ When | Then |
 
 High score, no issues | Marked with your Promoter disposition and stopped. If you offer a review link and they say yes, that WhatsApp template is sent. |
 Low score or a complaint | Assigned to a person on your team with the summary and the reason, so they call back knowing the problem. |
-The customer asks for a call back | Saved as Callback with the exact time they gave ('after 6 pm' becomes a date and time) on the call record. |
-No answer | Retried after your gap, up to your maximum attempts, then stopped. Calls where nobody spoke are marked Incomplete and carry no score. |
+The customer asks for a call back | Saved as a callback request on the call record, with what they said ('after 6 pm') in the transcript. Set Callback to assign so a person calls back. |
+No answer | Workflow calls are retried after your gap, up to your maximum attempts, then stopped; a weekly campaign doesn't re-dial, so re-run it over those customers. Calls where nobody spoke are marked Incomplete and carry no score. |
 
 ## Set it up
 
-- Pick the scale (0 to 10 NPS, 1 to 5, or yes/no) and add it to the extraction questions along with the reason question.
+- Pick the scale (0 to 10 NPS, 1 to 5, or yes/no), put the score and reason questions in the script, and add them as extraction questions so the analysis saves the answers.
 - Keep the script to three or four questions and about two minutes.
-- Add dispositions such as Promoter, Passive, Detractor and Complaint, and assign Detractor and Complaint to a person.
+- Add dispositions such as Promoter, Passive, Detractor and Complaint. Set Promoter and Passive to stop, and assign Detractor and Complaint to a person.
 - Trigger calls from a workflow after the service, or run a weekly campaign over a list.
 - Choose a calm voice and pace, and check it with the voice preview.
 - Optionally link an approved WhatsApp template with your review link for happy customers who agree to it.
@@ -3023,7 +3024,7 @@ No answer | Retried after your gap, up to your maximum attempts, then stopped. C
 - Time from a low score to a call back from your team
 
 ## Where teams use it most
-Education Admission enquiries, demo classes, fee reminders and parent calls in Hindi, English or Hinglish. Healthcare Appointment booking, reminders, report-ready and follow-up calls. Scheduling only, no medical advice. E-commerce & D2C COD order confirmation, abandoned-cart callbacks, failed-delivery (NDR) calls and feedback. Automotive Test-drive booking, service reminders and follow-up on enquiries and quotes. Travel & hospitality Qualify holiday enquiries, confirm bookings and collect guest feedback.
+Education Admission enquiries, demo classes, fee reminders and parent calls in Hindi, English or Hinglish. Healthcare Appointment booking, reminders, report-ready and follow-up calls. Appointment booking, reminders, report-ready and follow-up calls, scripted to pass medical questions to staff. E-commerce & D2C COD order confirmation, abandoned-cart callbacks, failed-delivery (NDR) calls and feedback. Automotive Test-drive booking, service reminders and follow-up on enquiries and quotes. Travel & hospitality Qualify holiday enquiries, confirm bookings and collect guest feedback.
 
 ## Questions about feedback surveys
 Is a survey call better than a WhatsApp survey link? +
@@ -3093,7 +3094,7 @@ On the call
 - 1
 
 ### The caller dials in
-Your IVR plays its menu. The option you choose for enquiries hands the caller to the AI agent.
+Your Telleo IVR plays its menu. The option you choose for enquiries hands the caller to the AI agent.
 
 - 2
 
@@ -3108,7 +3109,7 @@ Fees, timings, location, availability, documents: whatever you put in the script
 - 4
 
 ### Capture the enquiry
-It asks your extraction questions one at a time: name, what they need, preferred branch, a good time for a call back.
+It asks the questions in your script one at a time: name, what they need, preferred branch, a good time for a call back.
 
 - 5
 
@@ -3138,8 +3139,8 @@ When | Then |
 
 Question answered, nothing more needed | The enquiry is saved with your disposition and a short summary on the call record. |
 The caller wants a person | Live transfer to your handoff number, after a short bridge line. |
-The transfer is not picked up | The call's health report flags the failed transfer, and the enquiry is on the call record for your team to call back. |
-The caller asks for a call back | Saved as Callback with the exact date and time they gave, and assigned to your team through your dispositions. |
+The transfer is not picked up | The enquiry, summary and transcript are already on the call record, so your team can call back. Keep handoff numbers staffed: the health report only flags a transfer that could not be set up, not one nobody answered. |
+The caller asks for a call back | Saved as a callback request, with what they said in the transcript, and assigned to your team if Callback is on your assign list. Switch on inbound lead capture so callers who are not yet leads can be assigned too. |
 The caller wants a visit or appointment | If a specific day and time are agreed, the meeting is booked on your booking page. |
 
 ## Set it up
@@ -3160,11 +3161,11 @@ The caller wants a visit or appointment | If a specific day and time are agreed,
 - Top questions callers ask, from the summaries, to improve the script
 
 ## Where teams use it most
-Education Admission enquiries, demo classes, fee reminders and parent calls in Hindi, English or Hinglish. Real estate Call property leads fast, qualify budget and location, and book site visits. Healthcare Appointment booking, reminders, report-ready and follow-up calls. Scheduling only, no medical advice. Automotive Test-drive booking, service reminders and follow-up on enquiries and quotes. Travel & hospitality Qualify holiday enquiries, confirm bookings and collect guest feedback.
+Education Admission enquiries, demo classes, fee reminders and parent calls in Hindi, English or Hinglish. Real estate Call property leads fast, qualify budget and location, and book site visits. Healthcare Appointment booking, reminders, report-ready and follow-up calls. Appointment booking, reminders, report-ready and follow-up calls, scripted to pass medical questions to staff. Automotive Test-drive booking, service reminders and follow-up on enquiries and quotes. Travel & hospitality Qualify holiday enquiries, confirm bookings and collect guest feedback.
 
 ## Questions about ai receptionist
 Does it replace my IVR? +
-No, it sits behind it. An IVR menu option hands the caller to the AI agent, and the agent can transfer the call to a person when needed.
+It doesn't plug into your current IVR. The agent is reached through an IVR menu option on a Telleo number, and it can transfer the caller to a person when needed., and the agent can transfer the call to a person when needed.
 
 Can it answer on my existing business number? +
 The AI agent is reached through the IVR on Telleo's lines. How your current number connects to it depends on your present telephony, so we work that out with you during setup.
@@ -3176,7 +3177,7 @@ Can it book appointments on inbound calls? +
 Yes. Give the agent a booking page. When the caller agrees a specific day and time, the meeting is booked there after the call.
 
 Are inbound calls recorded? +
-Yes. Every call is transcribed, and recorded when recording is switched on for your line. Full transcripts are visible only to roles with permission to see caller details.
+Yes. Every call is transcribed, and recorded when recording is switched on for your line.
 
 Which languages can callers use? +
 Set the agent to Hindi, English or Hinglish, all in production. A Hinglish agent suits callers who mix the two, which is common on Indian phone calls. Other Indian languages are set up with you on request.
@@ -3282,9 +3283,9 @@ When | Then |
 
 Confirmed | Marked Confirmed. The link or location template they accepted is sent and tracked for delivery. |
 Agrees a follow-up meeting | Booked on your booking page when a specific day and time were agreed. |
-Maybe, or not sure yet | Saved as Callback with any time they gave, and put on your retry path. |
+Maybe, or not sure yet | Saved with your Maybe disposition. Set Maybe to assign so a person follows up, or include the Maybes in the day-of reminder campaign. |
 Wants to talk to someone before deciding | Transferred live to your handoff number. |
-No answer | Retried after your gap, up to your maximum attempts, then stopped. Calls where nobody spoke are marked Incomplete. |
+No answer | Calls started from a workflow are retried after your gap, up to your maximum attempts; a campaign does not re-dial on its own, so run it again over the leads who didn't answer. Calls where nobody spoke are marked Incomplete. |
 
 ## Set it up
 
@@ -3303,7 +3304,7 @@ No answer | Retried after your gap, up to your maximum attempts, then stopped. C
 - Follow-up meetings booked from confirmation calls
 
 ## Where teams use it most
-Education Admission enquiries, demo classes, fee reminders and parent calls in Hindi, English or Hinglish. Real estate Call property leads fast, qualify budget and location, and book site visits. Healthcare Appointment booking, reminders, report-ready and follow-up calls. Scheduling only, no medical advice. Travel & hospitality Qualify holiday enquiries, confirm bookings and collect guest feedback. Recruitment Candidate screening calls, interview scheduling and joining confirmations.
+Education Admission enquiries, demo classes, fee reminders and parent calls in Hindi, English or Hinglish. Real estate Call property leads fast, qualify budget and location, and book site visits. Healthcare Appointment booking, reminders, report-ready and follow-up calls. Appointment booking, reminders, report-ready and follow-up calls, scripted to pass medical questions to staff. Travel & hospitality Qualify holiday enquiries, confirm bookings and collect guest feedback. Recruitment Candidate screening calls, interview scheduling and joining confirmations.
 
 ## Questions about event confirmation
 Can it send the webinar link? +
@@ -3319,7 +3320,7 @@ Does it work for walk-in drives and open houses with a venue? +
 Yes. Put the venue, timings, parking and what to bring in the script, and link a WhatsApp template with the map location.
 
 Can it tell me how many people are coming? +
-Each call gets a disposition from your list, such as Confirmed or Can't attend, plus the number of people if you ask for it. Filter and export the call log to get your headcount.
+Each call gets a disposition from your list, such as Confirmed or Can't attend, and the number of people is in each call's extracted answers if you ask for it. Filter the call log by disposition and export it to count confirmations.
 
 ## More use cases
 Lead qualification Instant lead callback Appointment booking Payment reminders Lead reactivation Feedback surveys
@@ -3418,8 +3419,8 @@ When | Then |
 The applicant wants the link | The approved WhatsApp template with the form or upload link is sent and tracked for delivery. |
 Needs help from a person | Assigned to a counsellor or operations executive with the summary, or transferred live to your handoff number. |
 Will finish later | Their expected date is on the call record. Run the next follow-up campaign over the applications that are still incomplete. |
-No longer interested | The workflow stops and the lead is stamped not interested, so your team can close the file. |
-No answer | Retried after your gap, up to your maximum attempts, then handed to a person or stopped. |
+No longer interested | The workflow stops and the outcome is saved as not interested, so your team can close the file. |
+No answer | Calls from a workflow are retried after your gap, up to your maximum attempts, then handed to a person or stopped. A campaign does not re-dial on its own, so re-run it over the still-pending list. |
 
 ## Set it up
 
@@ -3445,7 +3446,7 @@ Can the agent collect documents or verify KYC on the call? +
 No. It cannot receive documents or verify identity on a call. It finds out what is missing, sends the form or upload link on WhatsApp if the applicant agrees, and routes KYC questions to your team.
 
 Will it ask for Aadhaar or PAN numbers? +
-It shouldn't, and we recommend keeping ID numbers out of the script. Identity details belong in your secure upload flow, not in a call transcript. Full transcripts are visible only to roles with permission to see caller details.
+It shouldn't, and we recommend keeping ID numbers out of the script. Identity details belong in your secure upload flow, not in a call transcript. Transcripts are visible to anyone with call-log access, which is another reason to keep ID numbers out of calls.
 
 How does the agent know what is pending for each applicant? +
 Include it in the list you import or the webhook you send, as a field on the lead. The agent can use the applicant's name and any such field in what it says.
@@ -3495,7 +3496,7 @@ Sample call · Education Telleo agent · transcript
 
 - AI agent Weekend batch की fee पूरे साल की पचासी हज़ार रुपये है, और यह तीन installments में दी जा सकती है। क्या वो पहले एक free demo class attend करना चाहेगा?The weekend batch fee is eighty-five thousand rupees for the full year, payable in three instalments. Would he like to attend a free demo class first?
 
-- Caller हाँ, इस Sunday हो सकती है?Yes, can it be this Sunday?
+- Caller हाँ, इस Sunday सुबह ग्यारह बजे हो सकती है?Yes, can it be this Sunday at 11 am?
 
 - AI agent जी, इस Sunday सुबह ग्यारह बजे की demo class book कर दी है। Details WhatsApp पर भेज दूँ?Done, the demo class is booked for this Sunday at 11 am. Shall I send the details on WhatsApp?
 
@@ -3545,7 +3546,7 @@ Polite reminders before and after the due date, with the amount and date from yo
 Payment reminders
 
 ### Re-engage last season's enquiries
-Enquiries that went cold get a fresh call when a new batch or crash course opens. Interested families go straight to a counsellor.
+Enquiries that went cold, from families who have consented to hear from you, get a fresh call when a new batch or crash course opens. Interested families go straight to a counsellor.
 Lead reactivation
 
 ### Parent feedback calls
@@ -3563,7 +3564,7 @@ Into your CRM
 - Who decides: student or parent
 - Fee or scholarship questions raised
 - Demo class or counselling day and time
-- Callback time, if the family was busy
+- Callback request, if the family was busy
 
 Day one
 
@@ -3585,7 +3586,7 @@ Be careful with
 
 - The agent only knows what is in its script. Keep fees, batch dates and scholarship rules current, or it will quote old figures.
 - Many enquiry forms are filled by students. Decide in the script when the agent should ask for a parent, especially before it discusses fees.
-- DLT registration is required for commercial calling in India. Telleo registers it with you, and you choose the hours calls go out.
+- DLT registration is required for commercial calling in India, and under TRAI's September 2026 amendment, once it takes effect, AI calls must also be declared to your telecom operator in advance. Telleo registers DLT with you, and you choose the hours calls go out.
 - WhatsApp confirmations and brochures need approved WhatsApp templates before you go live.
 
 ## Education: common questions
@@ -3596,10 +3597,10 @@ Will it replace my counsellors? +
 No. It makes the first call, asks the qualifying questions and books the demo. Your counsellors take the families who are ready to talk about admission, with the call summary in front of them.
 
 What happens if a parent wants to talk to a person? +
-The agent can transfer the call live to a counsellor's number you set. If the parent would rather be called later, it records the callback time and the lead is assigned for a human call.
+The agent can transfer the call live to a counsellor's number you set. If the parent would rather be called later, the call is marked as a callback request, with their words in the transcript. Add Callback to the outcomes that assign to a counsellor if you want those families handed to a person; otherwise workflow calls go back on your retry path.
 
 Can it call students who enquired months ago? +
-Yes. Import the list as a CSV and run a campaign within the hours you choose. Automation skips leads already assigned to a counsellor, so families your team is working on are left alone.
+Only with consent. Under TRAI's September 2026 amendment, once it takes effect, an enquiry supports commercial calls for only seven days, so older enquiries need explicit consent you can show. For families who have consented, import the list as a CSV and run a campaign within your calling hours. A bulk campaign calls every lead you select, including families a counsellor is already working, so leave those out of the list. Only workflow calls skip leads already assigned to a counsellor.
 
 Can Telleo also review my counsellors' own calls? +
 Yes. Calls your team makes by click-to-call on Plivo, Exotel or Airtel, or recordings you upload, are transcribed and scored against your rubric. That is charged per minute of recording. Analysis of AI calls is free.
@@ -3679,7 +3680,7 @@ What Telleo does
 
 ## The calls your AI agents make
 
-### Call ad and website leads within a minute
+### Call ad and website leads in about a minute
 Meta and Google lead-form enquiries, and website forms sent by webhook, trigger a call within about a minute, weekends included, inside the hours you set.
 Instant lead callback
 
@@ -3696,7 +3697,7 @@ A short call the day before checks the buyer is still coming and who is coming w
 Event confirmation
 
 ### Reactivate old enquiries
-Run a campaign over past enquiries when a new phase, price or offer launches, and pass the interested ones to sales.
+When a new phase, price or offer launches, run a campaign over past enquiries who have consented to hear from you, and pass the interested ones to sales.
 Lead reactivation
 
 ### Transfer serious buyers live
@@ -3729,7 +3730,7 @@ Put projects, configurations, price bands, possession dates and site timings in 
 Route qualified buyers round-robin to your sales team, send visit bookings to the site team, and stop leads marked not interested.
 
 - 4 Go live on new leads, then the backlog
-Run fresh leads first and listen to the recordings for a few days. Then run a campaign over past enquiries.
+Run fresh leads first and review the transcripts for a few days. Then run a campaign over past enquiries you have explicit consent to call.
 
 Be careful with
 
@@ -3746,10 +3747,10 @@ Can the agent share brochures or location links? +
 Yes, on WhatsApp, using templates you have had approved. The agent offers to send, and the message goes only if the buyer says yes. Each send is tracked and never sent twice.
 
 What if a buyer wants to negotiate on the call? +
-Set a handoff number. The agent says a short bridge line and connects the buyer to your sales manager live. You can also make 'wants to negotiate' a disposition that assigns the lead to a senior salesperson.
+Set a handoff number. The agent says a short bridge line and connects the buyer to your sales manager live. You can also make 'wants to negotiate' a disposition that assigns the lead to your sales team.
 
 Will it call the same lead twice by mistake? +
-Leads are de-duplicated by phone or email, a 30-second guard stops a number being dialled twice by accident, and automation skips leads already assigned to a salesperson. Retries for unanswered calls follow the gap and limit you set.
+Leads are de-duplicated by phone or email, a 30-second guard stops a number being dialled twice by accident, and workflow calls skip leads already assigned to a salesperson (a bulk campaign calls whoever you select), and workflow calls retry unanswered numbers with the gap and limit you set.
 
 Do we need our own SIMs or dialer? +
 No. Calls run on Telleo's lines. If you want buyers to see one consistent number, you can take a dedicated AI line with your own caller ID.
@@ -3775,7 +3776,7 @@ URL: https://telleo.ai/industries/healthcare/
 Healthcare
 
 # AI calling for clinics, hospitals and diagnostic labs
-Front desks spend hours on calls that follow a script: booking, reminding, telling patients a report is ready. Telleo makes those calls in Hindi, English or Hinglish and passes anything clinical to your staff.
+Front desks spend hours on calls that follow a script: booking, reminding, telling patients a report is ready. Telleo makes those calls in Hindi, English or Hinglish, and you script it to pass anything clinical to your staff.
 Book a demo +91 80353 74489
 
 Sample call · Healthcare Telleo agent · transcript
@@ -3791,7 +3792,7 @@ Sample call · Healthcare Telleo agent · transcript
 
 - Caller हाँ, ठीक है। और मेरी पिछली blood report normal थी क्या?Yes, fine. And was my last blood report normal?
 
-- AI agent Report के बारे में Doctor साहब ही बताएँगे, Saturday को उनसे बात कर लीजिए। आपका appointment Saturday सुबह ग्यारह बजे book हो गया है। Confirmation WhatsApp पर भेज दूँ?The doctor is the right person to go through your report, please ask on Saturday. Your appointment is booked for Saturday at 11 am. Shall I send the confirmation on WhatsApp?
+- AI agent Report के बारे में Doctor साहब ही बताएँगे, Saturday को उनसे बात कर लीजिए। Saturday सुबह ग्यारह बजे का time note कर लिया है, हमारी team आपका appointment update कर देगी। Confirmation WhatsApp पर भेज दूँ?The doctor is the right person to go through your report, please ask on Saturday. I've noted Saturday at 11 am, and our team will update your appointment. Shall I send the confirmation on WhatsApp?
 
 - Caller हाँ, भेज दीजिए।Yes, please send it.
 
@@ -3831,14 +3832,14 @@ A call the day before confirms the patient is coming. A patient who cannot make 
 Event confirmation
 
 ### Report-ready calls
-The agent tells the patient their report is ready and when they can collect it. It does not read out or explain results.
+The agent tells the patient their report is ready and when they can collect it. Script it not to read out or explain results.
 
 ### Post-visit follow-up and feedback
 A short call a few days after a visit or procedure collects feedback. Anyone who mentions a problem is flagged for your staff to call back.
 Feedback surveys
 
-### Take bookings from your IVR
-Callers who pick the appointment option on your IVR menu can be handed to the agent. Anything else is transferred to the desk.
+### Take bookings from the Telleo IVR
+Callers who pick the appointment option on an IVR menu set up on your Telleo number can be handed to the agent. Anything else is transferred to the desk.
 AI receptionist
 
 ### Qualify health-check package enquiries
@@ -3869,7 +3870,7 @@ Upload tomorrow's appointment list as a CSV and run a reminder campaign inside c
 List what the agent may talk about, such as timings, doctors' days and preparation instructions you have approved. Tell it to pass every clinical question to staff, then test that it does.
 
 - 3 Set outcomes
-Send reschedules and cancellations to the front desk. Assign patients flagged with a concern to a nurse or coordinator to call back.
+Assign reschedules, cancellations and patients flagged with a concern to the staff on this list, so a nurse or coordinator can call back.
 
 - 4 Add bookings from new enquiries
 Once reminders run cleanly, connect your website and ad forms so new enquiries get a booking call within about a minute.
@@ -3878,24 +3879,24 @@ Be careful with
 
 - Don't let the agent discuss diagnoses, results, medicines or doses. Script it to hand every clinical question to your staff, and check recordings to confirm it does.
 - It is not an emergency line. Script it to tell anyone describing an emergency to go to the nearest hospital or call emergency services, and transfer the call to your desk.
-- Telleo does not hold HIPAA or other healthcare certifications. Patient calls are sensitive: limit full transcripts to roles that need them, and keep health details out of call fields you do not need.
+- Telleo does not hold HIPAA or other healthcare certifications. Patient calls are sensitive: Patient calls are sensitive, and transcripts can't be restricted by role: give call-log access only to the people who need it, and keep health details out of call fields you do not need., and keep health details out of call fields you do not need.
 - If you run separate appointment software, bookings made by the agent reach it only through a webhook or when your front desk enters them.
 
 ## Healthcare: common questions
 Can the agent answer medical questions? +
-No, and it should not. Configure it to say the doctor or your staff will answer, and to offer a callback. Every call is transcribed (and recorded, with recording on), so you can check how it handled the question.
+It should not, and nothing stops it except your script. Configure it to say the doctor or your staff will answer, and to offer a callback. Every call is transcribed (and recorded, with recording on), so you can check how it handled the question.
 
 Will it work with our hospital management system? +
 There is no built-in integration with hospital or lab software. Telleo can send each outcome to any system that accepts a webhook or HTTP request; otherwise your front desk updates bookings from the call log.
 
 Can patients reach the agent by calling us? +
-Yes, through your IVR. An IVR menu option, for example 'press 2 to book an appointment', can hand the caller to the AI agent.
+Yes, through the Telleo IVR. An IVR menu option on your Telleo line, for example 'press 2 to book an appointment', can hand the caller to the AI agent.
 
 Which languages can patients use? +
 Hindi, English and Hinglish are in production. Tamil, Telugu, Marathi, Bengali and other Indian languages are supported by the voice engines and set up with you on request.
 
 Who can see what patients said? +
-Full transcripts are visible only to roles you give permission to see caller details. Other staff see outcomes and summaries.
+Transcripts, summaries and captured answers are visible to staff who can open the call log, so keep call-log access to the people who need it. Recordings, when switched on, play there too, and full phone numbers can be restricted by role.
 
 ## Other industries
 Education Real estate Lending Insurance E-commerce & D2C Automotive Travel & hospitality Recruitment
@@ -3938,7 +3939,7 @@ Sample call · Lending Telleo agent · transcript
 
 - Caller कल दोपहर तीन बजे।Tomorrow at 3 in the afternoon.
 
-- AI agent ठीक है, कल दोपहर तीन बजे हमारी team आपको call करेगी। क्या और किसी चीज़ में मदद कर सकती हूँ?Okay, our team will call you tomorrow at 3 pm. Is there anything else I can help with?
+- AI agent ठीक है, मैंने note कर लिया है कि कल दोपहर तीन बजे के आसपास बात करना ठीक रहेगा, हमारी team आपसे संपर्क करेगी। क्या और किसी चीज़ में मदद कर सकती हूँ?Okay, I've noted that tomorrow around 3 pm suits you, and our team will be in touch. Is there anything else I can help with?
 
 - Caller नहीं, बस। Thank you.No, that's all. Thank you.
 
@@ -3969,7 +3970,7 @@ What Telleo does
 
 ## The calls your AI agents make
 
-### Call new loan leads within a minute
+### Call new loan leads in about a minute
 Meta, Google and website leads get a call within about a minute of the form, inside the hours you allow.
 Instant lead callback
 
@@ -3982,11 +3983,11 @@ Applicants who stopped at a step are told what is pending and can be sent your l
 Application follow-up
 
 ### Courteous EMI reminders
-A reminder before the due date with the amount and date from your list. If the borrower mentions a problem, the call is marked for your team, never argued.
+A reminder before the due date with the amount and date from your list. If the borrower mentions a problem, script the agent to mark the call for your team rather than press the point.
 Payment reminders
 
 ### Re-engage dropped leads
-When your products or criteria change, call older leads again and pass the interested ones to your team.
+When your products or criteria change, call older leads who have consented to be contacted and pass the interested ones to your team.
 Lead reactivation
 
 Into your CRM
@@ -4020,9 +4021,9 @@ Every call is transcribed, and recorded with recording on. Sample reminder calls
 
 Be careful with
 
-- Reminder calls must stay courteous. The agent is for reminders, not collections pressure: it never threatens, and disputes or hardship go to a person.
-- An RBI circular on recovery agents (RBI/2022-23/108, August 2022) says regulated lenders and their agents must not call borrowers about overdue loans before 8 am or after 7 pm, or call persistently. Set calling windows and retry limits to match, and check current RBI directions with your compliance team.
-- The agent does not collect payments, verify KYC documents or give financial advice. It tells applicants what is pending and sends your link.
+- Reminder calls must stay courteous. The agent is for reminders, not collections pressure: script it never to threaten, and to send disputes or hardship cases to a person.
+- RBI's rules on recovery agents (first issued in circular RBI/2022-23/108 in August 2022, now part of RBI's Responsible Business Conduct Directions) say regulated lenders and their agents must not call borrowers about overdue loans before 8 am or after 7 pm, or call persistently. Set calling windows and retry limits to match, and check current RBI directions with your compliance team.
+- The agent does not collect payments or verify KYC documents; script it not to give financial advice. It tells applicants what is pending and sends your link. It tells applicants what is pending and sends your link.
 - DLT registration is required for commercial calling in India. Telleo registers it with you.
 
 ## Lending: common questions
@@ -4033,10 +4034,10 @@ Can it do KYC? +
 No. It can tell an applicant which step is pending and send the link to finish it. Checking documents stays with your KYC process.
 
 Can it make collection calls on overdue loans? +
-We recommend using it for courteous reminders only, before and just after the due date. Anything beyond a reminder, and every dispute or hardship case, should go to a trained person. RBI's August 2022 circular on recovery agents rules out calls about overdue loans before 8 am or after 7 pm.
+We recommend using it for courteous reminders only, before and just after the due date. Anything beyond a reminder, and every dispute or hardship case, should go to a trained person. RBI's rules on recovery agents (first issued in its August 2022 circular, now part of its Responsible Business Conduct Directions) rule out calls about overdue loans before 8 am or after 7 pm; for microfinance loans the window is 9 am to 6 pm.
 
 How do we control when and how often borrowers are called? +
-Campaigns run inside time windows you choose. Retries follow the gap and maximum attempts you set, a daily cap limits total calls, and duplicate protection stops a number being dialled twice by accident.
+Campaigns run inside time windows you choose. Workflow calls retry with the gap and maximum attempts you set; a campaign never re-dials on its own, so you decide if and when to re-run it. A daily cap limits total calls, and duplicate protection stops a number being dialled twice by accident.
 
 Is every call recorded? +
 Yes, with recording switched on for your calling line, which is the normal setup. Every call is also transcribed, with a summary and a disposition, so you can review how each reminder was handled.
@@ -4082,7 +4083,7 @@ Sample call · Insurance Telleo agent · transcript
 
 - Caller दस बजे के बाद।After 10.
 
-- AI agent ठीक है, कल सुबह दस बजे के बाद advisor आपको call करेंगे। Renewal की details WhatsApp पर भेज दूँ?Okay, an advisor will call you tomorrow after 10 am. Shall I send the renewal details on WhatsApp?
+- AI agent ठीक है, मैंने note कर लिया है कि कल सुबह दस बजे के बाद बात करना ठीक रहेगा, advisor आपसे संपर्क करेंगे। Renewal की details WhatsApp पर भेज दूँ?Okay, I've noted that tomorrow after 10 am suits you, and an advisor will be in touch. Shall I send the renewal details on WhatsApp?
 
 - Caller हाँ, भेज दीजिए।Yes, please send them.
 
@@ -4108,7 +4109,7 @@ What Telleo does
 
 ## The calls your AI agents make
 
-### Call new leads within a minute
+### Call new leads in about a minute
 Meta, Google and website leads get a call within about a minute, while the customer still remembers filling the form.
 Instant lead callback
 
@@ -4117,7 +4118,7 @@ The agent asks the type of cover, who it is for, any current policy, and the bes
 Lead qualification
 
 ### Renewal reminders
-Calls ahead of the renewal date with the policy and due date from your list. Customers with questions are transferred to an advisor or given a callback.
+Calls ahead of the renewal date with the policy and due date from your list. Customers with questions are transferred to an advisor or flagged for an advisor's callback.
 Payment reminders
 
 ### Pending document follow-up
@@ -4125,7 +4126,7 @@ Customers are told which document is missing and, if they agree, sent your uploa
 Application follow-up
 
 ### Reach lapsed customers
-Call customers whose policy lapsed and ask if they would like an advisor to call about renewing.
+Call lapsed customers who have consented to be contacted and ask if they would like an advisor to call about renewing.
 Lead reactivation
 
 ### Feedback after purchase or claim
@@ -4142,7 +4143,7 @@ Into your CRM
 - Renewal intent: renew, change or not renewing
 - Reason for not renewing
 - Documents still pending
-- Preferred advisor callback time
+- Whether they want an advisor to call back
 
 Day one
 
@@ -4152,17 +4153,17 @@ Day one
 Import policies due in the coming weeks as a CSV, with policy type and due date as fields the agent can mention.
 
 - 2 Script the boundary
-The agent reminds, qualifies and books callbacks. Premiums, cover comparisons and recommendations go to licensed advisors by live transfer or callback.
+The agent reminds, qualifies and flags callback requests. Premiums, cover comparisons and recommendations go to licensed advisors by live transfer or callback.
 
 - 3 Route by outcome
-Customers who want to renew go to the advisor who owns the policy. Reasons for not renewing are captured for your manager. Unanswered calls retry on your schedule.
+Customers who want to renew go to the advisor who owns the policy. Reasons for not renewing are captured for your manager. Re-run the renewal campaign later over the customers who didn't answer.
 
 - 4 Add new-lead calls
 Connect Meta and Google lead forms so new leads get a qualifying call within about a minute.
 
 Be careful with
 
-- The agent should not recommend, compare or quote policies. Leave advice and selling to your licensed staff, and script it to transfer or book a callback when asked.
+- The agent should not recommend, compare or quote policies. Leave advice and selling to your licensed staff, and script it to transfer the call or flag a callback request when asked.
 - Only give the agent premiums or due amounts that come from your records. It repeats what it is given and does not calculate anything.
 - WhatsApp sends need approved templates, and the agent sends only what the customer agreed to on the call.
 - DLT registration is required for commercial calling in India. Telleo registers it with you, and you choose the calling hours.
@@ -4260,7 +4261,7 @@ A short call after delivery asks for a rating and what could be better. Unhappy 
 Feedback surveys
 
 ### Win back past buyers
-Call past customers when a product is back in stock or a new range launches, and send interested ones your link on WhatsApp.
+Call past customers who have consented to hear from you when a product is back in stock or a new range launches, and send interested ones your link on WhatsApp.
 Lead reactivation
 
 Into your CRM
@@ -4280,7 +4281,7 @@ Day one
 ## A first rollout
 
 - 1 Send orders to Telleo by webhook
-Point your store or order tool's COD-order webhook at Telleo, with items, order value and address as fields. If your platform cannot send webhooks, a daily CSV import works to start.
+Send each new COD order to Telleo's webhook as simple fields (phone, items, order value, address), using your order tool or a connector that reshapes the store's own webhook. If your platform cannot send webhooks, a daily CSV import works to start.
 
 - 2 Keep the confirmation call short
 Confirm the order, check quantity and variant, ask for a landmark. Set the hours calls may go out.
@@ -4295,7 +4296,7 @@ Be careful with
 
 - There is no native Shopify, WooCommerce or courier integration. Orders come in and outcomes go out through webhooks, HTTP requests or CSV.
 - The agent does not take payment or edit orders itself, and it cannot look an order up on its own. It reads out the details you send and records what the customer wants; your system or team acts on it.
-- Abandoned-checkout and win-back calls are sales calls. Register DLT with us, keep to sensible hours, and make 'do not call' a disposition that stops further calls.
+- Abandoned-checkout and win-back calls are sales calls. Register DLT with us, keep to sensible hours, call past buyers only with their consent, and make 'do not call' a disposition that stops retries, then leave those numbers out of future campaign lists.
 
 ## E-commerce & D2C: common questions
 Does it integrate with Shopify? +
@@ -4427,7 +4428,7 @@ Add models, variants, current offers and showroom hours. Update offers every mon
 Test-drive bookings go to the sales team round-robin, service bookings to the service desk, and not-interested leads stop.
 
 - 4 Run service reminders as a campaign
-Run the service-due list in a morning window each week, with retries for numbers that did not answer.
+Run the service-due list in a morning window each week, and re-run it later over the numbers that didn't answer.
 
 Be careful with
 
@@ -4438,13 +4439,13 @@ Be careful with
 
 ## Automotive: common questions
 Can the agent quote on-road prices? +
-Only prices you put in the script. Many dealers have it give a range and let sales send the exact quote; the agent can transfer the call or book a callback.
+Only prices you put in the script. You can have it give a range and let sales send the exact quote; the agent can transfer the call, or the call is marked as a callback request for sales to follow up.
 
 Can it book service appointments? +
 Yes. It calls customers from your service-due list, agrees a day and time, and books it on your booking page. Pick-up requests are captured for the service desk.
 
 Can customers call in and reach the agent? +
-Yes, through an IVR option, for example 'press 1 to book a service'. Anything the agent cannot handle can be transferred to your desk.
+Yes, through an IVR menu option on a Telleo number, for example 'press 1 to book a service'. Anything the agent cannot handle can be transferred to your desk.
 
 Do we need new phone lines? +
 No. AI calls run on Telleo's lines. Your team can keep using Airtel IQ or Exotel for their own click-to-call; the AI line is separate.
@@ -4538,7 +4539,7 @@ A short call after checkout asks for a rating and what could have been better. L
 Feedback surveys
 
 ### Re-engage past enquiries and guests
-Call past enquiries and guests when a new package launches or a season opens, and pass the interested ones to a consultant.
+Call past enquiries and guests who have consented to hear from you when a new package launches or a season opens, and pass the interested ones to a consultant.
 Lead reactivation
 
 Into your CRM
@@ -4564,7 +4565,7 @@ Link Meta and Google lead forms and your website form. Import past enquiries by 
 Add destinations, inclusions, seasons and starting prices to the script, and tell the agent to leave custom itineraries to consultants.
 
 - 3 Route qualified trips
-Assign trips with dates and a budget to consultants round-robin. Keep 'just browsing' leads for a later re-engagement campaign.
+Assign trips with dates and a budget to consultants round-robin. Keep 'just browsing' leads aside, and include them in a later re-engagement campaign only if they have consented to be contacted.
 
 - 4 Add confirmations and feedback
 Import upcoming arrivals and recent checkouts as CSV files, or push them by webhook from your booking system, and run the calls in set windows.
@@ -4659,7 +4660,7 @@ What Telleo does
 
 ## The calls your AI agents make
 
-### Call new applicants within a minute
+### Call new applicants in about a minute
 Applications from job ads or your careers form get a call within about a minute of arriving, inside the hours you set.
 Instant lead callback
 
@@ -4680,7 +4681,7 @@ Before joining day the agent checks the candidate is still coming and reminds th
 Application follow-up
 
 ### Reactivate your candidate database
-When a new mandate opens, call past applicants to see who is available now.
+When a new mandate opens, call past applicants who have consented to hear from you to see who is available now.
 Lead reactivation
 
 Into your CRM
@@ -4709,7 +4710,7 @@ Set the must-know questions and what counts as a fit. Keep every question about 
 Candidates who fit get an interview slot, borderline ones go to a recruiter, and the rest are closed politely.
 
 - 4 Add reminders and joining calls
-Use workflow steps to call the day before each interview and a few days before joining.
+Each day, import tomorrow's interviews and this week's joiners as a CSV and run them as a short campaign.
 
 Be careful with
 
@@ -4729,7 +4730,7 @@ Can it call candidates from job portals? +
 If you can export them to a CSV, yes. Import the list and run a screening campaign within the hours you choose.
 
 How many candidates can it call in a day? +
-The default daily cap is 500 calls, and you can change it. Unanswered numbers are retried on the gap and attempt limit you set.
+The default daily cap is 500 calls, and you can change it. Unanswered calls from a workflow are retried on the gap and attempt limit you set; a campaign doesn't re-dial, so re-run it over the candidates who didn't answer.
 
 Can candidates talk to a recruiter during the call? +
 Yes. Set a recruiter's number for live transfer, and the agent connects the call after a short bridge line.
@@ -4754,9 +4755,9 @@ URL: https://telleo.ai/compare/telleo-vs-telecallers/
 Comparison
 
 # Telleo vs an in-house telecalling team
-Most Indian sales and admissions teams already have telecallers. The useful question is not AI or people, but which calls each should make. This page compares an AI voice agent with a human calling team, job by job, so you can split the work sensibly.
+Many Indian sales and admissions teams already have telecallers. The useful question is not AI or people, but which calls each should make. This page compares an AI voice agent with a human calling team, job by job, so you can split the work sensibly.
 The short answer
-Use Telleo for the first call to every new lead, reminders, retries and routine qualification, where speed and consistency matter most. Keep your telecallers for negotiation, complex questions and relationships, and let Telleo hand them qualified leads with a call summary. Most teams do best with both working together.
+Use Telleo for the first call to every new lead, reminders, retries and routine qualification, where speed and consistency matter most. Keep your telecallers for negotiation, complex questions and relationships, and let Telleo hand them qualified leads with a call summary. Many teams will want both, working together.
 
 ## Side by side
 | Telleo | An in-house telecalling team |
@@ -4768,11 +4769,11 @@ Scaling up and down | Run a bulk campaign over a list, or call from a workflow. 
 Consistency | Same opening line, same questions and the same outcome list on every call. | Varies by person, experience, mood and time of day. |
 Complex conversations | Handles scripted qualification, questions within its brief and bookings. Can transfer the call to a person mid-call. | Better at negotiation, unusual objections, emotional calls and anything that needs judgement. |
 Relationships | Not a substitute for a named person the customer knows and trusts. | A person can build trust over many calls and own the account. |
-Record keeping | Every AI call transcribed; recording can be switched on for every call. Disposition, summary, lead rating and the caller's answers saved to the lead automatically. | Depends on each caller updating the CRM after every call. |
+Record keeping | Every AI call transcribed; recording can be switched on for every call. Disposition, summary, lead rating and the caller's answers saved on the call automatically. | Depends on each caller updating the CRM after every call. |
 Follow-up | Outcome rules assign, retry or stop. Meetings agreed on the call are booked. WhatsApp or email goes out when the caller said yes. | Manual reminders and callbacks, which are easy to miss when volume is high. |
 Quality review | A green, amber or red health verdict on every AI call. Human calls can also be transcribed and scored against your rubric, charged per minute of recording. | Usually a manager listening to a sample of calls. |
 Languages | Hindi, English and Hinglish in production. Nine more Indian languages set up with you on request. | Whatever languages your team speaks. |
-Best for | First calls, reminders, re-engagement and qualification at volume. | Closing, negotiation, escalations and key accounts. |
+Best for | First calls, reminders, re-engagement of leads who have consented, and qualification at volume. | Closing, negotiation, escalations and key accounts. |
 
 ## Choose Telleo if…
 
@@ -4780,22 +4781,22 @@ Best for | First calls, reminders, re-engagement and qualification at volume. | 
 - A big part of your team's day goes on unanswered calls, retries and reminders.
 - You want every call transcribed, summarised and logged without relying on manual notes.
 - Your lead volume rises and falls, and you don't want to hire for the peak.
-- Your callers speak Hindi, English or Hinglish.
+- The people you call speak Hindi, English or Hinglish.
 
 ## Choose an in-house telecalling team if…
 
 - Your sale needs negotiation, custom pricing or long consultative conversations.
 - Customers expect a named relationship manager who knows their history.
 - Calls involve sensitive or emotional situations that need human judgement.
-- Your callers mainly speak a language Telleo does not yet run in production.
+- The people you call mainly speak a language Telleo does not yet run in production.
 - Your call volume is small enough for one person to handle comfortably.
 
 ## Where a telecaller's time goes
 Much of a telecaller's day is not conversation. It is dialling, waiting on numbers that do not pick up, redialling later and typing notes afterwards.
-Telleo takes that routine layer. It dials, retries unanswered calls with a gap and a maximum number of attempts, and writes the outcome to the lead. Your team picks up where a real conversation is needed.
+Telleo takes that routine layer. It dials, retries unanswered workflow calls with a gap and a maximum number of attempts, and writes the outcome to the lead. Your team picks up where a real conversation is needed.
 
 ## Speed to lead
-Research reported in Harvard Business Review in 2011, covering 1.25 million leads at 42 US companies, found that firms which tried to contact a web lead within an hour were nearly 7 times as likely to qualify it as those that tried an hour later, and more than 60 times as likely as those that waited 24 hours or longer. Among companies that responded within 30 days, the average response time was 42 hours.
+Research reported in Harvard Business Review in 2011, covering 1.25 million leads at 42 US companies, found that firms which tried to contact a web lead within an hour were nearly 7 times as likely to qualify it as those that tried an hour later, and more than 60 times as likely as those that waited 24 hours or longer. In a separate audit of 2,241 U.S. companies, the same authors found that among companies that responded within 30 days, the average response time was 42 hours.
 Telleo can call a new lead within about 60 seconds of it arriving from a Meta lead ad, a Google lead form or a website form. If the lead is interested, outcome rules assign it to a rep along with the call summary.
 
 ## What each costs
@@ -4803,7 +4804,7 @@ Salary sites give a rough guide. Indeed India lists an average of ₹16,310 a mo
 Telleo is priced per minute of call. On the annual plan you pay ₹19,999 a year upfront and ₹3.49 a minute from the first minute, with no monthly minimum. Prices exclude 18% GST, and DLT/PE registration is ₹5,900 a year at actuals. It is not a like-for-like swap: an AI agent does not replace a good telecaller's judgement, but it can take the calls that do not need it.
 
 ## How the two work together
-Telleo is built to sit next to a human team. Outcome rules assign a lead to a counsellor or sales rep on the outcomes you pick, automation skips leads already assigned to a rep, and a live transfer can bring a person into the call.
+Telleo is built to sit next to a human team. Outcome rules assign a lead to a counsellor or sales rep on the outcomes you pick, workflow calls skip leads already assigned to a rep, and a live transfer can bring a person into the call.
 Your team can keep using Airtel IQ or Exotel for click-to-call. Those calls, or recordings uploaded from anywhere, can be transcribed in Hindi, English or Hinglish and scored against your rubric, with coaching tips and a rep leaderboard.
 
 See it on your own calls
@@ -4858,7 +4859,7 @@ Comparison
 # Telleo vs IVR menus and pre-recorded calls
 An IVR asks callers to press keys. A voice broadcast plays the same recording to everyone. Both are useful, and both are mostly one-way. Telleo holds a spoken conversation, captures the answer and acts on it. Here is how they compare and where each one fits.
 The short answer
-If the message is the same for everyone and needs no reply, such as an alert or simple call routing, an IVR or recorded broadcast is the simpler tool. If you need something back, like interest, a preferred time or a booking, Telleo fits better because it understands spoken replies and turns them into CRM actions. The two also work together: an IVR option can hand the caller to a Telleo agent.
+If the message is the same for everyone and needs no reply, such as an alert or simple call routing, an IVR or recorded broadcast is the simpler tool. If you need something back, like interest, a preferred time or a booking, Telleo fits better because it understands spoken replies and turns them into CRM actions. On inbound, an IVR menu option on a Telleo number can hand the caller to a Telleo agent.
 
 ## Side by side
 | Telleo | IVR menus and pre-recorded voice broadcasts |
@@ -4866,13 +4867,13 @@ If the message is the same for everyone and needs no reply, such as an alert or 
 How the caller responds | Speaks normally in Hindi, English or Hinglish. Can interrupt, and a short "haan" or "okay" while the agent talks does not derail it. | Presses keys on a fixed menu. A broadcast plays a recording and usually expects no reply. |
 Personalisation | Uses the lead's name and the fields captured on their form. | Usually one recording or menu for everyone. |
 Questions off the menu | Answers within the brief you give it, and can transfer the call to a person mid-call. | Only the options on the menu. Anything else goes to a queue or a callback. |
-What gets captured | Outcome from your own list, a short summary, a 1 to 10 lead rating, the caller's answers, and any callback or meeting time, saved as an exact date and time. | Key presses and whether the call was answered. |
+What gets captured | Outcome from your own list, a short summary, a 1 to 10 lead rating, the caller's answers, any callback request, and any agreed meeting time as an exact date and time. | Key presses and whether the call was answered. |
 What happens next | Assign to a rep, retry, stop, book the meeting, or send WhatsApp or email, automatically. | Depends on your setup. Often a report or a list for someone to work through. |
 Call length and cost | Billed per minute of call, from ₹3.49/min on the annual plan (excluding GST). A conversation lasts longer than a recording. | Calls are short because the message is fixed. Pricing varies by provider. |
 Setup | No-code builder: opening line, script, questions to ask and outcome list. A script can be drafted from a plain-language brief. | Record prompts and map each key press to an action or queue. |
 Changing the message | Edit the script and the next call uses it. Voice preview plays the exact voice that will go out. | Re-record the audio and update the menu tree. |
 Answering machines | Detects answering machines. A call where nobody really spoke is marked Incomplete, never Not interested. | Handling varies by system. |
-Best for | Qualification, reminders that need a reply, re-engagement and bookings. | Alerts, announcements and routing inbound callers to the right team. |
+Best for | Qualification, reminders that need a reply, re-engagement of leads who have consented, and bookings. | Alerts, announcements and routing inbound callers to the right team. |
 
 ## Choose Telleo if…
 
@@ -4897,7 +4898,7 @@ Not every call needs a conversation. A payment-due alert, a holiday closure noti
 Use Telleo where a reply changes what you do next: whether a lead is interested, when to call back, whether a parent will attend, or which slot suits the customer.
 
 ## Using both together
-On inbound, an IVR menu option can hand the caller to a Telleo AI agent. Keep the menu for routing and let the agent take the calls where someone needs to talk.
+On inbound, an IVR menu option can hand the caller to a Telleo AI agent. Set up the IVR on your Telleo number for routing, and point the options where someone needs to talk at the agent.
 After every AI call, outcome rules decide what happens: assign to a rep, retry with a gap, stop, book the meeting, or send the WhatsApp message or email the caller agreed to.
 
 ## Cost, honestly
@@ -4951,16 +4952,16 @@ Choose Ringg AI if you need many languages, channels beyond voice, developer API
 | Telleo | Ringg AI |
 
 Pricing model | Per minute of call, billed per minute (rounded up). Monthly plans with a minimum, or an annual plan with no minimum. Telephony and analysis of AI calls included. | Published: usage-based, ₹6 per connected minute for voice agents, prorated by the second. Bundles STT, TTS, LLM, telephony and basic analytics. Pricing also involves a monthly minimum commitment; the amount is not published. |
-Entry price | Starter (trial plan, up to 3 months): ₹3,499/month minimum billing at ₹3.99/min. Annual: ₹19,999/year upfront, then ₹3.49/min from minute one. Prices exclude 18% GST. | Free credits on sign-up. Phone number ₹499 per month. Advanced analytics ₹2 per call. Their page notes final amounts may vary with exchange rates and taxes. |
+Entry price | Starter (trial plan, up to 3 months): ₹3,499/month minimum billing at ₹3.99/min. Annual: ₹19,999/year upfront, then ₹3.49/min from minute one, with the full CRM included. Starter and Pro do not include the CRM; Pro + CRM is ₹8,999/month. Prices exclude 18% GST. | Free credits on sign-up. Phone number ₹499 per month. Advanced analytics ₹2 per call. Their page notes final amounts may vary with exchange rates and taxes. |
 Concurrency and volume | A daily call cap (default 500/day, configurable) and 30-second duplicate protection guard volume. | Per their pricing FAQ, five concurrent calls included, more in blocks of five for Rs 1,995 per block. Their docs list 10,000+ simultaneous calls as platform capacity. |
 Languages | Hindi, English and Hinglish in production. Nine more Indian languages set up with you on request. | Per their site, 20+ languages, including Hindi, English, Tamil, Telugu, Kannada, Malayalam, Marathi, Bengali and Gujarati, plus French, Spanish, Russian and Mandarin. |
 Channels | Voice calls, outbound and inbound (via an IVR option), with WhatsApp template and email sends from the CRM. | Voice, chat, WhatsApp agents, a web widget and browser agents. Chat and WhatsApp agents are ₹2 per 5-minute session. |
 Telephony | Included on Telleo's lines (Plivo). Optional dedicated AI line with your own caller ID. No SIMs, dialers or telecom contracts. | Ringg's telephony is included in the per-minute price, or bring your own: Plivo, Exotel, Twilio or SIP, with Ameyo and Ozonetel guides in their docs. An integration charge may apply. |
 CRM and follow-up | Built-in CRM: leads from Meta and Google lead forms, webhooks and CSV; round-robin assignment; rules to assign, retry or stop; meetings auto-booked; WhatsApp and email sent only when the caller agreed. | Integrations listed on their site include HubSpot, Google Sheets, Calendly, Shopify, Notion and Typeform, plus webhooks, an API and WhatsApp send tools during or after a call. |
-Call analysis | Every AI call analysed free: outcome from your list, summary, 1 to 10 lead rating, extracted answers, callback and meeting times. Human calls can be analysed and scored too, per minute of recording. | Custom post-call analysis fields, call history and an analytics dashboard. Advanced analytics at ₹2 per call. |
+Call analysis | Every AI call analysed free: outcome from your list, summary, 1 to 10 lead rating, extracted answers, callback requests and agreed meeting times. Human calls can be analysed and scored too, per minute of recording. | Custom post-call analysis fields, call history and an analytics dashboard. Advanced analytics at ₹2 per call. |
 Quality monitoring | A green, amber or red health verdict on every AI call with a plain headline, such as long silence or transfer failed. | Per their homepage: QA, analytics and alerts on all conversations, with flags such as hallucination and interruptions. |
 Developer tools | No public API or SDK. Connects to anything that can send or receive a webhook. | REST API, webhooks, an MCP server, and web, React Native and Flutter widgets. |
-Security and compliance | No certifications claimed. We register DLT with you. Full transcripts visible only to roles with permission. | Per their docs: SOC 2 Type II audit completed, ISO 27001 certified, GDPR and HIPAA compliant, with a public trust centre. On-prem or private cloud deployment for an additional fee. |
+Security and compliance | No certifications claimed. We register DLT with you. Health verdicts and diagnostics are admin-only; full phone numbers on the call log can be restricted by role. | Per their docs: SOC 2 Type II audit completed, ISO 27001 certified, GDPR and HIPAA compliant, with a public trust centre. Per their pricing page, on-premise or virtual private cloud deployment is available on the Enterprise plan, and their FAQ says it costs an additional fee. |
 Best for | Indian sales, admissions and service teams calling in Hindi, English or Hinglish who want calling and CRM in one tool. | Businesses that need many languages, several channels, developer control or enterprise security paperwork. |
 
 ## Choose Telleo if…
@@ -4969,7 +4970,7 @@ Best for | Indian sales, admissions and service teams calling in Hindi, English 
 - You want lead capture, assignment, retries, bookings and WhatsApp or email follow-up in the same tool as the calls.
 - You want your human team's calls transcribed and scored, not only AI calls.
 - You prefer simple rupee pricing, with an annual plan that has no monthly minimum.
-- You want a plain health verdict on every call that tells you what went wrong.
+- You want a plain health verdict on every AI call that tells you what went wrong.
 
 ## Choose Ringg AI if…
 
@@ -5001,7 +5002,7 @@ Book a demo
 
 ## Questions
 Is Telleo cheaper than Ringg AI? +
-On published per-minute rates, Telleo's ₹3.49 to ₹3.99 a minute (excluding GST) is lower than Ringg's ₹6 per connected minute. But Ringg prorates by the second while Telleo rounds up to the minute, Ringg has a monthly minimum whose amount is not published, and Telleo's annual plan has a ₹19,999 upfront fee. Compare on your own call volume and call lengths.
+On published per-minute rates, Telleo's ₹3.49 to ₹3.99 a minute (excluding GST) is lower than Ringg's ₹6 per connected minute. But Ringg prorates by the second while Telleo rounds up to the minute, Ringg has a monthly minimum whose amount is not published, Telleo's monthly plans have a ₹3,499 or ₹6,999 minimum, and Telleo's annual plan has a ₹19,999 upfront fee. Compare on your own call volume and call lengths.
 
 Does Ringg AI support Hindi? +
 Yes. Ringg's site lists Hindi among its 20+ languages. Telleo runs Hindi, English and Hinglish in production.
@@ -5058,7 +5059,7 @@ Pick Vomyra if you make a lot of calls to Indian numbers and want a flat monthly
 | Telleo | Vomyra |
 
 Pricing model | Metered: per minute of call, billed per minute (rounded up). Monthly plans with a minimum, or an annual plan with no minimum. | Published: a trial, a metered Developer plan, and Unlimited plans with no per-minute charge. Unlimited covers Indian-number calls within TRAI-permitted hours, under a fair-use policy with an eight-hour daily window. Per-second billing on every plan. Prices shown are on an annual plan. |
-Entry price | Starter (trial plan, up to 3 months): ₹3,499/month minimum billing at ₹3.99/min. Annual: ₹19,999/year upfront, then ₹3.49/min. Prices exclude 18% GST. | ₹599 for a 7-day trial with 500 credits. Developer ₹15,000/month with 2,500 minutes. Unlimited Solo ₹19,999/month, Team ₹39,999/month, Business ₹79,999/month. Concurrency 2, 2, 6 and 15 calls respectively. |
+Entry price | Starter (trial plan, up to 3 months): ₹3,499/month minimum billing at ₹3.99/min. Annual: ₹19,999/year upfront, then ₹3.49/min, with the full CRM included. Starter and Pro do not include the CRM; Pro + CRM is ₹8,999/month. Prices exclude 18% GST. | ₹599 for a 7-day trial with 500 credits. Developer ₹15,000/month with 2,500 minutes. Unlimited Solo ₹19,999/month, Team ₹39,999/month, Business ₹79,999/month. Concurrency 2, 2, 6 and 15 calls respectively. |
 Setup | No-code agent builder. Draft a script from a plain-language brief, or start from a use-case template (education-first today). | No-code. Per their site, you give your website URL and their setup agent builds a team of AI agents. |
 Languages | Hindi, English and Hinglish in production. Nine more Indian languages set up with you on request. | Per their site, 70+ languages. Their docs name Hindi, Tamil, Telugu, Kannada, Bengali, Marathi, Gujarati and Indian English, with Hinglish code-switching. |
 Phone numbers and telephony | Included on Telleo's lines (Plivo). Optional dedicated AI line with your own caller ID. | Managed Indian mobile-series numbers (98 and 94), or bring your own carrier over SIP, such as Plivo, Twilio or Telnyx. Their integrations page also lists Exotel, Ozonetel and DialShree. |
@@ -5067,7 +5068,7 @@ Channels | Phone calls, outbound and inbound (via an IVR option), plus WhatsApp 
 CRM and follow-up | Built-in CRM: leads from Meta and Google lead forms, webhooks and CSV; round-robin assignment; rules to assign, retry or stop; meetings auto-booked; WhatsApp and email sent only when the caller agreed. | Integrations with Zoho CRM, HubSpot, Salesforce, Google Sheets, Google Calendar, Cal.com, WhatsApp, Razorpay, Slack, Zapier and Make, plus webhooks and a REST API. |
 Call analysis | Every AI call analysed free, with a green, amber or red health verdict. Human calls can be analysed and scored too, per minute of recording. | Per their pricing page, "Full analytics" from the Developer plan. Transcripts are available through the API and MCP server. |
 Developer tools | No public API or SDK. Connects to anything that can send or receive a webhook. | REST API (15 endpoints), webhooks, a hosted MCP server and a Web SDK. |
-Security and compliance | No certifications claimed. We register DLT with you. Full transcripts visible only to roles with permission. | Public security page: API-key or OAuth 2.1 access, encryption in transit and at rest, role-based access, audit logs and a DPA. Security review on Enterprise. Live calls need business KYC first. |
+Security and compliance | No certifications claimed. We register DLT with you. Health verdicts and diagnostics are admin-only; full phone numbers on the call log can be restricted by role. | Public security page: API-key or OAuth 2.1 access, encryption in transit and at rest, role-based access, audit logs and a DPA. Security review on Enterprise. Live calls need business KYC first. |
 Best for | Teams with modest or seasonal volume who want calling, CRM and follow-up in one tool. | High-volume calling to Indian numbers at a flat price, voice cloning, resellers and developer-led teams. |
 
 ## Choose Telleo if…
@@ -5162,14 +5163,14 @@ Build your own if voice AI is part of your product, you have engineers to own it
 | Telleo | Building your own agent on Vapi, Retell AI, Pipecat or LiveKit |
 
 What you get | A finished product: agent builder, telephony, CRM, follow-up automation and call analysis. | Building blocks. Vapi and Retell host the voice pipeline; Pipecat and LiveKit Agents are open-source frameworks you run yourself. |
-Pricing model | One rupee per-minute rate that includes telephony: ₹3.49/min on the annual plan, ₹3.99/min on monthly plans. Excludes 18% GST. | In US dollars and in parts. Vapi: $0.05/min hosting, with models passed through at cost, plus telephony. Retell: $0.07 to $0.31/min for voice agents, depending on the LLM and voice chosen. |
-Entry cost | Starter ₹3,499/month minimum billing (a trial plan, up to 3 months), Pro ₹6,999/month, or ₹19,999/year on the annual plan. | Vapi: $0 to start with $5 free credits; support packages from $29/month. Retell: $10 free credits and 20 free concurrent calls. Pipecat and LiveKit Agents: free and open source. |
+Pricing model | A per-minute rate in rupees that includes telephony: ₹3.49/min on the annual plan, ₹3.99/min on monthly plans. Excludes 18% GST. | In US dollars and in parts. Vapi: $0.05/min hosting, with models passed through at cost, plus telephony. Retell: $0.07 to $0.31/min for voice agents, depending on the LLM and voice chosen. |
+Entry cost | Starter ₹3,499/month minimum billing (a trial plan, up to 3 months), Pro ₹6,999/month, or ₹19,999/year on the annual plan. The full CRM and workflow automations come with the annual plan, or with Pro + CRM at ₹8,999/month. | Vapi: $0 to start with $5 free credits; support packages from $29/month. Retell: $10 free credits and 20 free concurrent calls. Pipecat and LiveKit Agents: free and open source. |
 Engineering effort | No code. Opening line, script, questions, outcomes and handoff numbers are set in a form. | Engineers write prompts, tools and webhooks. With a framework you also run hosting, scaling and monitoring. |
 Telephony | Included on Telleo's lines (Plivo). No SIMs, dialers or telecom contracts. | You choose the carrier and numbers. Vapi lists its own telephony/SIP as free and Twilio, Vonage and Telnyx transport fees; Retell lists Twilio and Telnyx rates by country, including India. |
 Hindi and Hinglish | In production, with the tuning done: barge-in on phone lines, no repeated sentences, no parroting, gendered Hindi grammar, phone numbers read digit by digit. | Depends on the speech-to-text, LLM and voice you pick. Interruptions, fillers like "haan" and Hindi grammar are yours to tune and test. |
 CRM and follow-up | Built in: lead sources, round-robin assignment, retries, bookings, WhatsApp and email. | Build it or connect one. Retell lists integrations such as HubSpot, Make and n8n; otherwise webhooks and APIs. |
 Call analysis | Outcome, summary, lead rating and extracted answers on every AI call, free. Human calls analysed per minute of recording. | Retell lists post-call analysis, and AI quality assurance at $0.10/min after the first 100 free minutes. With a framework, you build it. |
-Quality monitoring | A green, amber or red health verdict on every call with a plain headline. | Vapi lists critical monitoring and call simulation; Retell lists simulation testing. With a framework, you build dashboards and alerts. |
+Quality monitoring | A green, amber or red health verdict on every AI call with a plain headline. | Vapi lists critical monitoring and call simulation; Retell lists simulation testing. With a framework, you build dashboards and alerts. |
 Control | You configure the agent and choose its voice and speech engine; Telleo runs the pipeline. No public API or SDK; webhooks for integration. | Full control of models, prompts, tools, data flow and hosting. Pipecat and LiveKit Agents can run on your own servers. |
 Compliance | No certifications claimed. We register DLT with you. | Retell: "SOC 2 certified, HIPAA-ready". Vapi: HIPAA option at $2,000/month. Self-hosted frameworks: whatever your own setup achieves. |
 Best for | Sales, admissions and service teams that want results from calling, not a voice AI project. | Product and engineering teams building voice into their own product. |
@@ -5190,7 +5191,7 @@ Best for | Sales, admissions and service teams that want results from calling, n
 - You need languages Telleo does not yet run in production.
 
 ## What building your own involves
-A phone agent needs speech-to-text, a language model, text-to-speech, telephony, turn-taking, hosting, and somewhere for results to go. Vapi and Retell AI host the real-time pipeline and let you choose the providers. Pipecat (BSD-2 licence, maintained by Daily) and LiveKit Agents (Apache 2.0) are open-source frameworks; you run the servers yourself, or use Pipecat Cloud for Pipecat.
+A phone agent needs speech-to-text, a language model, text-to-speech, telephony, turn-taking, hosting, and somewhere for results to go. Vapi and Retell AI host the real-time pipeline and let you choose the providers. Pipecat (BSD-2 licence, maintained by Daily) and LiveKit Agents (Apache 2.0) are open-source frameworks; you run the servers yourself, or use a hosted option such as Pipecat Cloud for Pipecat or LiveKit Cloud for LiveKit Agents.
 In every case your team still writes the prompts, connects your data, picks a carrier and decides what happens after each call.
 
 ## What it costs
@@ -5199,7 +5200,7 @@ Pipecat and LiveKit Agents are free to use, but you pay for the AI services, tel
 
 ## The part that takes longest
 A first working agent is quick on any of these tools. Pipecat's quickstart promises a first bot in five minutes, and Retell says you can go live in minutes. Making it hold up on real Indian phone lines is the long part: callers interrupt, say "haan" mid-sentence, go silent, or hand the phone to someone else.
-Telleo's agents already handle barge-in on phone lines, never repeat a sentence, avoid parroting answers back, match Hindi verbs to the voice's gender and close politely if they cannot hear the caller twice. Every call also gets a health verdict, so problems like long silences or a failed transfer show up in plain words.
+Telleo's agents already handle barge-in on phone lines, never repeat a sentence, avoid parroting answers back, match Hindi verbs to the voice's gender and close politely if they cannot hear the caller twice. Every AI call also gets a health verdict, so problems like long silences or a failed transfer show up in plain words.
 
 See it on your own calls
 A 20-minute demo on your script. Compare for yourself.
@@ -5244,15 +5245,15 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# What Is an AI Voice Agent? A Plain Guide for Indian Businesses | Telleo
+# What Is an AI Voice Agent? A Plain Guide for Indian Teams | Telleo
 URL: https://telleo.ai/blog/what-is-an-ai-voice-agent/
 
 - Home
 - / Blog
-- / What Is an AI Voice Agent? A Plain Guide for Indian Businesses
+- / What Is an AI Voice Agent? A Plain Guide for Indian Teams
 Guides
 
-# What Is an AI Voice Agent? A Plain Guide for Indian Businesses
+# What Is an AI Voice Agent? A Plain Guide for Indian Teams
 An AI voice agent holds a real phone conversation. How it hears, thinks and speaks, what it can and can't do, and how to pilot one in an Indian business.
 By the Telleo team · 25 September 2026· 7 min read
 
@@ -5294,7 +5295,7 @@ The model reads your script, the facts you gave it, the lead’s details (name, 
 The reply is turned into audio, usually sentence by sentence so the agent can start speaking before the whole answer is written.
 
 - 6 After the call, the transcript becomes data
-Another pass over the transcript pulls out the outcome, the answers to your questions, and any promised callback time, and then triggers the next step: assign to a rep, send a WhatsApp, or schedule a retry.
+Another pass over the transcript pulls out the outcome, the answers to your questions, and whether the caller asked for a callback, and then triggers the next step: assign to a rep, send a WhatsApp, or schedule a retry.
 
 ### What that sounds like
 A short outbound call to a new enquiry, with each loop of the steps above producing one agent line:
@@ -5329,7 +5330,7 @@ Write a summary and outcome for every call | Make judgement calls your policy do
 The row that causes most trouble is the third one on the right. Language models can produce confident answers that are wrong. The fix is in the script: list the facts the agent may use, and tell it exactly what to say when asked something outside that list (usually “let me have a counsellor confirm that”). Our guide to writing an AI calling script covers this in detail.
 
 ## Outbound vs inbound calls
-Outbound means the agent dials. Typical jobs: calling back a new enquiry, fee or payment reminders, appointment confirmations, re-engaging old leads, and short feedback calls. Outbound is where most businesses start, because the volume is predictable and the goal is clear.
+Outbound means the agent dials. Typical jobs: calling back a new enquiry, fee or payment reminders, appointment confirmations, re-engaging old leads, and short feedback calls. Outbound is a good first use, because the volume is predictable and the goal is clear.
 Inbound means the agent answers. Typical jobs: answering after office hours, taking the “I want to talk to someone” option from an IVR menu, answering common questions, and booking callbacks for the team.
 Outbound calling in India has rules
 Under TRAI’s commercial communication regulations as amended in February 2025, a business must be registered with an access provider before making commercial calls, and must notify the originating operator in advance, in writing, about the use of auto-dialer or robo-calls and their purpose.
@@ -5386,7 +5387,7 @@ Book a demo
 ## Sources
 
 - Google Cloud — Speech-to-Text: select a transcription model (telephony model description) — checked 25 September 2026
-- TRAI — Telecom Commercial Communications Customer Preference (Amendment) Regulations (12 February 2025) — checked 25 September 2026
+- TRAI — Telecom Commercial Communications Customer Preference (Second Amendment) Regulations, 2025 (12 February 2025) — checked 25 September 2026
 - TRAI — Press Release No. 91/2026: clarifications on the 1600 and 140 series (10 July 2026) — checked 25 September 2026
 
 ## Frequently asked questions
@@ -5523,7 +5524,7 @@ Someone has to write the script, listen to calls in the first weeks and fix what
 Here is the full arithmetic using Telleo’s public prices, because we know exactly how they work. The call numbers are assumptions for illustration; swap in your own. All prices exclude 18% GST.
 The business: a coaching institute gets 1,500 new enquiries a month and calls every one, with retries for unanswered numbers.
 
-- 1,000 leads are reached across all attempts. Conversations average 2 minutes 40 seconds; Telleo bills each call per minute, rounded up, so each bills as 3 minutes. That is 3,000 minutes.
+- 1,000 leads are reached across all attempts. Assume each conversation lasts 2 minutes 40 seconds; Telleo bills each call per minute, rounded up, so each bills as 3 minutes. That is 3,000 minutes.
 - 300 more calls reach voicemail or are cut short. To be safe, we assume each bills as 1 minute: 300 minutes.
 - Total: 3,300 billable minutes.
 
@@ -5579,7 +5580,7 @@ Book a demo
 - Plivo — Voice pricing for India (2026) — checked 25 September 2026
 - Sarvam AI — API pricing (2026) — checked 25 September 2026
 - Meta for Developers — WhatsApp Business Platform pricing (2026) — checked 25 September 2026
-- TRAI — Telecom Commercial Communications Customer Preference (Amendment) Regulations (12 February 2025) — checked 25 September 2026
+- TRAI — Telecom Commercial Communications Customer Preference (Second Amendment) Regulations, 2025 (12 February 2025) — checked 25 September 2026
 - TRAI — Press Release No. 91/2026: clarifications on the 1600 and 140 series (10 July 2026) — checked 25 September 2026
 
 ## Frequently asked questions
@@ -5614,7 +5615,7 @@ Book a demo
 
 ## Keep reading
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Businesses
+What Is an AI Voice Agent? A Plain Guide for Indian Teams
 Read
 Playbooks
 Speed to Lead: Why Calling New Leads in 60 Seconds Wins
@@ -5640,7 +5641,7 @@ URL: https://telleo.ai/blog/speed-to-lead/
 Playbooks
 
 # Speed to Lead: Why Calling New Leads in 60 Seconds Wins
-Firms that tried to reach web leads within an hour were nearly 7x as likely to qualify them (HBR). What the research says, plus a 60-second callback playbook.
+Firms that tried to reach web leads within an hour were nearly 7x as likely to qualify them as those trying an hour later (HBR). Plus a callback playbook.
 By the Telleo team · 25 September 2026· 8 min read
 
 ## Key takeaways
@@ -5698,7 +5699,7 @@ Inside your calling hours, call now. Outside them, send an instant WhatsApp or S
 The first call confirms the enquiry, asks a few qualifying questions and aims for one concrete next step.
 
 - 5 Route by outcome, automatically
-Qualified or high intent goes to a person now. Callback requests get a real time on someone’s list. Unanswered goes on the retry plan. Not interested and wrong number stop.
+Qualified or high intent goes to a person now. Callback requests go to a person, who reads when the lead asked to be called. Unanswered goes on the retry plan. Not interested and wrong number stop.
 
 - 6 Log everything
 Time of enquiry, time of first attempt, outcome, answers and recording. Without timestamps you cannot measure speed to lead at all.
@@ -5706,7 +5707,7 @@ Time of enquiry, time of first attempt, outcome, answers and recording. Without 
 ## What the first call should ask
 The first call is not a sales pitch. Its job is to confirm interest, learn enough to route the lead, and agree the next step. Keep it to two or three minutes.
 
-- Who and why: “Hi Rohan, this is Priya from [your institute]. You just enquired about our weekend batch on our website.”
+- Who and why: “Hi Rohan, this is Priya, an AI assistant from [your institute]. You just enquired about our weekend batch on our website.”
 - Permission: “Is this a good time for two minutes?” If not, get a specific day and time and end the call.
 - Three to five qualifying questions, one at a time. Typically: what they need, when they want to start, who decides, location, and a budget range where relevant.
 - One next step with a day and time: a counselling call, a site visit, a demo class. “Thursday at 5 pm” is a next step; “we’ll be in touch” is not.
@@ -5748,8 +5749,8 @@ Next steps booked and kept | Meetings, visits or demos booked, and how many happ
 Handoff time | From “qualified” to a person speaking with the lead | A fast first call is wasted if the handoff is slow |
 
 Where Telleo fits
-Telleo can call a new lead within about 60 seconds of it arriving, using a workflow such as “new lead arrives → call it”. Leads come in from Meta lead ads, Google lead forms, any website form via webhook, or CSV import, and are de-duplicated by phone or email. Automation skips leads already assigned to a rep, a 30-second guard stops the same lead being dialled twice by accident, and campaigns can be limited to the time windows you choose.
-After each call, outcome rules assign the lead to a rep, stop, or retry unanswered calls with a gap and a maximum number of attempts. If a caller asks for a later time (“kal shaam”), the analysis turns it into an exact date and time, saved on the call and shown in the call log for your team. Agents can transfer live to a person mid-call and book meetings on your booking page. See automations and how it works .
+Telleo can call a new lead within about 60 seconds of it arriving, using a workflow such as “new lead arrives → call it”. Leads come in from Meta lead ads, Google lead forms, any website form via webhook, or CSV import, and are de-duplicated by phone or email. Workflow calls skip leads already assigned to a rep, a 30-second guard stops the same lead being dialled twice by accident, and campaigns can be limited to the time windows you choose.
+After each call, outcome rules assign the lead to a rep, stop, or retry unanswered calls with a gap and a maximum number of attempts. If a caller asks for a later time (“kal shaam”), the call is marked as a callback request with their words in the transcript, so your team can follow up. Agents can transfer live to a person mid-call and book meetings on your booking page. See automations and how it works .
 
 Book a demo
 
@@ -5794,7 +5795,7 @@ Book a demo
 
 ## Keep reading
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Businesses
+What Is an AI Voice Agent? A Plain Guide for Indian Teams
 Read
 Pricing
 How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
@@ -5875,12 +5876,12 @@ A disposition is the outcome of the call. Give the agent a fixed list and ask it
 Disposition | Meaning | What happens next |
 
 Booked | Agreed a day and time for the next step | Confirmation on WhatsApp, meeting on the calendar |
-Callback | Asked to be called at a stated time | Callback on a person’s list with the exact time |
+Callback | Asked to be called at a stated time | Assigned to a person, with the caller's words in the transcript |
 Qualified, transfer | Ready now and handed to a person | Rep gets the summary before picking up |
 Not interested | Clearly declined | Stop calling |
 Not a fit | Need or budget outside what you offer | Stop, or move to a nurture list |
 Wrong number | Not the person who enquired | Never retry |
-Do not call | Asked not to be contacted again | Suppress permanently |
+Do not call | Asked not to be contacted again | Stop, and keep the number out of every future list |
 Incomplete | No real conversation: silence, voicemail, dropped | Retry on schedule |
 
 Always include “Incomplete”
@@ -6016,7 +6017,7 @@ OPENING LINE (say exactly)
 बोल रही हूँ। मैं एक AI assistant हूँ। आपने {{course}} के
 free demo class के लिए enquiry की थी। क्या अभी दो मिनट
 बात हो सकती है?"
-If busy: "कोई बात नहीं। मैं आपको कब call करूँ, कल सुबह
+If busy: "कोई बात नहीं। हमारी team आपको कब call करे, कल सुबह
 या शाम?" Confirm the time once and end.
 
 QUESTIONS (one at a time; skip what's answered)
@@ -6064,7 +6065,7 @@ Do not call | Incomplete
 ## Test before real leads hear it
 Read the script aloud, then call the agent yourself and be a difficult caller: interrupt, go silent, answer two questions at once, say “kal shaam”. After launch, check the first 30 to 50 calls for wrong dispositions and the turn where callers drop off. For how the pieces work on a live call, see what an AI voice agent is .
 Where Telleo fits
-In Telleo’s no-code agent builder , each part of this guide has its own field: opening line, persona and script, extraction questions, dispositions, handoff numbers, maximum call length and booking page. The agent knows the lead’s name and form fields through placeholders like {{leadName}}.
+In Telleo’s no-code agent builder , the parts of this guide map to its fields: opening line, persona and script (which holds the role, the questions to ask, facts, objection answers, handoff rules, closing and never list), extraction questions (what the post-call analysis pulls out; the live agent asks what is in the script), dispositions, handoff numbers, maximum call length and booking page. The agent knows the lead’s name and form fields through placeholders like {{leadName}}.
 AI-assisted scripting can draft a script from a plain-language brief, score it against a live-call rubric, apply suggested fixes, and revise it from real post-call feedback. Agents speak Hindi, English and Hinglish in production, with Hindi written in Devanagari and English business words kept in English. See the voices and languages .
 
 Book a demo
@@ -6110,7 +6111,7 @@ Book a demo
 
 ## Keep reading
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Businesses
+What Is an AI Voice Agent? A Plain Guide for Indian Teams
 Read
 Pricing
 How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
@@ -6142,12 +6143,12 @@ By the Telleo team · 25 September 2026· 10 min read
 ## Key takeaways
 
 - Any business making commercial calls in India must be registered on the operators’ DLT platform. Calls from unregistered senders are treated as spam.
-- TRAI’s September 2026 amendment defines A2P calls to include “pre-recorded/artificial voice technologies”. AI voice agents must be declared to your telecom operator in advance, with the number ranges they use.
+- TRAI’s September 2026 amendment defines A2P calls to include “pre-recorded/artificial voice technologies”. Once its A2P provisions take effect (60 days after Gazette publication), AI voice agents must be declared to your telecom operator in advance, with the number ranges they use.
 - Promotional calls use 140-series numbers. Service and transactional calls are moving to 1600-series (BFSI and government) and 1601-series (utilities, courier, logistics).
-- A customer’s enquiry now supports commercial calls for only 7 days, and you must keep the enquiry in a verifiable form. Call web leads quickly and keep the form record.
+- Once the amendment takes effect (30 days after Gazette publication), a customer’s enquiry supports commercial calls for only 7 days, and you must keep the enquiry in a verifiable form. Call web leads quickly and keep the form record.
 - Several points are still unclear for AI calls, such as content templates for live speech and number series for other sectors. Confirm them with your operator and a lawyer.
 
-If you are putting an AI voice agent on the phone in India, the rules that apply were not written for AI. They were written for telemarketing: TRAI’s Telecom Commercial Communications Customer Preference Regulations, 2018 (TCCCPR). TRAI has amended them twice since, in February 2025 and on 18 September 2026. The 2026 amendment is the first to name artificial voice directly.
+If you are putting an AI voice agent on the phone in India, the rules that apply were not written for AI. They were written for telemarketing: TRAI’s Telecom Commercial Communications Customer Preference Regulations, 2018 (TCCCPR). TRAI has amended them three times since, most recently in February 2025 and on 18 September 2026. The 2026 amendment is the first to define A2P calls, a term that expressly includes artificial voice, and to treat undeclared A2P calls as spam.
 This guide covers the rules as they stand on 25 September 2026, what they mean for AI calls, and where they are still unclear. Every point comes from TRAI’s published regulations and press releases, listed at the end.
 This is not legal advice
 We build AI calling software. We are not lawyers. This is our reading of TRAI’s regulations and press releases as of 25 September 2026. Rules change, operators apply them in different ways, and your sector may have its own rules. Before you launch a campaign, confirm the details with your telecom operator and, for anything that matters, with a lawyer.
@@ -6199,18 +6200,18 @@ Customers set their preferences by calling or texting 1909, by USSD, through the
 Customers can also block by mode: voice calls, SMS, auto-dialler calls with a pre-recorded announcement, auto-dialler calls connected to a live agent, and robo-calls. They can block by time band and by day type too.
 
 - Explicit consent recorded in the Consent Register lets a promotional call through even when the customer has blocked that category.
-- Enquiries count for seven days. Under the 2026 amendment, a customer’s enquiry supports commercial communication for only seven days from the enquiry. The enquiry must be in writing or digital, and you must keep it in a verifiable form. The 2018 text allowed three months for an enquiry.
+- Enquiries count for seven days. Once the 2026 amendment takes effect, a customer’s enquiry supports commercial communication for only seven days from the enquiry. The enquiry must be in writing or digital, and you must keep it in a verifiable form. The 2018 text allowed three months for an enquiry.
 - Opt-outs stick. Since 2025, you may not ask someone who opted out for consent again for 90 days. Promotional messages must carry an opt-out option.
 - Complaints are easier. Customers can complain within seven days (it used to be three). They can complain about unregistered senders without registering any preference first. They can also report suspected spam or fraud on the Department of Telecommunications’ Sanchar Saathi portal, through its Chakshu facility.
 - Data protection still applies. The 2026 amendment says TCCCPR consent does not exempt a sender from its obligations under the Digital Personal Data Protection Act, 2023.
 
 ## Is there a rule on calling hours?
 We found no single “calling hours” clause for all commercial calls. What TCCCPR has is time-band preferences. Of the nine bands in its schedule, four are off by default for every customer unless the customer switches them on: 00:00–06:00, 06:00–08:00, 08:00–10:00 and 21:00–24:00. Read plainly, promotional communication is expected between 10:00 and 21:00 unless a customer has opted in to other bands. The 2026 amendment confirms that service and transactional communication is not blocked by time band.
-Sector rules can add limits. For example, RBI’s 2022 circular on recovery agents tells lenders to make sure they and their agents do not call borrowers before 8:00 a.m. or after 7:00 p.m. to recover overdue loans. If your AI agent makes collection calls for a lender, that window applies.
+Sector rules can add limits. For example, RBI’s rules on recovery agents (first issued in a 2022 circular, now part of its Responsible Business Conduct Directions) tell lenders to make sure they and their agents do not call borrowers before 8:00 a.m. or after 7:00 p.m. to recover overdue loans. If your AI agent makes collection calls for a lender, that window applies.
 
 ## What happens if a sender breaks the rules
 
-- Complaint-based action (2025): with complaints from five or more people within ten days, and an investigation that finds spam, all your outgoing services (PRI and SIP trunks included) are barred by every operator for 15 days. On a repeat, all your telecom resources are disconnected for a year and you are blacklisted.
+- Complaint-based action (2025): if you are unregistered, or make promotional calls from service or transactional numbers, then with complaints from five or more people within ten days, and an investigation that finds spam, all your outgoing services (PRI and SIP trunks included) are barred by every operator for 15 days. On a repeat, all your telecom resources are disconnected for a year and you are blacklisted.
 - AI-flag-based action (2026): if operators’ AI/ML systems flag five or more of your numbers within ten days, you face KYC re-verification, then physical verification and a 15-day barring if misuse is found, then the one-year disconnection. Three complaints plus an AI flag will also trigger action (from 90 days after publication).
 - Security deposits: operators may take one from senders and telemarketers and forfeit it for violations.
 - Money penalties mostly fall on operators (for example ₹2 lakh, then ₹5 lakh, then ₹10 lakh per instance for misreporting spam counts). For a business, the real cost is losing its phone lines.
@@ -6219,7 +6220,7 @@ Sector rules can add limits. For example, RBI’s 2022 circular on recovery agen
 When | Change | Why it matters for AI calls |
 
 Feb 2025 | 10-digit numbers restricted for telemarketing; 140 promotional, 1600 service and transactional | Your agent’s caller ID must come from the right series |
-Feb 2025 | Advance notice to the operator of auto-dialler or robo-call use; tougher complaint rules | The first rule aimed at automated calling |
+Feb 2025 | Advance notice to the operator of auto-dialler or robo-call use; tougher complaint rules | Robo-calls, defined since 2018 to include artificial voice, now need advance written notice too |
 Sep 2026 | A2P call defined, including “pre-recorded/artificial voice”; advance declaration with CLI ranges; undeclared A2P calls count as spam | Applies directly to AI voice agents |
 Sep 2026 | Operators may charge each other up to 5 paise a minute for A2P calls, except on designated series | A cost signal that pushes automated calls onto 140, 1600 and 1601 |
 Sep 2026 | Enquiry-based communication limited to seven days, and the enquiry must be verifiable | Call web leads quickly and keep the form record |
@@ -6267,7 +6268,7 @@ Promotional calls between 10:00 and 21:00, plus any sector rules, such as RBI’
 Track complaints, very short calls and daily volumes before your operator does.
 
 Where Telleo fits
-Telleo registers DLT with you. The principal-entity registration is ₹5,900 a year, charged at actuals (see pricing ). Campaigns run inside calling windows you choose, with a daily call cap, duplicate-dial protection and answering-machine handling. Your own dispositions can include a “do not call” outcome with a rule that stops further calls. Every AI call has a full transcript, and recording can be switched on for every call, so you have a record of what was said.
+Telleo registers DLT with you. The principal-entity registration is ₹5,900 a year, charged at actuals (see pricing ). Campaigns run inside calling windows you choose, with a daily call cap, duplicate-dial protection and answering-machine handling. Your own dispositions can include a “do not call” outcome with a rule that stops that lead’s automatic retries. It is not a global do-not-call list, so keep those numbers out of later campaigns. Every AI call has a full transcript, and recording can be switched on for every call, so you have a record of what was said.
 We do not guarantee TRAI or DND compliance. How your calls are classified, the consent you hold and your number series are decisions to confirm with your operator and counsel. Our security and compliance page explains what we handle.
 
 Book a demo
@@ -6282,16 +6283,16 @@ Book a demo
 - TRAI — Press Release No. 135/2025: 1600-series adoption by RBI, SEBI and PFRDA entities (19 Nov 2025) — checked 25 September 2026
 - PIB — TRAI mandates 1600-series for IRDAI-regulated entities (17 Dec 2025) — checked 25 September 2026
 - TRAI — Press Release No. 113/2026: 1601-series for utilities, courier and logistics (10 Aug 2026) — checked 25 September 2026
-- RBI — Outsourcing of Financial Services: Responsibilities of regulated entities employing Recovery Agents (12 Aug 2022) — checked 25 September 2026
+- RBI — Outsourcing of Financial Services: Responsibilities of regulated entities employing Recovery Agents (12 Aug 2022; repealed 28 Nov 2025 and folded into RBI’s Responsible Business Conduct Directions) — checked 25 September 2026
 - DoT Sanchar Saathi — Chakshu: report suspected fraud and spam communication — checked 25 September 2026
 - Vodafone Idea — Vilpower DLT portal — checked 25 September 2026
 
 ## Frequently asked questions
 Do AI voice calls need DLT registration in India? +
-Yes, if the calls are commercial. TCCCPR requires every sender of commercial communication to be registered with an access provider, and treats commercial calls from unregistered senders as unsolicited commercial communication. Since TRAI’s September 2026 amendment, automated calls, including those using artificial voice, must also be declared to your originating operator as A2P calls, with the number ranges you will use.
+Yes, if the calls are commercial. TCCCPR requires every sender of commercial communication to be registered with an access provider, and treats commercial calls from unregistered senders as unsolicited commercial communication. Under TRAI’s September 2026 amendment (in force 60 days after Gazette publication), automated calls, including those using artificial voice, must also be declared to your originating operator as A2P calls, with the number ranges you will use.
 
 Can an AI agent call a lead who filled a form on my website? +
-The 2026 amendment allows commercial communication based on a customer’s enquiry for seven days from the enquiry, and the enquiry must be in writing or digital and kept in a verifiable form. After that you need another basis, such as explicit consent recorded on the DLT consent system. How a particular campaign should be classified (promotional or service) and scrubbed against DND preferences is worth confirming with your operator.
+Once it takes effect, the 2026 amendment allows commercial communication based on a customer’s enquiry for seven days from the enquiry, and the enquiry must be in writing or digital and kept in a verifiable form. After that you need another basis, such as explicit consent recorded on the DLT consent system. How a particular campaign should be classified (promotional or service) and scrubbed against DND preferences is worth confirming with your operator.
 
 What is an A2P call under TRAI’s 2026 amendment? +
 An Application-to-Person call is a voice call initiated by an application, software system or automated platform without direct human dialling, including autodialling, robo-calls and pre-recorded or artificial voice. Senders must declare A2P calling to their originating operator in advance. Undeclared A2P calls are treated as unsolicited commercial communication. These provisions come into force 60 days after the amendment’s publication in the Gazette.
@@ -6323,7 +6324,7 @@ Book a demo
 
 ## Keep reading
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Businesses
+What Is an AI Voice Agent? A Plain Guide for Indian Teams
 Read
 Pricing
 How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
@@ -6506,7 +6507,7 @@ Book a demo
 
 ## Keep reading
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Businesses
+What Is an AI Voice Agent? A Plain Guide for Indian Teams
 Read
 Pricing
 How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
@@ -6523,15 +6524,15 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# AI Calling Vendor Checklist: 20 Questions to Ask Before You Buy | Telleo
+# AI Calling Vendor Checklist: 20 Questions Before You Buy | Telleo
 URL: https://telleo.ai/blog/ai-calling-vendor-checklist/
 
 - Home
 - / Blog
-- / AI Calling Vendor Checklist: 20 Questions to Ask Before You Buy
+- / AI Calling Vendor Checklist: 20 Questions Before You Buy
 Guides
 
-# AI Calling Vendor Checklist: 20 Questions to Ask Before You Buy
+# AI Calling Vendor Checklist: 20 Questions Before You Buy
 20 questions to ask an AI calling vendor before you buy: call quality, languages, telephony, DLT, workflows, QA, billing pulse, data access and exit terms.
 By the Telleo team · 25 September 2026· 8 min read
 
@@ -6567,7 +6568,7 @@ These 20 questions cover what a demo usually leaves out. They are grouped by top
 7. What limits protect me from runaway calling? Look for a daily call cap, protection against dialling the same lead twice, a maximum call length, answering-machine handling, and retry limits with a gap between attempts. Ask what happens when your balance runs out: do calls stop, or does the bill keep growing?
 
 ## Compliance and DLT
-8. Who registers us on DLT and declares our automated calling, and who pays for it? Commercial calls in India go through TRAI’s DLT framework. TRAI’s September 2026 amendment defines Application-to-Person (A2P) calls to include artificial-voice calls, and requires senders to declare them to their operator in advance, with the number ranges used. Calls made without that declaration are treated as spam. Ask exactly which steps the vendor handles and which stay with you.
+8. Who registers us on DLT and declares our automated calling, and who pays for it? Commercial calls in India go through TRAI’s DLT framework. TRAI’s September 2026 amendment defines Application-to-Person (A2P) calls to include artificial-voice calls, and, once its A2P provisions take effect (60 days after Gazette publication), will require senders to declare them to their operator in advance, with the number ranges used. Calls made without that declaration are treated as spam. Ask exactly which steps the vendor handles and which stay with you.
 9. How are calling windows, opt-outs and consent records handled? Can you restrict calls to set hours? When a caller says “don’t call me again”, does that stop future calls automatically? Can you export evidence of when and how each lead came in? Be wary of any vendor that says it “guarantees” compliance. Your consent records and call categories are your responsibility.
 For the rules themselves, see our guide to TRAI and DLT rules for AI calling .
 
@@ -6620,7 +6621,7 @@ Score each answer 0, 1 or 2. Ask for evidence, not adjectives.# | Question | A g
 
 Where Telleo fits
 Our own answers, briefly. You can call a live Telleo agent now on +91 80353 74489. Telephony is included. Billing is per minute of call, rounded up, from ₹3.49 a minute, with plan minimums on the monthly plans and none on the annual plan. DLT registration is ₹5,900 a year at actuals. Post-call analysis of AI calls is free. The full table is on the pricing page .
-Leads come in from Meta and Google lead forms, CSV and anything that can send a webhook, and outcomes can go out by webhook. We don’t have native integrations with third-party CRMs. Every AI call has a transcript, an outcome from your own list and a green, amber or red health verdict. Full transcripts are visible only to roles allowed to see caller details. Ask us all 20 questions. See also our security page .
+Leads come in from Meta and Google lead forms, CSV and anything that can send a webhook, and outcomes can go out by webhook. We don’t have native integrations with third-party CRMs. Every AI call has a transcript, an outcome from your own list and a green, amber or red health verdict. Health verdicts and diagnostics are admin-only, and full phone numbers can be restricted by role. Ask us all 20 questions. See also our security page .
 
 Book a demo
 
@@ -6666,7 +6667,7 @@ Book a demo
 
 ## Keep reading
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Businesses
+What Is an AI Voice Agent? A Plain Guide for Indian Teams
 Read
 Pricing
 How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
@@ -6835,7 +6836,7 @@ Book a demo
 
 ## Keep reading
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Businesses
+What Is an AI Voice Agent? A Plain Guide for Indian Teams
 Read
 Pricing
 How Much Does AI Calling Cost in India? 2026 Per-Minute Guide

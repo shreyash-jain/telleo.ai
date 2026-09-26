@@ -24,7 +24,7 @@ export default function Page() {
         <div className="grid gap-12 lg:grid-cols-2">
           <div className="prose-t">
             <h2 className="!mt-0">Why we built it</h2>
-            <p>Institutes buy leads from ads and portals, and the first team to call a parent usually wins the admission. Counsellors can&apos;t call every enquiry within minutes, at night and on Sundays, in the language the parent prefers. So we built an agent that could.</p>
+            <p>Institutes buy leads from ads and portals, and research reported in Harvard Business Review found that firms which tried to reach a web lead within an hour were nearly seven times as likely to qualify it as those that tried an hour later. Counsellors can&apos;t call every enquiry within minutes, late in the evening and on Sundays, in the language the parent prefers. So we built an agent that could.</p>
             <p>Admissions calls turned out to be a hard school. Parents interrupt, switch between Hindi and English mid-sentence, say &ldquo;haan&rdquo; while you&apos;re talking, and hang up on anything that sounds like a robot. Every one of those moments became a rule in the product: how it handles interruptions, why it never repeats itself or echoes answers back, how it conjugates Hindi verbs for its own voice, how it reads a phone number.</p>
             <p>The same problems exist in real estate, lending, insurance, healthcare and every other business where leads arrive faster than people can call them. Telleo is that agent, with the CRM, automations and call analysis around it.</p>
           </div>
@@ -44,7 +44,7 @@ export default function Page() {
           <div className="card p-6">
             <p className="text-sm font-bold uppercase tracking-wider text-slate-500">Talk to an agent</p>
             <a href={`tel:${TEST_LINE}`} className="mt-2 block text-xl font-extrabold text-ink" data-track="call_test_line">{TEST_LINE_DISPLAY}</a>
-            <p className="mt-1 text-sm text-slate-600">A live Telleo agent answers.</p>
+            <p className="mt-1 text-sm text-slate-600">A live AI agent answers.</p>
           </div>
           <div className="card p-6">
             <p className="text-sm font-bold uppercase tracking-wider text-slate-500">Sales on WhatsApp</p>

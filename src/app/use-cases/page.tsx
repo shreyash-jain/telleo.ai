@@ -14,7 +14,7 @@ export default function UseCasesIndex() {
       path="/use-cases/"
       eyebrow="Use cases"
       h1="Nine calls your team shouldn't be making by hand."
-      lede="Each of these is a repeatable phone job with a clear goal, a few questions and a next step. That is exactly where an AI voice agent is faster, more consistent and cheaper than a person, while your team keeps the conversations that need judgment."
+      lede="Each of these is a repeatable phone job with a clear goal, a few questions and a next step. That is where an AI voice agent can be faster, more consistent and cheaper than calling by hand, while your team keeps the conversations that need judgment."
     >
       <JsonLd
         data={{

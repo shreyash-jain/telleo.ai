@@ -16,7 +16,7 @@ const GROUPS: { id: string; title: string; faqs: Faq[] }[] = [
       { q: "What happens if the caller interrupts?", a: "The agent stops and listens. Short acknowledgements such as “haan”, “achha” or “okay” are treated as the caller following along, so the agent carries on and the yes still counts." },
       { q: "Which languages does it speak?", a: "Hindi, English and Hinglish are live. Tamil, Telugu, Marathi, Bengali, Gujarati, Kannada, Malayalam, Punjabi and Odia are supported by the voice engines and set up with you on request." },
       { q: "Can it handle callers who mix Hindi and English?", a: "Yes. That is the normal case on Indian calls, and a Hinglish agent is built for it." },
-      { q: "How many voices can we choose from?", a: "More than 80 male and female voices across seven speech engines, with a preview that plays exactly what the caller will hear." },
+      { q: "How many voices can we choose from?", a: "More than 80 male and female voices across seven speech engines, with a preview that plays the same engine and voice the call will use." },
     ],
   },
   {
@@ -36,9 +36,9 @@ const GROUPS: { id: string; title: string; faqs: Faq[] }[] = [
     faqs: [
       { q: "Do we need our own phone lines or SIM cards?", a: "No. Telephony is included. A dedicated AI calling line with its own caller ID is available if you want one." },
       { q: "Can our human team keep using Exotel or Airtel IQ?", a: "Yes. Your people can stay on their current provider while the AI calls on Telleo's line. Their calls can still be analysed by call intelligence." },
-      { q: "Can the agent transfer a call to a person?", a: "Yes. Each agent has handoff numbers, and it transfers live after a short bridge line when the caller asks or your rules say the lead is hot." },
-      { q: "Can it answer inbound calls?", a: "Yes, through an option in the Telleo IVR that hands callers to an AI agent. Connecting your existing business number is worked out during setup." },
-      { q: "Is AI calling legal in India?", a: "Yes, within TRAI's rules. Commercial calling needs DLT registration, which we complete with you. Under TRAI's September 2026 amendment, AI voice calls are application-to-person (A2P) calls that must be declared in advance to the telecom operator, and a customer's enquiry supports commercial calls for seven days from the enquiry; beyond that you need explicit, verifiable consent. You choose who is called and when. Confirm your specific case with counsel." },
+      { q: "Can the agent transfer a call to a person?", a: "Yes. Each agent has handoff numbers, and it transfers live after a short bridge line when the caller asks or your script says the lead is hot." },
+      { q: "Can it answer inbound calls?", a: "Yes, through an option in the Telleo IVR that hands callers to an AI agent. It works through an IVR on a Telleo number; it does not plug into an IVR you run with another provider." },
+      { q: "Is AI calling legal in India?", a: "Yes, within TRAI's rules. Commercial calling needs DLT registration, which we complete with you. Under TRAI's September 2026 amendment, once it comes into force (30 to 60 days after Gazette publication), AI voice calls are application-to-person (A2P) calls that must be declared in advance to the telecom operator, and a customer's enquiry supports commercial calls for seven days from the enquiry; beyond that you need explicit, verifiable consent. You choose who is called and when. Confirm your specific case with counsel." },
       { q: "How many calls can it make?", a: "A daily cap protects every account, 500 calls a day by default, and can be raised to match what your team can follow up." },
     ],
   },
@@ -46,11 +46,11 @@ const GROUPS: { id: string; title: string; faqs: Faq[] }[] = [
     id: "after",
     title: "After the call",
     faqs: [
-      { q: "What do we get after each call?", a: "An outcome from your own list, a short summary, a lead score from 1 to 10, the answers the caller gave, and any callback time or meeting agreed, all on the lead." },
+      { q: "What do we get after each call?", a: "An outcome from your own list, a short summary, a lead score from 1 to 10, the answers the caller gave, whether they asked for a callback, and any meeting agreed, all on the call record." },
       { q: "Can it book meetings?", a: "Yes. Link a booking page and meetings are booked automatically when the caller agrees a specific day and time." },
       { q: "Can it send WhatsApp messages?", a: "Yes, with WhatsApp templates you have had approved, and only when the caller accepted on the call. Sends are tracked for delivery and never duplicated." },
-      { q: "Does it call back at the time the caller asked?", a: "It saves the requested time as an exact date and time on the lead so your team can act on it. Unanswered calls are retried automatically after the gap you set." },
-      { q: "Does it work with our CRM?", a: "Telleo includes its own CRM. For other systems, leads can come in by webhook or CSV, and outcomes can go out by webhook or HTTP request. There are no native Salesforce, HubSpot or Zoho apps yet." },
+      { q: "Does it call back at the time the caller asked?", a: "Not automatically. The call is marked as a callback request, with what the caller said in the transcript, so your team can follow up. Calls started by a workflow are retried after the gap you set." },
+      { q: "Does it work with our CRM?", a: "Telleo has its own CRM, included on the Annual plan or for ₹2,000 a month with Pro + CRM. For other systems, leads can come in by webhook or CSV, and outcomes can go out by webhook or HTTP request. There are no native Salesforce, HubSpot or Zoho apps yet." },
     ],
   },
   {
@@ -58,7 +58,7 @@ const GROUPS: { id: string; title: string; faqs: Faq[] }[] = [
     title: "Pricing",
     faqs: [
       { q: "How much does it cost?", a: "₹3.99 a minute on monthly plans from ₹3,499 a month, or ₹3.49 a minute with no minimum on the ₹19,999-a-year annual plan, which includes the CRM. Prices exclude GST." },
-      { q: "Do unanswered calls cost money?", a: "Minutes are billed on connected conversation, rounded up to the next minute. Unanswered calls go back on your retry path." },
+      { q: "Do unanswered calls cost money?", a: "No. Minutes are billed on connected conversation, rounded up to the next minute. Unanswered workflow calls are retried after the gap you set; a bulk campaign doesn't re-dial, so re-run it to call them again." },
       { q: "Is call analysis extra?", a: "Not on AI calls; it's included. Analysing your team's human calls is billed per minute of recording." },
       { q: "Can costs run away?", a: "No. Calls draw on your balance and stop when it runs out, and daily caps and a maximum call length apply to every agent." },
     ],
@@ -67,9 +67,9 @@ const GROUPS: { id: string; title: string; faqs: Faq[] }[] = [
     id: "data",
     title: "Data and limits",
     faqs: [
-      { q: "Who can see transcripts and recordings?", a: "Call outcomes and health verdicts are visible on the dashboard. Full transcripts and diagnostics are limited to roles you allow to see caller details." },
+      { q: "Who can see transcripts and recordings?", a: "Transcripts, summaries and outcomes are visible to anyone on your team who can open the call log; they are not restricted per role. In the call-intelligence team view, a sales head sees only their own reporting line. Health verdicts and technical diagnostics are shown to your account admins, and on the call log you choose which roles see full phone numbers." },
       { q: "Do you have SOC 2 or ISO 27001?", a: "Not today, and we won't claim otherwise. Our security page explains how data is handled." },
-      { q: "What won't the agent do?", a: "It won't negotiate complex deals, take card payments on the call, or give medical, legal or financial advice. Script it to hand those moments to your team." },
+      { q: "What won't the agent do?", a: "It can't take card payments on the call, and it isn't built to negotiate complex deals. There is no built-in block on medical, legal or financial advice, so script it to hand those moments to your team." },
       { q: "Who is behind Telleo?", a: "Telleo is built by Vidyayatan Technologies LLP, the team behind Vacademy. It started as the AI calling inside Vacademy's CRM for education institutes." },
     ],
   },

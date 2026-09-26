@@ -11,9 +11,9 @@ export default function Page() {
       slug="trai-dlt-rules-ai-calling"
       takeaways={[
         "Any business making commercial calls in India must be registered on the operators’ DLT platform. Calls from unregistered senders are treated as spam.",
-        "TRAI’s September 2026 amendment defines A2P calls to include “pre-recorded/artificial voice technologies”. AI voice agents must be declared to your telecom operator in advance, with the number ranges they use.",
+        "TRAI’s September 2026 amendment defines A2P calls to include “pre-recorded/artificial voice technologies”. Once its A2P provisions take effect (60 days after Gazette publication), AI voice agents must be declared to your telecom operator in advance, with the number ranges they use.",
         "Promotional calls use 140-series numbers. Service and transactional calls are moving to 1600-series (BFSI and government) and 1601-series (utilities, courier, logistics).",
-        "A customer’s enquiry now supports commercial calls for only 7 days, and you must keep the enquiry in a verifiable form. Call web leads quickly and keep the form record.",
+        "Once the amendment takes effect (30 days after Gazette publication), a customer’s enquiry supports commercial calls for only 7 days, and you must keep the enquiry in a verifiable form. Call web leads quickly and keep the form record.",
         "Several points are still unclear for AI calls, such as content templates for live speech and number series for other sectors. Confirm them with your operator and a lawyer.",
       ]}
       toc={[
@@ -31,11 +31,11 @@ export default function Page() {
       faqs={[
         {
           q: "Do AI voice calls need DLT registration in India?",
-          a: "Yes, if the calls are commercial. TCCCPR requires every sender of commercial communication to be registered with an access provider, and treats commercial calls from unregistered senders as unsolicited commercial communication. Since TRAI’s September 2026 amendment, automated calls, including those using artificial voice, must also be declared to your originating operator as A2P calls, with the number ranges you will use.",
+          a: "Yes, if the calls are commercial. TCCCPR requires every sender of commercial communication to be registered with an access provider, and treats commercial calls from unregistered senders as unsolicited commercial communication. Under TRAI’s September 2026 amendment (in force 60 days after Gazette publication), automated calls, including those using artificial voice, must also be declared to your originating operator as A2P calls, with the number ranges you will use.",
         },
         {
           q: "Can an AI agent call a lead who filled a form on my website?",
-          a: "The 2026 amendment allows commercial communication based on a customer’s enquiry for seven days from the enquiry, and the enquiry must be in writing or digital and kept in a verifiable form. After that you need another basis, such as explicit consent recorded on the DLT consent system. How a particular campaign should be classified (promotional or service) and scrubbed against DND preferences is worth confirming with your operator.",
+          a: "Once it takes effect, the 2026 amendment allows commercial communication based on a customer’s enquiry for seven days from the enquiry, and the enquiry must be in writing or digital and kept in a verifiable form. After that you need another basis, such as explicit consent recorded on the DLT consent system. How a particular campaign should be classified (promotional or service) and scrubbed against DND preferences is worth confirming with your operator.",
         },
         {
           q: "What is an A2P call under TRAI’s 2026 amendment?",
@@ -58,8 +58,8 @@ export default function Page() {
       <p>
         If you are putting an AI voice agent on the phone in India, the rules that apply were not written for AI. They were
         written for telemarketing: TRAI’s Telecom Commercial Communications Customer Preference Regulations, 2018
-        (TCCCPR). TRAI has amended them twice since, in February 2025 and on 18 September 2026. The 2026 amendment is the
-        first to name artificial voice directly.
+        (TCCCPR). TRAI has amended them three times since, most recently in February 2025 and on 18 September 2026. The 2026 amendment is the
+        first to define A2P calls, a term that expressly includes artificial voice, and to treat undeclared A2P calls as spam.
       </p>
       <p>
         This guide covers the rules as they stand on 25 September 2026, what they mean for AI calls, and where they are
@@ -197,7 +197,7 @@ export default function Page() {
           the customer has blocked that category.
         </li>
         <li>
-          <strong>Enquiries count for seven days.</strong> Under the 2026 amendment, a customer’s enquiry supports
+          <strong>Enquiries count for seven days.</strong> Once the 2026 amendment takes effect, a customer’s enquiry supports
           commercial communication for only seven days from the enquiry. The enquiry must be in writing or digital, and you
           must keep it in a verifiable form. The 2018 text allowed three months for an enquiry.
         </li>
@@ -225,7 +225,7 @@ export default function Page() {
         bands. The 2026 amendment confirms that service and transactional communication is not blocked by time band.
       </p>
       <p>
-        Sector rules can add limits. For example, RBI’s 2022 circular on recovery agents tells lenders to make sure
+        Sector rules can add limits. For example, RBI’s rules on recovery agents (first issued in a 2022 circular, now part of its Responsible Business Conduct Directions) tell lenders to make sure
         they and their agents do not call borrowers before 8:00 a.m. or after 7:00 p.m. to recover overdue loans. If your AI
         agent makes collection calls for a lender, that window applies.
       </p>
@@ -233,7 +233,7 @@ export default function Page() {
       <h2 id="penalties">What happens if a sender breaks the rules</h2>
       <ul>
         <li>
-          <strong>Complaint-based action (2025):</strong> with complaints from five or more people within ten days, and
+          <strong>Complaint-based action (2025):</strong> if you are unregistered, or make promotional calls from service or transactional numbers, then with complaints from five or more people within ten days, and
           an investigation that finds spam, all your outgoing services (PRI and SIP trunks included) are barred by every
           operator for 15 days. On a repeat, all your telecom resources are disconnected for a year and you are
           blacklisted.
@@ -259,7 +259,7 @@ export default function Page() {
         head={["When", "Change", "Why it matters for AI calls"]}
         rows={[
           ["Feb 2025", "10-digit numbers restricted for telemarketing; 140 promotional, 1600 service and transactional", "Your agent’s caller ID must come from the right series"],
-          ["Feb 2025", "Advance notice to the operator of auto-dialler or robo-call use; tougher complaint rules", "The first rule aimed at automated calling"],
+          ["Feb 2025", "Advance notice to the operator of auto-dialler or robo-call use; tougher complaint rules", "Robo-calls, defined since 2018 to include artificial voice, now need advance written notice too"],
           ["Sep 2026", "A2P call defined, including “pre-recorded/artificial voice”; advance declaration with CLI ranges; undeclared A2P calls count as spam", "Applies directly to AI voice agents"],
           ["Sep 2026", "Operators may charge each other up to 5 paise a minute for A2P calls, except on designated series", "A cost signal that pushes automated calls onto 140, 1600 and 1601"],
           ["Sep 2026", "Enquiry-based communication limited to seven days, and the enquiry must be verifiable", "Call web leads quickly and keep the form record"],
@@ -337,7 +337,7 @@ export default function Page() {
           Telleo <strong>registers DLT with you</strong>. The principal-entity registration is ₹5,900 a year, charged at
           actuals (see <Link href="/pricing/">pricing</Link>). Campaigns run inside <strong>calling windows you choose</strong>,
           with a daily call cap, duplicate-dial protection and answering-machine handling. Your own dispositions can include
-          a “do not call” outcome with a rule that stops further calls. Every AI call has a full transcript, and recording
+          a “do not call” outcome with a rule that stops that lead’s automatic retries. It is not a global do-not-call list, so keep those numbers out of later campaigns. Every AI call has a full transcript, and recording
           can be switched on for every call, so you have a record of what was said.
         </p>
         <p>
@@ -357,7 +357,7 @@ export default function Page() {
           { label: "TRAI — Press Release No. 135/2025: 1600-series adoption by RBI, SEBI and PFRDA entities (19 Nov 2025)", url: "https://www.trai.gov.in/sites/default/files/2025-11/PR_No.135of2025.pdf", checked: CHECKED },
           { label: "PIB — TRAI mandates 1600-series for IRDAI-regulated entities (17 Dec 2025)", url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2205350", checked: CHECKED },
           { label: "TRAI — Press Release No. 113/2026: 1601-series for utilities, courier and logistics (10 Aug 2026)", url: "https://www.trai.gov.in/sites/default/files/2026-08/PR_No113of2026_1.pdf", checked: CHECKED },
-          { label: "RBI — Outsourcing of Financial Services: Responsibilities of regulated entities employing Recovery Agents (12 Aug 2022)", url: "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=12378&Mode=0", checked: CHECKED },
+          { label: "RBI — Outsourcing of Financial Services: Responsibilities of regulated entities employing Recovery Agents (12 Aug 2022; repealed 28 Nov 2025 and folded into RBI’s Responsible Business Conduct Directions)", url: "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=12378&Mode=0", checked: CHECKED },
           { label: "DoT Sanchar Saathi — Chakshu: report suspected fraud and spam communication", url: "https://sancharsaathi.gov.in/sfc/", checked: CHECKED },
           { label: "Vodafone Idea — Vilpower DLT portal", url: "https://www.vilpower.in/", checked: CHECKED },
         ]}

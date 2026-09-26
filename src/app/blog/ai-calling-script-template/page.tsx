@@ -126,12 +126,12 @@ export default function Page() {
         head={["Disposition", "Meaning", "What happens next"]}
         rows={[
           ["Booked", "Agreed a day and time for the next step", "Confirmation on WhatsApp, meeting on the calendar"],
-          ["Callback", "Asked to be called at a stated time", "Callback on a person’s list with the exact time"],
+          ["Callback", "Asked to be called at a stated time", "Assigned to a person, with the caller's words in the transcript"],
           ["Qualified, transfer", "Ready now and handed to a person", "Rep gets the summary before picking up"],
           ["Not interested", "Clearly declined", "Stop calling"],
           ["Not a fit", "Need or budget outside what you offer", "Stop, or move to a nurture list"],
           ["Wrong number", "Not the person who enquired", "Never retry"],
-          ["Do not call", "Asked not to be contacted again", "Suppress permanently"],
+          ["Do not call", "Asked not to be contacted again", "Stop, and keep the number out of every future list"],
           ["Incomplete", "No real conversation: silence, voicemail, dropped", "Retry on schedule"],
         ]}
       />
@@ -293,7 +293,7 @@ OPENING LINE (say exactly)
 बोल रही हूँ। मैं एक AI assistant हूँ। आपने {{course}} के
 free demo class के लिए enquiry की थी। क्या अभी दो मिनट
 बात हो सकती है?"
-If busy: "कोई बात नहीं। मैं आपको कब call करूँ, कल सुबह
+If busy: "कोई बात नहीं। हमारी team आपको कब call करे, कल सुबह
 या शाम?" Confirm the time once and end.
 
 QUESTIONS (one at a time; skip what's answered)
@@ -345,7 +345,7 @@ Do not call | Incomplete`}</pre>
 
       <WhereTelleoFits>
         <p>
-          In Telleo’s no-code <Link href="/agent-builder/">agent builder</Link>, each part of this guide has its own field: opening line, persona and script, extraction questions, dispositions, handoff numbers, maximum call length and booking page. The agent knows the lead’s name and form fields through placeholders like <strong>{"{{leadName}}"}</strong>.
+          In Telleo’s no-code <Link href="/agent-builder/">agent builder</Link>, the parts of this guide map to its fields: opening line, persona and script (which holds the role, the questions to ask, facts, objection answers, handoff rules, closing and never list), extraction questions (what the post-call analysis pulls out; the live agent asks what is in the script), dispositions, handoff numbers, maximum call length and booking page. The agent knows the lead’s name and form fields through placeholders like <strong>{"{{leadName}}"}</strong>.
         </p>
         <p>
           AI-assisted scripting can draft a script from a plain-language brief, score it against a live-call rubric, apply suggested fixes, and revise it from real post-call feedback. Agents speak Hindi, English and Hinglish in production, with Hindi written in Devanagari and English business words kept in English. See the <Link href="/voices-and-languages/">voices and languages</Link>.
