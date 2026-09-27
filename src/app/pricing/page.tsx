@@ -73,16 +73,22 @@ export default function Page() {
       <JsonLd
         data={{
           "@context": "https://schema.org",
-          "@type": "Product",
+          "@type": "Service",
           name: "Telleo AI voice agents",
+          serviceType: "AI voice calling agents",
           description: "AI voice agents for outbound and inbound business calls in Hindi, English and Hinglish, billed per minute.",
-          brand: { "@type": "Brand", name: "Telleo" },
           url: `${SITE}/pricing/`,
-          offers: [
-            { "@type": "Offer", name: "Starter", price: "3499", priceCurrency: "INR", description: "Monthly minimum billing; ₹3.99 per minute; excludes GST" },
-            { "@type": "Offer", name: "Pro", price: "6999", priceCurrency: "INR", description: "Monthly minimum billing; ₹3.99 per minute, ₹3.49 beyond 1,750 minutes; excludes GST" },
-            { "@type": "Offer", name: "Annual", price: "19999", priceCurrency: "INR", description: "Per year; ₹3.49 per minute, no minimum; CRM included; excludes GST" },
-          ],
+          provider: { "@id": `${SITE}/#org` },
+          areaServed: { "@type": "Country", name: "India" },
+          hasOfferCatalog: {
+            "@type": "OfferCatalog",
+            name: "Telleo plans",
+            itemListElement: [
+              { "@type": "Offer", name: "Starter", price: "3499", priceCurrency: "INR", description: "Monthly minimum billing; ₹3.99 per minute; excludes GST" },
+              { "@type": "Offer", name: "Pro", price: "6999", priceCurrency: "INR", description: "Monthly minimum billing; ₹3.99 per minute, ₹3.49 beyond 1,750 minutes; excludes GST" },
+              { "@type": "Offer", name: "Annual", price: "19999", priceCurrency: "INR", description: "Per year; ₹3.49 per minute, no minimum; CRM included; excludes GST" },
+            ],
+          },
         }}
       />
       <section className="wrap py-16 md:py-20">

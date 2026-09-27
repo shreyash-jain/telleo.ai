@@ -1,6 +1,6 @@
 # Telleo — full site text
 
-Generated 2026-09-26 from https://telleo.ai. Short summary: https://telleo.ai/llms.txt
+Generated 2026-09-27 from https://telleo.ai. Short summary: https://telleo.ai/llms.txt
 
 
 ---
