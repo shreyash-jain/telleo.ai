@@ -28,14 +28,14 @@ export function RotatingWords({ words, className = "" }: { words: string[]; clas
   );
 }
 
-const SAMPLE_SRC = "/audio/telleo-sample-admissions-call.mp3";
+const SAMPLE_SRC = "/audio/telleo-sample-call-admissions-2.mp3";
 
 /** Compact player for the real recorded call. */
 export function SamplePlayer({ dark = true }: { dark?: boolean }) {
   const ref = useRef<HTMLAudioElement>(null);
   const [playing, setPlaying] = useState(false);
   const [t, setT] = useState(0);
-  const [d, setD] = useState(183);
+  const [d, setD] = useState(313);
 
   const toggle = () => {
     const a = ref.current;

@@ -1,6 +1,6 @@
 # Telleo — full site text
 
-Generated 2026-09-27 from https://telleo.ai. Short summary: https://telleo.ai/llms.txt
+Generated 2026-09-28 from https://telleo.ai. Short summary: https://telleo.ai/llms.txt
 
 
 ---
@@ -16,7 +16,7 @@ In Hinglish, too.
 Telleo phones every new enquiry in about 60 seconds, holds a natural conversation in Hindi, English or Hinglish, captures the answers you need, books the meeting or hands the hot lead to your team, and writes the outcome into your CRM.
 Book a demo Talk to our AI: +91 80353 74489
 Hear a real AI admissions call
-3:03
+5:13
 
 - Telephony included
 - No code
@@ -1249,7 +1249,7 @@ Hinglish · female voice Telleo agent · transcript
 - AI agent जी ज़रूर। बस इतना जानना था, बेटी के लिए online batch चाहिए या offline?Of course. I just wanted to know, would your daughter prefer an online or offline batch?
 
 Hear a real AI admissions call
-3:03
+5:13
 
 Languages
 
@@ -2210,7 +2210,7 @@ Book a demo
 - No obligation, no card
 Talk to an agent now +91 80353 74489 WhatsApp sales +91 99933 36616
 Hear a real AI admissions call
-3:03
+5:13
 
 Tell us about your calls
 We reply within one working day.

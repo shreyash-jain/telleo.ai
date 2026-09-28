@@ -65,8 +65,8 @@ The React component is `src/components/Logo.tsx`.
    Meta pixel and Ads tags on telleo.ai. Add a hostname condition or use a separate container.
 7. **Confirm**: the Enterprise tier (no public price), the demo promise ("we'll set up an agent around your use
    case and call your phone"), and how TRAI's Sept 2026 A2P declaration is handled for customers' AI calls.
-8. The sample recording `public/audio/telleo-sample-admissions-call.mp3` is the same real call published on
-   vacademy.io; the agent introduces the company as Vidyayatan Technologies.
+8. The sample recording `public/audio/telleo-sample-call-admissions-2.mp3` is a real Shiksha Nation admissions
+   call (5:12). It names the institute and a child ("Srishti"); confirm you have permission to publish it.
 
 ## Guard
 
