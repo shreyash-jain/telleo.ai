@@ -1,6 +1,6 @@
 # Telleo — full site text
 
-Generated 2026-09-28 from https://telleo.ai. Short summary: https://telleo.ai/llms.txt
+Generated 2026-10-01 from https://telleo.ai. Short summary: https://telleo.ai/llms.txt
 
 
 ---
@@ -8,12 +8,12 @@ Generated 2026-09-28 from https://telleo.ai. Short summary: https://telleo.ai/ll
 # Telleo: AI Voice Agents in Hindi, English & Hinglish
 URL: https://telleo.ai/
 
-AI voice agents for Indian businesses
+AI calling agents for Indian businesses
 
 # AI agents that
 call every lead. qualify buyers. book the demo. chase payments. answer your line.
 In Hinglish, too.
-Telleo phones every new enquiry in about 60 seconds, holds a natural conversation in Hindi, English or Hinglish, captures the answers you need, books the meeting or hands the hot lead to your team, and writes the outcome into your CRM.
+Telleo is an AI telecaller that phones every new enquiry in about 60 seconds, holds a natural conversation in Hindi, English or Hinglish, captures the answers you need, books the meeting or hands the hot lead to your team, and writes the outcome into your CRM.
 Book a demo Talk to our AI: +91 80353 74489
 Hear a real AI admissions call
 5:13
@@ -452,10 +452,10 @@ FAQ
 More in the full FAQ .
 From the blog
 
-- What Is an AI Voice Agent? A Plain Guide for Indian Teams
-- How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
-- Speed to Lead: Why Calling New Leads in 60 Seconds Wins
-- How to Write an AI Calling Agent Script (With Templates)
+- What Is an AI Voice Agent? A Guide for Indian Teams
+- AI Calling Cost in India: 2026 Per-Minute Guide
+- Speed to Lead: Why Calling in 60 Seconds Wins
+- How to Write an AI Calling Script (With Templates)
 All guides
 
 Will callers know they are talking to an AI? +
@@ -500,6 +500,112 @@ We reply within one working day.
 Your name Work email Country code +91+971+1+44+65Phone
 Company Industry IndustryEducation & admissionsReal estateHealthcare & clinicsLending & NBFCInsuranceE-commerce & D2CAutomotiveTravel & hospitalityRecruitment & staffingOtherWhat should the agent do? What should the agent do?Qualify new leadsCall leads within a minuteBook appointments / demosPayment & EMI remindersReactivate old leadsAnswer inbound callsSurveys & feedbackAnalyse my team's callsNot sure yetLeads or calls per month Leads or calls per monthUnder 1,0001,000 – 5,0005,000 – 20,00020,000+Anything we should know?
 Book my demo 20 minutes · a real call on your use case · no obligation Prefer WhatsApp?
+
+
+---
+
+# AI Telecaller: Call Every Lead in 60 Seconds | Telleo
+URL: https://telleo.ai/ai-telecaller/
+
+- Home
+- / AI telecaller
+
+AI telecaller
+
+# An AI telecaller that calls every lead in about a minute.
+Telleo's AI telecaller phones new enquiries in Hindi, English or Hinglish, asks your questions, books the meeting and hands the interested ones to your team, with a transcript and a score for every connected call. From ₹3.49 a minute, telephony included.
+Book a demo Talk to our AI: +91 80353 74489
+
+Why speed matters
+
+## The first call decides most leads.
+In a study of 1.25 million leads, firms that tried to contact a lead within an hour were nearly 7 times as likely to qualify it as firms that tried an hour later, and more than 60 times as likely as firms that waited 24 hours or longer (Harvard Business Review, The Short Life of Online Sales Leads , 2011).
+A telecalling team can't staff for every lead at every hour. An AI telecaller doesn't need to.
+The 60-second callback playbook
+
+Sample call · fictional coaching institute Telleo agent · transcript
+- AI agent नमस्ते Rohit ji, मैं Bright Path Academy से बात कर रही हूँ। आपने अभी NEET batch के बारे में पूछा था?Hello Rohit ji, I'm calling from Bright Path Academy. You just asked about the NEET batch?
+
+- Caller हाँ, weekend batch की fees क्या है?Yes, what are the fees for the weekend batch?
+
+- AI agent मैं आपके लिए counsellor के साथ free session book कर देती हूँ, वहाँ fees और instalments दोनों समझा देंगे। कल शाम 6 बजे ठीक रहेगा?I'll book you a free session with a counsellor, who will explain the fees and instalments. Is tomorrow at 6 pm okay?
+
+- Caller ठीक है।Okay.
+
+What it does
+
+## The whole first-call routine, every time.
+
+- Calls new Meta, Google and website leads through a workflow, and works through uploaded lists as campaigns.
+- Asks the questions you set and saves the answers on the call.
+- Books the meeting on your booking page when the caller agrees a day and time.
+- Sends the WhatsApp template or email the caller said yes to.
+- Transfers hot leads to your team live, or assigns them as soon as the call ends.
+- Marks callback requests, with the caller's own words in the transcript.
+- Retries unanswered workflow calls with the gap and number of attempts you choose.
+
+After every connected call
+What your team sees on the call record
+
+Outcome
+From your own list
+
+Summary
+2–3 sentences
+
+Lead rating
+1 to 10
+
+Answers
+Only what was said
+
+AI telecaller vs human telecaller
+
+## Let the AI take the first call. Let your people close.
+| Telleo AI telecaller | Human telecaller |
+
+First call to a new lead | About 60 seconds after the lead arrives, when a workflow starts the call | Whenever someone is free to dial |
+Calling hours | Inside the calling shifts you set (default 9 am to 9 pm); queued calls wait for the hours to open | Shift hours, leave and breaks |
+Languages | Hindi, English and Hinglish in production; more Indian languages set up on request | Whatever your team speaks |
+Script | The same opening, questions and outcomes on every call | Varies by person and by day |
+Notes after the call | Transcript, summary, lead rating 1–10 and the answers captured on every connected call | Whatever the caller types in |
+Telephony | Included. No SIMs, dialers or telecom contracts | SIMs or a dialer per seat |
+Cost | From ₹3.49 a minute, billed per minute of call | Salary, seat and dialer, whether the phone rings or not |
+
+People are still better at long, consultative calls, negotiation and relationships. Most teams use both: the AI calls every lead first, and the team takes the ones that are ready. See the full cost comparison
+
+AI voice agents
+Outbound, inbound, live transfer and the guardrails built into every account.
+Learn more How it sounds
+Everyday phone Hindi, Indian English and Hinglish. 80+ voices across 7 speech engines.
+Learn more Pricing
+From ₹3.49 a minute. Telephony and AI-call analysis included.
+Learn more
+Sample conversations on this page are illustrative, with fictional businesses.
+
+## Frequently asked questions
+What is an AI telecaller? +
+An AI voice agent that makes the phone calls a telecaller would: it calls new and old leads, has a natural conversation, asks your qualifying questions, books the meeting and hands interested leads to your team. Telleo's agents speak Hindi, English and Hinglish.
+
+Does an AI telecaller replace my team? +
+It takes the first call and the repetitive follow-ups, so your team spends its time on leads that are ready to talk. Live transfer and outcome rules hand those leads to a person, during the call or as soon as it ends.
+
+How fast does it call a new lead? +
+When a workflow starts the call as the lead arrives, the first call typically goes out in about a minute, inside your calling hours. A running bulk campaign shares the same queue and can delay it.
+
+Can my team keep calling from Exotel or Airtel IQ? +
+Yes. The AI calls run on a separate Telleo line, so your team can keep its click-to-call setup, or use Telleo's click-to-call on the Pro plan.
+
+What does an AI telecaller cost? +
+Plans start at ₹3,499 a month minimum billing at ₹3.99 a minute. The annual plan is ₹19,999 a year with a flat ₹3.49 a minute and no monthly minimum. Prices exclude 18% GST; DLT registration is ₹5,900 a year at actuals. Rates are for our standard voices.
+
+What about TRAI rules on automated calls? +
+We register DLT with you and you choose the calling windows. TRAI's September 2026 amendment will require every business using automated (A2P) calls to declare them to its telecom provider, with the caller IDs used. Its A2P provisions take effect 60 days after Gazette publication; talk to us about how it applies to your setup.
+
+## Hear it on a real phone call.
+Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
+
+Book a demo Call +91 80353 74489
 
 
 ---
@@ -660,11 +766,11 @@ Yes. Your team can keep calling on Exotel or Airtel IQ, or use Telleo's click-to
 
 ## From the blog
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Teams
+What Is an AI Voice Agent? A Guide for Indian Teams
 Playbooks
-Speed to Lead: Why Calling New Leads in 60 Seconds Wins
+Speed to Lead: Why Calling in 60 Seconds Wins
 Playbooks
-How to Write an AI Calling Agent Script (With Templates)
+How to Write an AI Calling Script (With Templates)
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -812,9 +918,9 @@ Every agent follows built-in rules on top of your script: one question at a time
 
 ## From the blog
 Playbooks
-How to Write an AI Calling Agent Script (With Templates)
+How to Write an AI Calling Script (With Templates)
 Voice AI
-Hinglish Voice AI: The Hardest Test and How to Judge It
+Hinglish Voice AI: How to Judge Call Quality
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -948,11 +1054,11 @@ Meta lead ads, Google lead forms, any website form via webhook, CSV or Excel imp
 
 ## From the blog
 Playbooks
-Speed to Lead: Why Calling New Leads in 60 Seconds Wins
+Speed to Lead: Why Calling in 60 Seconds Wins
 Compliance
-TRAI and DLT Rules for AI Calling in India: A 2026 Guide
+TRAI and DLT Rules for AI Calling: 2026 Guide
 Guides
-AI Calling Vendor Checklist: 20 Questions Before You Buy
+AI Calling Vendor Checklist: 20 Questions to Ask
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -1087,11 +1193,11 @@ It infers the rep and the lead from what is said; there is no separate voice-bas
 
 ## From the blog
 Pricing
-How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
+AI Calling Cost in India: 2026 Per-Minute Guide
 Guides
-AI Calling Vendor Checklist: 20 Questions Before You Buy
+AI Calling Vendor Checklist: 20 Questions to Ask
 Voice AI
-How to Measure AI Call Quality: Metrics That Actually Matter
+How to Measure AI Call Quality: Metrics That Matter
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -1219,7 +1325,7 @@ Yes. Search and filter the call log by outcome, date, team, counsellor and more,
 
 ## From the blog
 Voice AI
-How to Measure AI Call Quality: Metrics That Actually Matter
+How to Measure AI Call Quality: Metrics That Matter
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -1351,11 +1457,11 @@ The voice engines support Tamil, Telugu, Marathi, Bengali, Gujarati, Kannada, Ma
 
 ## From the blog
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Teams
+What Is an AI Voice Agent? A Guide for Indian Teams
 Playbooks
-How to Write an AI Calling Agent Script (With Templates)
+How to Write an AI Calling Script (With Templates)
 Voice AI
-Hinglish Voice AI: The Hardest Test and How to Judge It
+Hinglish Voice AI: How to Judge Call Quality
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -1365,7 +1471,7 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# How Telleo AI Calling Works, Step by Step | Telleo
+# How Telleo AI Calling Works, Step by Step
 URL: https://telleo.ai/how-it-works/
 
 - Home
@@ -1468,11 +1574,11 @@ It is limited to your own outcome list and only records answers that were actual
 
 ## From the blog
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Teams
+What Is an AI Voice Agent? A Guide for Indian Teams
 Playbooks
-Speed to Lead: Why Calling New Leads in 60 Seconds Wins
+Speed to Lead: Why Calling in 60 Seconds Wins
 Voice AI
-How to Measure AI Call Quality: Metrics That Actually Matter
+How to Measure AI Call Quality: Metrics That Matter
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -1630,11 +1736,11 @@ Calls draw on your account balance, and dialling stops if the balance runs out, 
 
 ## From the blog
 Pricing
-How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
+AI Calling Cost in India: 2026 Per-Minute Guide
 Compliance
-TRAI and DLT Rules for AI Calling in India: A 2026 Guide
+TRAI and DLT Rules for AI Calling: 2026 Guide
 Guides
-AI Calling Vendor Checklist: 20 Questions Before You Buy
+AI Calling Vendor Checklist: 20 Questions to Ask
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -1730,11 +1836,11 @@ See the playbook
 
 ## From the blog
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Teams
+What Is an AI Voice Agent? A Guide for Indian Teams
 Playbooks
-Speed to Lead: Why Calling New Leads in 60 Seconds Wins
+Speed to Lead: Why Calling in 60 Seconds Wins
 Playbooks
-How to Write an AI Calling Agent Script (With Templates)
+How to Write an AI Calling Script (With Templates)
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -1836,7 +1942,7 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# Compare Telleo: Telecallers, IVR, Ringg, Vomyra | Telleo
+# Compare Telleo: Telecallers, IVR, Ringg, Vomyra
 URL: https://telleo.ai/compare/
 
 - Home
@@ -1856,7 +1962,7 @@ Read the comparison
 If the message is the same for everyone and needs no reply, such as an alert or simple call routing, an IVR or recorded broadcast is the simpler tool. If you need something back, like interest, a preferred time or a booking, Telleo fits better because it understands spoken replies and turns them into CRM actions. On inbound, an IVR menu option on a Telleo number can hand the caller to a Telleo agent.
 Read the comparison
 
-## Telleo vs Ringg AI
+## Telleo vs Ringg AI: an honest Ringg alternative
 Choose Ringg AI if you need many languages, channels beyond voice, developer APIs, published security certifications or on-prem deployment. Choose Telleo if you are a sales, admissions or service team calling in Hindi, English or Hinglish and want the CRM, follow-ups, human-call analysis and simple rupee per-minute pricing in one place, with an annual plan that has no monthly minimum.
 Read the comparison
 
@@ -1870,11 +1976,11 @@ Read the comparison
 
 ## From the blog
 Pricing
-How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
+AI Calling Cost in India: 2026 Per-Minute Guide
 Voice AI
-Hinglish Voice AI: The Hardest Test and How to Judge It
+Hinglish Voice AI: How to Judge Call Quality
 Guides
-AI Calling Vendor Checklist: 20 Questions Before You Buy
+AI Calling Vendor Checklist: 20 Questions to Ask
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -1884,7 +1990,7 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# The Telleo Blog: Voice AI Guides for Indian Teams | Telleo
+# The Telleo Blog: Voice AI Guides for Indian Teams
 URL: https://telleo.ai/blog/
 
 - Home
@@ -1898,43 +2004,43 @@ Book a demo Talk to our AI: +91 80353 74489
 
 Guides
 
-## What Is an AI Voice Agent? A Plain Guide for Indian Teams
+## What Is an AI Voice Agent? A Guide for Indian Teams
 An AI voice agent holds a real phone conversation. How it hears, thinks and speaks, what it can and can't do, and how to pilot one in an Indian business.
 Read the guide
 
 Pricing
 
-## How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
+## AI Calling Cost in India: 2026 Per-Minute Guide
 AI calling in India is sold per minute, with platform fees, or as 'unlimited' bundles. What drives the cost, the hidden charges, and a worked monthly example.
 8 min read
 Playbooks
 
-## Speed to Lead: Why Calling New Leads in 60 Seconds Wins
+## Speed to Lead: Why Calling in 60 Seconds Wins
 Firms that tried to reach web leads within an hour were nearly 7x as likely to qualify them as those trying an hour later (HBR). Plus a callback playbook.
 8 min read
 Playbooks
 
-## How to Write an AI Calling Agent Script (With Templates)
+## How to Write an AI Calling Script (With Templates)
 How to write a script for an AI calling agent: the opening line, one question per turn, dispositions, objections, handoffs, plus English and Hinglish templates.
 10 min read
 Compliance
 
-## TRAI and DLT Rules for AI Calling in India: A 2026 Guide
+## TRAI and DLT Rules for AI Calling: 2026 Guide
 What TRAI’s TCCCPR rules, DLT registration, 140 and 1600 number series, DND preferences and the September 2026 A2P amendment mean for AI voice calls.
 10 min read
 Voice AI
 
-## Hinglish Voice AI: The Hardest Test and How to Judge It
+## Hinglish Voice AI: How to Judge Call Quality
 Why Hinglish breaks voice AI: code-switching, Devanagari vs romanised text, gendered verbs, backchannels, numbers and names. Plus a 10-point listening test.
 9 min read
 Guides
 
-## AI Calling Vendor Checklist: 20 Questions Before You Buy
+## AI Calling Vendor Checklist: 20 Questions to Ask
 20 questions to ask an AI calling vendor before you buy: call quality, languages, telephony, DLT, workflows, QA, billing pulse, data access and exit terms.
 8 min read
 Voice AI
 
-## How to Measure AI Call Quality: Metrics That Actually Matter
+## How to Measure AI Call Quality: Metrics That Matter
 The metrics that show whether AI calls work: connect, qualified and booking rates, cost per qualified lead, dead air, talk-over and a weekly QA routine.
 7 min read
 
@@ -1946,7 +2052,7 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# Telleo FAQ: AI Calling Questions Answered | Telleo
+# Telleo FAQ: AI Calling Questions Answered
 URL: https://telleo.ai/faq/
 
 - Home
@@ -2065,11 +2171,11 @@ More detail: pricing , security , TRAI and DLT rules .
 
 ## From the blog
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Teams
+What Is an AI Voice Agent? A Guide for Indian Teams
 Pricing
-How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
+AI Calling Cost in India: 2026 Per-Minute Guide
 Compliance
-TRAI and DLT Rules for AI Calling in India: A 2026 Guide
+TRAI and DLT Rules for AI Calling: 2026 Guide
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -2135,9 +2241,9 @@ Questions from your security or legal team: hello@telleo.ai . Privacy policy: va
 
 ## From the blog
 Compliance
-TRAI and DLT Rules for AI Calling in India: A 2026 Guide
+TRAI and DLT Rules for AI Calling: 2026 Guide
 Guides
-AI Calling Vendor Checklist: 20 Questions Before You Buy
+AI Calling Vendor Checklist: 20 Questions to Ask
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -2147,7 +2253,7 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# About Telleo | Telleo
+# About Telleo
 URL: https://telleo.ai/about/
 
 - Home
@@ -2193,7 +2299,7 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# Book a Telleo Demo | Telleo
+# Book a Telleo Demo
 URL: https://telleo.ai/demo/
 
 - Home
@@ -2357,6 +2463,7 @@ Yes. Call the live test line on +91 80353 74489 to talk to an AI agent. In the b
 
 ## More use cases
 Instant lead callback Appointment booking Payment reminders Lead reactivation Feedback surveys AI receptionist
+Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -2366,7 +2473,7 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# Instant Lead Callback: AI Calls New Leads in About a Minute | Telleo
+# Instant Lead Callback: AI Calls Leads in a Minute | Telleo
 URL: https://telleo.ai/use-cases/instant-lead-callback/
 
 - Home
@@ -2498,6 +2605,7 @@ The person has just asked you for information, and the opening line says why you
 
 ## More use cases
 Lead qualification Appointment booking Payment reminders Lead reactivation Feedback surveys AI receptionist
+Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -2507,7 +2615,7 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# AI Appointment Booking Calls for Demos and Site Visits | Telleo
+# AI Appointment Booking Calls: Demos, Site Visits | Telleo
 URL: https://telleo.ai/use-cases/appointment-booking/
 
 - Home
@@ -2638,6 +2746,7 @@ Add a handoff number to the agent. It says a short bridge line and transfers the
 
 ## More use cases
 Lead qualification Instant lead callback Payment reminders Lead reactivation Feedback surveys AI receptionist
+Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -2647,7 +2756,7 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# AI Payment Reminder Calls for Fees, EMIs and Renewals | Telleo
+# AI Payment Reminder Calls: Fees, EMIs, Renewals | Telleo
 URL: https://telleo.ai/use-cases/payment-reminders/
 
 - Home
@@ -2773,6 +2882,7 @@ Only inside the time windows you choose, and never beyond your daily call cap. C
 
 ## More use cases
 Lead qualification Instant lead callback Appointment booking Lead reactivation Feedback surveys AI receptionist
+Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -2782,7 +2892,7 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# AI Lead Reactivation Calls for Old and Cold Lead Lists | Telleo
+# AI Lead Reactivation Calls for Old Lead Lists | Telleo
 URL: https://telleo.ai/use-cases/lead-reactivation/
 
 - Home
@@ -2910,6 +3020,7 @@ Billing is per minute of call, rounded up. That is ₹3.99 a minute on the month
 
 ## More use cases
 Lead qualification Instant lead callback Appointment booking Payment reminders Feedback surveys AI receptionist
+Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -2919,7 +3030,7 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# AI Feedback and NPS Survey Calls for Indian Businesses | Telleo
+# AI Feedback and NPS Survey Calls in India | Telleo
 URL: https://telleo.ai/use-cases/feedback-surveys/
 
 - Home
@@ -3044,6 +3155,7 @@ Yes. Hindi, English and Hinglish are all in production. Make one agent per langu
 
 ## More use cases
 Lead qualification Instant lead callback Appointment booking Payment reminders Lead reactivation AI receptionist
+Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -3053,7 +3165,7 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# AI Receptionist for Inbound Calls in Hindi and English | Telleo
+# AI Receptionist: Inbound Calls in Hindi and English | Telleo
 URL: https://telleo.ai/use-cases/ai-receptionist/
 
 - Home
@@ -3184,6 +3296,7 @@ Set the agent to Hindi, English or Hinglish, all in production. A Hinglish agent
 
 ## More use cases
 Lead qualification Instant lead callback Appointment booking Payment reminders Lead reactivation Feedback surveys
+Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -3193,7 +3306,7 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# AI Event and Webinar Confirmation Calls with Reminders | Telleo
+# AI Event and Webinar Confirmation Calls | Telleo
 URL: https://telleo.ai/use-cases/event-confirmation/
 
 - Home
@@ -3324,6 +3437,7 @@ Each call gets a disposition from your list, such as Confirmed or Can't attend, 
 
 ## More use cases
 Lead qualification Instant lead callback Appointment booking Payment reminders Lead reactivation Feedback surveys
+Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -3333,7 +3447,7 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# AI Application Follow-up Calls for Documents and KYC | Telleo
+# AI Application Follow-up Calls for Docs and KYC | Telleo
 URL: https://telleo.ai/use-cases/application-follow-up/
 
 - Home
@@ -3459,6 +3573,7 @@ Yes, if your system can send or receive a webhook. Otherwise, export pending app
 
 ## More use cases
 Lead qualification Instant lead callback Appointment booking Payment reminders Lead reactivation Feedback surveys
+Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -3468,7 +3583,7 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# AI Calling Agent for Education and Admissions in India | Telleo
+# AI Calling Agent for Education and Admissions | Telleo
 URL: https://telleo.ai/industries/education/
 
 - Home
@@ -3610,6 +3725,7 @@ Leads, calls and outcomes live in Telleo. To pass them to another system, add a 
 
 ## Other industries
 Real estate Healthcare Lending Insurance E-commerce & D2C Automotive Travel & hospitality Recruitment
+Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -3757,6 +3873,7 @@ No. Calls run on Telleo's lines. If you want buyers to see one consistent number
 
 ## Other industries
 Education Healthcare Lending Insurance E-commerce & D2C Automotive Travel & hospitality Recruitment
+Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -3766,7 +3883,7 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# AI Calling Agent for Clinics, Hospitals & Labs in India | Telleo
+# AI Calling Agent for Clinics, Hospitals and Labs | Telleo
 URL: https://telleo.ai/industries/healthcare/
 
 - Home
@@ -3900,6 +4017,7 @@ Transcripts, summaries and captured answers are visible to staff who can open th
 
 ## Other industries
 Education Real estate Lending Insurance E-commerce & D2C Automotive Travel & hospitality Recruitment
+Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -4044,6 +4162,7 @@ Yes, with recording switched on for your calling line, which is the normal setup
 
 ## Other industries
 Education Real estate Healthcare Insurance E-commerce & D2C Automotive Travel & hospitality Recruitment
+Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -4186,6 +4305,7 @@ There is no native integration with policy systems. Lists come in by CSV or webh
 
 ## Other industries
 Education Real estate Healthcare Lending E-commerce & D2C Automotive Travel & hospitality Recruitment
+Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -4316,6 +4436,7 @@ Hindi, English and Hinglish are in production. Tamil, Telugu, Bengali and other 
 
 ## Other industries
 Education Real estate Healthcare Lending Insurance Automotive Travel & hospitality Recruitment
+Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -4452,6 +4573,7 @@ No. AI calls run on Telleo's lines. Your team can keep using Airtel IQ or Exotel
 
 ## Other industries
 Education Real estate Healthcare Lending Insurance E-commerce & D2C Travel & hospitality Recruitment
+Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -4595,6 +4717,7 @@ English, Hindi and Hinglish are in production. Tamil, Telugu, Malayalam, Bengali
 
 ## Other industries
 Education Real estate Healthcare Lending Insurance E-commerce & D2C Automotive Recruitment
+Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -4604,7 +4727,7 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# AI Calling Agent for Recruitment and Staffing in India | Telleo
+# AI Calling Agent for Recruitment and Staffing | Telleo
 URL: https://telleo.ai/industries/recruitment/
 
 - Home
@@ -4737,6 +4860,7 @@ Yes. Set a recruiter's number for live transfer, and the agent connects the call
 
 ## Other industries
 Education Real estate Healthcare Lending Insurance E-commerce & D2C Automotive Travel & hospitality
+Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -4746,7 +4870,7 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# Telleo vs Telecallers: AI Voice Agent or In-House Team | Telleo
+# Telleo vs Telecallers: AI Voice Agent or In-House Team
 URL: https://telleo.ai/compare/telleo-vs-telecallers/
 
 - Home
@@ -4848,7 +4972,7 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# Telleo vs IVR and Robocalls: AI Agent or Recorded Menu | Telleo
+# Telleo vs IVR and Robocalls: AI Agent or Recorded Menu
 URL: https://telleo.ai/compare/telleo-vs-ivr/
 
 - Home
@@ -4935,7 +5059,7 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# Telleo vs Ringg AI: Pricing, Features, Differences | Telleo
+# Ringg AI Alternative: Telleo vs Ringg Pricing
 URL: https://telleo.ai/compare/telleo-vs-ringg/
 
 - Home
@@ -4943,7 +5067,7 @@ URL: https://telleo.ai/compare/telleo-vs-ringg/
 - / Telleo vs Ringg AI
 Comparison
 
-# Telleo vs Ringg AI
+# Telleo vs Ringg AI: an honest Ringg alternative
 Ringg AI and Telleo both build AI voice agents for Indian businesses. Ringg is a broad platform covering voice, chat, WhatsApp and web agents, with developer tools around them. Telleo is a voice agent built into a CRM that acts on every call outcome. We checked the Ringg facts below on its public website and docs on 25 September 2026. They may have changed since.
 The short answer
 Choose Ringg AI if you need many languages, channels beyond voice, developer APIs, published security certifications or on-prem deployment. Choose Telleo if you are a sales, admissions or service team calling in Hindi, English or Hinglish and want the CRM, follow-ups, human-call analysis and simple rupee per-minute pricing in one place, with an annual plan that has no monthly minimum.
@@ -5042,7 +5166,7 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# Telleo vs Vomyra: Pricing, Features, Differences | Telleo
+# Telleo vs Vomyra: Pricing, Features, Differences
 URL: https://telleo.ai/compare/telleo-vs-vomyra/
 
 - Home
@@ -5146,7 +5270,7 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# Telleo vs Building Your Own Voice Agent (Vapi, Retell) | Telleo
+# Telleo vs Building Your Own Voice Agent (Vapi, Retell)
 URL: https://telleo.ai/compare/telleo-vs-build-your-own/
 
 - Home
@@ -5245,15 +5369,15 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# What Is an AI Voice Agent? A Plain Guide for Indian Teams | Telleo
+# What Is an AI Voice Agent? A Guide for Indian Teams | Telleo
 URL: https://telleo.ai/blog/what-is-an-ai-voice-agent/
 
 - Home
 - / Blog
-- / What Is an AI Voice Agent? A Plain Guide for Indian Teams
+- / What Is an AI Voice Agent? A Guide for Indian Teams
 Guides
 
-# What Is an AI Voice Agent? A Plain Guide for Indian Teams
+# What Is an AI Voice Agent? A Guide for Indian Teams
 An AI voice agent holds a real phone conversation. How it hears, thinks and speaks, what it can and can't do, and how to pilot one in an Indian business.
 By the Telleo team · 25 September 2026· 7 min read
 
@@ -5422,13 +5546,13 @@ Book a demo
 
 ## Keep reading
 Pricing
-How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
+AI Calling Cost in India: 2026 Per-Minute Guide
 Read
 Playbooks
-Speed to Lead: Why Calling New Leads in 60 Seconds Wins
+Speed to Lead: Why Calling in 60 Seconds Wins
 Read
 Playbooks
-How to Write an AI Calling Agent Script (With Templates)
+How to Write an AI Calling Script (With Templates)
 Read
 
 ## Hear it on a real phone call.
@@ -5439,15 +5563,15 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# How Much Does AI Calling Cost in India? 2026 Per-Minute Guide | Telleo
+# AI Calling Cost in India: 2026 Per-Minute Guide | Telleo
 URL: https://telleo.ai/blog/ai-calling-cost-india/
 
 - Home
 - / Blog
-- / How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
+- / AI Calling Cost in India: 2026 Per-Minute Guide
 Pricing
 
-# How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
+# AI Calling Cost in India: 2026 Per-Minute Guide
 AI calling in India is sold per minute, with platform fees, or as 'unlimited' bundles. What drives the cost, the hidden charges, and a worked monthly example.
 By the Telleo team · 25 September 2026· 8 min read
 
@@ -5615,13 +5739,13 @@ Book a demo
 
 ## Keep reading
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Teams
+What Is an AI Voice Agent? A Guide for Indian Teams
 Read
 Playbooks
-Speed to Lead: Why Calling New Leads in 60 Seconds Wins
+Speed to Lead: Why Calling in 60 Seconds Wins
 Read
 Playbooks
-How to Write an AI Calling Agent Script (With Templates)
+How to Write an AI Calling Script (With Templates)
 Read
 
 ## Hear it on a real phone call.
@@ -5632,15 +5756,15 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# Speed to Lead: Why Calling New Leads in 60 Seconds Wins | Telleo
+# Speed to Lead: Why Calling in 60 Seconds Wins | Telleo
 URL: https://telleo.ai/blog/speed-to-lead/
 
 - Home
 - / Blog
-- / Speed to Lead: Why Calling New Leads in 60 Seconds Wins
+- / Speed to Lead: Why Calling in 60 Seconds Wins
 Playbooks
 
-# Speed to Lead: Why Calling New Leads in 60 Seconds Wins
+# Speed to Lead: Why Calling in 60 Seconds Wins
 Firms that tried to reach web leads within an hour were nearly 7x as likely to qualify them as those trying an hour later (HBR). Plus a callback playbook.
 By the Telleo team · 25 September 2026· 8 min read
 
@@ -5795,13 +5919,13 @@ Book a demo
 
 ## Keep reading
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Teams
+What Is an AI Voice Agent? A Guide for Indian Teams
 Read
 Pricing
-How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
+AI Calling Cost in India: 2026 Per-Minute Guide
 Read
 Playbooks
-How to Write an AI Calling Agent Script (With Templates)
+How to Write an AI Calling Script (With Templates)
 Read
 
 ## Hear it on a real phone call.
@@ -5812,15 +5936,15 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# How to Write an AI Calling Agent Script (With Templates) | Telleo
+# How to Write an AI Calling Script (With Templates) | Telleo
 URL: https://telleo.ai/blog/ai-calling-script-template/
 
 - Home
 - / Blog
-- / How to Write an AI Calling Agent Script (With Templates)
+- / How to Write an AI Calling Script (With Templates)
 Playbooks
 
-# How to Write an AI Calling Agent Script (With Templates)
+# How to Write an AI Calling Script (With Templates)
 How to write a script for an AI calling agent: the opening line, one question per turn, dispositions, objections, handoffs, plus English and Hinglish templates.
 By the Telleo team · 25 September 2026· 10 min read
 
@@ -6111,13 +6235,13 @@ Book a demo
 
 ## Keep reading
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Teams
+What Is an AI Voice Agent? A Guide for Indian Teams
 Read
 Pricing
-How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
+AI Calling Cost in India: 2026 Per-Minute Guide
 Read
 Playbooks
-Speed to Lead: Why Calling New Leads in 60 Seconds Wins
+Speed to Lead: Why Calling in 60 Seconds Wins
 Read
 
 ## Hear it on a real phone call.
@@ -6128,15 +6252,15 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# TRAI and DLT Rules for AI Calling in India: A 2026 Guide | Telleo
+# TRAI and DLT Rules for AI Calling: 2026 Guide | Telleo
 URL: https://telleo.ai/blog/trai-dlt-rules-ai-calling/
 
 - Home
 - / Blog
-- / TRAI and DLT Rules for AI Calling in India: A 2026 Guide
+- / TRAI and DLT Rules for AI Calling: 2026 Guide
 Compliance
 
-# TRAI and DLT Rules for AI Calling in India: A 2026 Guide
+# TRAI and DLT Rules for AI Calling: 2026 Guide
 What TRAI’s TCCCPR rules, DLT registration, 140 and 1600 number series, DND preferences and the September 2026 A2P amendment mean for AI voice calls.
 By the Telleo team · 25 September 2026· 10 min read
 
@@ -6324,13 +6448,13 @@ Book a demo
 
 ## Keep reading
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Teams
+What Is an AI Voice Agent? A Guide for Indian Teams
 Read
 Pricing
-How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
+AI Calling Cost in India: 2026 Per-Minute Guide
 Read
 Playbooks
-Speed to Lead: Why Calling New Leads in 60 Seconds Wins
+Speed to Lead: Why Calling in 60 Seconds Wins
 Read
 
 ## Hear it on a real phone call.
@@ -6341,15 +6465,15 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# Hinglish Voice AI: The Hardest Test and How to Judge It | Telleo
+# Hinglish Voice AI: How to Judge Call Quality | Telleo
 URL: https://telleo.ai/blog/hinglish-voice-ai/
 
 - Home
 - / Blog
-- / Hinglish Voice AI: The Hardest Test and How to Judge It
+- / Hinglish Voice AI: How to Judge Call Quality
 Voice AI
 
-# Hinglish Voice AI: The Hardest Test and How to Judge It
+# Hinglish Voice AI: How to Judge Call Quality
 Why Hinglish breaks voice AI: code-switching, Devanagari vs romanised text, gendered verbs, backchannels, numbers and names. Plus a 10-point listening test.
 By the Telleo team · 25 September 2026· 9 min read
 
@@ -6507,13 +6631,13 @@ Book a demo
 
 ## Keep reading
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Teams
+What Is an AI Voice Agent? A Guide for Indian Teams
 Read
 Pricing
-How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
+AI Calling Cost in India: 2026 Per-Minute Guide
 Read
 Playbooks
-Speed to Lead: Why Calling New Leads in 60 Seconds Wins
+Speed to Lead: Why Calling in 60 Seconds Wins
 Read
 
 ## Hear it on a real phone call.
@@ -6524,15 +6648,15 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# AI Calling Vendor Checklist: 20 Questions Before You Buy | Telleo
+# AI Calling Vendor Checklist: 20 Questions to Ask | Telleo
 URL: https://telleo.ai/blog/ai-calling-vendor-checklist/
 
 - Home
 - / Blog
-- / AI Calling Vendor Checklist: 20 Questions Before You Buy
+- / AI Calling Vendor Checklist: 20 Questions to Ask
 Guides
 
-# AI Calling Vendor Checklist: 20 Questions Before You Buy
+# AI Calling Vendor Checklist: 20 Questions to Ask
 20 questions to ask an AI calling vendor before you buy: call quality, languages, telephony, DLT, workflows, QA, billing pulse, data access and exit terms.
 By the Telleo team · 25 September 2026· 8 min read
 
@@ -6667,13 +6791,13 @@ Book a demo
 
 ## Keep reading
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Teams
+What Is an AI Voice Agent? A Guide for Indian Teams
 Read
 Pricing
-How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
+AI Calling Cost in India: 2026 Per-Minute Guide
 Read
 Playbooks
-Speed to Lead: Why Calling New Leads in 60 Seconds Wins
+Speed to Lead: Why Calling in 60 Seconds Wins
 Read
 
 ## Hear it on a real phone call.
@@ -6684,15 +6808,15 @@ Book a demo Call +91 80353 74489
 
 ---
 
-# How to Measure AI Call Quality: Metrics That Actually Matter | Telleo
+# How to Measure AI Call Quality: Metrics That Matter | Telleo
 URL: https://telleo.ai/blog/measure-ai-call-quality/
 
 - Home
 - / Blog
-- / How to Measure AI Call Quality: Metrics That Actually Matter
+- / How to Measure AI Call Quality: Metrics That Matter
 Voice AI
 
-# How to Measure AI Call Quality: Metrics That Actually Matter
+# How to Measure AI Call Quality: Metrics That Matter
 The metrics that show whether AI calls work: connect, qualified and booking rates, cost per qualified lead, dead air, talk-over and a weekly QA routine.
 By the Telleo team · 25 September 2026· 7 min read
 
@@ -6836,13 +6960,13 @@ Book a demo
 
 ## Keep reading
 Guides
-What Is an AI Voice Agent? A Plain Guide for Indian Teams
+What Is an AI Voice Agent? A Guide for Indian Teams
 Read
 Pricing
-How Much Does AI Calling Cost in India? 2026 Per-Minute Guide
+AI Calling Cost in India: 2026 Per-Minute Guide
 Read
 Playbooks
-Speed to Lead: Why Calling New Leads in 60 Seconds Wins
+Speed to Lead: Why Calling in 60 Seconds Wins
 Read
 
 ## Hear it on a real phone call.

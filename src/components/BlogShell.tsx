@@ -3,7 +3,8 @@ import Link from "next/link";
 import { ArrowRight, Clock, Lightbulb, AlertTriangle, Info } from "lucide-react";
 import { POSTS, findPost, postPath } from "@/content/posts";
 import type { Faq, Source } from "@/content/types";
-import { SITE, SITE_NAME, bookHref } from "@/lib/site";
+import { SITE, bookHref } from "@/lib/site";
+import { seoMetadata } from "@/lib/seo";
 import { Breadcrumbs, CtaBand, FaqList } from "./ui";
 import { JsonLd } from "./JsonLd";
 
@@ -13,23 +14,12 @@ const fmt = (d: string) =>
 export function postMetadata(slug: string): Metadata {
   const p = findPost(slug);
   if (!p) return {};
-  const url = `${SITE}${postPath(slug)}`;
   return {
-    title: p.title,
-    description: p.description,
+    ...seoMetadata({
+      url: `${SITE}${postPath(slug)}`, title: p.title, description: p.description, type: "article",
+      extra: { publishedTime: p.published, modifiedTime: p.updated ?? p.published },
+    }),
     keywords: p.keywords,
-    alternates: { canonical: url },
-    openGraph: {
-      type: "article",
-      url,
-      title: p.title,
-      description: p.description,
-      publishedTime: p.published,
-      modifiedTime: p.updated ?? p.published,
-      siteName: SITE_NAME,
-      images: [{ url: "/og.png", width: 1200, height: 630 }],
-    },
-    twitter: { card: "summary_large_image", title: p.title, description: p.description },
   };
 }
 

@@ -101,9 +101,9 @@ export default function Home() {
         <div className="glow-brand pointer-events-none absolute -left-40 top-10 h-[36rem] w-[36rem] opacity-70" />
         <div className="wrap relative grid items-center gap-14 lg:grid-cols-[1.05fr_1fr] [&>*]:min-w-0">
           <div>
-            <p className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-semibold text-slate-300">
-              <span className="h-1.5 w-1.5 rounded-full bg-brand" /> AI voice agents for Indian businesses
-            </p>
+            <Link href="/ai-voice-agents/" className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-semibold text-slate-300 transition hover:text-white">
+              <span className="h-1.5 w-1.5 rounded-full bg-brand" /> AI calling agents for Indian businesses
+            </Link>
             <h1 className="h-display mt-6 text-[2.6rem] sm:text-6xl xl:text-[4.4rem]">
               AI agents that
               <br />
@@ -115,7 +115,9 @@ export default function Home() {
               <span className="text-slate-300">In Hinglish, too.</span>
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-300">
-              Telleo phones every new enquiry in about 60 seconds, holds a natural conversation in Hindi, English or
+              Telleo is an{" "}
+              <Link href="/ai-telecaller/" className="text-white underline decoration-brand/60 underline-offset-4 hover:decoration-brand">AI telecaller</Link>{" "}
+              that phones every new enquiry in about 60 seconds, holds a natural conversation in Hindi, English or
               Hinglish, captures the answers you need, books the meeting or hands the hot lead to your team, and writes
               the outcome into your CRM.
             </p>

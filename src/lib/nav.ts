@@ -1,6 +1,7 @@
 /** Navigation data. Slugs here must match src/content/{useCases,industries,comparisons}.ts. */
 export const PRODUCT_NAV = [
   { href: "/ai-voice-agents/", label: "AI voice agents", desc: "Outbound and inbound calls that qualify and book" },
+  { href: "/ai-telecaller/", label: "AI telecaller", desc: "The first call to every lead, in about a minute" },
   { href: "/agent-builder/", label: "Agent builder", desc: "Script, questions, outcomes and voice, no code" },
   { href: "/automations/", label: "Automations & actions", desc: "Bookings, WhatsApp, transfers, retries" },
   { href: "/call-intelligence/", label: "Call intelligence", desc: "Summaries, objections, coaching on AI and team calls" },

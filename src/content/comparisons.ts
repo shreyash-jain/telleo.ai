@@ -337,11 +337,11 @@ export const COMPARISONS: Comparison[] = [
   {
     slug: "telleo-vs-ringg",
     label: "Telleo vs Ringg AI",
-    title: "Telleo vs Ringg AI: Pricing, Features, Differences",
+    title: "Ringg AI Alternative: Telleo vs Ringg Pricing",
     description:
-      "Telleo vs Ringg AI on published pricing, languages, channels, telephony, CRM follow-up and compliance. Ringg facts checked on its own site in September 2026.",
+      "Looking for a Ringg AI alternative? Telleo vs Ringg on published pricing, Hindi and Hinglish calling, telephony, CRM follow-up and compliance, checked in September 2026.",
     other: "Ringg AI",
-    h1: "Telleo vs Ringg AI",
+    h1: "Telleo vs Ringg AI: an honest Ringg alternative",
     lede:
       "Ringg AI and Telleo both build AI voice agents for Indian businesses. Ringg is a broad platform covering voice, chat, WhatsApp and web agents, with developer tools around them. Telleo is a voice agent built into a CRM that acts on every call outcome. We checked the Ringg facts below on its public website and docs on 25 September 2026. They may have changed since.",
     verdict:

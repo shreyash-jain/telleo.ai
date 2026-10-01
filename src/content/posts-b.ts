@@ -3,7 +3,7 @@ import type { Post } from "./types";
 export const POSTS_B: Post[] = [
   {
     slug: "trai-dlt-rules-ai-calling",
-    title: "TRAI and DLT Rules for AI Calling in India: A 2026 Guide",
+    title: "TRAI and DLT Rules for AI Calling: 2026 Guide",
     description:
       "What TRAI’s TCCCPR rules, DLT registration, 140 and 1600 number series, DND preferences and the September 2026 A2P amendment mean for AI voice calls.",
     category: "Compliance",
@@ -22,7 +22,7 @@ export const POSTS_B: Post[] = [
   },
   {
     slug: "hinglish-voice-ai",
-    title: "Hinglish Voice AI: The Hardest Test and How to Judge It",
+    title: "Hinglish Voice AI: How to Judge Call Quality",
     description:
       "Why Hinglish breaks voice AI: code-switching, Devanagari vs romanised text, gendered verbs, backchannels, numbers and names. Plus a 10-point listening test.",
     category: "Voice AI",
@@ -40,7 +40,7 @@ export const POSTS_B: Post[] = [
   },
   {
     slug: "ai-calling-vendor-checklist",
-    title: "AI Calling Vendor Checklist: 20 Questions Before You Buy",
+    title: "AI Calling Vendor Checklist: 20 Questions to Ask",
     description:
       "20 questions to ask an AI calling vendor before you buy: call quality, languages, telephony, DLT, workflows, QA, billing pulse, data access and exit terms.",
     category: "Guides",
@@ -58,7 +58,7 @@ export const POSTS_B: Post[] = [
   },
   {
     slug: "measure-ai-call-quality",
-    title: "How to Measure AI Call Quality: Metrics That Actually Matter",
+    title: "How to Measure AI Call Quality: Metrics That Matter",
     description:
       "The metrics that show whether AI calls work: connect, qualified and booking rates, cost per qualified lead, dead air, talk-over and a weekly QA routine.",
     category: "Voice AI",
