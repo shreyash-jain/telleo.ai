@@ -6,6 +6,8 @@ import { USE_CASES, findUseCase } from "@/content/useCases";
 import { INDUSTRIES } from "@/content/industries";
 import { Breadcrumbs, CheckList, CtaBand, FaqList, Icon, Transcript } from "@/components/ui";
 import { JsonLd } from "@/components/JsonLd";
+import { seoMetadata } from "@/lib/seo";
+import { PRODUCT_NAV } from "@/lib/nav";
 import { SITE, TEST_LINE, TEST_LINE_DISPLAY, bookHref } from "@/lib/site";
 
 export const dynamicParams = false;
@@ -16,13 +18,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const u = findUseCase((await params).slug);
   if (!u) return {};
-  const url = `${SITE}/use-cases/${u.slug}/`;
-  return {
-    title: u.title,
-    description: u.description,
-    alternates: { canonical: url },
-    openGraph: { url, title: u.title, description: u.description, type: "article" },
-  };
+  return seoMetadata({ url: `${SITE}/use-cases/${u.slug}/`, title: u.title, description: u.description, type: "article" });
 }
 
 export default async function UseCasePage({ params }: { params: Promise<{ slug: string }> }) {
@@ -176,6 +172,15 @@ export default async function UseCasePage({ params }: { params: Promise<{ slug: 
               </Link>
             ))}
           </div>
+          <p className="mt-8 text-sm text-slate-600">
+            Built on{" "}
+            {PRODUCT_NAV.map((p, i) => (
+              <span key={p.href}>
+                {i > 0 && " · "}
+                <Link href={p.href} className="font-semibold text-brand-700 hover:underline">{p.label}</Link>
+              </span>
+            ))}
+          </p>
         </div>
       </section>
       <CtaBand />

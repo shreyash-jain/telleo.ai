@@ -5,6 +5,7 @@ import { ArrowRight, Scale } from "lucide-react";
 import { COMPARISONS, findComparison } from "@/content/comparisons";
 import { Breadcrumbs, CheckList, CtaBand, FaqList } from "@/components/ui";
 import { JsonLd } from "@/components/JsonLd";
+import { seoMetadata } from "@/lib/seo";
 import { SITE, bookHref } from "@/lib/site";
 
 export const dynamicParams = false;
@@ -15,13 +16,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const c = findComparison((await params).slug);
   if (!c) return {};
-  const url = `${SITE}/compare/${c.slug}/`;
-  return {
-    title: c.title,
-    description: c.description,
-    alternates: { canonical: url },
-    openGraph: { url, title: c.title, description: c.description, type: "article" },
-  };
+  return seoMetadata({ url: `${SITE}/compare/${c.slug}/`, title: c.title, description: c.description, type: "article" });
 }
 
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);

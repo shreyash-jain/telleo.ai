@@ -14,7 +14,7 @@ export const INDUSTRIES: Industry[] = [
   {
     slug: "education",
     label: "Education",
-    title: "AI Calling Agent for Education and Admissions in India",
+    title: "AI Calling Agent for Education and Admissions",
     description:
       "Call new admission enquiries within about a minute, book demo classes and remind parents about fees in Hindi, English or Hinglish. Built first for education.",
     icon: "GraduationCap",
@@ -369,7 +369,7 @@ export const INDUSTRIES: Industry[] = [
   {
     slug: "healthcare",
     label: "Healthcare",
-    title: "AI Calling Agent for Clinics, Hospitals & Labs in India",
+    title: "AI Calling Agent for Clinics, Hospitals and Labs",
     description:
       "Book appointments, send reminders and make report-ready and follow-up calls in Hindi or English, scripted to pass medical questions to your staff.",
     icon: "Stethoscope",
@@ -1338,7 +1338,7 @@ export const INDUSTRIES: Industry[] = [
   {
     slug: "recruitment",
     label: "Recruitment",
-    title: "AI Calling Agent for Recruitment and Staffing in India",
+    title: "AI Calling Agent for Recruitment and Staffing",
     description:
       "Screen candidates by phone, schedule interviews and confirm joining in Hindi, English or Hinglish. Recruiters spend their time on candidates who fit the role.",
     icon: "Briefcase",

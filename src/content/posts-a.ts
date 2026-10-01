@@ -3,7 +3,7 @@ import type { Post } from "./types";
 export const POSTS_A: Post[] = [
   {
     slug: "what-is-an-ai-voice-agent",
-    title: "What Is an AI Voice Agent? A Plain Guide for Indian Teams",
+    title: "What Is an AI Voice Agent? A Guide for Indian Teams",
     description:
       "An AI voice agent holds a real phone conversation. How it hears, thinks and speaks, what it can and can't do, and how to pilot one in an Indian business.",
     category: "Guides",
@@ -22,7 +22,7 @@ export const POSTS_A: Post[] = [
   },
   {
     slug: "ai-calling-cost-india",
-    title: "How Much Does AI Calling Cost in India? 2026 Per-Minute Guide",
+    title: "AI Calling Cost in India: 2026 Per-Minute Guide",
     description:
       "AI calling in India is sold per minute, with platform fees, or as 'unlimited' bundles. What drives the cost, the hidden charges, and a worked monthly example.",
     category: "Pricing",
@@ -41,7 +41,7 @@ export const POSTS_A: Post[] = [
   },
   {
     slug: "speed-to-lead",
-    title: "Speed to Lead: Why Calling New Leads in 60 Seconds Wins",
+    title: "Speed to Lead: Why Calling in 60 Seconds Wins",
     description:
       "Firms that tried to reach web leads within an hour were nearly 7x as likely to qualify them as those trying an hour later (HBR). Plus a callback playbook.",
     category: "Playbooks",
@@ -60,7 +60,7 @@ export const POSTS_A: Post[] = [
   },
   {
     slug: "ai-calling-script-template",
-    title: "How to Write an AI Calling Agent Script (With Templates)",
+    title: "How to Write an AI Calling Script (With Templates)",
     description:
       "How to write a script for an AI calling agent: the opening line, one question per turn, dispositions, objections, handoffs, plus English and Hinglish templates.",
     category: "Playbooks",

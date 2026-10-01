@@ -38,6 +38,7 @@ export interface SitePage {
 
 export const PAGES: SitePage[] = [
   // Product
+  { path: "/ai-telecaller/", label: "AI telecaller", group: "product", title: "AI Telecaller: Call Every Lead in 60 Seconds", description: "Telleo's AI telecaller calls new leads in about a minute in Hindi, English and Hinglish, qualifies them, books meetings and hands hot leads to your team. From ₹3.49/min." },
   { path: "/ai-voice-agents/", label: "AI voice agents", group: "product", title: "AI Voice Agents for Outbound and Inbound Calls", description: "Telleo's AI voice agents call new leads in about a minute, answer inbound calls, qualify, book meetings and hand hot leads to your team in Hindi and English." },
   { path: "/agent-builder/", label: "Agent builder", group: "product", title: "No-Code AI Calling Agent Builder", description: "Build an AI calling agent without code: opening line, script, questions, outcomes, voice and handoff. Draft it from a brief and improve it from real calls." },
   { path: "/automations/", label: "Automations & actions", group: "product", title: "AI Call Automations: Booking, WhatsApp, Transfers", description: "After the AI call: meetings booked, WhatsApp and email sent, hot leads assigned, unanswered calls retried and callback requests flagged for your team." },
