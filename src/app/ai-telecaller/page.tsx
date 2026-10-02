@@ -13,7 +13,7 @@ const ROWS: [string, string, string][] = [
   ["Script", "The same opening, questions and outcomes on every call", "Varies by person and by day"],
   ["Notes after the call", "Transcript, summary, lead rating 1–10 and the answers captured on every connected call", "Whatever the caller types in"],
   ["Telephony", "Included. No SIMs, dialers or telecom contracts", "SIMs or a dialer per seat"],
-  ["Cost", "From ₹3.49 a minute, billed per minute of call", "Salary, seat and dialer, whether the phone rings or not"],
+  ["Cost", "From ₹3.49 a minute, billed in 30-second pulses", "Salary, seat and dialer, whether the phone rings or not"],
 ];
 
 const FAQS = [
