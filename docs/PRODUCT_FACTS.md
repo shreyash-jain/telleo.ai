@@ -158,8 +158,8 @@ All prices exclude 18% GST. DLT / PE registration (Indian telecom regulation) �
 | Enterprise | Custom | volume rates, dedicated line — talk to us |
 
 Volume rate ₹3.49/min applies to usage beyond 1,750 minutes in a month. The platform adds a per-engine surcharge
-by default (Sarvam voices cost more, Edge less); say "rates are for our standard voices". Billing is per minute of call
-(rounded up). Call intelligence on AI calls is free.
+by default (Sarvam voices cost more, Edge less); say "rates are for our standard voices". Billing is in **30-second pulses** at the per-minute rate
+(platform default since 30 Sept 2026; a per-institute override can set 60). Call intelligence on AI calls is free.
 
 ## 8. Never claim
 
@@ -167,7 +167,7 @@ by default (Sarvam voices cost more, Edge less); say "rates are for our standard
 - Certifications: SOC 2, ISO 27001, HIPAA, GDPR/TCPA compliance, "encrypted at rest".
 - "Your data stays in India" (only the live voice pipeline is in Mumbai).
 - Latency in milliseconds, "unlimited calling", "70+ languages", "clone your voice".
-- A public API/SDK/MCP server, or native integrations with Salesforce, HubSpot, Zoho, LeadSquared, Shopify etc.
+- An SDK/MCP server, or native integrations with Salesforce, HubSpot, Zoho, LeadSquared, Shopify etc.
   (Say instead: "anything that can send or receive a webhook".)
 - Guaranteed TRAI/DND compliance. (Say: we register DLT with you and you choose calling windows.)
 - That the agent "never" gives medical/legal/financial advice or "never argues": there is no built-in guard, and
@@ -198,3 +198,20 @@ by default (Sarvam voices cost more, Edge less); say "rates are for our standard
   https://www.trai.gov.in/sites/default/files/2026-09/PR_No119of2026.pdf
   Site implication: old-lead reactivation needs explicit consent; never say Telleo handles the A2P declaration
   for the customer (not verified).
+
+## 10. Added 2026-10-02
+
+- **Clients:** the site may show the vacademy.io client logos, framed as institutes on Vacademy (the platform
+  Telleo is built on), not as Telleo case studies. Owner decision 2026-10-02.
+- **AI calling API exists** (docs/AI_CALLING_PUBLIC_API.md in the platform repo): an admin-issued `X-API-Key`;
+  `POST /admin-core-service/open/ai-calling/v1` starts one call (CLICK_TO_CALL) or up to 1,000 (BULK_CALL);
+  `GET …/{callLogId}` returns status, duration, timestamps and recordingUrl; scoped to the key's institute.
+  Say "API key issued by our team", not self-serve.
+- **Engine v2** (announced 2026-10-02) = the voice_bot_service changes since late Aug 2026 (169 commits):
+  backchannel talk-through, FloorGate (never starts over a talking caller), answers a question that cuts in,
+  short-answer grace, ~0.30 s off every reply (Sarvam flushed final), speech cache, LLM waterfall (Vertex fails
+  over in 3 s), STT waterfall, single-flight replies, no replayed opening, heard-sentence history, Hindi hang-up /
+  "समझ नहीं आया" / "क्या बोलूं?" handling, voicemail hang-up, screener handling, real call-centre ambience,
+  telephone-band EQ, voice modulation, replay + simulator CI gates. Platform: 30 s billing pulse, pause/resume
+  queue, engaged-call routing + follow-up gist, AI-qualified → pool, regenerate script from notes, API.
+  NOT claimed: Navana TTS (not in the voice catalog yet), caller-gender detection (shadow mode).

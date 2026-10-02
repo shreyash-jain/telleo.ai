@@ -58,7 +58,7 @@ const GROUPS: { id: string; title: string; faqs: Faq[] }[] = [
     title: "Pricing",
     faqs: [
       { q: "How much does it cost?", a: "₹3.99 a minute on monthly plans from ₹3,499 a month, or ₹3.49 a minute with no minimum on the ₹19,999-a-year annual plan, which includes the CRM. Prices exclude GST." },
-      { q: "Do unanswered calls cost money?", a: "No. Minutes are billed on connected conversation, rounded up to the next minute. Unanswered workflow calls are retried after the gap you set; a bulk campaign doesn't re-dial, so re-run it to call them again." },
+      { q: "Do unanswered calls cost money?", a: "No. Calls are billed on connected conversation, in 30-second pulses at the per-minute rate. Unanswered workflow calls are retried after the gap you set; a bulk campaign doesn't re-dial, so re-run it to call them again." },
       { q: "Is call analysis extra?", a: "Not on AI calls; it's included. Analysing your team's human calls is billed per minute of recording." },
       { q: "Can costs run away?", a: "No. Calls draw on your balance and stop when it runs out, and daily caps and a maximum call length apply to every agent." },
     ],

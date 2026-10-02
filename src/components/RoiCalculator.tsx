@@ -49,7 +49,7 @@ export function RoiCalculator() {
       <div className="space-y-6 p-6 md:p-8">
         <Slider label="New leads per month" value={leads} min={200} max={30000} step={100} onChange={setLeads} format={(v) => v.toLocaleString("en-IN")} />
         <Slider label="Share of calls answered" hint="Your connect rate. Unanswered calls are not billed; workflow calls retry them automatically." value={connect} min={20} max={90} step={5} onChange={setConnect} format={(v) => `${v}%`} />
-        <Slider label="Billed minutes per answered call" hint="Each call rounds up to the next whole minute, so a 1 min 10 s call counts as 2." value={mins} min={1} max={8} step={1} onChange={setMins} format={(v) => `${v} min`} />
+        <Slider label="Billed minutes per answered call" hint="Calls bill in 30-second pulses, so a 1 min 10 s call counts as 1.5." value={mins} min={0.5} max={8} step={0.5} onChange={setMins} format={(v) => `${v} min`} />
         <Slider label="Your cost per telecaller per month" hint="Salary plus overheads. Use your own number." value={salary} min={10000} max={60000} step={1000} onChange={setSalary} format={inr} />
         <Slider label="Leads one telecaller can call per day" hint="Assumes 25 working days a month." value={perDay} min={40} max={250} step={10} onChange={setPerDay} format={(v) => `${v}`} />
       </div>

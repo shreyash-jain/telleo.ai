@@ -6,6 +6,7 @@ Key facts: pricing ₹3.99/min on monthly plans from ₹3,499/month, or ₹3.49/
 
 ## Product
 
+- [Telleo Engine v2 (October 2026): what's new in the voice engine and platform](https://telleo.ai/engine-v2/)
 - [AI voice agents: outbound and inbound calls, live transfer, guardrails](https://telleo.ai/ai-voice-agents/)
 - [No-code agent builder and AI-assisted scripting](https://telleo.ai/agent-builder/)
 - [What happens after a call: outcome rules, booking, WhatsApp/email, workflows](https://telleo.ai/automations/)

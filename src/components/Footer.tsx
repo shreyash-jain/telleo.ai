@@ -7,7 +7,7 @@ import {
 } from "@/lib/site";
 
 const COLS: { title: string; links: { href: string; label: string }[] }[] = [
-  { title: "Product", links: [...PRODUCT_NAV.map((p) => ({ href: p.href, label: p.label })), { href: "/how-it-works/", label: "How it works" }, { href: "/pricing/", label: "Pricing" }] },
+  { title: "Product", links: [...PRODUCT_NAV.map((p) => ({ href: p.href, label: p.label })), { href: "/how-it-works/", label: "How it works" }, { href: "/engine-v2/", label: "What's new: Engine v2" }, { href: "/pricing/", label: "Pricing" }] },
   { title: "Use cases", links: [...USE_CASE_NAV.map((u) => ({ href: `/use-cases/${u.slug}/`, label: u.label }))] },
   { title: "Industries", links: [...INDUSTRY_NAV.map((u) => ({ href: `/industries/${u.slug}/`, label: u.label }))] },
   {

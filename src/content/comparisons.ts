@@ -302,7 +302,7 @@ export const COMPARISONS: Comparison[] = [
       {
         heading: "Cost, honestly",
         body: [
-          "A recorded message is short, so each call uses less time. A conversation takes longer, and Telleo bills per minute of call, rounded up. Judge the two on cost per useful result, such as a qualified lead or a confirmed booking, rather than cost per dial.",
+          "A recorded message is short, so each call uses less time. A conversation takes longer, and Telleo bills in 30-second pulses at a per-minute rate. Judge the two on cost per useful result, such as a qualified lead or a confirmed booking, rather than cost per dial.",
         ],
       },
     ],
@@ -350,7 +350,7 @@ export const COMPARISONS: Comparison[] = [
       {
         dimension: "Pricing model",
         telleo:
-          "Per minute of call, billed per minute (rounded up). Monthly plans with a minimum, or an annual plan with no minimum. Telephony and analysis of AI calls included.",
+          "Per-minute rate, billed in 30-second pulses. Monthly plans with a minimum, or an annual plan with no minimum. Telephony and analysis of AI calls included.",
         other:
           "Published: usage-based, ₹6 per connected minute for voice agents, prorated by the second. Bundles STT, TTS, LLM, telephony and basic analytics. Pricing also involves a monthly minimum commitment; the amount is not published.",
       },
@@ -459,7 +459,7 @@ export const COMPARISONS: Comparison[] = [
         heading: "Pricing compared",
         body: [
           "Ringg publishes ₹6 per connected minute for voice agents, prorated by the second, with STT, TTS, LLM, telephony and basic analytics bundled. A phone number is ₹499 a month, advanced analytics is ₹2 per call, and five concurrent calls are included. Their FAQ says pricing is based on usage and a monthly minimum commitment; the minimum is not stated.",
-          "Telleo's annual plan is ₹19,999 a year upfront, then ₹3.49 a minute from the first minute, with no monthly minimum. Monthly plans bill at ₹3.99 a minute, with a minimum of ₹3,499 (Starter, a trial plan for up to 3 months) or ₹6,999 (Pro). Telleo bills per minute, rounded up, and prices exclude 18% GST. Which works out cheaper depends on your call lengths and volume, so compare on your own pattern.",
+          "Telleo's annual plan is ₹19,999 a year upfront, then ₹3.49 a minute from the first minute, with no monthly minimum. Monthly plans bill at ₹3.99 a minute, with a minimum of ₹3,499 (Starter, a trial plan for up to 3 months) or ₹6,999 (Pro). Telleo bills in 30-second pulses at the per-minute rate, and prices exclude 18% GST. Which works out cheaper depends on your call lengths and volume, so compare on your own pattern.",
         ],
       },
       {
@@ -513,7 +513,7 @@ export const COMPARISONS: Comparison[] = [
     faqs: [
       {
         q: "Is Telleo cheaper than Ringg AI?",
-        a: "On published per-minute rates, Telleo's ₹3.49 to ₹3.99 a minute (excluding GST) is lower than Ringg's ₹6 per connected minute. But Ringg prorates by the second while Telleo rounds up to the minute, Ringg has a monthly minimum whose amount is not published, Telleo's monthly plans have a ₹3,499 or ₹6,999 minimum, and Telleo's annual plan has a ₹19,999 upfront fee. Compare on your own call volume and call lengths.",
+        a: "On published per-minute rates, Telleo's ₹3.49 to ₹3.99 a minute (excluding GST) is lower than Ringg's ₹6 per connected minute. But Ringg prorates by the second while Telleo bills in 30-second pulses, Ringg has a monthly minimum whose amount is not published, Telleo's monthly plans have a ₹3,499 or ₹6,999 minimum, and Telleo's annual plan has a ₹19,999 upfront fee. Compare on your own call volume and call lengths.",
       },
       {
         q: "Does Ringg AI support Hindi?",
@@ -557,7 +557,7 @@ export const COMPARISONS: Comparison[] = [
       {
         dimension: "Pricing model",
         telleo:
-          "Metered: per minute of call, billed per minute (rounded up). Monthly plans with a minimum, or an annual plan with no minimum.",
+          "Metered: per-minute rate, billed in 30-second pulses. Monthly plans with a minimum, or an annual plan with no minimum.",
         other:
           "Published: a trial, a metered Developer plan, and Unlimited plans with no per-minute charge. Unlimited covers Indian-number calls within TRAI-permitted hours, under a fair-use policy with an eight-hour daily window. Per-second billing on every plan. Prices shown are on an annual plan.",
       },

@@ -826,7 +826,7 @@ export const USE_CASES: UseCase[] = [
       },
       {
         q: "What does it cost to call an old list?",
-        a: "Billing is per minute of call, rounded up. That is ₹3.99 a minute on the monthly plans (₹3.49 beyond 1,750 minutes in a month) or ₹3.49 flat on the annual plan, plus 18% GST. See the pricing page for plan minimums.",
+        a: "Billing is in 30-second pulses at the per-minute rate. That is ₹3.99 a minute on the monthly plans (₹3.49 beyond 1,750 minutes in a month) or ₹3.49 flat on the annual plan, plus 18% GST. See the pricing page for plan minimums.",
       },
     ],
   },
@@ -1283,7 +1283,7 @@ export const USE_CASES: UseCase[] = [
       },
       {
         q: "How much does a confirmation call cost?",
-        a: "Billing is per minute of call, rounded up, so keep the script short: confirm, send the link, answer one or two questions. Rates are on the pricing page.",
+        a: "Billing is in 30-second pulses at the per-minute rate, so keep the script short: confirm, send the link, answer one or two questions. Rates are on the pricing page.",
       },
       {
         q: "Does it work for walk-in drives and open houses with a venue?",

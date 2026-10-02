@@ -51,7 +51,7 @@ const INCLUDED: [string, boolean, string][] = [
 ];
 
 const FAQS = [
-  { q: "How are minutes counted?", a: "Per minute of connected conversation, rounded up to the next minute. Calls that aren't answered don't use minutes. Workflow calls are retried after your gap; re-run a campaign to call its unanswered leads again." },
+  { q: "How are minutes counted?", a: "In 30-second pulses of connected conversation, at the per-minute rate: a 40-second call bills as one minute, a 20-second call as half a minute. Calls that aren't answered don't use minutes. Workflow calls are retried after your gap; re-run a campaign to call its unanswered leads again." },
   { q: "What does the Starter minimum mean?", a: "Starter bills at least ₹3,499 a month, which covers about 875 minutes at ₹3.99. Use more and you pay for what you use; use less and the minimum applies. It's meant as an entry plan for up to three months." },
   { q: "When does ₹3.49 a minute apply?", a: "On the Annual plan, from the first minute. On monthly plans, for every minute beyond 1,750 in a month." },
   { q: "What else might we pay for?", a: "DLT registration, which Indian regulation requires for commercial calling (₹5,900 a year, at actuals); WhatsApp template messages, charged by Meta through your WhatsApp provider; analysis of your team's human calls, per minute of recording; and 18% GST." },

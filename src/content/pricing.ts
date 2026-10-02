@@ -98,7 +98,7 @@ export const CRM_MONTHLY = {
 export const PRICING_NOTES = [
   "All prices exclude 18% GST.",
   "DLT / PE registration, required for commercial calling in India, is ₹5,900 a year, charged at actuals.",
-  "Calls are billed per minute of conversation, rounded up to the next minute.",
+  "Calls are billed in 30-second pulses of conversation at the per-minute rate, so a 20-second call costs half a minute.",
   "Rates are for our standard voices. A few premium voice engines are priced differently; we confirm the rate before you pick one.",
   "On monthly plans, minutes beyond 1,750 in a month are billed at ₹3.49.",
   "AI call analysis is included on AI calls. Analysis of your team's human calls is billed per minute of recording.",

@@ -1,6 +1,6 @@
 # Telleo — full site text
 
-Generated 2026-09-28 from https://telleo.ai. Short summary: https://telleo.ai/llms.txt
+Generated 2026-10-02 from https://telleo.ai. Short summary: https://telleo.ai/llms.txt
 
 
 ---
@@ -8,7 +8,7 @@ Generated 2026-09-28 from https://telleo.ai. Short summary: https://telleo.ai/ll
 # Telleo: AI Voice Agents in Hindi, English & Hinglish
 URL: https://telleo.ai/
 
-AI voice agents for Indian businesses
+New Telleo Engine v2 is live: faster, more natural calls
 
 # AI agents that
 call every lead. qualify buyers. book the demo. chase payments. answer your line.
@@ -46,6 +46,59 @@ voices across 7 speech engines80+voices across 7 speech engines
 languages live: Hindi, English, Hinglish3languages live: Hindi, English, Hinglish
 per minute on the annual plan₹3.49per minute on the annual plan
 of AI calls transcribed, analysed and graded100%of AI calls transcribed, analysed and graded
+
+Trusted by 25+ institutes on Vacademy , the platform Telleo is built on
+
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
 
 Built for teams that live on the phone
 
@@ -202,6 +255,19 @@ When a caller agrees a day and time in their own words, the analysis resolves it
 If it can't hear the caller twice, it closes politely instead of apologising in a loop. It won't hang up on someone who speaks after goodbye.
 No loops, no rude hang-ups
 
+New · October 2026
+
+## Telleo Engine v2 is live.
+Over 150 changes from listening to real calls: it talks through “haan”, never starts over a caller, answers a question that cuts in, replies faster, and keeps the call going if a vendor stalls.
+See what's new
+
+- Natural turn-taking
+- ~0.3 s faster replies
+- Vendor failover in ~3 s
+- Says it once
+- Hindi that listens
+- 30-second billing
+
 After the call
 
 ## Every call ends with a next step, not a note.
@@ -280,7 +346,7 @@ Lead qualification Ask every lead your qualifying questions, rate it 1 to 10 and
 Cost calculator
 
 ## What would it cost to call every lead?
-Move the sliders to match your business. Telleo is billed per minute of conversation; unanswered calls aren't charged, and workflow calls retry them automatically.
+Move the sliders to match your business. Telleo bills in 30-second pulses at a per-minute rate; unanswered calls aren't charged, and workflow calls retry them automatically.
 
 -
 -
@@ -288,7 +354,7 @@ Move the sliders to match your business. Telleo is billed per minute of conversa
 - Your team spends its time on leads that said yes.
 - Follow-ups and retries happen without reminders.
 
-New leads per month 3,000 Share of calls answered 55% Your connect rate. Unanswered calls are not billed; workflow calls retry them automatically. Billed minutes per answered call 2 min Each call rounds up to the next whole minute, so a 1 min 10 s call counts as 2. Your cost per telecaller per month ₹22,000 Salary plus overheads. Use your own number. Leads one telecaller can call per day 120 Assumes 25 working days a month.
+New leads per month 3,000 Share of calls answered 55% Your connect rate. Unanswered calls are not billed; workflow calls retry them automatically. Billed minutes per answered call 2 min Calls bill in 30-second pulses, so a 1 min 10 s call counts as 1.5. Your cost per telecaller per month ₹22,000 Salary plus overheads. Use your own number. Leads one telecaller can call per day 120 Assumes 25 working days a month.
 Telleo on the annual plan
 ₹13,184/month
 3,300 minutes at ₹3.49/min + the ₹19,999 yearly fee spread over 12 months. About ₹4 per lead.
@@ -438,7 +504,7 @@ Prefer monthly with the CRM? Pro + CRM, monthly: ₹8,999/month (₹6,999 voice 
 
 - • All prices exclude 18% GST.
 - • DLT / PE registration, required for commercial calling in India, is ₹5,900 a year, charged at actuals.
-- • Calls are billed per minute of conversation, rounded up to the next minute.
+- • Calls are billed in 30-second pulses of conversation at the per-minute rate, so a 20-second call costs half a minute.
 - • Rates are for our standard voices. A few premium voice engines are priced differently; we confirm the rate before you pick one.
 - • On monthly plans, minutes beyond 1,750 in a month are billed at ₹3.49.
 - • AI call analysis is included on AI calls. Analysis of your team's human calls is billed per minute of recording.
@@ -1365,6 +1431,152 @@ Book a demo Call +91 80353 74489
 
 ---
 
+# Telleo Engine v2: Faster, More Natural AI Calls | Telleo
+URL: https://telleo.ai/engine-v2/
+
+- Home
+- / What's new: Engine v2
+
+New · October 2026
+
+# Telleo Engine v2 is live.
+The voice engine behind every Telleo call, rebuilt from hundreds of real Indian phone calls. Over 150 changes since August make the agent better at the hard parts of a call: interruptions, “haan” mid-sentence, Hindi, and staying up when a vendor doesn't.
+
+Book a demo Talk to our AI: +91 80353 74489
+
+Engine v2 · interruption handled Telleo agent · transcript
+- AI agent हमारे यहाँ weekend batch भी है और weekday evening भी, आपके लिए…We have a weekend batch and a weekday evening one, for you…
+
+- Caller haan…(acknowledging)
+
+- AI agent …कौन सा ठीक रहेगा?…which would suit you?
+
+- Caller Fees कितनी है?What are the fees?
+
+- AI agent Fees program के हिसाब से है, बत्तीस से पचास हज़ार के बीच। Weekend या weekday, क्या ठीक रहेगा?It depends on the program, between 32 and 50 thousand. Weekend or weekday, which suits you?
+
+Hear a real AI admissions call
+5:13
+
+What changed on the call
+
+## Eight things you'll hear on every call.
+01
+
+### Turn-taking that feels like a person
+
+- Talks through “haan”, “जी”, “हम्म” and “Hello” instead of stopping dead. It stops when the caller means something, or keeps talking.
+- Never starts a reply while the caller is still speaking.
+- Waits for the whole answer, not the first breath, and waits out a caller who is still answering after “हाँ जी”.
+- If the caller cuts in with a question, it answers the question.
+- A cough or a 0.2-second noise is no longer treated as the caller's turn.
+
+-
+- 02
+
+### Faster replies
+
+- About 0.3 seconds taken off every reply by closing the caller's turn the moment speech recognition finishes.
+- Sentences your agent says on every call (greetings, standard answers) play from a speech cache instead of being synthesised each time.
+
+03
+
+### A call never stalls on one vendor
+
+- If a language-model provider stalls or errors, the next one in line takes over within about 3 seconds. The caller hears one slow reply, not a dead call.
+- If speech recognition fails mid-call, a second provider takes over for the rest of the call.
+- One reply at a time: the agent can no longer answer twice or talk over its own recovery.
+
+04
+
+### Says it once
+
+- Doesn't repeat an opening the caller has already heard, even after an interruption.
+- Every sentence the caller actually heard is remembered, so the agent picks up where it was cut off instead of starting over.
+- Call health now flags a replayed opening or a repeated line, so you can see if it ever happens.
+
+05
+
+### Hindi that listens
+
+- “समझ नहीं आया” is treated as a request to say it again.
+- “क्या बोलूं?” makes the agent re-ask its question instead of moving on.
+- A caller asking in Hindi to end the call ends the call.
+- Replies in the caller's other language are pronounced correctly.
+
+06
+
+### Voicemail and call screeners
+
+- Hangs up on voicemail instead of talking to a recording.
+- Handles call-screening assistants politely, and once a real person picks up, the call carries on as normal.
+
+07
+
+### Sounds like a calling desk
+
+- A real call-centre ambience recording sits under every call, at a low level.
+- The agent's voice is shaped to the telephone band, so it sounds like a phone call, not a studio.
+- Per-agent voice modulation (Off, Subtle, Conversational, Lively) so the voice rises and falls naturally.
+
+08
+
+### Tested on real calls before it ships
+
+- Every live call can be replayed as a regression test against a new build.
+- Each release runs a conversation simulator and a timing simulator, with difficult callers, before it reaches your calls.
+
+Around the engine
+
+## Also new in the platform.
+30-second billing pulses
+Calls are billed in half-minute pulses at the same per-minute rate. A caller who hangs up after 5 seconds no longer costs a full minute.
+
+-
+- Pause and resume calling
+Pause your account's AI call queue from the dashboard and resume it when you're ready.
+
+Smarter handover
+Leads that engaged but didn't reach a clear outcome go to a person, with a one-line follow-up note for the counsellor.
+
+Qualified leads to your team pool
+Optionally hand AI-qualified leads to the counsellor pool linked to the list.
+
+Script from your notes
+The script assistant can regenerate an agent's script from your own notes and keep the rest of the agent in sync.
+
+AI calling API
+Start one call or a bulk run of up to 1,000 numbers, and fetch each call's status and recording, with an API key issued by our team.
+
+## Try to trip it up.
+Ring the test line and interrupt it, say “haan” while it talks, ask it to repeat itself in Hindi, then ask about fees halfway through a sentence.
+
+How a call works Voices & Hindi
+
+## Engine v2 questions
+Do I need to do anything to get Engine v2? +
+No. Every Telleo call now runs on Engine v2. Your agents, scripts and outcome rules work as before.
+
+Does Engine v2 cost more? +
+No. Per-minute rates are unchanged. Billing in 30-second pulses only makes short calls cheaper: a full minute costs the same as before.
+
+What made you rebuild the engine? +
+Listening to real calls. Most changes started from a specific call where a parent interrupted, said “haan” mid-sentence, switched language or hung up, and the agent didn't handle it the way a good telecaller would.
+
+How do I hear the difference? +
+Call our test line, +91 80353 74489, and try to trip the agent up: interrupt it, say “haan” while it talks, ask it to repeat itself in Hindi. Or book a demo and we'll run your own script.
+
+How do I get API access? +
+Ask us. We issue an API key for your account; it can start calls with your agents and read their status and recordings.
+
+## Hear it on a real phone call.
+Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
+
+Book a demo Call +91 80353 74489
+
+
+---
+
 # How Telleo AI Calling Works, Step by Step | Telleo
 URL: https://telleo.ai/how-it-works/
 
@@ -1447,7 +1659,7 @@ The transcript is read once more to pick the outcome from your list, write a sum
 ## 9. Act, bill and grade
 Your rules run: assign, book, send, retry or stop. The minutes are billed, the call gets its health verdict, and everything appears on the lead and in the call log.
 
-- Billed per minute, rounded up
+- Billed in 30-second pulses
 - Green, amber or red health verdict
 
 ## Frequently asked questions
@@ -1545,7 +1757,7 @@ Prefer monthly with the CRM? Pro + CRM, monthly: ₹8,999/month (₹6,999 voice 
 
 - • All prices exclude 18% GST.
 - • DLT / PE registration, required for commercial calling in India, is ₹5,900 a year, charged at actuals.
-- • Calls are billed per minute of conversation, rounded up to the next minute.
+- • Calls are billed in 30-second pulses of conversation at the per-minute rate, so a 20-second call costs half a minute.
 - • Rates are for our standard voices. A few premium voice engines are priced differently; we confirm the rate before you pick one.
 - • On monthly plans, minutes beyond 1,750 in a month are billed at ₹3.49.
 - • AI call analysis is included on AI calls. Analysis of your team's human calls is billed per minute of recording.
@@ -1591,7 +1803,7 @@ Speech, language model and telephony are part of the per-minute rate, not separa
 
 ## Estimate your own month.
 Your numbers, the annual rate, and how many telecallers the same coverage would take.
-New leads per month 3,000 Share of calls answered 55% Your connect rate. Unanswered calls are not billed; workflow calls retry them automatically. Billed minutes per answered call 2 min Each call rounds up to the next whole minute, so a 1 min 10 s call counts as 2. Your cost per telecaller per month ₹22,000 Salary plus overheads. Use your own number. Leads one telecaller can call per day 120 Assumes 25 working days a month.
+New leads per month 3,000 Share of calls answered 55% Your connect rate. Unanswered calls are not billed; workflow calls retry them automatically. Billed minutes per answered call 2 min Calls bill in 30-second pulses, so a 1 min 10 s call counts as 1.5. Your cost per telecaller per month ₹22,000 Salary plus overheads. Use your own number. Leads one telecaller can call per day 120 Assumes 25 working days a month.
 Telleo on the annual plan
 ₹13,184/month
 3,300 minutes at ₹3.49/min + the ₹19,999 yearly fee spread over 12 months. About ₹4 per lead.
@@ -1608,7 +1820,7 @@ An estimate, not a quote. Excludes 18% GST, DLT registration and WhatsApp templa
 
 ## Pricing questions
 How are minutes counted? +
-Per minute of connected conversation, rounded up to the next minute. Calls that aren't answered don't use minutes. Workflow calls are retried after your gap; re-run a campaign to call its unanswered leads again.
+In 30-second pulses of connected conversation, at the per-minute rate: a 40-second call bills as one minute, a 20-second call as half a minute. Calls that aren't answered don't use minutes. Workflow calls are retried after your gap; re-run a campaign to call its unanswered leads again.
 
 What does the Starter minimum mean? +
 Starter bills at least ₹3,499 a month, which covers about 875 minutes at ₹3.99. Use more and you pay for what you use; use less and the minimum applies. It's meant as an entry plan for up to three months.
@@ -2040,7 +2252,7 @@ How much does it cost? +
 ₹3.99 a minute on monthly plans from ₹3,499 a month, or ₹3.49 a minute with no minimum on the ₹19,999-a-year annual plan, which includes the CRM. Prices exclude GST.
 
 Do unanswered calls cost money? +
-No. Minutes are billed on connected conversation, rounded up to the next minute. Unanswered workflow calls are retried after the gap you set; a bulk campaign doesn't re-dial, so re-run it to call them again.
+No. Calls are billed on connected conversation, in 30-second pulses at the per-minute rate. Unanswered workflow calls are retried after the gap you set; a bulk campaign doesn't re-dial, so re-run it to call them again.
 
 Is call analysis extra? +
 Not on AI calls; it's included. Analysing your team's human calls is billed per minute of recording.
@@ -2906,7 +3118,7 @@ Can the agent offer a discount? +
 It talks about the offers you describe in the script. Write them exactly, with dates and conditions, and tell it to send price questions it can't answer to a rep.
 
 What does it cost to call an old list? +
-Billing is per minute of call, rounded up. That is ₹3.99 a minute on the monthly plans (₹3.49 beyond 1,750 minutes in a month) or ₹3.49 flat on the annual plan, plus 18% GST. See the pricing page for plan minimums.
+Billing is in 30-second pulses at the per-minute rate. That is ₹3.99 a minute on the monthly plans (₹3.49 beyond 1,750 minutes in a month) or ₹3.49 flat on the annual plan, plus 18% GST. See the pricing page for plan minimums.
 
 ## More use cases
 Lead qualification Instant lead callback Appointment booking Payment reminders Feedback surveys AI receptionist
@@ -3314,7 +3526,7 @@ Should the reminder be a call or a WhatsApp? +
 Both have a place. A WhatsApp with the link is cheap and fine for most people. A short call the day before gets a clear yes or no, and reaches people who never saw the message.
 
 How much does a confirmation call cost? +
-Billing is per minute of call, rounded up, so keep the script short: confirm, send the link, answer one or two questions. Rates are on the pricing page.
+Billing is in 30-second pulses at the per-minute rate, so keep the script short: confirm, send the link, answer one or two questions. Rates are on the pricing page.
 
 Does it work for walk-in drives and open houses with a venue? +
 Yes. Put the venue, timings, parking and what to bring in the script, and link a WhatsApp template with the map location.
@@ -4902,7 +5114,7 @@ On inbound, an IVR menu option can hand the caller to a Telleo AI agent. Set up 
 After every AI call, outcome rules decide what happens: assign to a rep, retry with a gap, stop, book the meeting, or send the WhatsApp message or email the caller agreed to.
 
 ## Cost, honestly
-A recorded message is short, so each call uses less time. A conversation takes longer, and Telleo bills per minute of call, rounded up. Judge the two on cost per useful result, such as a qualified lead or a confirmed booking, rather than cost per dial.
+A recorded message is short, so each call uses less time. A conversation takes longer, and Telleo bills in 30-second pulses at a per-minute rate. Judge the two on cost per useful result, such as a qualified lead or a confirmed booking, rather than cost per dial.
 
 See it on your own calls
 A 20-minute demo on your script. Compare for yourself.
@@ -4951,7 +5163,7 @@ Choose Ringg AI if you need many languages, channels beyond voice, developer API
 ## Side by side
 | Telleo | Ringg AI |
 
-Pricing model | Per minute of call, billed per minute (rounded up). Monthly plans with a minimum, or an annual plan with no minimum. Telephony and analysis of AI calls included. | Published: usage-based, ₹6 per connected minute for voice agents, prorated by the second. Bundles STT, TTS, LLM, telephony and basic analytics. Pricing also involves a monthly minimum commitment; the amount is not published. |
+Pricing model | Per-minute rate, billed in 30-second pulses. Monthly plans with a minimum, or an annual plan with no minimum. Telephony and analysis of AI calls included. | Published: usage-based, ₹6 per connected minute for voice agents, prorated by the second. Bundles STT, TTS, LLM, telephony and basic analytics. Pricing also involves a monthly minimum commitment; the amount is not published. |
 Entry price | Starter (trial plan, up to 3 months): ₹3,499/month minimum billing at ₹3.99/min. Annual: ₹19,999/year upfront, then ₹3.49/min from minute one, with the full CRM included. Starter and Pro do not include the CRM; Pro + CRM is ₹8,999/month. Prices exclude 18% GST. | Free credits on sign-up. Phone number ₹499 per month. Advanced analytics ₹2 per call. Their page notes final amounts may vary with exchange rates and taxes. |
 Concurrency and volume | A daily call cap (default 500/day, configurable) and 30-second duplicate protection guard volume. | Per their pricing FAQ, five concurrent calls included, more in blocks of five for Rs 1,995 per block. Their docs list 10,000+ simultaneous calls as platform capacity. |
 Languages | Hindi, English and Hinglish in production. Nine more Indian languages set up with you on request. | Per their site, 20+ languages, including Hindi, English, Tamil, Telugu, Kannada, Malayalam, Marathi, Bengali and Gujarati, plus French, Spanish, Russian and Mandarin. |
@@ -4987,7 +5199,7 @@ We read Ringg's homepage, pricing page and documentation on 25 September 2026. V
 
 ## Pricing compared
 Ringg publishes ₹6 per connected minute for voice agents, prorated by the second, with STT, TTS, LLM, telephony and basic analytics bundled. A phone number is ₹499 a month, advanced analytics is ₹2 per call, and five concurrent calls are included. Their FAQ says pricing is based on usage and a monthly minimum commitment; the minimum is not stated.
-Telleo's annual plan is ₹19,999 a year upfront, then ₹3.49 a minute from the first minute, with no monthly minimum. Monthly plans bill at ₹3.99 a minute, with a minimum of ₹3,499 (Starter, a trial plan for up to 3 months) or ₹6,999 (Pro). Telleo bills per minute, rounded up, and prices exclude 18% GST. Which works out cheaper depends on your call lengths and volume, so compare on your own pattern.
+Telleo's annual plan is ₹19,999 a year upfront, then ₹3.49 a minute from the first minute, with no monthly minimum. Monthly plans bill at ₹3.99 a minute, with a minimum of ₹3,499 (Starter, a trial plan for up to 3 months) or ₹6,999 (Pro). Telleo bills in 30-second pulses at the per-minute rate, and prices exclude 18% GST. Which works out cheaper depends on your call lengths and volume, so compare on your own pattern.
 
 ## Where Telleo is different
 Telleo's work has gone into Hindi and Hinglish phone calls. The caller can interrupt, and a short "haan" or "okay" does not derail the agent. It never repeats a sentence, does not parrot answers back, and its first-person Hindi verbs match the voice's gender.
@@ -5002,7 +5214,7 @@ Book a demo
 
 ## Questions
 Is Telleo cheaper than Ringg AI? +
-On published per-minute rates, Telleo's ₹3.49 to ₹3.99 a minute (excluding GST) is lower than Ringg's ₹6 per connected minute. But Ringg prorates by the second while Telleo rounds up to the minute, Ringg has a monthly minimum whose amount is not published, Telleo's monthly plans have a ₹3,499 or ₹6,999 minimum, and Telleo's annual plan has a ₹19,999 upfront fee. Compare on your own call volume and call lengths.
+On published per-minute rates, Telleo's ₹3.49 to ₹3.99 a minute (excluding GST) is lower than Ringg's ₹6 per connected minute. But Ringg prorates by the second while Telleo bills in 30-second pulses, Ringg has a monthly minimum whose amount is not published, Telleo's monthly plans have a ₹3,499 or ₹6,999 minimum, and Telleo's annual plan has a ₹19,999 upfront fee. Compare on your own call volume and call lengths.
 
 Does Ringg AI support Hindi? +
 Yes. Ringg's site lists Hindi among its 20+ languages. Telleo runs Hindi, English and Hinglish in production.
@@ -5058,7 +5270,7 @@ Pick Vomyra if you make a lot of calls to Indian numbers and want a flat monthly
 ## Side by side
 | Telleo | Vomyra |
 
-Pricing model | Metered: per minute of call, billed per minute (rounded up). Monthly plans with a minimum, or an annual plan with no minimum. | Published: a trial, a metered Developer plan, and Unlimited plans with no per-minute charge. Unlimited covers Indian-number calls within TRAI-permitted hours, under a fair-use policy with an eight-hour daily window. Per-second billing on every plan. Prices shown are on an annual plan. |
+Pricing model | Metered: per-minute rate, billed in 30-second pulses. Monthly plans with a minimum, or an annual plan with no minimum. | Published: a trial, a metered Developer plan, and Unlimited plans with no per-minute charge. Unlimited covers Indian-number calls within TRAI-permitted hours, under a fair-use policy with an eight-hour daily window. Per-second billing on every plan. Prices shown are on an annual plan. |
 Entry price | Starter (trial plan, up to 3 months): ₹3,499/month minimum billing at ₹3.99/min. Annual: ₹19,999/year upfront, then ₹3.49/min, with the full CRM included. Starter and Pro do not include the CRM; Pro + CRM is ₹8,999/month. Prices exclude 18% GST. | ₹599 for a 7-day trial with 500 credits. Developer ₹15,000/month with 2,500 minutes. Unlimited Solo ₹19,999/month, Team ₹39,999/month, Business ₹79,999/month. Concurrency 2, 2, 6 and 15 calls respectively. |
 Setup | No-code agent builder. Draft a script from a plain-language brief, or start from a use-case template (education-first today). | No-code. Per their site, you give your website URL and their setup agent builds a team of AI agents. |
 Languages | Hindi, English and Hinglish in production. Nine more Indian languages set up with you on request. | Per their site, 70+ languages. Their docs name Hindi, Tamil, Telugu, Kannada, Bengali, Marathi, Gujarati and Indian English, with Hinglish code-switching. |
@@ -5524,7 +5736,7 @@ Someone has to write the script, listen to calls in the first weeks and fix what
 Here is the full arithmetic using Telleo’s public prices, because we know exactly how they work. The call numbers are assumptions for illustration; swap in your own. All prices exclude 18% GST.
 The business: a coaching institute gets 1,500 new enquiries a month and calls every one, with retries for unanswered numbers.
 
-- 1,000 leads are reached across all attempts. Assume each conversation lasts 2 minutes 40 seconds; Telleo bills each call per minute, rounded up, so each bills as 3 minutes. That is 3,000 minutes.
+- 1,000 leads are reached across all attempts. Assume each conversation lasts 2 minutes 40 seconds; Telleo bills in 30-second pulses, so each bills as 3 minutes (six pulses). That is 3,000 minutes.
 - 300 more calls reach voicemail or are cut short. To be safe, we assume each bills as 1 minute: 300 minutes.
 - Total: 3,300 billable minutes.
 
@@ -6620,7 +6832,7 @@ Score each answer 0, 1 or 2. Ask for evidence, not adjectives.# | Question | A g
 20 | Pilot metric and exit? | Agreed metric, export, notice terms | Lock-in with no export |
 
 Where Telleo fits
-Our own answers, briefly. You can call a live Telleo agent now on +91 80353 74489. Telephony is included. Billing is per minute of call, rounded up, from ₹3.49 a minute, with plan minimums on the monthly plans and none on the annual plan. DLT registration is ₹5,900 a year at actuals. Post-call analysis of AI calls is free. The full table is on the pricing page .
+Our own answers, briefly. You can call a live Telleo agent now on +91 80353 74489. Telephony is included. Billing is in 30-second pulses at a per-minute rate, from ₹3.49 a minute, with plan minimums on the monthly plans and none on the annual plan. DLT registration is ₹5,900 a year at actuals. Post-call analysis of AI calls is free. The full table is on the pricing page .
 Leads come in from Meta and Google lead forms, CSV and anything that can send a webhook, and outcomes can go out by webhook. We don’t have native integrations with third-party CRMs. Every AI call has a transcript, an outcome from your own list and a green, amber or red health verdict. Health verdicts and diagnostics are admin-only, and full phone numbers can be restricted by role. Ask us all 20 questions. See also our security page .
 
 Book a demo

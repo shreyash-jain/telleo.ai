@@ -69,6 +69,7 @@ const jsonLd = {
       logo: `${SITE}/logo.png`,
       description: DESCRIPTION,
       sameAs: ["https://vacademy.io"],
+      parentOrganization: { "@type": "Organization", name: "Vacademy", url: "https://vacademy.io" },
       contactPoint: [
         { "@type": "ContactPoint", contactType: "sales", telephone: `+${WHATSAPP_NUMBER}`, areaServed: "IN", availableLanguage: ["en", "hi"] },
       ],

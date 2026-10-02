@@ -159,7 +159,7 @@ export default function Page() {
       </p>
       <p><strong>The business:</strong> a coaching institute gets 1,500 new enquiries a month and calls every one, with retries for unanswered numbers.</p>
       <ul>
-        <li>1,000 leads are reached across all attempts. Assume each conversation lasts 2 minutes 40 seconds; Telleo bills each call per minute, rounded up, so each bills as 3 minutes. That is <strong>3,000 minutes</strong>.</li>
+        <li>1,000 leads are reached across all attempts. Assume each conversation lasts 2 minutes 40 seconds; Telleo bills in 30-second pulses, so each bills as 3 minutes (six pulses). That is <strong>3,000 minutes</strong>.</li>
         <li>300 more calls reach voicemail or are cut short. To be safe, we assume each bills as 1 minute: <strong>300 minutes</strong>.</li>
         <li>Total: <strong>3,300 billable minutes</strong>.</li>
       </ul>

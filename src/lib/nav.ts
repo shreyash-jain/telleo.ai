@@ -41,6 +41,7 @@ export const COMPARE_NAV = [
 ] as const;
 
 export const RESOURCE_NAV = [
+  { href: "/engine-v2/", label: "What's new: Engine v2" },
   { href: "/how-it-works/", label: "How it works" },
   { href: "/blog/", label: "Blog" },
   { href: "/faq/", label: "FAQ" },

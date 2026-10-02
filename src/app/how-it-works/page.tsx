@@ -47,7 +47,7 @@ const STAGES = [
   {
     I: CheckCircle2, t: "9. Act, bill and grade",
     d: "Your rules run: assign, book, send, retry or stop. The minutes are billed, the call gets its health verdict, and everything appears on the lead and in the call log.",
-    x: ["Billed per minute, rounded up", "Green, amber or red health verdict"],
+    x: ["Billed in 30-second pulses", "Green, amber or red health verdict"],
   },
 ];
 

@@ -9,6 +9,7 @@ import { RotatingWords, SamplePlayer } from "@/components/Interactive";
 import { RoiCalculator } from "@/components/RoiCalculator";
 import { PricingCards } from "@/components/Pricing";
 import { DemoForm } from "@/components/DemoForm";
+import { Clients } from "@/components/Clients";
 import { BuilderMock, HealthLog, IntelligenceCard, OutcomeFlow } from "@/components/Visuals";
 import { Check, CheckList, FaqList, Icon, SectionHeading } from "@/components/ui";
 import { USE_CASES } from "@/content/useCases";
@@ -101,9 +102,11 @@ export default function Home() {
         <div className="glow-brand pointer-events-none absolute -left-40 top-10 h-[36rem] w-[36rem] opacity-70" />
         <div className="wrap relative grid items-center gap-14 lg:grid-cols-[1.05fr_1fr] [&>*]:min-w-0">
           <div>
-            <p className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-semibold text-slate-300">
-              <span className="h-1.5 w-1.5 rounded-full bg-brand" /> AI voice agents for Indian businesses
-            </p>
+            <Link href="/engine-v2/" className="group inline-flex items-center gap-2 rounded-full border border-brand/30 bg-brand/10 py-1.5 pl-1.5 pr-3 text-xs font-semibold text-slate-200 transition hover:bg-brand/20" data-track="v2_pill">
+              <span className="rounded-full bg-brand px-2 py-0.5 text-[0.68rem] font-bold uppercase tracking-wide text-ink">New</span>
+              Telleo Engine v2 is live: faster, more natural calls
+              <ArrowRight className="h-3.5 w-3.5 transition group-hover:translate-x-0.5" />
+            </Link>
             <h1 className="h-display mt-6 text-[2.6rem] sm:text-6xl xl:text-[4.4rem]">
               AI agents that
               <br />
@@ -151,6 +154,8 @@ export default function Home() {
           </dl>
         </div>
       </section>
+
+      <Clients />
 
       {/* ───────────── Industries strip ───────────── */}
       <section className="border-b border-line bg-white">
@@ -307,6 +312,26 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ───────────── Engine v2 ───────────── */}
+      <section className="wrap pt-20 md:pt-28">
+        <Link href="/engine-v2/" className="group grid items-center gap-8 overflow-hidden rounded-[2rem] border border-brand-200 bg-brand-50 p-8 md:grid-cols-[1.3fr_1fr] md:p-12" data-track="v2_band">
+          <div>
+            <p className="eyebrow">New · October 2026</p>
+            <h2 className="h-section mt-3 text-ink">Telleo Engine v2 is live.</h2>
+            <p className="mt-4 max-w-xl text-lg leading-relaxed text-slate-700">
+              Over 150 changes from listening to real calls: it talks through “haan”, never starts over a caller, answers
+              a question that cuts in, replies faster, and keeps the call going if a vendor stalls.
+            </p>
+            <span className="mt-6 inline-flex items-center gap-1 font-bold text-brand-800">See what&apos;s new <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" /></span>
+          </div>
+          <ul className="grid grid-cols-2 gap-3 text-sm">
+            {["Natural turn-taking", "~0.3 s faster replies", "Vendor failover in ~3 s", "Says it once", "Hindi that listens", "30-second billing"].map((x) => (
+              <li key={x} className="rounded-xl bg-white px-4 py-3 font-semibold text-ink ring-1 ring-brand-200">{x}</li>
+            ))}
+          </ul>
+        </Link>
+      </section>
+
       {/* ───────────── After the call ───────────── */}
       <section className="wrap py-20 md:py-28">
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
@@ -397,7 +422,7 @@ export default function Home() {
                 dark
                 eyebrow="Cost calculator"
                 title="What would it cost to call every lead?"
-                lede="Move the sliders to match your business. Telleo is billed per minute of conversation; unanswered calls aren't charged, and workflow calls retry them automatically."
+                lede="Move the sliders to match your business. Telleo bills in 30-second pulses at a per-minute rate; unanswered calls aren't charged, and workflow calls retry them automatically."
               />
               <ul className="mt-8 space-y-3 text-slate-300">
                 <li className="flex gap-3"><Timer className="mt-0.5 h-5 w-5 shrink-0 text-brand" /> Every lead called in about a minute, inside the hours you set.</li>
