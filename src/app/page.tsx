@@ -118,7 +118,9 @@ export default function Home() {
               <span className="text-slate-300">In Hinglish, too.</span>
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-300">
-              Telleo phones every new enquiry in about 60 seconds, holds a natural conversation in Hindi, English or
+              Telleo is an{" "}
+              <Link href="/ai-telecaller/" className="text-white underline decoration-brand/60 underline-offset-4 hover:decoration-brand">AI telecaller</Link>{" "}
+              that phones every new enquiry in about 60 seconds, holds a natural conversation in Hindi, English or
               Hinglish, captures the answers you need, books the meeting or hands the hot lead to your team, and writes
               the outcome into your CRM.
             </p>

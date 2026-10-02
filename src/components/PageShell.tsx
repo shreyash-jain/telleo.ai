@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowRight, PhoneCall } from "lucide-react";
 import type { Faq } from "@/content/types";
 import { findPage, SITE, TEST_LINE, TEST_LINE_DISPLAY, bookHref } from "@/lib/site";
+import { seoMetadata } from "@/lib/seo";
 import { POSTS, postPath } from "@/content/posts";
 import { Breadcrumbs, CtaBand, FaqList } from "./ui";
 import { JsonLd } from "./JsonLd";
@@ -11,14 +12,7 @@ import { JsonLd } from "./JsonLd";
 export function pageMetadata(path: string): Metadata {
   const p = findPage(path);
   if (!p) throw new Error(`Page ${path} missing from PAGES in src/lib/site.ts`);
-  const url = `${SITE}${path}`;
-  return {
-    title: p.title,
-    description: p.description,
-    alternates: { canonical: url },
-    openGraph: { url, title: p.title, description: p.description },
-    twitter: { title: p.title, description: p.description },
-  };
+  return seoMetadata({ url: `${SITE}${path}`, title: p.title, description: p.description });
 }
 
 /**

@@ -101,12 +101,10 @@ export function Nav() {
         </button>
       </div>
 
-      {/* Desktop mega menus */}
-      {open && (
-        <div className="absolute inset-x-0 top-full hidden border-b border-line bg-white shadow-[0_30px_60px_-30px_rgba(10,15,28,0.35)] lg:block">
+      {/* Desktop mega menus: always in the HTML (crawlable links), shown only when opened. */}
+      <div className={`absolute inset-x-0 top-full hidden border-b border-line bg-white shadow-[0_30px_60px_-30px_rgba(10,15,28,0.35)] ${open ? "lg:block" : ""}`}>
           <div className="wrap py-8">
-            {open === "product" && (
-              <div className="grid grid-cols-[1fr_1fr_18rem] gap-8">
+              <div hidden={open !== "product"}><div className="grid grid-cols-[1fr_1fr_18rem] gap-8">
                 <ul className="col-span-2 grid grid-cols-2 gap-2">
                   {PRODUCT_NAV.map((p) => (
                     <li key={p.href}>
@@ -123,11 +121,9 @@ export function Nav() {
                   <Link href="/how-it-works/" className="mt-4 inline-flex items-center gap-1 text-sm font-bold text-white hover:text-brand-300">
                     See how it works <ArrowRight className="h-4 w-4" />
                   </Link>
-                </div>
+                </div></div>
               </div>
-            )}
-            {open === "solutions" && (
-              <div className="grid grid-cols-2 gap-10">
+              <div hidden={open !== "solutions"}><div className="grid grid-cols-2 gap-10">
                 <div>
                   <p className="eyebrow">By use case</p>
                   <ul className="mt-3 grid grid-cols-2 gap-x-6 gap-y-1">
@@ -149,11 +145,9 @@ export function Nav() {
                     ))}
                   </ul>
                   <Link href="/industries/" className="mt-3 inline-flex items-center gap-1 px-2 text-sm font-bold text-brand-700">All industries <ArrowRight className="h-4 w-4" /></Link>
-                </div>
+                </div></div>
               </div>
-            )}
-            {open === "resources" && (
-              <div className="grid grid-cols-[1fr_1fr] gap-10">
+              <div hidden={open !== "resources"}><div className="grid grid-cols-[1fr_1fr] gap-10">
                 <ul className="grid grid-cols-2 gap-1">
                   {RESOURCE_NAV.map((r) => (
                     <li key={r.href}>
@@ -170,12 +164,10 @@ export function Nav() {
                       </li>
                     ))}
                   </ul>
-                </div>
+                </div></div>
               </div>
-            )}
           </div>
         </div>
-      )}
 
       {/* Mobile drawer */}
       {mobile && (

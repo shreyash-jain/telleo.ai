@@ -185,7 +185,7 @@ export const USE_CASES: UseCase[] = [
   {
     slug: "instant-lead-callback",
     label: "Instant lead callback",
-    title: "Instant Lead Callback: AI Calls New Leads in About a Minute",
+    title: "Instant Lead Callback: AI Calls Leads in a Minute",
     description:
       "Call every Meta, Google or website lead about a minute after it reaches Telleo, inside your calling hours, then qualify it and book a next step.",
     icon: "Zap",
@@ -358,7 +358,7 @@ export const USE_CASES: UseCase[] = [
   {
     slug: "appointment-booking",
     label: "Appointment booking",
-    title: "AI Appointment Booking Calls for Demos and Site Visits",
+    title: "AI Appointment Booking Calls: Demos, Site Visits",
     description:
       "An AI voice agent that books demos, site visits and consultations on the call, saves them to your booking page and sends the confirmation on WhatsApp.",
     icon: "CalendarCheck",
@@ -509,7 +509,7 @@ export const USE_CASES: UseCase[] = [
   {
     slug: "payment-reminders",
     label: "Payment reminders",
-    title: "AI Payment Reminder Calls for Fees, EMIs and Renewals",
+    title: "AI Payment Reminder Calls: Fees, EMIs, Renewals",
     description:
       "Polite AI reminder calls for fees, EMIs, premiums, invoices and renewals. Telleo states what is due, notes when the customer will pay and sends a WhatsApp link.",
     icon: "Wallet",
@@ -667,7 +667,7 @@ export const USE_CASES: UseCase[] = [
   {
     slug: "lead-reactivation",
     label: "Lead reactivation",
-    title: "AI Lead Reactivation Calls for Old and Cold Lead Lists",
+    title: "AI Lead Reactivation Calls for Old Lead Lists",
     description:
       "Re-engage old enquiries and cold lead lists with AI calls. Telleo finds who is still interested, hands them to a rep and closes the rest, in Hindi or English.",
     icon: "RefreshCw",
@@ -837,7 +837,7 @@ export const USE_CASES: UseCase[] = [
   {
     slug: "feedback-surveys",
     label: "Feedback surveys",
-    title: "AI Feedback and NPS Survey Calls for Indian Businesses",
+    title: "AI Feedback and NPS Survey Calls in India",
     description:
       "Feedback, NPS and post-service surveys by phone. Telleo's AI agent asks one question at a time, saves answers in the caller's words and flags unhappy customers.",
     icon: "MessageSquareHeart",
@@ -985,7 +985,7 @@ export const USE_CASES: UseCase[] = [
   {
     slug: "ai-receptionist",
     label: "AI receptionist",
-    title: "AI Receptionist for Inbound Calls in Hindi and English",
+    title: "AI Receptionist: Inbound Calls in Hindi and English",
     description:
       "An AI receptionist on the Telleo IVR that answers inbound calls, handles common questions, captures the enquiry and transfers to a person when the caller needs one.",
     icon: "Headset",
@@ -1148,7 +1148,7 @@ export const USE_CASES: UseCase[] = [
   {
     slug: "event-confirmation",
     label: "Event confirmation",
-    title: "AI Event and Webinar Confirmation Calls with Reminders",
+    title: "AI Event and Webinar Confirmation Calls",
     description:
       "AI calls that confirm attendance for webinars, demo classes, open houses and events, send the link or location on WhatsApp and remind people on the day.",
     icon: "Ticket",
@@ -1302,7 +1302,7 @@ export const USE_CASES: UseCase[] = [
   {
     slug: "application-follow-up",
     label: "Application follow-up",
-    title: "AI Application Follow-up Calls for Documents and KYC",
+    title: "AI Application Follow-up Calls for Docs and KYC",
     description:
       "AI calls that chase incomplete applications, pending documents, KYC and forms. Telleo finds what blocks each applicant, sends the link and flags who needs help.",
     icon: "FileCheck2",
