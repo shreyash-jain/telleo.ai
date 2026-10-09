@@ -201,7 +201,7 @@ export default function Page() {
           Telleo is an AI voice agent built for Indian businesses. Agents speak <strong>Hindi, English and Hinglish</strong> in production today; other Indian languages are set up with customers on request. Callers can interrupt, and a short “haan” or “okay” does not derail the agent. Phone lines are included, every call is transcribed (recording can be switched on for every call), and each call gets an outcome, a summary and a health check. See <Link href="/how-it-works/">how it works</Link> and the <Link href="/voices-and-languages/">voices and languages</Link>.
         </p>
         <p>
-          The quickest test is a real call: dial <strong>+91 80353 74489</strong> and talk to an agent.
+          The quickest test is a real call: dial <strong>+91 80356 14126</strong> and talk to an agent.
         </p>
       </WhereTelleoFits>
 

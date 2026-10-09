@@ -242,7 +242,7 @@ export default function Page() {
 
       <WhereTelleoFits>
         <p>
-          Our own answers, briefly. You can call a live Telleo agent now on +91 80353 74489. Telephony is included. Billing
+          Our own answers, briefly. You can call a live Telleo agent now on +91 80356 14126. Telephony is included. Billing
           is in 30-second pulses at a per-minute rate, from ₹3.49 a minute, with plan minimums on the monthly plans and none on the
           annual plan. DLT registration is ₹5,900 a year at actuals. Post-call analysis of AI calls is free. The full table
           is on the <Link href="/pricing/">pricing page</Link>.

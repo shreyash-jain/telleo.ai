@@ -11,7 +11,7 @@ const GROUPS: { id: string; title: string; faqs: Faq[] }[] = [
     id: "conversation",
     title: "How the calls sound",
     faqs: [
-      { q: "Does Telleo sound like a robot?", a: "It is built not to. Agents speak everyday phone Hindi, Indian English and Hinglish, handle interruptions, don't repeat themselves or echo your answers back, and are shaped to sound like a phone line rather than a studio. The quickest way to judge is to call our test line, +91 80353 74489." },
+      { q: "Does Telleo sound like a robot?", a: "It is built not to. Agents speak everyday phone Hindi, Indian English and Hinglish, handle interruptions, don't repeat themselves or echo your answers back, and are shaped to sound like a phone line rather than a studio. The quickest way to judge is to call our test line, +91 80356 14126." },
       { q: "Should the agent say it is an AI?", a: "We recommend it. You choose the opening line, and a short “I'm an AI assistant calling from…” sets the right expectation without hurting the call." },
       { q: "What happens if the caller interrupts?", a: "The agent stops and listens. Short acknowledgements such as “haan”, “achha” or “okay” are treated as the caller following along, so the agent carries on and the yes still counts." },
       { q: "Which languages does it speak?", a: "Hindi, English and Hinglish are live. Tamil, Telugu, Marathi, Bengali, Gujarati, Kannada, Malayalam, Punjabi and Odia are supported by the voice engines and set up with you on request." },

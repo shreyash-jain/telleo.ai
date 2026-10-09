@@ -174,7 +174,7 @@ export const USE_CASES: UseCase[] = [
       },
       {
         q: "Can I hear it before my leads do?",
-        a: "Yes. Call the live test line on +91 80353 74489 to talk to an AI agent. In the builder, the voice preview plays the exact voice and engine your agent will use on real calls.",
+        a: "Yes. Call the live test line on +91 80356 14126 to talk to an AI agent. In the builder, the voice preview plays the exact voice and engine your agent will use on real calls.",
       },
     ],
   },

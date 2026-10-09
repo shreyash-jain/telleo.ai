@@ -7,7 +7,7 @@ Everything below was read from the platform code and the CRM docs
 If a sentence on the site is not supported by this file, it should not be on the site.
 
 Company: **Telleo is a product of Vidyayatan Technologies LLP, the makers of Vacademy (vacademy.io).**
-WhatsApp sales: +91 99933 36616. Live test line (talk to an AI agent): +91 80353 74489.
+WhatsApp sales: +91 99933 36616. Live test line (talk to an AI agent): +91 80356 14126.
 
 ---
 
