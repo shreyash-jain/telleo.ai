@@ -15,7 +15,7 @@ Static Next.js 15 + Tailwind 4 export, same stack and deploy path as vacademy.io
 - Framework preset: **Next.js (Static HTML Export)** · build `pnpm build` · output `out` · `NODE_VERSION=20`
 - Custom domain `telleo.ai` (+ `www` redirect)
 - After deploy: submit `https://telleo.ai/sitemap.xml` in Google Search Console and Bing Webmaster Tools, and
-  check Cloudflare → Security → Bots that "Block AI bots" is **off** (robots.txt welcomes AI crawlers on purpose).
+  check Cloudflare → Security → Bots that "Block AI bots" is **off** (robots.txt welcomes AI crawlers on purpose)
 
 ## The truth file
 
