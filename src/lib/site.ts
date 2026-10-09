@@ -9,8 +9,8 @@ export const COMPANY = "Vidyayatan Technologies LLP";
 export const TAGLINE = "AI voice agents that call, qualify and book, in Hindi, English and Hinglish.";
 
 /** A live AI agent answers this number (same line as vacademy.io's test drive). */
-export const TEST_LINE = "+918035374489";
-export const TEST_LINE_DISPLAY = "+91 80353 74489";
+export const TEST_LINE = "+918035614126";
+export const TEST_LINE_DISPLAY = "+91 80356 14126";
 export const WHATSAPP_NUMBER = "919993336616";
 export const WHATSAPP_DISPLAY = "+91 99933 36616";
 /** Mailbox must exist before launch — see README. */

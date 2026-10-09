@@ -1,6 +1,6 @@
 # Telleo — full site text
 
-Generated 2026-10-02 from https://telleo.ai. Short summary: https://telleo.ai/llms.txt
+Generated 2026-10-09 from https://telleo.ai. Short summary: https://telleo.ai/llms.txt
 
 
 ---
@@ -14,7 +14,7 @@ New Telleo Engine v2 is live: faster, more natural calls
 call every lead. qualify buyers. book the demo. chase payments. answer your line.
 In Hinglish, too.
 Telleo is an AI telecaller that phones every new enquiry in about 60 seconds, holds a natural conversation in Hindi, English or Hinglish, captures the answers you need, books the meeting or hands the hot lead to your team, and writes the outcome into your CRM.
-Book a demo Talk to our AI: +91 80353 74489
+Book a demo Talk to our AI: +91 80356 14126
 Hear a real AI admissions call
 5:13
 
@@ -559,7 +559,7 @@ In 20 minutes we'll build a first agent around your use case, call your phone wi
 - A live call in Hindi, English or Hinglish
 - Your questions, outcomes and handover rules
 - A clear price for your volume
-Can't wait? Call +91 80353 74489 and talk to one of our agents now.
+Can't wait? Call +91 80356 14126 and talk to one of our agents now.
 
 Tell us about your calls
 We reply within one working day.
@@ -580,7 +580,7 @@ AI telecaller
 
 # An AI telecaller that calls every lead in about a minute.
 Telleo's AI telecaller phones new enquiries in Hindi, English or Hinglish, asks your questions, books the meeting and hands the interested ones to your team, with a transcript and a score for every connected call. From ₹3.49 a minute, telephony included.
-Book a demo Talk to our AI: +91 80353 74489
+Book a demo Talk to our AI: +91 80356 14126
 
 Why speed matters
 
@@ -671,7 +671,7 @@ We register DLT with you and you choose the calling windows. TRAI's September 20
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -686,7 +686,7 @@ AI voice agents
 
 # AI voice agents that make the calls your team can't get to.
 Telleo agents call new leads in about a minute, work through lists, answer inbound calls and remind customers, in Hindi, English and Hinglish. When a lead is ready, they hand over to your people, live or with everything written down.
-Book a demo Talk to our AI: +91 80353 74489
+Book a demo Talk to our AI: +91 80356 14126
 
 Admissions · Hinglish Real estate · English EMI reminder · Hindi
 
@@ -841,7 +841,7 @@ How to Write an AI Calling Script (With Templates)
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -856,7 +856,7 @@ Agent builder
 
 # Build an AI calling agent the way you'd brief a new telecaller.
 Tell Telleo who to call, why, what to find out and when to hand over. It drafts the script, picks sensible outcomes and lets you hear the voice before a single customer does. No code, no prompt engineering.
-Book a demo Talk to our AI: +91 80353 74489
+Book a demo Talk to our AI: +91 80356 14126
 
 New agent · Admissions caller
 Live
@@ -991,7 +991,7 @@ Hinglish Voice AI: How to Judge Call Quality
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -1006,7 +1006,7 @@ Automations & actions
 
 # The call ends. The follow-up has already started.
 Telleo reads every conversation, picks the outcome from your list and runs your rules: assign the hot lead, book the meeting, send the brochure on WhatsApp, retry the no-answer, stop the not-interested. Nobody has to remember anything.
-Book a demo Talk to our AI: +91 80353 74489
+Book a demo Talk to our AI: +91 80356 14126
 
 Outcome rules
 runs within a minute of hang-up
@@ -1129,7 +1129,7 @@ AI Calling Vendor Checklist: 20 Questions to Ask
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -1144,7 +1144,7 @@ Call intelligence
 
 # Every sales call, summarised, scored and coached. Human or AI.
 Telleo transcribes each call in Hindi, English or Hinglish and tells you what happened, what was promised, which objections came up and how your rep handled them. Free on AI calls; a small per-minute charge on your team's calls.
-Book a demo Talk to our AI: +91 80353 74489
+Book a demo Talk to our AI: +91 80356 14126
 
 Call with Anjali Verma · 6m 12s
 Human call · rep: Karan · Hinglish
@@ -1268,7 +1268,7 @@ How to Measure AI Call Quality: Metrics That Matter
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -1283,7 +1283,7 @@ Call health & QA
 
 # Every AI call gets a health check. Bad calls stand out.
 Too often, a team learns about a bad AI call from an angry customer. Telleo grades every AI call green, amber or red with a plain reason, so you can open the three calls that matter instead of listening to three hundred.
-Book a demo Talk to our AI: +91 80353 74489
+Book a demo Talk to our AI: +91 80356 14126
 
 Call log · today
 healthy check problem
@@ -1396,7 +1396,7 @@ How to Measure AI Call Quality: Metrics That Matter
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -1411,7 +1411,7 @@ Voices & languages
 
 # Speaks the Hindi your customers speak. Not the textbook kind.
 Telleo agents talk in everyday phone Hindi, Indian English and Hinglish, with grammar that matches the voice, honorifics that match the caller and 80+ voices to choose from.
-Book a demo Talk to our AI: +91 80353 74489
+Book a demo Talk to our AI: +91 80356 14126
 
 Hinglish · female voice Telleo agent · transcript
 - AI agent नमस्ते Meena जी, मैं Brightpath Academy से Kavya बोल रही हूँ। आपका दो minute का time मिल सकता है?Hello Meena ji, this is Kavya from Brightpath Academy. Could I have two minutes of your time?
@@ -1532,7 +1532,7 @@ Hinglish Voice AI: How to Judge Call Quality
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -1548,7 +1548,7 @@ New · October 2026
 # Telleo Engine v2 is live.
 The voice engine behind every Telleo call, rebuilt from hundreds of real Indian phone calls. Over 150 changes since August make the agent better at the hard parts of a call: interruptions, “haan” mid-sentence, Hindi, and staying up when a vendor doesn't.
 
-Book a demo Talk to our AI: +91 80353 74489
+Book a demo Talk to our AI: +91 80356 14126
 
 Engine v2 · interruption handled Telleo agent · transcript
 - AI agent हमारे यहाँ weekend batch भी है और weekday evening भी, आपके लिए…We have a weekend batch and a weekday evening one, for you…
@@ -1670,7 +1670,7 @@ What made you rebuild the engine? +
 Listening to real calls. Most changes started from a specific call where a parent interrupted, said “haan” mid-sentence, switched language or hung up, and the agent didn't handle it the way a good telecaller would.
 
 How do I hear the difference? +
-Call our test line, +91 80353 74489, and try to trip the agent up: interrupt it, say “haan” while it talks, ask it to repeat itself in Hindi. Or book a demo and we'll run your own script.
+Call our test line, +91 80356 14126, and try to trip the agent up: interrupt it, say “haan” while it talks, ask it to repeat itself in Hindi. Or book a demo and we'll run your own script.
 
 How do I get API access? +
 Ask us. We issue an API key for your account; it can start calls with your agents and read their status and recordings.
@@ -1678,7 +1678,7 @@ Ask us. We issue an API key for your account; it can start calls with your agent
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -1693,7 +1693,7 @@ How it works
 
 # What happens between “new lead” and “meeting booked”.
 Nine stages. Here is exactly what Telleo does on every call, so you know what to expect and where to look when you want to check.
-Book a demo Talk to our AI: +91 80353 74489
+Book a demo Talk to our AI: +91 80356 14126
 
 -
 
@@ -1795,7 +1795,7 @@ How to Measure AI Call Quality: Metrics That Matter
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -1810,7 +1810,7 @@ Pricing
 
 # Pay for the minutes your agents talk. The few extras are listed below.
 Telephony, speech, voices, transcripts and analysis of AI calls are all in the per-minute rate. From ₹3.99 a minute on monthly plans, or ₹3.49 a minute with no minimum on the annual plan.
-Book a demo Talk to our AI: +91 80353 74489
+Book a demo Talk to our AI: +91 80356 14126
 
 Entry plan, up to 3 months Starter
 Try AI calling on one list or one campaign before you scale.
@@ -1957,7 +1957,7 @@ AI Calling Vendor Checklist: 20 Questions to Ask
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -1972,7 +1972,7 @@ Use cases
 
 # Nine calls your team shouldn't be making by hand.
 Each of these is a repeatable phone job with a clear goal, a few questions and a next step. That is where an AI voice agent can be faster, more consistent and cheaper than calling by hand, while your team keeps the conversations that need judgment.
-Book a demo Talk to our AI: +91 80353 74489
+Book a demo Talk to our AI: +91 80356 14126
 
 ## Lead qualification
 Ask every lead your qualifying questions, rate it 1 to 10 and send the ready ones to a rep.
@@ -2057,7 +2057,7 @@ How to Write an AI Calling Script (With Templates)
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -2072,7 +2072,7 @@ Industries
 
 # AI calling agents for the way your industry sells.
 Telleo started in admissions calling for education institutes, where parents switch languages, interrupt and ask about fees. The same agent can be set up to qualify buyers, book visits, remind borrowers and screen candidates for other Indian businesses.
-Book a demo Talk to our AI: +91 80353 74489
+Book a demo Talk to our AI: +91 80356 14126
 
 ## Education
 Admission enquiries, demo classes, fee reminders and parent calls in Hindi, English or Hinglish.
@@ -2149,7 +2149,7 @@ Explore recruitment
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -2164,7 +2164,7 @@ Compare
 
 # Honest comparisons, including when not to pick us.
 Every comparison lists the cases where the other option is the better choice. Third-party facts come from the vendor's own public pages, with the date we checked them.
-Book a demo Talk to our AI: +91 80353 74489
+Book a demo Talk to our AI: +91 80356 14126
 
 ## Telleo vs an in-house telecalling team
 Use Telleo for the first call to every new lead, reminders, retries and routine qualification, where speed and consistency matter most. Keep your telecallers for negotiation, complex questions and relationships, and let Telleo hand them qualified leads with a call summary. Many teams will want both, working together.
@@ -2197,7 +2197,7 @@ AI Calling Vendor Checklist: 20 Questions to Ask
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -2212,7 +2212,7 @@ Blog
 
 # Voice AI guides for Indian sales and support teams.
 Costs, scripts, compliance, call quality and how to judge a vendor. Written to be useful whether or not you ever buy Telleo, with every outside fact linked to its source.
-Book a demo Talk to our AI: +91 80353 74489
+Book a demo Talk to our AI: +91 80356 14126
 
 Guides
 
@@ -2259,7 +2259,7 @@ The metrics that show whether AI calls work: connect, qualified and booking rate
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -2274,7 +2274,7 @@ FAQ
 
 # Straight answers about AI calling with Telleo.
 Thirty questions buyers ask us, grouped by topic. Can't find yours? Ask us .
-Book a demo Talk to our AI: +91 80353 74489
+Book a demo Talk to our AI: +91 80356 14126
 
 - How the calls sound
 - Setting up
@@ -2285,7 +2285,7 @@ Book a demo Talk to our AI: +91 80353 74489
 
 ## How the calls sound
 Does Telleo sound like a robot? +
-It is built not to. Agents speak everyday phone Hindi, Indian English and Hinglish, handle interruptions, don't repeat themselves or echo your answers back, and are shaped to sound like a phone line rather than a studio. The quickest way to judge is to call our test line, +91 80353 74489.
+It is built not to. Agents speak everyday phone Hindi, Indian English and Hinglish, handle interruptions, don't repeat themselves or echo your answers back, and are shaped to sound like a phone line rather than a studio. The quickest way to judge is to call our test line, +91 80356 14126.
 
 Should the agent say it is an AI? +
 We recommend it. You choose the opening line, and a short “I'm an AI assistant calling from…” sets the right expectation without hurting the call.
@@ -2392,7 +2392,7 @@ TRAI and DLT Rules for AI Calling: 2026 Guide
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -2407,7 +2407,7 @@ Security & compliance
 
 # How Telleo handles your calls, your leads and your customers.
 A plain account of what we store, who can see it, where it runs and what we don't claim. If your security team has questions this page doesn't answer, send them to us.
-Book a demo Talk to our AI: +91 80353 74489
+Book a demo Talk to our AI: +91 80356 14126
 
 ## What we store
 For each call: the transcript, the analysis (outcome, summary, score, answers), timings and call-health diagnostics, and the recording when recording is switched on for your line. For each lead: the fields you capture in the CRM.
@@ -2460,7 +2460,7 @@ AI Calling Vendor Checklist: 20 Questions to Ask
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -2475,7 +2475,7 @@ About
 
 # Telleo started on the admissions desk.
 Telleo is built by Vidyayatan Technologies LLP, the team behind Vacademy, a platform education institutes use to run courses, tests, live classes and admissions. Telleo began as the AI calling inside Vacademy's CRM and is now its own product for every business that lives on the phone.
-Book a demo Talk to our AI: +91 80353 74489
+Book a demo Talk to our AI: +91 80356 14126
 
 ## Why we built it
 Institutes buy leads from ads and portals, and research reported in Harvard Business Review found that firms which tried to reach a web lead within an hour were nearly seven times as likely to qualify it as those that tried an hour later. Counsellors can't call every enquiry within minutes, late in the evening and on Sundays, in the language the parent prefers. So we built an agent that could.
@@ -2495,7 +2495,7 @@ Say what we don't do
 No invented case studies, no certifications we don't hold. If a competitor fits you better, our comparison pages say so.
 
 Talk to an agent
-+91 80353 74489 A live AI agent answers.
++91 80356 14126 A live AI agent answers.
 
 Sales on WhatsApp
 +91 99933 36616 Weekdays, Indian business hours.
@@ -2506,7 +2506,7 @@ hello@telleo.ai Or book a demo
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -2526,7 +2526,7 @@ Book a demo
 - Your questions, outcomes and handover rules
 - What your volume would cost, in writing
 - No obligation, no card
-Talk to an agent now +91 80353 74489 WhatsApp sales +91 99933 36616
+Talk to an agent now +91 80356 14126 WhatsApp sales +91 99933 36616
 Hear a real AI admissions call
 5:13
 
@@ -2549,7 +2549,7 @@ Use case
 
 # Qualify every lead on a call before a rep picks up the phone
 Your AI agent calls each lead, asks the questions your best rep would ask, one at a time, and rates the lead from 1 to 10. Leads that fit go to a rep with a summary. The rest are retried or stopped by the rules you set.
-Book a demo +91 80353 74489
+Book a demo +91 80356 14126
 
 Sample call · Lead qualification Telleo agent · transcript
 - AI agent नमस्ते Rahul जी, मैं Sunrise Academy की AI assistant Neha बोल रही हूँ। आपने NEET coaching के लिए enquiry की थी, क्या अभी दो मिनट बात हो सकती है?Hello Rahul ji, I'm Neha, the AI assistant at Sunrise Academy. You had enquired about NEET coaching. Can we talk for two minutes?
@@ -2671,7 +2671,7 @@ Which languages can it qualify leads in? +
 Hindi, English and Hinglish are in production. Tamil, Telugu, Marathi, Bengali, Gujarati, Kannada, Malayalam, Punjabi and Odia are supported by the voice engines and are set up with you on request.
 
 Can I hear it before my leads do? +
-Yes. Call the live test line on +91 80353 74489 to talk to an AI agent. In the builder, the voice preview plays the exact voice and engine your agent will use on real calls.
+Yes. Call the live test line on +91 80356 14126 to talk to an AI agent. In the builder, the voice preview plays the exact voice and engine your agent will use on real calls.
 
 ## More use cases
 Instant lead callback Appointment booking Payment reminders Lead reactivation Feedback surveys AI receptionist
@@ -2680,7 +2680,7 @@ Built on AI voice agents · AI telecaller · Agent builder · Automations & acti
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -2695,7 +2695,7 @@ Use case
 
 # Call every new lead within about a minute of the form
 When a lead arrives from a Meta ad, a Google lead form or your website, a Telleo workflow calls them in about 60 seconds. The AI agent confirms what they wanted, asks your key questions and moves the good ones to a rep, a meeting or a WhatsApp.
-Book a demo +91 80353 74489
+Book a demo +91 80356 14126
 
 Sample call · Instant lead callback Telleo agent · transcript
 - AI agent नमस्ते Priya जी, मैं Greenfield Realty से Arjun बोल रहा हूँ। आपने अभी Facebook पर Sector 150 वाले 2BHK project के लिए form भरा था। क्या दो मिनट बात हो सकती है?Hello Priya ji, this is Arjun from Greenfield Realty. You just filled a form on Facebook for the 2BHK project in Sector 150. Can we talk for two minutes?
@@ -2822,7 +2822,7 @@ Built on AI voice agents · AI telecaller · Agent builder · Automations & acti
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -2837,7 +2837,7 @@ Use case
 
 # Book demos, site visits and consultations on the call
 The AI agent offers slots, agrees a specific day and time with the caller, and the meeting lands on your booking page automatically. A WhatsApp confirmation goes out if the caller wants one, and you can run a reminder campaign the day before to check they are still coming.
-Book a demo +91 80353 74489
+Book a demo +91 80356 14126
 
 Sample call · Appointment booking Telleo agent · transcript
 - AI agent Good evening, Sharma ji. This is Meera, an AI assistant calling from Riverside Dental Clinic. You asked about a consultation for teeth aligners. Is this a good time to book it?
@@ -2963,7 +2963,7 @@ Built on AI voice agents · AI telecaller · Agent builder · Automations & acti
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -2978,7 +2978,7 @@ Use case
 
 # Payment reminder calls that stay polite and end with a date
 The AI agent calls each customer before or on the due date, tells them what is due, asks when they plan to pay and sends your payment link on WhatsApp if they want it. Anyone with a problem is passed to your team.
-Book a demo +91 80353 74489
+Book a demo +91 80356 14126
 
 Sample call · Payment reminders Telleo agent · transcript
 - AI agent नमस्ते Sharma जी, मैं Northstar Finance की AI assistant Kavya बोल रही हूँ। आपके two-wheeler loan की अगली EMI के बारे में बात करनी थी, क्या अभी एक मिनट है?Hello Sharma ji, I'm Kavya, the AI assistant from Northstar Finance. I wanted to talk about the next EMI on your two-wheeler loan. Do you have a minute?
@@ -3099,7 +3099,7 @@ Built on AI voice agents · AI telecaller · Agent builder · Automations & acti
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -3114,7 +3114,7 @@ Use case
 
 # Re-engage the old leads your team stopped calling
 Many businesses have a list of last season's enquiries that nobody followed up properly. The AI agent calls the people on it who have given consent you can show, finds out where each person stands now and sends the ones who are still interested to a rep.
-Book a demo +91 80353 74489
+Book a demo +91 80356 14126
 
 Sample call · Lead reactivation Telleo agent · transcript
 - AI agent नमस्ते Rahul जी, मैं Sunrise Motors से Anjali बोल रही हूँ। आपने कुछ महीने पहले हमारी SUV की test drive के लिए enquiry की थी, क्या अभी बात करने का सही time है?Hello Rahul ji, I'm Anjali from Sunrise Motors. A few months ago you enquired about a test drive of our SUV. Is this a good time to talk?
@@ -3237,7 +3237,7 @@ Built on AI voice agents · AI telecaller · Agent builder · Automations & acti
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -3252,7 +3252,7 @@ Use case
 
 # Feedback and NPS calls that capture the reason behind the score
 A short call after a visit, delivery, class or service. The AI agent asks for a score, asks why, and saves both in the caller's own words. Unhappy customers are assigned to your team as soon as the call ends.
-Book a demo +91 80353 74489
+Book a demo +91 80356 14126
 
 Sample call · Feedback surveys Telleo agent · transcript
 - AI agent Hello Priya ji, this is Riya, an AI assistant from Greenleaf Home Store, calling about the sofa delivered on Tuesday. Do you have two minutes for some quick feedback?
@@ -3372,7 +3372,7 @@ Built on AI voice agents · AI telecaller · Agent builder · Automations & acti
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -3387,7 +3387,7 @@ Use case
 
 # An AI receptionist for the calls your front desk can't take
 Callers ring your line, pick an option on the IVR and talk to the AI agent. It answers the common questions from your script, notes down the enquiry and transfers the call to a person when the caller needs one.
-Book a demo +91 80353 74489
+Book a demo +91 80356 14126
 
 Sample call · AI receptionist Telleo agent · transcript
 - AI agent नमस्ते, Sunrise Academy में आपका स्वागत है। मैं यहाँ की AI assistant Neha बोल रही हूँ। बताइए, मैं आपकी क्या मदद कर सकती हूँ?Hello, welcome to Sunrise Academy. I'm Neha, the AI assistant here. How can I help you?
@@ -3513,7 +3513,7 @@ Built on AI voice agents · AI telecaller · Agent builder · Automations & acti
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -3528,7 +3528,7 @@ Use case
 
 # Confirm attendance for every webinar, demo class and open house
 Registrations are easy to collect and hard to turn into attendance. The AI agent calls each registrant, confirms whether they are coming, sends the joining link or location on WhatsApp, and a reminder campaign calls again before the start.
-Book a demo +91 80353 74489
+Book a demo +91 80356 14126
 
 Sample call · Event confirmation Telleo agent · transcript
 - AI agent Good afternoon, Rahul ji. This is Karan, an AI assistant from Sunrise Institute of Management. You registered for our MBA open house this Saturday at 11 am. Will you be able to attend?
@@ -3654,7 +3654,7 @@ Built on AI voice agents · AI telecaller · Agent builder · Automations & acti
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -3669,7 +3669,7 @@ Use case
 
 # Follow up every incomplete application, document and KYC
 Applicants start forms and stop. The AI agent calls each one, asks what is holding them up, sends the link to finish on WhatsApp and passes anyone who needs real help to your team.
-Book a demo +91 80353 74489
+Book a demo +91 80356 14126
 
 Sample call · Application follow-up Telleo agent · transcript
 - AI agent नमस्ते Priya जी, मैं Sunrise College की AI assistant Pooja बोल रही हूँ। आपका B.Com admission form लगभग पूरा है, बस documents upload होने बाकी हैं। क्या अभी एक मिनट बात हो सकती है?Hello Priya ji, I'm Pooja, the AI assistant at Sunrise College. Your B.Com admission form is almost complete, only the documents are still to be uploaded. Can we talk for a minute?
@@ -3790,7 +3790,7 @@ Built on AI voice agents · AI telecaller · Agent builder · Automations & acti
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -3806,7 +3806,7 @@ Education
 
 # AI calling for coaching institutes, schools and colleges
 Telleo started in admissions calling for education institutes. It calls every enquiry while the family is still interested, books the demo class or counselling session, and hands warm families to your counsellors with a summary of the call.
-Book a demo +91 80353 74489
+Book a demo +91 80356 14126
 
 Sample call · Education Telleo agent · transcript
 - AI agent नमस्ते राहुल जी, मैं Brightpath Academy से Priya बोल रही हूँ। आपने JEE coaching के बारे में enquiry की थी। क्या अभी दो मिनट बात हो सकती है?Hello Rahul ji, this is Priya from Brightpath Academy. You enquired about JEE coaching. Can we talk for two minutes now?
@@ -3942,7 +3942,7 @@ Built on AI voice agents · AI telecaller · Agent builder · Automations & acti
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -3958,7 +3958,7 @@ Real estate
 
 # AI calling for real estate developers and brokers
 Property leads go cold quickly, and many are only browsing. Telleo calls each lead within about a minute, asks budget, location, configuration and timeline, and books a site visit for buyers ready to see the project.
-Book a demo +91 80353 74489
+Book a demo +91 80356 14126
 
 Sample call · Real estate Telleo agent · transcript
 - AI agent नमस्ते अमित जी, मैं Greenfield Realty से Neha बोल रही हूँ। आपने Greenfield Heights के 2 BHK के लिए enquiry की थी। क्या अभी बात करने का सही समय है?Hello Amit ji, this is Neha from Greenfield Realty. You enquired about a 2 BHK at Greenfield Heights. Is this a good time to talk?
@@ -4090,7 +4090,7 @@ Built on AI voice agents · AI telecaller · Agent builder · Automations & acti
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -4106,7 +4106,7 @@ Healthcare
 
 # AI calling for clinics, hospitals and diagnostic labs
 Front desks spend hours on calls that follow a script: booking, reminding, telling patients a report is ready. Telleo makes those calls in Hindi, English or Hinglish, and you script it to pass anything clinical to your staff.
-Book a demo +91 80353 74489
+Book a demo +91 80356 14126
 
 Sample call · Healthcare Telleo agent · transcript
 - AI agent नमस्ते सुनीता जी, मैं CarePlus Clinic से Anjali बोल रही हूँ। कल सुबह दस बजे Dr. Mehra के साथ आपका appointment है। क्या आप आ पाएँगे?Hello Sunita ji, this is Anjali from CarePlus Clinic. You have an appointment with Dr. Mehra tomorrow at 10 am. Will you be able to come?
@@ -4234,7 +4234,7 @@ Built on AI voice agents · AI telecaller · Agent builder · Automations & acti
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -4250,7 +4250,7 @@ Lending
 
 # AI calling for NBFCs, digital lenders and loan DSAs
 Lending runs on follow-up calls: to new leads, to applicants who stopped halfway, to borrowers before an EMI is due. Telleo makes these calls in Hindi, English or Hinglish, politely and inside your calling hours, and passes anything that needs judgement to your team.
-Book a demo +91 80353 74489
+Book a demo +91 80356 14126
 
 Sample call · Lending Telleo agent · transcript
 - AI agent नमस्ते विकास जी, मैं Arth Finance से Pooja बोल रही हूँ। आपके two-wheeler loan की EMI के बारे में एक छोटा सा reminder है। क्या अभी एक मिनट बात हो सकती है?Hello Vikas ji, this is Pooja from Arth Finance. I'm calling with a short reminder about your two-wheeler loan EMI. Can we talk for a minute?
@@ -4379,7 +4379,7 @@ Built on AI voice agents · AI telecaller · Agent builder · Automations & acti
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -4395,7 +4395,7 @@ Insurance
 
 # AI calling for insurance brokers, agents and insurers
 Insurance teams make the same three calls over and over: to new leads, to customers whose policy is about to lapse, and to customers who still owe a document. Telleo makes them, and hands anyone ready to buy or asking for advice to your licensed staff.
-Book a demo +91 80353 74489
+Book a demo +91 80356 14126
 
 Sample call · Insurance Telleo agent · transcript
 - AI agent नमस्ते अरोड़ा जी, मैं Kavach Insurance Brokers से Rohit बोल रहा हूँ। आपकी car insurance policy अगले हफ़्ते expire हो रही है। क्या अभी दो मिनट बात हो सकती है?Hello Arora ji, this is Rohit from Kavach Insurance Brokers. Your car insurance policy expires next week. Can we talk for two minutes?
@@ -4522,7 +4522,7 @@ Built on AI voice agents · AI telecaller · Agent builder · Automations & acti
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -4538,7 +4538,7 @@ E-commerce & D2C
 
 # AI calling for D2C and e-commerce brands
 COD orders the customer never meant to keep, carts left at checkout, parcels that come back after a failed delivery. Each one needs a short call. Telleo makes those calls and sends the answer to your order system by webhook.
-Book a demo +91 80353 74489
+Book a demo +91 80356 14126
 
 Sample call · E-commerce & D2C Telleo agent · transcript
 - AI agent नमस्ते प्रिया जी, मैं Leafline Naturals से Kavya बोल रही हूँ। आपने कल हमारी website से hair oil का COD order किया था। क्या मैं order confirm कर दूँ?Hello Priya ji, this is Kavya from Leafline Naturals. You placed a COD order for hair oil on our website yesterday. Shall I confirm the order?
@@ -4653,7 +4653,7 @@ Built on AI voice agents · AI telecaller · Agent builder · Automations & acti
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -4669,7 +4669,7 @@ Automotive
 
 # AI calling for car and two-wheeler dealerships
 Dealers get enquiries from ads and the website, and have a service base that needs reminding every few months. Telleo calls each enquiry, books the test drive and makes the service reminder calls, so your sales and service advisors spend time with customers who are ready.
-Book a demo +91 80353 74489
+Book a demo +91 80356 14126
 
 Sample call · Automotive Telleo agent · transcript
 - AI agent नमस्ते सिंह जी, मैं Highway Motors से Arjun बोल रहा हूँ। आपने हमारी website पर SUV के बारे में पूछा था। क्या अभी दो मिनट बात हो सकती है?Hello Singh ji, this is Arjun from Highway Motors. You asked about an SUV on our website. Can we talk for two minutes?
@@ -4790,7 +4790,7 @@ Built on AI voice agents · AI telecaller · Agent builder · Automations & acti
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -4806,7 +4806,7 @@ Travel & hospitality
 
 # AI calling for travel agencies, tour operators and hotels
 Holiday enquiries arrive in bulk from ads, and not every one is a trip. Telleo calls each enquiry to learn dates, destination, group size and budget, confirms bookings before arrival, and calls guests after their stay.
-Book a demo +91 80353 74489
+Book a demo +91 80356 14126
 
 Sample call · Travel & hospitality Telleo agent · transcript
 - AI agent Good afternoon Kapoor ji, this is Tara from Palmgrove Resort, Goa. I'm calling about your stay with us from the 14th. Is this a good time for a quick check?
@@ -4934,7 +4934,7 @@ Built on AI voice agents · AI telecaller · Agent builder · Automations & acti
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -4950,7 +4950,7 @@ Recruitment
 
 # AI calling for staffing firms and volume hiring
 Volume hiring for BPO, retail and field roles means calling long lists of applicants to ask the same few questions. Telleo makes the screening call, schedules interviews for candidates who fit, and calls again before joining day.
-Book a demo +91 80353 74489
+Book a demo +91 80356 14126
 
 Sample call · Recruitment Telleo agent · transcript
 - AI agent Hi Ravi ji, this is Meera from Northstar Staffing. You applied for the customer support role in Pune. Do you have two minutes for a few quick questions?
@@ -5077,7 +5077,7 @@ Built on AI voice agents · AI telecaller · Agent builder · Automations & acti
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -5179,7 +5179,7 @@ Telleo vs IVR and robocalls Telleo vs Ringg AI Telleo vs Vomyra Telleo vs build 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -5266,7 +5266,7 @@ Telleo vs telecallers Telleo vs Ringg AI Telleo vs Vomyra Telleo vs build your o
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -5373,7 +5373,7 @@ Telleo vs telecallers Telleo vs IVR and robocalls Telleo vs Vomyra Telleo vs bui
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -5477,7 +5477,7 @@ Telleo vs telecallers Telleo vs IVR and robocalls Telleo vs Ringg AI Telleo vs b
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -5576,7 +5576,7 @@ Telleo vs telecallers Telleo vs IVR and robocalls Telleo vs Ringg AI Telleo vs V
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -5716,7 +5716,7 @@ Compare contact rate, qualified leads, booked meetings, transfers to humans and 
 - What stops the system from calling the same person twice by mistake, or running up a bill overnight?
 Where Telleo fits
 Telleo is an AI voice agent built for Indian businesses. Agents speak Hindi, English and Hinglish in production today; other Indian languages are set up with customers on request. Callers can interrupt, and a short “haan” or “okay” does not derail the agent. Phone lines are included, every call is transcribed (recording can be switched on for every call), and each call gets an outcome, a summary and a health check. See how it works and the voices and languages .
-The quickest test is a real call: dial +91 80353 74489 and talk to an agent.
+The quickest test is a real call: dial +91 80356 14126 and talk to an agent.
 
 Book a demo
 
@@ -5770,7 +5770,7 @@ Read
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -5963,7 +5963,7 @@ Read
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -6143,7 +6143,7 @@ Read
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -6459,7 +6459,7 @@ Read
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -6672,7 +6672,7 @@ Read
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -6800,7 +6800,7 @@ Call on speakerphone from a noisy street. When it can’t hear you, does it reco
 A score of 16 or more out of 20 on both runs means the agent is ready for a pilot with real leads. Anything below that needs fixing before your customers hear it. Whatever the score, listen to the recordings afterwards. Things you missed live are obvious on replay.
 Where Telleo fits
 Telleo’s agents are built for these problems. Hindi is written in Devanagari with English business words in English. First-person verbs match the voice’s gender. When the caller’s gender is unknown, the agent says “<name> ji” instead of guessing. It speaks everyday phone Hindi. A short “haan”, “achha”, “okay” or “hello” while the agent is talking doesn’t derail it, and the “yes” still counts. Numbers are spoken as words and phone numbers digit by digit.
-You can hear any of the 80+ voices across 7 speech engines before you choose (see voices and languages ). Hindi, English and Hinglish are in production. Other Indian languages are set up on request. Run the test above on our live line: +91 80353 74489.
+You can hear any of the 80+ voices across 7 speech engines before you choose (see voices and languages ). Hindi, English and Hinglish are in production. Other Indian languages are set up on request. Run the test above on our live line: +91 80356 14126.
 
 Book a demo
 
@@ -6855,7 +6855,7 @@ Read
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -6956,7 +6956,7 @@ Score each answer 0, 1 or 2. Ask for evidence, not adjectives.# | Question | A g
 20 | Pilot metric and exit? | Agreed metric, export, notice terms | Lock-in with no export |
 
 Where Telleo fits
-Our own answers, briefly. You can call a live Telleo agent now on +91 80353 74489. Telephony is included. Billing is in 30-second pulses at a per-minute rate, from ₹3.49 a minute, with plan minimums on the monthly plans and none on the annual plan. DLT registration is ₹5,900 a year at actuals. Post-call analysis of AI calls is free. The full table is on the pricing page .
+Our own answers, briefly. You can call a live Telleo agent now on +91 80356 14126. Telephony is included. Billing is in 30-second pulses at a per-minute rate, from ₹3.49 a minute, with plan minimums on the monthly plans and none on the annual plan. DLT registration is ₹5,900 a year at actuals. Post-call analysis of AI calls is free. The full table is on the pricing page .
 Leads come in from Meta and Google lead forms, CSV and anything that can send a webhook, and outcomes can go out by webhook. We don’t have native integrations with third-party CRMs. Every AI call has a transcript, an outcome from your own list and a green, amber or red health verdict. Health verdicts and diagnostics are admin-only, and full phone numbers can be restricted by role. Ask us all 20 questions. See also our security page .
 
 Book a demo
@@ -7015,7 +7015,7 @@ Read
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126
 
 
 ---
@@ -7184,4 +7184,4 @@ Read
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
-Book a demo Call +91 80353 74489
+Book a demo Call +91 80356 14126

@@ -55,7 +55,8 @@ The React component is `src/components/Logo.tsx`.
 
 1. **Mailbox**: `hello@telleo.ai` is shown sitewide. Create it, or change `SALES_EMAIL` in `src/lib/site.ts`.
 2. **Booking link**: set `BOOKING_URL` in `src/lib/site.ts` (empty = every "Book a demo" goes to `/demo/`).
-3. **Test line persona**: +91 80353 74489 is the vacademy.io test-drive line. Point it at a Telleo-branded agent.
+3. **Test line**: +91 80356 14126 (Telleo trial line since 2026-10-09; set in `TEST_LINE` in `src/lib/site.ts`). The old
+   vacademy.io test-drive line, +91 80353 74489, is no longer used on the site.
 4. **Leads**: the form posts to the *Vacademy Website* CRM audience with Campaign Name "Telleo – Book a demo".
    That audience dedups by email, so someone who already enquired on vacademy.io is not recorded again.
    A dedicated Telleo audience fixes it (swap `CRM_AUDIENCE_ID` + field ids in `src/lib/leadSubmit.ts`).

@@ -270,8 +270,8 @@ export default function Page() {
         <p>
           You can hear any of the 80+ voices across 7 speech engines before you choose (see{" "}
           <Link href="/voices-and-languages/">voices and languages</Link>). Hindi, English and Hinglish are in
-          production. Other Indian languages are set up on request. Run the test above on our live line: +91 80353
-          74489.
+          production. Other Indian languages are set up on request. Run the test above on our live line: +91 80356
+          14126.
         </p>
       </WhereTelleoFits>
 
