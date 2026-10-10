@@ -36,7 +36,13 @@ export function BlogShell({
 }) {
   const p = findPost(slug);
   if (!p) throw new Error(`Unknown post ${slug} — add it to src/content/posts-*.ts`);
-  const related = POSTS.filter((x) => x.slug !== slug).slice(0, 3);
+  // Prefer articles supporting the same product or use-case pages, then category.
+  const relevance = (candidate: (typeof POSTS)[number]) =>
+    (candidate.pages?.filter((path) => p.pages?.includes(path)).length ?? 0) * 2
+    + Number(candidate.category === p.category);
+  const related = POSTS.filter((x) => x.slug !== slug)
+    .sort((a, b) => relevance(b) - relevance(a))
+    .slice(0, 3);
   return (
     <main>
       <JsonLd

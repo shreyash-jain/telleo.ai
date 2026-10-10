@@ -52,6 +52,12 @@ Key facts: pricing ₹3.99/min on monthly plans from ₹3,499/month, or ₹3.49/
 
 ## Blog
 
+- [AI Calling for Admissions: A Follow-Up Playbook](https://telleo.ai/blog/ai-calling-for-admissions/)
+- [AI Calling for Real Estate: Qualify and Book Visits](https://telleo.ai/blog/ai-calling-for-real-estate/)
+- [AI Lead Qualification: Questions, Scoring and Handoffs](https://telleo.ai/blog/ai-lead-qualification-questions/)
+- [AI Appointment Reminder Calls: Scripts and Workflows](https://telleo.ai/blog/ai-appointment-reminder-calls/)
+- [AI Receptionist for Small Business: A Setup Guide](https://telleo.ai/blog/ai-receptionist-for-small-business/)
+- [AI Calling CRM Integration: A Webhook Workflow Guide](https://telleo.ai/blog/ai-calling-crm-integration/)
 - [What Is an AI Voice Agent? A Plain Guide for Indian Teams](https://telleo.ai/blog/what-is-an-ai-voice-agent/)
 - [How Much Does AI Calling Cost in India? 2026 Per-Minute Guide](https://telleo.ai/blog/ai-calling-cost-india/)
 - [Speed to Lead: Why Calling New Leads in 60 Seconds Wins](https://telleo.ai/blog/speed-to-lead/)

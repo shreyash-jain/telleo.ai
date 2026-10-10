@@ -22,7 +22,7 @@ export default function BlogIndex() {
       path="/blog/"
       eyebrow="Blog"
       h1="Voice AI guides for Indian sales and support teams."
-      lede="Costs, scripts, compliance, call quality and how to judge a vendor. Written to be useful whether or not you ever buy Telleo, with every outside fact linked to its source."
+      lede="Practical guides to admissions, property enquiries, lead qualification, appointment reminders and CRM workflows. Plus costs, scripts, compliance and call quality, with outside facts linked to their sources."
     >
       <JsonLd
         data={{

@@ -6,6 +6,7 @@ import { USE_CASES, findUseCase } from "@/content/useCases";
 import { INDUSTRIES } from "@/content/industries";
 import { Breadcrumbs, CheckList, CtaBand, FaqList, Icon, Transcript } from "@/components/ui";
 import { JsonLd } from "@/components/JsonLd";
+import { RelatedPosts } from "@/components/RelatedPosts";
 import { seoMetadata } from "@/lib/seo";
 import { PRODUCT_NAV } from "@/lib/nav";
 import { SITE, TEST_LINE, TEST_LINE_DISPLAY, bookHref } from "@/lib/site";
@@ -183,6 +184,7 @@ export default async function UseCasePage({ params }: { params: Promise<{ slug: 
           </p>
         </div>
       </section>
+      <RelatedPosts path={`/use-cases/${u.slug}/`} />
       <CtaBand />
     </main>
   );

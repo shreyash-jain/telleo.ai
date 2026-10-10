@@ -32,7 +32,7 @@ Static Next.js 15 + Tailwind 4 export, same stack and deploy path as vacademy.io
 | Nav / footer lists | `src/lib/nav.ts` |
 | Every URL (sitemap + llms-full) | `src/lib/routes.ts` |
 | Use cases (9), industries (9), comparisons (5) | `src/content/{useCases,industries,comparisons}.ts` → `src/app/{use-cases,industries,compare}/[slug]` |
-| Blog registry / posts | `src/content/posts-a.ts`, `posts-b.ts` → `src/app/blog/<slug>/page.tsx` via `BlogShell` |
+| Blog registry / posts | `src/content/posts-{a,b,c}.ts` → `src/app/blog/<slug>/page.tsx` via `BlogShell` |
 | Price list (mirrors vacademy.io/voice) | `src/content/pricing.ts` |
 | Hero call animation | `src/components/HeroCallDemo.tsx` |
 | Product mock visuals | `src/components/Visuals.tsx` |

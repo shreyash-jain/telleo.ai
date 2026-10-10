@@ -4,7 +4,7 @@ import { ArrowRight, PhoneCall } from "lucide-react";
 import type { Faq } from "@/content/types";
 import { findPage, SITE, TEST_LINE, TEST_LINE_DISPLAY, bookHref } from "@/lib/site";
 import { seoMetadata } from "@/lib/seo";
-import { POSTS, postPath } from "@/content/posts";
+import { RelatedPosts } from "./RelatedPosts";
 import { Breadcrumbs, CtaBand, FaqList } from "./ui";
 import { JsonLd } from "./JsonLd";
 
@@ -34,7 +34,6 @@ export function PageShell({
   hideCta?: boolean;
 }) {
   const p = findPage(path);
-  const related = POSTS.filter((x) => x.pages?.includes(path)).slice(0, 3);
   return (
     <main>
       <JsonLd
@@ -81,21 +80,7 @@ export function PageShell({
         </section>
       )}
 
-      {related.length > 0 && (
-        <section className="border-t border-line bg-paper">
-          <div className="wrap py-14">
-            <h2 className="text-2xl font-extrabold tracking-tight text-ink">From the blog</h2>
-            <div className="mt-6 grid gap-4 md:grid-cols-3">
-              {related.map((r) => (
-                <Link key={r.slug} href={postPath(r.slug)} className="card card-hover p-6">
-                  <p className="eyebrow">{r.category}</p>
-                  <p className="mt-2 font-bold leading-snug text-ink">{r.title}</p>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
+      <RelatedPosts path={path} />
       {!hideCta && <CtaBand />}
     </main>
   );
