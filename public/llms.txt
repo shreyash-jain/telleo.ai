@@ -52,6 +52,12 @@ Key facts: pricing ₹3.99/min on monthly plans from ₹3,499/month, or ₹3.49/
 
 ## Blog
 
+- [AI Calling for Recruitment: A Candidate Screening Guide](https://telleo.ai/blog/ai-calling-for-recruitment/)
+- [AI Calling for Car Dealerships: Book Better Test Drives](https://telleo.ai/blog/ai-calling-for-car-dealerships/)
+- [AI Event Confirmation Calls: Scripts and Attendance](https://telleo.ai/blog/ai-event-confirmation-calls/)
+- [AI Customer Feedback Calls: A Survey Script and Workflow](https://telleo.ai/blog/ai-customer-feedback-calls/)
+- [Sales Call Quality Scorecard: A Practical Coaching Guide](https://telleo.ai/blog/sales-call-quality-scorecard/)
+- [Inbound vs Outbound AI Calling: Which Workflow Fits?](https://telleo.ai/blog/inbound-vs-outbound-ai-calling/)
 - [AI Calling for Admissions: A Follow-Up Playbook](https://telleo.ai/blog/ai-calling-for-admissions/)
 - [AI Calling for Real Estate: Qualify and Book Visits](https://telleo.ai/blog/ai-calling-for-real-estate/)
 - [AI Lead Qualification: Questions, Scoring and Handoffs](https://telleo.ai/blog/ai-lead-qualification-questions/)

@@ -1,6 +1,6 @@
 # Telleo — full site text
 
-Generated 2026-10-10 from https://telleo.ai. Short summary: https://telleo.ai/llms.txt
+Generated 2026-10-13 from https://telleo.ai. Short summary: https://telleo.ai/llms.txt
 
 
 ---
@@ -518,10 +518,10 @@ FAQ
 More in the full FAQ .
 From the blog
 
-- AI Calling for Admissions: A Follow-Up Playbook
-- AI Calling for Real Estate: Qualify and Book Visits
-- AI Lead Qualification: Questions, Scoring and Handoffs
-- AI Appointment Reminder Calls: Scripts and Workflows
+- AI Calling for Recruitment: A Candidate Screening Guide
+- AI Calling for Car Dealerships: Book Better Test Drives
+- AI Event Confirmation Calls: Scripts and Attendance
+- AI Customer Feedback Calls: A Survey Script and Workflow
 All guides
 
 Will callers know they are talking to an AI? +
@@ -669,6 +669,8 @@ What about TRAI rules on automated calls? +
 We register DLT with you and you choose the calling windows. TRAI's September 2026 amendment will require every business using automated (A2P) calls to declare them to its telecom provider, with the caller IDs used. Its A2P provisions take effect 60 days after Gazette publication; talk to us about how it applies to your setup.
 
 ## From the blog
+Guides
+Sales Call Quality Scorecard: A Practical Coaching Guide
 Guides
 AI Lead Qualification: Questions, Scoring and Handoffs
 
@@ -836,11 +838,11 @@ Yes. Your team can keep calling on Exotel or Airtel IQ, or use Telleo's click-to
 
 ## From the blog
 Guides
+Inbound vs Outbound AI Calling: Which Workflow Fits?
+Guides
 AI Lead Qualification: Questions, Scoring and Handoffs
 Guides
 AI Receptionist for Small Business: A Setup Guide
-Guides
-What Is an AI Voice Agent? A Guide for Indian Teams
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -988,11 +990,11 @@ Every agent follows built-in rules on top of your script: one question at a time
 
 ## From the blog
 Playbooks
+AI Calling for Recruitment: A Candidate Screening Guide
+Playbooks
 AI Calling for Admissions: A Follow-Up Playbook
 Guides
 AI Receptionist for Small Business: A Setup Guide
-Playbooks
-How to Write an AI Calling Script (With Templates)
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -1126,11 +1128,11 @@ Meta lead ads, Google lead forms, any website form via webhook, CSV or Excel imp
 
 ## From the blog
 Playbooks
+AI Event Confirmation Calls: Scripts and Attendance
+Playbooks
 AI Appointment Reminder Calls: Scripts and Workflows
 Guides
 AI Calling CRM Integration: A Webhook Workflow Guide
-Playbooks
-Speed to Lead: Why Calling in 60 Seconds Wins
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -1264,12 +1266,12 @@ Does it identify who is speaking? +
 It infers the rep and the lead from what is said; there is no separate voice-based speaker separation yet. For two-person sales calls this is usually clear.
 
 ## From the blog
+Playbooks
+AI Customer Feedback Calls: A Survey Script and Workflow
+Guides
+Sales Call Quality Scorecard: A Practical Coaching Guide
 Guides
 AI Lead Qualification: Questions, Scoring and Handoffs
-Pricing
-AI Calling Cost in India: 2026 Per-Minute Guide
-Guides
-AI Calling Vendor Checklist: 20 Questions to Ask
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -1396,6 +1398,8 @@ Can we export calls for our own QA? +
 Yes. Search and filter the call log by outcome, date, team, counsellor and more, and export the results.
 
 ## From the blog
+Guides
+Sales Call Quality Scorecard: A Practical Coaching Guide
 Voice AI
 How to Measure AI Call Quality: Metrics That Matter
 
@@ -1792,11 +1796,11 @@ It is limited to your own outcome list and only records answers that were actual
 
 ## From the blog
 Guides
+Inbound vs Outbound AI Calling: Which Workflow Fits?
+Guides
 AI Receptionist for Small Business: A Setup Guide
 Guides
 AI Calling CRM Integration: A Webhook Workflow Guide
-Guides
-What Is an AI Voice Agent? A Guide for Indian Teams
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -2222,10 +2226,40 @@ Book a demo Talk to our AI: +91 80356 14126
 
 Playbooks
 
-## AI Calling for Admissions: A Follow-Up Playbook
-Plan AI admissions calls for schools and coaching institutes: enquiry questions, parent call scripts, counsellor handoffs and a practical pilot scorecard.
+## AI Calling for Recruitment: A Candidate Screening Guide
+Plan AI candidate screening calls with job-related questions, an example script and recruiter handoffs. Keep missing answers separate from hiring decisions.
 Read the guide
 
+Playbooks
+
+## AI Calling for Car Dealerships: Book Better Test Drives
+Design dealership AI calls for vehicle enquiries and test drives. Includes a buyer script, availability checks, booking handoffs and a pilot review checklist.
+5 min read
+Playbooks
+
+## AI Event Confirmation Calls: Scripts and Attendance
+Build an AI event confirmation workflow with attendee scripts, session checks, cancellation handling and attendance metrics for webinars and in-person events.
+5 min read
+Playbooks
+
+## AI Customer Feedback Calls: A Survey Script and Workflow
+Create AI customer feedback calls with neutral survey questions, a clear scale and complaint handoffs. Includes a script and a response-quality checklist.
+5 min read
+Guides
+
+## Sales Call Quality Scorecard: A Practical Coaching Guide
+Build a sales call quality scorecard with observable criteria, evidence notes and a weekly coaching routine. Learn how to review AI-assisted scores fairly.
+5 min read
+Guides
+
+## Inbound vs Outbound AI Calling: Which Workflow Fits?
+Compare inbound and outbound AI calling by trigger, context, routing and success metrics. Includes practical examples and a checklist for choosing your pilot.
+5 min read
+Playbooks
+
+## AI Calling for Admissions: A Follow-Up Playbook
+Plan AI admissions calls for schools and coaching institutes: enquiry questions, parent call scripts, counsellor handoffs and a practical pilot scorecard.
+5 min read
 Playbooks
 
 ## AI Calling for Real Estate: Qualify and Book Visits
@@ -2715,11 +2749,11 @@ Built on AI voice agents · AI telecaller · Agent builder · Automations & acti
 
 ## From the blog
 Playbooks
+AI Calling for Car Dealerships: Book Better Test Drives
+Playbooks
 AI Calling for Real Estate: Qualify and Book Visits
 Guides
 AI Lead Qualification: Questions, Scoring and Handoffs
-Guides
-AI Calling CRM Integration: A Webhook Workflow Guide
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -2864,6 +2898,8 @@ Lead qualification Appointment booking Payment reminders Lead reactivation Feedb
 Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## From the blog
+Guides
+Inbound vs Outbound AI Calling: Which Workflow Fits?
 Playbooks
 AI Calling for Admissions: A Follow-Up Playbook
 Guides
@@ -3011,6 +3047,8 @@ Lead qualification Instant lead callback Payment reminders Lead reactivation Fee
 Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## From the blog
+Playbooks
+AI Calling for Car Dealerships: Book Better Test Drives
 Playbooks
 AI Calling for Real Estate: Qualify and Book Visits
 Playbooks
@@ -3425,6 +3463,10 @@ Yes. Hindi, English and Hinglish are all in production. Make one agent per langu
 Lead qualification Instant lead callback Appointment booking Payment reminders Lead reactivation AI receptionist
 Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
+## From the blog
+Playbooks
+AI Customer Feedback Calls: A Survey Script and Workflow
+
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
@@ -3567,6 +3609,8 @@ Lead qualification Instant lead callback Appointment booking Payment reminders L
 Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## From the blog
+Guides
+Inbound vs Outbound AI Calling: Which Workflow Fits?
 Guides
 AI Receptionist for Small Business: A Setup Guide
 
@@ -3713,6 +3757,8 @@ Built on AI voice agents · AI telecaller · Agent builder · Automations & acti
 
 ## From the blog
 Playbooks
+AI Event Confirmation Calls: Scripts and Attendance
+Playbooks
 AI Appointment Reminder Calls: Scripts and Workflows
 
 ## Hear it on a real phone call.
@@ -3852,6 +3898,8 @@ Lead qualification Instant lead callback Appointment booking Payment reminders L
 Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## From the blog
+Playbooks
+AI Calling for Recruitment: A Candidate Screening Guide
 Playbooks
 AI Calling for Admissions: A Follow-Up Playbook
 
@@ -4008,6 +4056,8 @@ Real estate Healthcare Lending Insurance E-commerce & D2C Automotive Travel & ho
 Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
 ## From the blog
+Playbooks
+AI Event Confirmation Calls: Scripts and Attendance
 Playbooks
 AI Calling for Admissions: A Follow-Up Playbook
 
@@ -4726,6 +4776,10 @@ Hindi, English and Hinglish are in production. Tamil, Telugu, Bengali and other 
 Education Real estate Healthcare Lending Insurance Automotive Travel & hospitality Recruitment
 Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
+## From the blog
+Playbooks
+AI Customer Feedback Calls: A Survey Script and Workflow
+
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
@@ -4862,6 +4916,10 @@ No. AI calls run on Telleo's lines. Your team can keep using Airtel IQ or Exotel
 ## Other industries
 Education Real estate Healthcare Lending Insurance E-commerce & D2C Travel & hospitality Recruitment
 Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
+
+## From the blog
+Playbooks
+AI Calling for Car Dealerships: Book Better Test Drives
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -5007,6 +5065,10 @@ English, Hindi and Hinglish are in production. Tamil, Telugu, Malayalam, Bengali
 Education Real estate Healthcare Lending Insurance E-commerce & D2C Automotive Recruitment
 Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
 
+## From the blog
+Playbooks
+AI Customer Feedback Calls: A Survey Script and Workflow
+
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
@@ -5149,6 +5211,10 @@ Yes. Set a recruiter's number for live transfer, and the agent connects the call
 ## Other industries
 Education Real estate Healthcare Lending Insurance E-commerce & D2C Automotive Travel & hospitality
 Built on AI voice agents · AI telecaller · Agent builder · Automations & actions · Call intelligence · Call health & QA · Voices & languages
+
+## From the blog
+Playbooks
+AI Calling for Recruitment: A Candidate Screening Guide
 
 ## Hear it on a real phone call.
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
@@ -5657,6 +5723,653 @@ Book a demo Call +91 80356 14126
 
 ---
 
+# AI Calling for Recruitment: A Candidate Screening Guide | Telleo
+URL: https://telleo.ai/blog/ai-calling-for-recruitment/
+
+- Home
+- / Blog
+- / AI Calling for Recruitment: A Candidate Screening Guide
+Playbooks
+
+# AI Calling for Recruitment: A Candidate Screening Guide
+Plan AI candidate screening calls with job-related questions, an example script and recruiter handoffs. Keep missing answers separate from hiring decisions.
+By the Telleo team · 13 October 2026· 5 min read
+
+## Key takeaways
+
+- Use the first call to confirm role interest and practical details, with hiring decisions owned by a recruiter.
+- Ask job-related questions consistently and preserve unknown answers instead of guessing.
+- Measure accurate recruiter handoffs and completed interviews separately from connected calls.
+
+AI calling for recruitment can handle a short first conversation with an applicant: identify the role, confirm continued interest, collect practical details and agree the next step with a recruiter. The useful result is a clear record of what the candidate said, not an opaque judgement about whether they deserve an interview.
+This playbook is a suggested process for applicants your team has selected for contact. Start with one role and one recruiting team. Do not combine unrelated vacancies into a generic call that leaves the candidate unsure which application you mean.
+
+## Choose a narrow screening task
+Prepare a role brief with the employer name, job title, work location, working arrangement, approved compensation information and interview process. Name the person who owns changes to that brief. If the location or shift changes, update the call instructions before another applicant hears outdated information.
+Keep the agent's job administrative: confirm stated experience, explain approved role details and record availability. Route questions about exceptions or personalised offers to the recruiter. Avoid asking the agent to infer honesty, personality or future performance from a short phone conversation.
+Decide how candidates can request another contact method or speak to a person. A busy applicant, an accessibility request and a noisy phone line all need a usable alternative to completing the script immediately.
+
+## Prepare questions that change the next step
+Question | Record | Recruiter use |
+
+Are you still interested in this specific role? | Yes, no, or a question about the role | Avoid pursuing an application the candidate has withdrawn. |
+Which of the listed tools have you used in your work? | The candidate's stated experience | Prepare relevant interview questions; verify later. |
+Would the stated work location and arrangement suit you? | Preference or unresolved concern | Identify a practical discussion for the recruiter. |
+When could you start if an offer were agreed? | The candidate's own timeframe | Plan the process without assuming availability. |
+Would you like to arrange a recruiter conversation? | Requested next step and timing | Coordinate an interview or follow-up. |
+
+Explain the role before asking whether its conditions work for the candidate. Ask one question per turn, skip answers already confirmed and leave unprovided information unknown. Collect only information the recruiting team needs for this step.
+
+## A candidate screening script
+This fictional conversation is a template. Replace all role details with the approved brief.
+Agent: Hello, I'm the AI assistant for Example Hiring, following up on your application for the customer support role. Is now a good time for a short call?
+Candidate: Yes. Is the role remote?
+Agent: The role brief says it is office-based in Pune. Would you like to discuss that with the recruiter?
+Candidate: Yes, I could relocate, but I need to understand the shifts.
+Agent: I'll include that question in the handoff. When would a recruiter conversation suit you?
+Candidate: Thursday afternoon.
+The call has established interest with an unresolved question. “Thursday afternoon” is a preference, not a confirmed interview slot. A booking needs a specific date and time and a successful booking action. Keep those states separate when reporting to the recruiter.
+
+## Record outcomes without turning the call into a ranking
+Use outcomes such as Recruiter_Conversation_Requested, More_Information_Needed, Callback_Requested, Application_Withdrawn and Incomplete. Define the evidence required for each. A candidate who declines to answer one question has not necessarily withdrawn their application.
+Store the role identifier, stated answers, unresolved questions and agreed next step with the call. If one person has applied for two jobs, preserve both application identifiers instead of overwriting one record based only on the phone number. The CRM workflow guide covers that mapping problem.
+In Telleo, a callback request is recorded with the caller's words in the transcript; it does not schedule an exact-time automatic redial. Give requested-time follow-up to an owner. Also exclude withdrawn applications from later contact lists through your own application process.
+
+## Test whether recruiters can use the handoff
+
+- Have the recruiter review the role facts, questions and outcome definitions.
+- Test an applicant who is busy, asks an unknown question, withdraws, or has applied for another role.
+- Check that missing answers remain unknown and that interview requests are not labelled confirmed bookings.
+- Review each handoff in a small pilot and compare the extracted answers with the transcript.
+- Track corrected records, unresolved requests and interviews attended alongside calls completed.
+Use the review to improve the process rather than rank candidates by call quality. A poor connection is a reason to offer clarification. If the handoff repeatedly lacks information, fix the question or integration before expanding to more roles.
+Where Telleo fits
+Telleo provides configurable scripts, extraction questions, call outcomes, transfers and booking-page support. The recruitment workflow and agent builder can support this first conversation; your team owns candidate evaluation and applicant-system updates.
+
+Book a demo
+
+## Frequently asked questions
+What can an AI calling agent do for recruitment? +
+A configured agent can confirm interest in a specific role, collect job-related information and help arrange a recruiter conversation. Use it to support a defined administrative step, with recruiters responsible for interpreting the answers and making hiring decisions.
+
+Should a voice agent score candidates by accent or speaking style? +
+Do not use accent, perceived emotion or speaking style as a proxy for job suitability. This workflow records stated answers to relevant questions. An unclear recording or missing answer should lead to clarification, not an automatic rejection.
+
+Does Telleo write screening answers into an applicant tracking system? +
+Telleo stores extracted answers on the call and makes them available to workflows. Updating an applicant tracking system requires an explicit integration and field mapping; do not assume a native connector or automatic profile update.
+
+On this page
+
+- Choose a narrow screening task
+- Prepare the question set
+- Candidate screening script
+- Record outcomes without ranking people
+- Test the recruiter handoff
+- Frequently asked questions
+See Telleo on a live call
+20 minutes. Bring your script; we'll show it on a real phone line.
+Book a demo
+
+## Keep reading
+Playbooks
+AI Calling for Admissions: A Follow-Up Playbook
+Read
+Playbooks
+How to Write an AI Calling Script (With Templates)
+Read
+Guides
+AI Receptionist for Small Business: A Setup Guide
+Read
+
+## Hear it on a real phone call.
+Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
+
+Book a demo Call +91 80356 14126
+
+
+---
+
+# AI Calling for Car Dealerships: Book Better Test Drives | Telleo
+URL: https://telleo.ai/blog/ai-calling-for-car-dealerships/
+
+- Home
+- / Blog
+- / AI Calling for Car Dealerships: Book Better Test Drives
+Playbooks
+
+# AI Calling for Car Dealerships: Book Better Test Drives
+Design dealership AI calls for vehicle enquiries and test drives. Includes a buyer script, availability checks, booking handoffs and a pilot review checklist.
+By the Telleo team · 13 October 2026· 5 min read
+
+## Key takeaways
+
+- Start a dealership call from the vehicle and branch the customer actually enquired about.
+- A requested test drive still needs a suitable vehicle, location and confirmed time.
+- Keep inventory, finance terms, exchange valuations and negotiated offers with a verified source or a person.
+
+AI calling for car dealerships can turn an online vehicle enquiry into a useful sales handoff. The first call should establish what the customer wants to see, where they would like to visit and whether a conversation or test drive is the right next step.
+A buyer who enquired about an automatic hatchback should not have to listen to the entire model range. Use the enquiry as context, then ask about the details that would change the visit. This is a suggested dealership playbook with illustrative examples, not a claim about sales results.
+
+## Prepare the dealership brief
+Give the agent the dealership name, branch address, opening hours, approved model information and the process for confirming a test drive. Assign an owner to changing facts such as display vehicles, promotions and delivery estimates. If a fact cannot be verified, write a handoff instruction instead of an approximate answer.
+Keep new-car enquiries, used-car enquiries and service appointments on distinct paths. A customer calling about a service issue needs the service team, not another purchase qualification call. Match the script and follow-up owner to the original enquiry type.
+Define who handles financing, exchange valuations and negotiated offers. The agent can record those questions and route them; the script should not invent repayment figures, approve a loan or guarantee a trade-in value.
+
+## Ask what the advisor needs to prepare
+Topic | Example question | Use in the handoff |
+
+Vehicle preference | Are you considering this model or comparing a few options? | Select the relevant demonstration. |
+Variant requirement | Is an automatic version important for your visit? | Check the right test-drive vehicle. |
+Branch | Which showroom would be convenient? | Route the request to the correct location. |
+Purchase timing | When are you hoping to decide? | Prepare an appropriate follow-up. |
+Next step | Would you prefer a test drive or a conversation with an advisor? | Respect the customer's requested action. |
+
+Do not make every answer a condition of receiving help. A customer may want to experience the vehicle before discussing budget. Preserve that preference for the advisor rather than repeatedly demanding a number. The qualification guide explains how to distinguish an unknown answer from poor fit.
+
+## A test-drive enquiry script
+Agent: Hello, I'm the AI assistant from Example Motors about your hatchback enquiry. Is this a convenient time?
+Customer: Yes. I want to try the automatic.
+Agent: Which branch would you prefer for a test drive?
+Customer: The Baner showroom. Do they have the automatic?
+Agent: The branch needs to confirm the test-drive vehicle. Shall I pass that request to an advisor?
+Customer: Yes, Saturday morning would work.
+Agent: I'll include Saturday morning as your preference. The advisor still needs to confirm the vehicle and time.
+The fictional agent records a specific requirement without promising stock it cannot see. If the dealership has a verified availability workflow, the conversation can continue to exact slot selection. Otherwise, stop at a clearly labelled request.
+
+## Confirm more than the date and time
+Define a confirmed test drive as an appointment your dealership can fulfil: the customer has agreed the branch and exact time, and the necessary vehicle and advisor are available. A successful calendar entry is only one part of that definition.
+Use separate outcomes for Test_Drive_Requested, Visit_Confirmed, Advisor_Requested, Callback_Requested and Incomplete. Check the actual booking result before using a confirmed outcome. For a location message, send the correct branch details only after the customer accepts the follow-up.
+Make the branch identifier visible in the integration. Two showrooms may share a lead source or central sales number. An advisor at the wrong branch cannot necessarily fulfil the promise made during the call. For booking changes, follow the appointment reminder guide and verify the source appointment is updated.
+
+## Review a complete dealership pilot
+
+- Start with one branch, one enquiry source and a reviewed vehicle brief.
+- Test unavailable variants, a customer asking for finance details and a request for a different branch.
+- Check the advisor can see the model preference and unanswered question before following up.
+- Compare requested visits, confirmed visits and attended test drives separately.
+- Review incorrect promises and booking corrections before expanding to more branches.
+Include the time advisors spend correcting records when evaluating the workflow. High call volume can hide a weak handoff. A useful pilot shows whether customers arrive at the right branch with accurate expectations and whether the sales team has enough context to help them.
+Where Telleo fits
+Telleo supports form-aware calls, extraction questions, custom outcomes, human transfers and accepted message follow-ups. Use the automotive overview and booking workflow to plan your first dealership agent.
+
+Book a demo
+
+## Frequently asked questions
+How can an AI calling agent help a car dealership? +
+It can follow up a vehicle enquiry, collect the customer's stated preferences, explain approved information and help arrange a sales conversation or test drive. Inventory and scheduling actions must be verified in the dealership's own process.
+
+Can the agent promise a particular car is available? +
+Only provide an availability statement from a current, authorised source. If that source is unavailable, record the requested model and variant and have the dealership confirm. A general model brochure is not proof that a test-drive vehicle or sale unit is available.
+
+Does a Telleo meeting booking reserve a test-drive vehicle? +
+Not by itself. Telleo can book an agreed meeting on a linked booking page. Your dealership must separately verify that the vehicle, advisor and branch can fulfil the appointment, or connect a workflow that checks those resources.
+
+On this page
+
+- Prepare the dealership brief
+- Questions that help the sales advisor
+- Test-drive enquiry script
+- Confirm the vehicle and appointment
+- Pilot checklist and metrics
+- Frequently asked questions
+See Telleo on a live call
+20 minutes. Bring your script; we'll show it on a real phone line.
+Book a demo
+
+## Keep reading
+Playbooks
+AI Calling for Real Estate: Qualify and Book Visits
+Read
+Playbooks
+AI Appointment Reminder Calls: Scripts and Workflows
+Read
+Guides
+AI Lead Qualification: Questions, Scoring and Handoffs
+Read
+
+## Hear it on a real phone call.
+Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
+
+Book a demo Call +91 80356 14126
+
+
+---
+
+# AI Event Confirmation Calls: Scripts and Attendance | Telleo
+URL: https://telleo.ai/blog/ai-event-confirmation-calls/
+
+- Home
+- / Blog
+- / AI Event Confirmation Calls: Scripts and Attendance
+Playbooks
+
+# AI Event Confirmation Calls: Scripts and Attendance
+Build an AI event confirmation workflow with attendee scripts, session checks, cancellation handling and attendance metrics for webinars and in-person events.
+By the Telleo team · 13 October 2026· 5 min read
+
+## Key takeaways
+
+- An event confirmation call checks an existing registration and helps the attendee act on it.
+- Keep registrations, stated attendance plans and actual check-ins as separate records.
+- Recheck session changes and cancellations before calling or sending joining instructions.
+
+AI event confirmation calls help an organiser ask a simple question: does a registered attendee still plan to join, and do they need anything to do so? The workflow can suit an open day, workshop, webinar or in-person information session when the event details and follow-up actions are clearly defined.
+Begin with people who have registered for that event and whose contact preferences your team has reviewed. The suggested process below is about confirming a known registration. A campaign to invite people who have not registered needs its own brief and contact review.
+
+## Start with the registration record
+Give every call a registration identifier and a session identifier. Include the event name, full date, time, timezone, venue or joining method and current registration status. A person registered for two sessions should not receive one ambiguous reminder for “your event”.
+Keep the registration system as the source of truth. Recheck it before the call, especially if you prepared a CSV earlier. Remove cancelled or superseded registrations and use the latest location. A reminder with yesterday's venue can create more work than it saves.
+State | What it means | Evidence |
+
+Registered | A place or registration exists | The event system's current record. |
+Plans to attend | The attendee has stated an intention | An explicit answer on the call. |
+Change requested | Someone wants another session or cancellation | The requested change, awaiting fulfilment. |
+Attended | The person actually joined | Check-in or attendance data from the event. |
+
+## Keep the confirmation short
+The core question is whether the attendee plans to join the named session. Ask about directions or joining instructions only when useful. Do not turn a reminder into a new qualification interview about budget or buying plans.
+For an online event, prepare the approved joining process and a fallback if the attendee cannot find the link. For an in-person event, prepare the address and any confirmed arrival instructions. An agent should not invent parking availability, accessibility arrangements or entry requirements.
+If a registration covers several people, confirm whether the respondent is speaking for the whole group. Store that answer explicitly. One person saying “I'll attend” does not establish attendance for every guest on the registration.
+
+## An event confirmation script
+The following workshop and conversation are fictional. Replace the details with the current session record.
+Agent: Hello, I'm the AI assistant from Example Workshops about your online workshop registration. Is this a good time for a quick confirmation?
+Attendee: Yes. Which session is this?
+Agent: The introduction to design workshop on Saturday, 17 October, at eleven in the morning, India time. Do you still plan to join?
+Attendee: Yes, but I cannot find the joining instructions.
+Agent: Would you like me to send the joining instructions on WhatsApp to this number?
+Attendee: Yes, please.
+Record attendance intent and the accepted message as separate actions. Check whether the send succeeded before claiming delivery. A person can intend to attend even if the message fails; the failure needs a follow-up owner rather than a changed RSVP.
+
+## Handle changed plans without inventing a new booking
+Use outcomes such as Plans_To_Attend, Cannot_Attend, Session_Change_Requested, Help_Requested and Incomplete. An unanswered call remains unknown. Do not turn it into a cancellation or assume the attendee will attend because they registered.
+If someone wants a different session, record the preference and verify capacity and registration rules through your event process. Do not announce a move until the source system confirms it. A requested cancellation similarly needs a completed update, not just a note on a call.
+Give unresolved questions to the event team. A request to call later needs a managed follow-up: Telleo records the request and the caller's words, but does not automatically redial at the requested time. The integration guide explains how to keep updates and call outcomes distinct.
+
+## Measure attendance honestly
+Choose the reporting cohort before calling and keep its size visible. Report registrations reached, plans to attend, requested changes and actual attendance. If you compare two reminder methods, use similar sessions and registration lead times rather than comparing an evening webinar with a weekend campus event.
+For illustration, if 80 of 100 registrants answer and 60 say they will attend, the stated-intent rate among reached registrants is 60 divided by 80, or 75%. It is not a 75% attendance rate. Attendance requires the event's check-in data. These numbers are an example, not a benchmark.
+
+## Run a pre-event checklist
+
+- Verify the date, timezone, venue and joining instructions in the actual call script.
+- Test a changed session, group registration and cancelled registration.
+- Check the correct template is sent only when accepted.
+- Assign an owner to unanswered logistical questions and failed messages.
+- Join the call results to attendance after the event using registration identifiers.
+Where Telleo fits
+Telleo supports event confirmation calls , custom outcomes and accepted message follow-ups. Connect the workflow steps to your registration process and verify any session changes separately.
+
+Book a demo
+
+## Frequently asked questions
+What is an AI event confirmation call? +
+It is a short conversation with a registered attendee to confirm the event details, ask whether they plan to attend and handle questions or changes. It should reference the correct registration rather than operate as a generic sales call.
+
+Can a confirmation call guarantee event attendance? +
+No. A person can confirm and later change plans. Track actual attendance through your event check-in or webinar system, and report it separately from the intent recorded on the call.
+
+Can Telleo send event details on WhatsApp? +
+Telleo can send an approved WhatsApp template when the agent offers information and the caller accepts. Configure the correct session details and verify delivery. Do not assume that sending a message also updates the event registration platform.
+
+On this page
+
+- Start with the registration record
+- Keep the confirmation short
+- Event confirmation script
+- Handle changed plans
+- Measure attendance honestly
+- Pre-event checklist
+- Frequently asked questions
+See Telleo on a live call
+20 minutes. Bring your script; we'll show it on a real phone line.
+Book a demo
+
+## Keep reading
+Playbooks
+AI Appointment Reminder Calls: Scripts and Workflows
+Read
+Playbooks
+AI Calling for Admissions: A Follow-Up Playbook
+Read
+Playbooks
+Speed to Lead: Why Calling in 60 Seconds Wins
+Read
+
+## Hear it on a real phone call.
+Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
+
+Book a demo Call +91 80356 14126
+
+
+---
+
+# AI Customer Feedback Calls: A Survey Script and Workflow | Telleo
+URL: https://telleo.ai/blog/ai-customer-feedback-calls/
+
+- Home
+- / Blog
+- / AI Customer Feedback Calls: A Survey Script and Workflow
+Playbooks
+
+# AI Customer Feedback Calls: A Survey Script and Workflow
+Create AI customer feedback calls with neutral survey questions, a clear scale and complaint handoffs. Includes a script and a response-quality checklist.
+By the Telleo team · 13 October 2026· 5 min read
+
+## Key takeaways
+
+- Ask about one identifiable experience and use neutral wording with a clearly explained scale.
+- Keep the customer's stated rating separate from sentiment inferred from the conversation.
+- A complaint needs a service owner; collecting a survey answer does not resolve it.
+
+AI customer feedback calls can collect a short account of a recent experience, such as a delivery, service appointment or completed stay. The goal is to learn what happened and identify follow-up that the customer wants. A useful survey gives people room to be critical without turning their answer into another sales opportunity.
+This guide proposes a small survey workflow you can adapt. Its example questions and rating scale are editorial templates, not a validated research instrument or a claim about customer satisfaction results.
+
+## Choose one experience to review
+Start with a specific completed interaction and its identifier. For a delivery, use the relevant order or delivery record; for a service appointment, use the appointment record. If the customer has several recent interactions, make it clear which one the call concerns.
+Decide when the person will have enough experience to answer. Asking about installation quality before installation is complete produces a different answer from asking after the customer has used the product. Document the timing and keep it consistent within a comparison.
+Prepare the contact list using the customer's preferences and your team's review process. Set a limited retry policy and make declining the survey a normal outcome. Do not treat repeated contact as the only way to improve response counts.
+
+## Write neutral survey questions
+Avoid | Prefer | Reason |
+
+How excellent was our service? | How would you rate the service you received? | Does not suggest a positive answer. |
+Was delivery quick and professional? | How was the delivery timing? Then ask separately about the interaction. | Keeps two experiences from being forced into one answer. |
+You were satisfied, right? | What worked well, and what could we improve? | Allows criticism without contradicting the agent. |
+Why did you give us such a low score? | What was the main reason for that rating? | Asks for context without disputing the rating. |
+
+If you use numbers, say the endpoints before asking for a rating. For example: “On a scale from one to five, where one means very dissatisfied and five means very satisfied…” Keep the scale unchanged throughout the survey. Offer an open-ended answer or a skip when the person does not want to give a number.
+
+## A customer feedback script
+Agent: Hello, I'm the AI assistant from Example Services about your installation yesterday. Would you like to answer two short feedback questions?
+Customer: Okay.
+Agent: On a scale from one to five, where one means very dissatisfied and five means very satisfied, how would you rate the installation experience?
+Customer: Three. The installer was helpful, but arrived much later than expected.
+Agent: Thank you for explaining. Would you like someone from the service team to follow up about the delay?
+Customer: Yes, please.
+This fictional response contains a rating, a positive detail, a negative detail and a follow-up request. Preserve all four. Summarising it only as “negative customer” loses information, while asking for the reason again ignores an answer already given.
+
+## Separate feedback collection from complaint handling
+Define outcomes such as Feedback_Collected, Support_Follow_Up_Requested, Survey_Declined, Wrong_Person and Incomplete. Store the rating and comments separately from the outcome so a support request does not erase the feedback already received.
+When the customer raises a problem, script the agent to acknowledge it and offer the approved support route. Do not promise a refund, replacement or resolution deadline unless the process authorises that exact action. A survey agent does not need to persuade someone that their complaint is minor.
+Telleo has configurable human transfer numbers and can record extracted answers on the call. Creating or updating a ticket in another support system needs a verified integration. Use the CRM workflow guide to plan the field mapping and recovery when an update fails.
+
+## Read the results without filling in missing answers
+Report attempted contacts, reached customers, completed surveys and valid ratings separately. If someone completes the open-ended questions but declines a numerical rating, their comments still count as feedback; they should not receive a made-up score.
+For illustration, 30 valid ratings from 100 eligible contacts give a 30% rating-response rate. An average calculated from those 30 ratings describes those respondents. It does not establish what all 100 customers think. Keep that limitation visible when comparing periods or teams.
+Review the original answers behind each theme. If customers mention both delivery delays and helpful staff, retain both themes. Keep inferred sentiment in a separate field and use it to locate calls for review rather than to overwrite explicit ratings.
+
+## Run a survey quality checklist
+
+- Test a skipped rating, a changed rating and an answer outside the stated scale.
+- Check the agent accepts criticism without arguing or steering the customer toward a higher score.
+- Test a service request before the first survey question is complete.
+- Verify the recorded rating matches the final answer in the transcript.
+- Confirm requested follow-ups reach an owner and remain open until the service team acts.
+Where Telleo fits
+Telleo's feedback survey workflow supports scripted questions, extracted answers and custom outcomes. Call Intelligence can help review recorded conversations, with inferred analysis kept separate from the customer's actual survey answers.
+
+Book a demo
+
+## Frequently asked questions
+How do AI customer feedback calls work? +
+A voice agent asks a short set of questions about a defined customer experience, records the answers and routes any requested follow-up. The survey needs approved wording, a clear scale if ratings are used and an owner for service problems.
+
+Can sentiment analysis replace a satisfaction rating? +
+No. Sentiment is an inferred interpretation of the conversation. A survey rating is an explicit answer to a stated question and scale. Keep them separate, and do not fill in a missing rating from an inferred positive or negative tone.
+
+What should happen when a customer raises a complaint? +
+Acknowledge the issue, stop pushing survey questions and offer the approved support route. Record the actual concern and whether follow-up was requested. Mark the complaint resolved only when the service process provides evidence of resolution.
+
+On this page
+
+- Choose the experience to review
+- Write neutral survey questions
+- A customer feedback script
+- Handle complaints and follow-up
+- Read the results carefully
+- Survey quality checklist
+- Frequently asked questions
+See Telleo on a live call
+20 minutes. Bring your script; we'll show it on a real phone line.
+Book a demo
+
+## Keep reading
+Guides
+Sales Call Quality Scorecard: A Practical Coaching Guide
+Read
+Guides
+AI Lead Qualification: Questions, Scoring and Handoffs
+Read
+Pricing
+AI Calling Cost in India: 2026 Per-Minute Guide
+Read
+
+## Hear it on a real phone call.
+Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
+
+Book a demo Call +91 80356 14126
+
+
+---
+
+# Sales Call Quality Scorecard: A Practical Coaching Guide | Telleo
+URL: https://telleo.ai/blog/sales-call-quality-scorecard/
+
+- Home
+- / Blog
+- / Sales Call Quality Scorecard: A Practical Coaching Guide
+Guides
+
+# Sales Call Quality Scorecard: A Practical Coaching Guide
+Build a sales call quality scorecard with observable criteria, evidence notes and a weekly coaching routine. Learn how to review AI-assisted scores fairly.
+By the Telleo team · 13 October 2026· 5 min read
+
+## Key takeaways
+
+- Score observable sales behaviours and attach evidence instead of relying on a single overall impression.
+- Use not applicable or not measurable when a call does not provide a fair scoring opportunity.
+- Turn the review into one specific coaching action, then check it on comparable calls.
+
+A sales call quality scorecard is a shared definition of what a useful customer conversation looks like. It gives reviewers specific behaviours to look for and gives the representative something concrete to improve. It should explain the score, not merely produce a number.
+The template below is a suggested coaching framework. It is designed for human sales conversations and can be adapted to your process. For technical problems in AI calls, such as silence or failed transfers, use the separate AI call-quality measurement guide .
+
+## Separate process quality from the sales outcome
+A representative can handle a conversation well and discover that the product does not fit. Another call can end with a meeting despite unanswered questions or an inaccurate promise. Record the commercial result separately from how the representative conducted the call.
+Choose the call type first: discovery, follow-up, objection discussion or appointment confirmation. Score only the behaviours the call gave the representative a reasonable opportunity to demonstrate. A voicemail does not provide evidence of discovery skill.
+Keep technical recording quality separate too. If part of the conversation is missing, mark the affected criterion not measurable. Do not turn an unavailable signal into a zero and then compare it with a complete recording.
+
+## A practical scorecard template
+Start with a simple scale: zero means the behaviour was missed or contradicted; one means it was partially demonstrated; two means it was clearly demonstrated. Use not applicable when the criterion does not belong to this call type. This scale is an example, not a Telleo default.
+Criterion | Evidence for a clear demonstration | Coaching prompt |
+
+Opening and purpose | The rep explains the reason for calling and checks whether the timing works. | Did the customer know why this conversation was happening? |
+Needs discovery | The rep asks a relevant question and uses the answer in the conversation. | Which stated need changed the response? |
+Accurate explanation | The answer uses approved facts and acknowledges unknown information. | Was anything promised without support? |
+Question handling | The rep addresses the customer's actual question before returning to the script. | What remained unresolved? |
+Next step | The parties agree an action with an owner and enough timing detail to act. | Could another teammate fulfil the agreed action? |
+
+Write examples of zero, one and two for each criterion using calls your team has reviewed. Attach a timestamp or transcript excerpt to each score. If two reviewers cannot explain their scores using the same definitions, revise the definitions before ranking representatives.
+
+## Work through a scoring example
+Imagine a fictional discovery call. The rep gives a clear introduction, asks why the customer is evaluating the service and answers a pricing question accurately. When the customer asks about onboarding, the rep says the team will confirm, but never assigns that follow-up. The customer requests a demo and the rep ends with “someone will contact you”.
+A reviewer might score the first three criteria two each, question handling one and next step zero. That is seven out of ten on this example rubric. The evidence is the unresolved onboarding question and the missing follow-up owner, not a vague impression that the rep lacked confidence.
+Record the demo interest separately from a booked demo. A positive response does not create a calendar event. The coaching action could be: agree who will answer the open question and establish a specific next step before ending the call.
+
+## Align reviewers before comparing people
+Ask two reviewers to score the same small set of calls independently. Compare the largest differences and return to the evidence. If one reviewer rewards talking time and another rewards concise answers, they are not applying the same rubric.
+Document decisions about ambiguous cases. For example, a caller who refuses further questions may make parts of discovery inapplicable. State that rule explicitly so it does not change depending on which representative is being reviewed.
+Sample across comparable call types and include ordinary calls, not only wins or complaints. Keep the reviewed-call count visible beside averages. A score based on one short call should not appear equally reliable as a review of a broader sample.
+
+## Turn the review into a behaviour to practise
+
+- Replay one specific moment and ask the representative what they were trying to achieve.
+- Agree which observable behaviour would have helped the customer.
+- Practise a revised response using the same situation.
+- Choose comparable later calls to check whether the change appears.
+- Record progress and any process obstacle the representative cannot fix alone.
+Keep the action small enough to practise. “Improve objection handling” is broad; “answer the timing question before returning to the demo pitch” is specific. If the missing answer comes from an outdated knowledge document, fix that document as well as coaching the rep.
+
+## Review AI-assisted analysis as evidence support
+Telleo Call Intelligence can provide summaries, objections, commitments, action items, rubric scores and coaching tips from recorded conversations. Its default rubric covers rapport, needs discovery, objection handling and next step secured, and the rubric is editable.
+Check analysis against the recording, particularly when names, amounts or mixed-language answers affect the score. Keep inferred sentiment and conversion likelihood distinct from observable behaviours. Neither establishes the customer's actual decision.
+Automatic analysis of human calls requires the feature to be enabled and an eligible recording. Verify that setup before comparing teams; otherwise differences in recording coverage can look like differences in performance.
+Where Telleo fits
+Use Call Intelligence to support reviews of recorded human and AI conversations. Keep AI call health as a separate operational check, and have reviewers own the final coaching interpretation.
+
+Book a demo
+
+## Frequently asked questions
+What belongs in a sales call quality scorecard? +
+Use a small set of observable behaviours, such as a clear opening, relevant discovery, accurate answers, handling questions and agreeing a next step. Define what each score means and keep evidence beside it. Adapt the rubric to the type of call.
+
+Should every sales call use the same rubric? +
+Keep common standards where useful, but do not score an appointment reminder as if it were a discovery call. Decide which criteria apply to each call type before reviewing, and exclude genuinely inapplicable criteria from the denominator.
+
+Can Telleo analyse calls made by human sales reps? +
+Yes. It can analyse supported recorded human calls or uploaded recordings. Automatic analysis requires CRM Intelligence to be enabled, a recording and the configured minimum duration, which defaults to 20 seconds. Human-call analysis is charged per minute of recording.
+
+Is an AI-generated rep score a final performance judgement? +
+Treat it as review assistance. Check the recording, transcript and evidence before using the result in a coaching or performance discussion. An incomplete recording, transcription error or mismatched rubric can make a score misleading.
+
+On this page
+
+- Separate process quality from outcome
+- A practical scorecard template
+- Work through a scoring example
+- Align reviewers on evidence
+- Use the score in coaching
+- Review AI-assisted analysis
+- Frequently asked questions
+See Telleo on a live call
+20 minutes. Bring your script; we'll show it on a real phone line.
+Book a demo
+
+## Keep reading
+Guides
+AI Lead Qualification: Questions, Scoring and Handoffs
+Read
+Voice AI
+How to Measure AI Call Quality: Metrics That Matter
+Read
+Guides
+AI Calling Vendor Checklist: 20 Questions to Ask
+Read
+
+## Hear it on a real phone call.
+Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
+
+Book a demo Call +91 80356 14126
+
+
+---
+
+# Inbound vs Outbound AI Calling: Which Workflow Fits? | Telleo
+URL: https://telleo.ai/blog/inbound-vs-outbound-ai-calling/
+
+- Home
+- / Blog
+- / Inbound vs Outbound AI Calling: Which Workflow Fits?
+Guides
+
+# Inbound vs Outbound AI Calling: Which Workflow Fits?
+Compare inbound and outbound AI calling by trigger, context, routing and success metrics. Includes practical examples and a checklist for choosing your pilot.
+By the Telleo team · 13 October 2026· 5 min read
+
+## Key takeaways
+
+- Inbound AI answers a customer-initiated call; outbound AI starts a call for a defined reason.
+- The two directions need different openings, context checks, routing rules and measures of success.
+- Choose a first workflow by the business problem and available follow-up process, not by call direction alone.
+
+Inbound AI calling handles someone who has chosen to phone your business. Outbound AI calling starts a conversation for a defined purpose, such as following up a submitted enquiry. Both can use a voice agent, but they should not use identical scripts or success metrics.
+Choose the workflow around a concrete problem. If callers need help finding the right team, start with inbound routing. If fresh enquiries wait for an initial conversation, evaluate outbound follow-up. This guide compares the operating design; it does not assume one direction is always more valuable.
+
+## Compare the two workflows
+Decision | Inbound AI calling | Outbound AI calling |
+
+Trigger | The customer calls the business number. | A workflow, campaign or person initiates a call. |
+Starting context | The caller's intent may be unknown. | A record should explain the reason for contact. |
+Opening | Identify the business and ask how to help. | Identify the business, explain why you are calling and check timing. |
+Routing | Discover the request and direct it to the right action. | Complete the defined task or hand it to its owner. |
+No answer | Test where callers go if the intended route is unavailable. | Apply the correct eligibility, calling-window and retry rules. |
+Useful measures | Requests handled, transfer success and unresolved calls. | Reach, accurate outcomes and completed follow-up. |
+
+## Design an inbound call around the caller's request
+An inbound opening can be short: “Thank you for calling Example Services. I'm the AI assistant. How can I help?” The next turn depends on the caller's answer, not a predetermined qualification checklist.
+Prepare a small intent map. A location question can use an approved answer. An existing-customer issue may need a service transfer. A new enquiry can enter an appropriate discovery or booking flow. Make it easy for the caller to request a person without repeating the original question.
+In Telleo's documented setup, an IVR on a Telleo Plivo number can route directly to an AI agent or expose it as a menu option. This does not establish a native connection to an existing third-party IVR. Test the full number-to-agent route, then test transfer destinations and the fallback when staff cannot answer.
+Also decide what happens to an unknown caller's details. Answering and lead creation are separate functions, with inbound lead capture off by default. The AI receptionist setup guide gives a more detailed test checklist.
+
+## Design an outbound call around a clear reason
+An outbound opening needs context: “I'm the AI assistant from Example Services, following up on the demo enquiry you submitted. Is this a convenient time?” The prospect should understand why this call is happening before being asked for more information.
+Attach the relevant enquiry fields, approved product facts and intended next step. Review the contact list and calling preferences before launch. Keep requests to stop contact out of later campaigns through your contact-management process; stopping one workflow's retries is not a global exclusion.
+Choose the actual initiation path deliberately. Telleo supports workflow calls, bulk campaigns and one-click calls. Workflow retries do not imply bulk retries. Calling windows apply to workflow and bulk calls, while a one-click call placed by a person ignores those shifts.
+Consider capacity as well as the script. New-lead workflow calls and bulk campaigns share a queue, so a campaign can delay fresh-enquiry calls. If response time matters, measure it during realistic campaign activity rather than only in an isolated demonstration.
+
+## Share approved facts, separate the instructions
+Both agents may need the same branch address, public prices and escalation contacts. Keep an owner for those facts so they do not drift between scripts. The conversation instructions still need to reflect how the call started.
+For example, an inbound customer saying “I already booked” should move to appointment assistance. An outbound new-enquiry call hearing the same statement should first check whether its source record is stale. In both cases, repeating a sales pitch fails to address the information the customer provided.
+Use distinct outcomes when the operational meaning differs. A support transfer, a sales handoff and an unanswered dial should not all appear as generic “completed” calls. Keep transcripts and any action results connected to the correct record through your CRM workflow .
+
+## Choose a pilot with a complete next step
+
+- Name one problem, such as routing inbound enquiries or following up one source of new leads.
+- List the facts the agent needs and who maintains them.
+- Confirm where human transfers, requested callbacks and unresolved questions will go.
+- Test the appropriate exceptions: unknown callers for inbound, stale records and no answer for outbound.
+- Review the conversation and the follow-up action together before expanding.
+For inbound, check whether the original request was handled or reached the right person. For outbound, separate attempted calls, connected conversations and completed next steps. Neither direction is successful merely because the voice sounded natural.
+Record a baseline using your existing process and compare similar call types during the pilot. Include time spent correcting bad handoffs. That gives you evidence about the chosen workflow rather than an unsupported claim that AI calling improves every phone task.
+Where Telleo fits
+Telleo supports inbound and outbound voice agents , configurable call outcomes and human handoffs. Start with the receptionist workflow or new-lead calling workflow , then test the full route for your chosen use case.
+
+Book a demo
+
+## Frequently asked questions
+What is the difference between inbound and outbound AI calling? +
+An inbound agent answers a call initiated by the customer. An outbound agent initiates a call from a configured workflow, campaign or manual action. The voice technology can be similar, but the context and operating rules differ.
+
+Can one Telleo agent support both directions? +
+Telleo agents can be configured for inbound, outbound or both. Even when using one agent, define the opening and behaviour for each direction. Separate agents can make testing easier when the goals or routing rules differ substantially.
+
+Are unanswered outbound calls automatically retried? +
+That depends on the call path. Telleo workflow calls can retry with configured gaps and limits. Unanswered bulk-campaign calls are not automatically redialled. Check the actual path instead of assuming every outbound call shares one retry policy.
+
+Does answering an inbound call automatically create a new lead? +
+No. Telleo's inbound lead capture is off by default. Test conversation handling and record creation separately if creating a lead from an unknown caller is part of your workflow.
+
+On this page
+
+- Compare the two workflows
+- Design an inbound call
+- Design an outbound call
+- Share facts, separate instructions
+- Choose and measure a first pilot
+- Frequently asked questions
+See Telleo on a live call
+20 minutes. Bring your script; we'll show it on a real phone line.
+Book a demo
+
+## Keep reading
+Guides
+AI Receptionist for Small Business: A Setup Guide
+Read
+Guides
+AI Calling CRM Integration: A Webhook Workflow Guide
+Read
+Guides
+What Is an AI Voice Agent? A Guide for Indian Teams
+Read
+
+## Hear it on a real phone call.
+Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
+
+Book a demo Call +91 80356 14126
+
+
+---
+
 # AI Calling for Admissions: A Follow-Up Playbook | Telleo
 URL: https://telleo.ai/blog/ai-calling-for-admissions/
 
@@ -5747,13 +6460,13 @@ Book a demo
 
 ## Keep reading
 Playbooks
+AI Calling for Recruitment: A Candidate Screening Guide
+Read
+Playbooks
+AI Event Confirmation Calls: Scripts and Attendance
+Read
+Playbooks
 How to Write an AI Calling Script (With Templates)
-Read
-Guides
-AI Receptionist for Small Business: A Setup Guide
-Read
-Guides
-AI Calling CRM Integration: A Webhook Workflow Guide
 Read
 
 ## Hear it on a real phone call.
@@ -5850,13 +6563,13 @@ Book a demo
 
 ## Keep reading
 Playbooks
+AI Calling for Car Dealerships: Book Better Test Drives
+Read
+Playbooks
 AI Appointment Reminder Calls: Scripts and Workflows
 Read
 Guides
 AI Lead Qualification: Questions, Scoring and Handoffs
-Read
-Guides
-AI Calling CRM Integration: A Webhook Workflow Guide
 Read
 
 ## Hear it on a real phone call.
@@ -5956,13 +6669,13 @@ Book a demo
 
 ## Keep reading
 Guides
+Sales Call Quality Scorecard: A Practical Coaching Guide
+Read
+Guides
+Inbound vs Outbound AI Calling: Which Workflow Fits?
+Read
+Guides
 AI Receptionist for Small Business: A Setup Guide
-Read
-Guides
-AI Calling CRM Integration: A Webhook Workflow Guide
-Read
-Guides
-What Is an AI Voice Agent? A Guide for Indian Teams
 Read
 
 ## Hear it on a real phone call.
@@ -6068,13 +6781,13 @@ Book a demo
 
 ## Keep reading
 Playbooks
-AI Calling for Real Estate: Qualify and Book Visits
+AI Event Confirmation Calls: Scripts and Attendance
 Read
 Playbooks
-Speed to Lead: Why Calling in 60 Seconds Wins
+AI Calling for Car Dealerships: Book Better Test Drives
 Read
-Guides
-AI Calling CRM Integration: A Webhook Workflow Guide
+Playbooks
+AI Calling for Real Estate: Qualify and Book Visits
 Read
 
 ## Hear it on a real phone call.
@@ -6182,13 +6895,13 @@ Book a demo
 
 ## Keep reading
 Guides
+Inbound vs Outbound AI Calling: Which Workflow Fits?
+Read
+Guides
 What Is an AI Voice Agent? A Guide for Indian Teams
 Read
 Playbooks
 Speed to Lead: Why Calling in 60 Seconds Wins
-Read
-Playbooks
-How to Write an AI Calling Script (With Templates)
 Read
 
 ## Hear it on a real phone call.
@@ -6299,14 +7012,14 @@ See Telleo on a live call
 Book a demo
 
 ## Keep reading
+Guides
+Inbound vs Outbound AI Calling: Which Workflow Fits?
+Read
 Playbooks
 Speed to Lead: Why Calling in 60 Seconds Wins
 Read
 Guides
 AI Lead Qualification: Questions, Scoring and Handoffs
-Read
-Guides
-AI Receptionist for Small Business: A Setup Guide
 Read
 
 ## Hear it on a real phone call.
@@ -6500,7 +7213,7 @@ Playbooks
 How to Write an AI Calling Script (With Templates)
 Read
 Guides
-AI Receptionist for Small Business: A Setup Guide
+Inbound vs Outbound AI Calling: Which Workflow Fits?
 Read
 
 ## Hear it on a real phone call.
@@ -6692,8 +7405,8 @@ Read
 Compliance
 TRAI and DLT Rules for AI Calling: 2026 Guide
 Read
-Guides
-AI Lead Qualification: Questions, Scoring and Handoffs
+Playbooks
+AI Customer Feedback Calls: A Survey Script and Workflow
 Read
 
 ## Hear it on a real phone call.
@@ -6873,7 +7586,7 @@ Playbooks
 How to Write an AI Calling Script (With Templates)
 Read
 Guides
-AI Receptionist for Small Business: A Setup Guide
+Inbound vs Outbound AI Calling: Which Workflow Fits?
 Read
 
 ## Hear it on a real phone call.
@@ -7402,7 +8115,7 @@ Pricing
 AI Calling Cost in India: 2026 Per-Minute Guide
 Read
 Playbooks
-AI Appointment Reminder Calls: Scripts and Workflows
+AI Event Confirmation Calls: Scripts and Attendance
 Read
 
 ## Hear it on a real phone call.
@@ -7745,7 +8458,7 @@ Compliance
 TRAI and DLT Rules for AI Calling: 2026 Guide
 Read
 Guides
-AI Lead Qualification: Questions, Scoring and Handoffs
+Sales Call Quality Scorecard: A Practical Coaching Guide
 Read
 
 ## Hear it on a real phone call.
@@ -7908,13 +8621,13 @@ Book a demo
 
 ## Keep reading
 Guides
+Sales Call Quality Scorecard: A Practical Coaching Guide
+Read
+Guides
 What Is an AI Voice Agent? A Guide for Indian Teams
 Read
 Playbooks
 Speed to Lead: Why Calling in 60 Seconds Wins
-Read
-Guides
-AI Lead Qualification: Questions, Scoring and Handoffs
 Read
 
 ## Hear it on a real phone call.
