@@ -413,7 +413,7 @@ export const COMPARISONS: Comparison[] = [
       {
         dimension: "Developer tools",
         telleo:
-          "No public API or SDK. Connects to anything that can send or receive a webhook.",
+          "A REST API to start calls (one at a time or up to 1,000 in a batch) and read outcomes, with signed webhooks for results. No SDK or MCP server.",
         other:
           "REST API, webhooks, an MCP server, and web, React Native and Flutter widgets.",
       },
@@ -442,7 +442,7 @@ export const COMPARISONS: Comparison[] = [
     chooseOtherIf: [
       "You need languages beyond the three Telleo runs in production, or international ones like French or Spanish.",
       "You want chat, WhatsApp or website agents as well as voice.",
-      "Your team wants a REST API, an MCP server or mobile widgets.",
+      "Your team wants an MCP server, SDKs or mobile widgets.",
       "Your procurement needs published certifications such as SOC 2 Type II or ISO 27001, or on-prem deployment.",
       "You want a vendor with named enterprise case studies. Ringg's site lists PolicyBazaar, Practo, PharmEasy, smallcase, PlatinumRx and Ekart.",
       "You prefer billing prorated by the second on connected minutes.",
@@ -525,7 +525,7 @@ export const COMPARISONS: Comparison[] = [
       },
       {
         q: "Does Telleo have an API like Ringg?",
-        a: "No public API or SDK today. Telleo connects to other systems through webhooks and HTTP request steps in its workflows. If you need a full developer API, Ringg offers one.",
+        a: "Yes, for calling. The Telleo API starts calls one at a time or up to 1,000 in a batch, fills the agent's script with each contact's name and details, and posts every outcome to your webhook, signed. Docs are at docs.telleo.ai. There is no SDK or MCP server; Ringg offers both.",
       },
       {
         q: "Is Telleo SOC 2 or ISO 27001 certified?",
@@ -620,7 +620,7 @@ export const COMPARISONS: Comparison[] = [
       {
         dimension: "Developer tools",
         telleo:
-          "No public API or SDK. Connects to anything that can send or receive a webhook.",
+          "A REST API to start calls (one at a time or up to 1,000 in a batch) and read outcomes, with signed webhooks for results. No SDK or MCP server.",
         other: "REST API (15 endpoints), webhooks, a hosted MCP server and a Web SDK.",
       },
       {
@@ -650,7 +650,7 @@ export const COMPARISONS: Comparison[] = [
       "You want mobile-series (98/94) caller IDs, voice cloning or a choice of frontier speech models.",
       "You need more languages than Telleo runs in production.",
       "You want to resell voice agents under your own brand. Vomyra includes white-label access on its Business plan.",
-      "You need a REST API, an MCP server or ready integrations with Zoho CRM, HubSpot or Salesforce.",
+      "You need an MCP server or ready integrations with Zoho CRM, HubSpot or Salesforce.",
       "You want per-second billing.",
     ],
     sections: [
@@ -664,7 +664,7 @@ export const COMPARISONS: Comparison[] = [
       {
         heading: "Where Vomyra is stronger",
         body: [
-          "Vomyra offers things Telleo does not: Indian mobile-series numbers, voice cloning, a choice of speech-to-speech models, 70+ languages, a REST API and MCP server, white-label resale, and ready connectors for Zoho CRM, HubSpot and Salesforce. It also names customers on its site, including Bikanervala, Balmer Lawrie and ANI.",
+          "Vomyra offers things Telleo does not: Indian mobile-series numbers, voice cloning, a choice of speech-to-speech models, 70+ languages, an MCP server, white-label resale, and ready connectors for Zoho CRM, HubSpot and Salesforce. It also names customers on its site, including Bikanervala, Balmer Lawrie and ANI.",
         ],
       },
       {
@@ -721,7 +721,7 @@ export const COMPARISONS: Comparison[] = [
       },
       {
         q: "Does Telleo connect to Zoho, HubSpot or Salesforce?",
-        a: "Not natively. Telleo has its own built-in CRM and connects to other systems through webhooks. Vomyra lists ready integrations with Zoho CRM, HubSpot and Salesforce.",
+        a: "Not natively. Telleo has its own built-in CRM, and other systems connect through webhooks or the Telleo API, which starts calls and posts each outcome back. Vomyra lists ready integrations with Zoho CRM, HubSpot and Salesforce.",
       },
       {
         q: "When were these facts checked?",
@@ -812,7 +812,7 @@ export const COMPARISONS: Comparison[] = [
       {
         dimension: "Control",
         telleo:
-          "You configure the agent and choose its voice and speech engine; Telleo runs the pipeline. No public API or SDK; webhooks for integration.",
+          "You configure the agent and choose its voice and speech engine; Telleo runs the pipeline. A REST API starts calls and returns outcomes, with signed webhooks; no SDK.",
         other:
           "Full control of models, prompts, tools, data flow and hosting. Pipecat and LiveKit Agents can run on your own servers.",
       },
@@ -837,7 +837,7 @@ export const COMPARISONS: Comparison[] = [
     ],
     chooseOtherIf: [
       "Voice AI is part of your own product and you need control of every component.",
-      "You need a public API, custom tools during the call or deep integration with your own systems.",
+      "You need custom tools during the call, or the voice pipeline wired deep into your own systems.",
       "You want to choose specific models, voices or carriers, or host everything yourself.",
       "You need compliance options such as HIPAA agreements that a platform publishes.",
       "You need languages Telleo does not yet run in production.",
@@ -887,7 +887,7 @@ export const COMPARISONS: Comparison[] = [
       },
       {
         q: "Does Telleo have an API?",
-        a: "No public API or SDK. Telleo connects to other systems through webhooks and HTTP request steps in its workflows. If your use needs a full developer API, a developer platform is the better fit.",
+        a: "Yes. The Telleo API starts calls and batches, passes each contact's details into the agent's script, and posts the outcome to your webhook, signed (docs at docs.telleo.ai). There is no SDK, and the agent cannot call your own tools during a call; if you need that, a developer platform is the better fit.",
       },
       {
         q: "Which speech engines does Telleo use?",

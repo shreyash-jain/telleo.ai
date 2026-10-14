@@ -203,10 +203,15 @@ by default (Sarvam voices cost more, Edge less); say "rates are for our standard
 
 - **Clients:** the site may show the vacademy.io client logos, framed as institutes on Vacademy (the platform
   Telleo is built on), not as Telleo case studies. Owner decision 2026-10-02.
-- **AI calling API exists** (docs/AI_CALLING_PUBLIC_API.md in the platform repo): an admin-issued `X-API-Key`;
-  `POST /admin-core-service/open/ai-calling/v1` starts one call (CLICK_TO_CALL) or up to 1,000 (BULK_CALL);
-  `GET …/{callLogId}` returns status, duration, timestamps and recordingUrl; scoped to the key's institute.
-  Say "API key issued by our team", not self-serve.
+- **Telleo API v1 is live (2026-10-13)** at `https://api.telleo.ai/v1`, docs at `https://docs.telleo.ai`
+  (platform repo: `docs/AI_CALLING_PUBLIC_API.md`, `telleo-docs/`). Self-serve keys (`vak_call_…`) in the
+  dashboard (Settings → AI calling → API & webhooks). Starts one call or a batch of up to 1,000; contact
+  name + `variables` fill the agent's `{{placeholders}}`; outcome = disposition, summary, answers, 1–10
+  lead rating, callback, follow-up, agreed meeting time, transcript, 24-hour recording link. Signed
+  webhooks (`call.completed`, `call.not_connected`, HMAC-SHA256, retries for ~9 h), idempotency keys,
+  free test mode. Calls go through the normal queue: calling hours, per-number limits, credits.
+  Say "a REST API and webhooks"; still never claim an SDK, MCP server, native CRM integrations or
+  tools the agent can call mid-call.
 - **Engine v2** (announced 2026-10-02) = the voice_bot_service changes since late Aug 2026 (169 commits):
   backchannel talk-through, FloorGate (never starts over a talking caller), answers a question that cuts in,
   short-answer grace, ~0.30 s off every reply (Sarvam flushed final), speech cache, LLM waterfall (Vertex fails
