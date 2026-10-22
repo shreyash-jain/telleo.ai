@@ -1,0 +1,26 @@
+[
+  {"vendor": "polyai", "field": "pricing.entry_price", "value": null, "reason": "2¢/min is the Dialog-RSN-1 model API only; the voice-agent platform is quoted by sales", "source": "https://poly.ai/pricing"},
+  {"vendor": "polyai", "field": "pricing.per_minute_from", "value": null, "reason": "model API price, not a voice-agent price", "source": "https://poly.ai/pricing"},
+  {"vendor": "polyai", "field": "pricing.public_pricing", "value": false, "reason": "platform pricing is quote-only"},
+  {"vendor": "kore.ai", "field": "pricing.entry_price", "value": null, "reason": "$0.20/conversation is from 2023 chatbot developer docs, not voice"},
+  {"vendor": "kore.ai", "field": "pricing.public_pricing", "value": false, "reason": "no voice price published"},
+  {"vendor": "yellow.ai", "field": "pricing.entry_price", "value": null, "reason": "$0.99 is per chat resolution; no voice minutes stated"},
+  {"vendor": "exotel", "field": "pricing.entry_price", "value": null, "reason": "$70 XPrime is a contact-centre plan; no AI voice-agent price published"},
+  {"vendor": "exotel", "field": "pricing.public_pricing", "value": false, "reason": "no AI voice-agent price published"},
+  {"vendor": "ozonetel", "field": "pricing.entry_price", "value": null, "reason": "$25/agent is the CloudAgent contact-centre seat; Voice AI Agents pricing not published"},
+  {"vendor": "knowlarity", "field": "pricing.entry_price", "value": null, "reason": "₹1,499 is a telephony seat; the page says to contact sales for VoiceBot pricing"},
+  {"vendor": "knowlarity", "field": "pricing.public_pricing", "value": false, "reason": "VoiceBot pricing on request"},
+
+  {"vendor": "telleo", "field": "pricing.per_minute_scope", "value": "telephony, speech and LLM included"},
+  {"vendor": "ringg ai", "field": "pricing.per_minute_scope", "value": "telephony, speech and LLM included"},
+  {"vendor": "vapi", "field": "pricing.per_minute_scope", "value": "hosting fee only; speech, LLM and telephony extra"},
+  {"vendor": "telnyx", "field": "pricing.per_minute_scope", "value": "LLM and telephony extra"},
+  {"vendor": "elevenlabs", "field": "pricing.per_minute_scope", "value": "LLM and telephony extra"},
+  {"vendor": "retell ai", "field": "pricing.per_minute_scope", "value": "telephony extra"},
+  {"vendor": "bland ai", "field": "pricing.per_minute_scope", "value": "telephony extra"},
+  {"vendor": "bolna", "field": "pricing.per_minute_scope", "value": "telephony and platform fee extra"},
+  {"vendor": "smallest.ai", "field": "pricing.per_minute_scope", "value": "telephony and numbers extra"},
+  {"vendor": "sarvam ai", "field": "pricing.per_minute_scope", "value": "telephony and numbers extra"},
+  {"vendor": "aircall", "field": "pricing.per_minute_scope", "value": "inclusions not itemised; volume rate"},
+  {"vendor": "squadstack", "field": "pricing.per_minute_scope", "value": "homepage FAQ range ₹2–5; quote after discovery"}
+]

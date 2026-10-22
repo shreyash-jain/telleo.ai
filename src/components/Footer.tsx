@@ -14,6 +14,7 @@ const COLS: { title: string; links: { href: string; label: string }[] }[] = [
     title: "Resources",
     links: [
       { href: "/blog/", label: "Blog" },
+      { href: "/research/", label: "Research" },
       { href: "https://docs.telleo.ai", label: "API docs" },
       { href: "/faq/", label: "FAQ" },
       { href: "/security/", label: "Security & compliance" },

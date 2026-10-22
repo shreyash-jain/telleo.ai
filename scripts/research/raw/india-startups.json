@@ -1,0 +1,614 @@
+[
+  {
+    "name": "Ringg AI",
+    "website": "https://www.ringg.ai/",
+    "hq_country": "India",
+    "founded_year": 2023,
+    "segment": "voice-agent-platform",
+    "target_customers": "Businesses in healthcare, edtech, e-commerce and BFSI; AI agents across Voice, Chat, WhatsApp and Web (named: Practo, PharmEasy, Policybazaar, Flipkart, CRED, Groww)",
+    "pricing": {
+      "public_pricing": true,
+      "entry_price": {
+        "amount": 6,
+        "currency": "INR",
+        "period": "minute",
+        "plan_name": "Pay as you go (Voice Agents)",
+        "notes": "₹6 per connected minute incl. proprietary STT (Parrot), TTS, fine-tuned LLM, telephony and basic analytics; usage-based with a monthly minimum commitment (amount not stated); phone number add-on ₹499/month; advanced analytics ₹2/call; homepage FAQ says flat fee from ~$0.08/min"
+      },
+      "per_minute_from": {
+        "amount": 6,
+        "currency": "INR",
+        "notes": "₹6 per connected minute, includes STT, TTS, LLM and telephony; enterprise pricing on request"
+      },
+      "free_trial": true,
+      "price_basis": "per minute"
+    },
+    "capabilities": {
+      "hindi_hinglish": {
+        "value": "partial",
+        "evidence": "Hindi (hi-IN) listed in voice/language docs; Hinglish or code-mixed Hindi-English speech not mentioned"
+      },
+      "indic_languages": {
+        "value": "yes",
+        "evidence": "Docs list Hindi, Bengali, Tamil, Telugu, Marathi, Kannada, Gujarati, Punjabi, Odia, Malayalam and English (India) for agents"
+      },
+      "outbound_inbound": {
+        "value": "yes",
+        "evidence": "Agents built for inbound and outbound calls; docs cover inbound agent numbers and outbound campaigns"
+      },
+      "live_transfer": {
+        "value": "yes",
+        "evidence": "Call transfer system tool routes caller to a phone number or SIP URI, with business hours and unavailability message"
+      },
+      "mid_call_actions": {
+        "value": "yes",
+        "evidence": "API tools call your endpoints mid-call; agents offer and confirm appointment slots; Calendly booking; integration and WhatsApp tools"
+      },
+      "no_code_builder": {
+        "value": "yes",
+        "evidence": "Visual 'one canvas' editor and multi-prompt agent/workflow builder chaining calls, conditions and API requests"
+      },
+      "api_webhooks": {
+        "value": "yes",
+        "evidence": "API reference (calls, campaigns by API) plus webhooks for call events and WhatsApp chat events"
+      },
+      "built_in_crm": {
+        "value": "partial",
+        "evidence": "Campaign calling lists only; CRM via Salesforce/HubSpot integrations; no native lead pipeline described"
+      },
+      "lead_source_connectors": {
+        "value": "partial",
+        "evidence": "Homepage lists Typeform ('turn form responses into calls') and HubSpot lead sync; Meta/Google lead ads not mentioned"
+      },
+      "whatsapp_followup": {
+        "value": "yes",
+        "evidence": "Native WhatsApp agents, WhatsApp tools and Flows; WhatsApp used for follow-up alongside calls"
+      },
+      "post_call_analysis": {
+        "value": "yes",
+        "evidence": "Advanced Analysis extracts typed fields per call with a goal outcome; post-call summaries posted to Slack; ₹2/call add-on"
+      },
+      "call_qa": {
+        "value": "yes",
+        "evidence": "Evals auto-score completed AI calls (Good/Fair/Needs review), flag issues like hallucination; alerts on quality drops; enabled on request"
+      },
+      "human_call_intelligence": {
+        "value": "unknown",
+        "evidence": "Evals described only for AI agents' calls; analysis of human reps' calls not mentioned"
+      },
+      "telephony_included": {
+        "value": "yes",
+        "evidence": "Buy Ringg-provided Indian numbers (via Plivo/Vobiz) in-app, e.g. ₹499/month; telephony included in ₹6/min; BYO also supported"
+      }
+    },
+    "languages_claimed": "'20+ languages' (homepage); '20+ Indian languages' (banking page); docs list 10 Indian languages incl. Hindi, Tamil, Telugu, Marathi",
+    "india_compliance": "FAQ references TRAI, GDPR and TCPA guidelines; publishes a guide to TRAI, DPDP, RBI and IRDAI rules for AI voice agents; SOC 2 Type II / ISO 27001; DLT not mentioned",
+    "ratings": {
+      "g2": {
+        "score": 4.8,
+        "reviews": 19,
+        "note": "search snippet; G2 listing returned 403; other G2 pages show 4.8/5 and 4.7/29"
+      },
+      "capterra": null
+    },
+    "scale": {
+      "customers_claimed": "Named: Practo, PharmEasy, Policybazaar, Flipkart, CRED, Groww, Shiprocket; Policybazaar 57,000+ connected calls daily",
+      "total_funding_usd_m": 15.5,
+      "last_round": "Series A extension $10M led by Peak XV, Aug 2026 (Series A total $15.5M)"
+    },
+    "notable_2025_2026": "Aug 2026: raised $10M Series A extension led by Peak XV Partners, taking Series A to $15.5M after a $5.5M Jan 2026 round led by Arkam Ventures",
+    "notable_source": "https://yourstory.com/2026/08/voice-ai-startup-ringg-ai-raises-10m-series-a-peak-xv-partners",
+    "sources": {
+      "pricing": "https://www.ringg.ai/pricing",
+      "capabilities": "https://www.ringg.ai ; https://docs.ringg.ai/documentation/build-agents/customize-agent-behaviour/voice-and-language.md ; https://docs.ringg.ai/documentation/build-agents/customize-agent-behaviour/tools/system-tools.md ; https://docs.ringg.ai/documentation/inventory/phone-numbers/buy-or-import-a-number.md ; https://docs.ringg.ai/documentation/build-agents/customize-agent-behaviour/advanced-analysis.md ; https://docs.ringg.ai/documentation/monitor/evals.md ; https://docs.ringg.ai/llms.txt",
+      "ratings": "https://www.g2.com/products/ringg-ai/reviews",
+      "scale": "https://www.ringg.ai/llms.txt ; https://yourstory.com/2026/08/voice-ai-startup-ringg-ai-raises-10m-series-a-peak-xv-partners ; https://inc42.com/buzz/voice-ai-startup-ringg-bags-5-5-mn-from-arkam-ventures/"
+    },
+    "as_of": "2026-10-22"
+  },
+  {
+    "name": "Vomyra",
+    "website": "https://vomyra.com/",
+    "hq_country": "India",
+    "founded_year": null,
+    "segment": "voice-agent-platform",
+    "target_customers": "Indian sales, support and outreach teams (education, food retail, lending, government, auto dealers, hospitality); no-code agents built from your website URL",
+    "pricing": {
+      "public_pricing": true,
+      "entry_price": {
+        "amount": 15000,
+        "currency": "INR",
+        "period": "month",
+        "plan_name": "Developer",
+        "notes": "₹15,000/month (annual-plan price): 1 agent, 2 concurrent calls, 2,500 minutes/month, 1 number, CRM integrations, WhatsApp summary. A ₹599 7-day Pay As You Go trial gives 500 credits + 1 virtual number. Unlimited Solo ₹19,999/month = unlimited minutes to Indian numbers within TRAI hours, fair use (8-hr daily window)"
+      },
+      "per_minute_from": null,
+      "free_trial": false,
+      "price_basis": "unlimited with fair use"
+    },
+    "capabilities": {
+      "hindi_hinglish": {
+        "value": "yes",
+        "evidence": "India languages doc: one assistant handles multilingual calls 'including Hindi-English code-switching (Hinglish)'"
+      },
+      "indic_languages": {
+        "value": "yes",
+        "evidence": "Docs list Hindi, Tamil, Telugu, Kannada, Bengali, Marathi, Gujarati and English (India)"
+      },
+      "outbound_inbound": {
+        "value": "yes",
+        "evidence": "Agents handle inbound support and run outbound campaigns"
+      },
+      "live_transfer": {
+        "value": "yes",
+        "evidence": "Homepage: agents warm-transfer calls to a person; call.transferred webhook event when forwarded to a human"
+      },
+      "mid_call_actions": {
+        "value": "yes",
+        "evidence": "Agents book appointments, look up orders, update records, take payments and call APIs/webhooks; call.tool_invoked event"
+      },
+      "no_code_builder": {
+        "value": "yes",
+        "evidence": "No-code platform; Myra setup agent builds agents from a website URL; design, test and deploy from the dashboard"
+      },
+      "api_webhooks": {
+        "value": "yes",
+        "evidence": "REST API (assistants, calls, phone numbers), MCP server, and webhooks for call.started/ended/transferred events"
+      },
+      "built_in_crm": {
+        "value": "partial",
+        "evidence": "Outbound campaigns from contact lists/Google Sheets; connects to external CRMs; no native lead pipeline described"
+      },
+      "lead_source_connectors": {
+        "value": "yes",
+        "evidence": "Homepage lists lead sources Meta Ads (Facebook/Instagram forms), JustDial and IndiaMart"
+      },
+      "whatsapp_followup": {
+        "value": "yes",
+        "evidence": "WhatsApp follow-up after calls; Developer plan includes WhatsApp summary; follow-up agent sends WhatsApp on schedule"
+      },
+      "post_call_analysis": {
+        "value": "partial",
+        "evidence": "Transcripts/recordings via API; WhatsApp summary and BANT lead scoring in sales suite; disposition/extracted fields not documented"
+      },
+      "call_qa": {
+        "value": "unknown",
+        "evidence": "No automated QA scoring or quality alerts described"
+      },
+      "human_call_intelligence": {
+        "value": "unknown",
+        "evidence": "Analysis of human reps' calls not mentioned"
+      },
+      "telephony_included": {
+        "value": "yes",
+        "evidence": "Managed Indian 98/94-series mobile numbers included in Unlimited plans; KYC before live calls; BYO SIP also supported"
+      }
+    },
+    "languages_claimed": "70+ languages; Indian: English, Hinglish, Hindi, Tamil, Telugu, Bengali (homepage); docs add Kannada, Marathi, Gujarati",
+    "india_compliance": "India numbers doc explains TRAI DLT registration (transactional/promotional, 140/160 series), DND scrubbing is customer's responsibility, KYC (CoI, GST, PAN) required before live calls; unlimited plans limited to TRAI-permitted hours; security page covers DPDP Act",
+    "ratings": {
+      "g2": null,
+      "capterra": null
+    },
+    "scale": {
+      "customers_claimed": "500+ companies, 400+ live production agents, 1 lakh+ calling minutes daily",
+      "total_funding_usd_m": null,
+      "last_round": null
+    },
+    "notable_2025_2026": "Vomyra says it has been live in production since February 2025 (building voice AI since 2023); DPIIT-recognised startup",
+    "notable_source": "https://vomyra.com",
+    "sources": {
+      "pricing": "https://vomyra.com/pricing",
+      "capabilities": "https://vomyra.com ; https://vomyra.com/ai-sales-agent-suite ; https://docs.vomyra.com/docs/webhooks-events ; https://docs.vomyra.com/docs/india/languages ; https://docs.vomyra.com/docs/india/phone-numbers",
+      "ratings": null,
+      "scale": "https://vomyra.com"
+    },
+    "as_of": "2026-10-22"
+  },
+  {
+    "name": "Bolna",
+    "website": "https://www.bolna.ai/",
+    "hq_country": "India",
+    "founded_year": 2024,
+    "segment": "voice-agent-platform",
+    "target_customers": "Enterprises in BFSI, e-commerce, edtech, healthtech and hospitality needing voice AI agents in Indian languages (e.g. Physics Wallah, GoKwik, Spinny)",
+    "pricing": {
+      "public_pricing": true,
+      "entry_price": {
+        "amount": 0.06,
+        "currency": "USD",
+        "period": "minute",
+        "plan_name": "Pay-as-you-go",
+        "notes": "Credits $10-$5000; 'starts at $0.06 per minute (about ₹5.52)', ~4.5¢ with larger top-ups. FAQ: STT, LLM, TTS included with bundled models; telephony and platform fee added per minute. Pilot: $300/6,500 min or $500/12,000 min. Indian numbers $5/month"
+      },
+      "per_minute_from": {
+        "amount": 0.06,
+        "currency": "USD",
+        "notes": "Pay-as-you-go from $0.06/min (~4.5¢ at larger top-ups; Pilot ~4.2¢); bundled STT/LLM/TTS, telephony and platform fee extra per FAQ"
+      },
+      "free_trial": true,
+      "price_basis": "per minute"
+    },
+    "capabilities": {
+      "hindi_hinglish": {
+        "value": "yes",
+        "evidence": "Homepage names Hinglish and Hindi; docs cover Kalpa Labs voices for code-switched Hinglish"
+      },
+      "indic_languages": {
+        "value": "yes",
+        "evidence": "Supported-languages doc: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odia, Punjabi, Tamil, Telugu, Urdu"
+      },
+      "outbound_inbound": {
+        "value": "yes",
+        "evidence": "Inbound and outbound calls; bulk/batch calling campaigns and 24/7 inbound support"
+      },
+      "live_transfer": {
+        "value": "yes",
+        "evidence": "Homepage: 'Transfer call to a human agent instantly when needed'; FAQ links a transfer-calls tool"
+      },
+      "mid_call_actions": {
+        "value": "yes",
+        "evidence": "Custom API triggers call external APIs during live calls; native Cal.com tool checks and books slots"
+      },
+      "no_code_builder": {
+        "value": "yes",
+        "evidence": "No-Code Playground/Agent Studio with templates, Auto Build from description, visual editor for graph agents"
+      },
+      "api_webhooks": {
+        "value": "yes",
+        "evidence": "APIs for agents, calls, batches, phone numbers, dispositions; webhook payloads carry summary and extracted_data"
+      },
+      "built_in_crm": {
+        "value": "partial",
+        "evidence": "Batch calling lists only; no native CRM or lead pipeline described"
+      },
+      "lead_source_connectors": {
+        "value": "partial",
+        "evidence": "Lead triggers via Zapier, Make, n8n, viaSocket or Google Sheets tutorials; no native Meta/Google lead-ad connector"
+      },
+      "whatsapp_followup": {
+        "value": "partial",
+        "evidence": "WhatsApp templates only via AiSensy integration or Make.com; no native WhatsApp"
+      },
+      "post_call_analysis": {
+        "value": "yes",
+        "evidence": "Automatic call summary plus configurable extractions/dispositions with confidence scores, delivered via API/webhook"
+      },
+      "call_qa": {
+        "value": "unknown",
+        "evidence": "No automated QA scoring of agent calls documented on pages read"
+      },
+      "human_call_intelligence": {
+        "value": "unknown",
+        "evidence": "Analysis of human reps' calls not mentioned"
+      },
+      "telephony_included": {
+        "value": "yes",
+        "evidence": "Buy Indian +91 numbers in dashboard ($5/month) via Plivo/Vobiz after compliance approval; BYO Twilio/Plivo/Exotel/SIP too"
+      }
+    },
+    "languages_claimed": "'10+ vernacular Indian languages'; 'Converse fluently in 10+ Indian and foreign languages'; names Hinglish, Hindi, Tamil, Telugu",
+    "india_compliance": "Indian numbers require compliance approval/KYC (Vobiz KYC) before activation; India/USA data residency and on-prem offered; DLT/TRAI/DPDP not mentioned on pages read",
+    "ratings": {
+      "g2": null,
+      "capterra": null
+    },
+    "scale": {
+      "customers_claimed": "'1000+ Companies rely on Bolna' (homepage); 1,050 paying customers and 200,000+ calls/day per Inc42",
+      "total_funding_usd_m": 6.3,
+      "last_round": "Seed $6.3M led by General Catalyst, Jan 2026"
+    },
+    "notable_2025_2026": "Jan 2026: raised $6.3M seed led by General Catalyst with Y Combinator, Blume Ventures and others",
+    "notable_source": "https://www.bolna.ai/newsroom/bolna-bags-63-million-seed-funding-led-by-general-catalyst-to-build-indias-voice-ai-platform",
+    "sources": {
+      "pricing": "https://www.bolna.ai/pricing",
+      "capabilities": "https://www.bolna.ai ; https://www.bolna.ai/docs/integrations.md ; https://www.bolna.ai/docs/frequently-asked-questions.md ; https://www.bolna.ai/docs/migrating-to-extractions/overview.md ; https://www.bolna.ai/docs/customizations/supported-languages.md ; https://www.bolna.ai/docs/guides/buying-phone-numbers.md ; https://www.bolna.ai/docs/llms.txt",
+      "ratings": null,
+      "scale": "https://www.bolna.ai ; https://techcrunch.com/2026/01/20/bolna-nabs-6-3-million-from-general-catalyst-for-its-india-focused-voice-orchestration-platform/"
+    },
+    "as_of": "2026-10-22"
+  },
+  {
+    "name": "Smallest.ai (Atoms)",
+    "website": "https://smallest.ai/atoms",
+    "hq_country": "unknown",
+    "founded_year": 2023,
+    "segment": "voice-agent-platform",
+    "target_customers": "Support, sales, booking and outbound teams in healthcare, collections, real estate, e-commerce, banking, auto, travel; contact centers and small businesses",
+    "pricing": {
+      "public_pricing": true,
+      "entry_price": {
+        "amount": 0.09,
+        "currency": "USD",
+        "period": "minute",
+        "plan_name": "Pay as you go",
+        "notes": "'Depending on the models $0.09 - $0.21/minute' (page shows '$', no currency code); components: STT ~$0.009, TTS ~$0.09, LLM at cost, hosting $0.01/min; number rental $10/number/month; BYO telephony at cost; 20 concurrency included"
+      },
+      "per_minute_from": {
+        "amount": 0.09,
+        "currency": "USD",
+        "notes": "Pay-as-you-go $0.09-$0.21/min depending on models; Enterprise 'as low as $0.05/minute'; number rental extra"
+      },
+      "free_trial": true,
+      "price_basis": "per minute"
+    },
+    "capabilities": {
+      "hindi_hinglish": {
+        "value": "yes",
+        "evidence": "Atoms FAQ: supports Hindi and Hindi-English code-mixed speech; Indian voices code-switch Hindi/English"
+      },
+      "indic_languages": {
+        "value": "partial",
+        "evidence": "Atoms docs name only Hindi among Indian languages; TTS model docs list more Indic languages but agent-level list not documented"
+      },
+      "outbound_inbound": {
+        "value": "yes",
+        "evidence": "Inbound and outbound calling on one platform: AI receptionist, IVR, outbound campaigns"
+      },
+      "live_transfer": {
+        "value": "yes",
+        "evidence": "Transfer Call tool with cold transfer or warm transfer (AI briefs the human via whisper message)"
+      },
+      "mid_call_actions": {
+        "value": "yes",
+        "evidence": "API Tool calls your REST API during the conversation and feeds the response back; knowledge base lookup"
+      },
+      "no_code_builder": {
+        "value": "yes",
+        "evidence": "No-code visual builder with templates; versioning with change history and rollback"
+      },
+      "api_webhooks": {
+        "value": "yes",
+        "evidence": "Developer APIs (api.smallest.ai/atoms/v1) plus webhooks for call lifecycle events with transcripts and analytics"
+      },
+      "built_in_crm": {
+        "value": "partial",
+        "evidence": "Audiences = contact lists for outbound campaigns; no native lead pipeline described"
+      },
+      "lead_source_connectors": {
+        "value": "unknown",
+        "evidence": "No Meta/Google lead-form or web-form connectors mentioned; integrations page names Salesforce, Zendesk, Zoho"
+      },
+      "whatsapp_followup": {
+        "value": "unknown",
+        "evidence": "WhatsApp not mentioned; text messages listed as 'Coming Soon' on pricing"
+      },
+      "post_call_analysis": {
+        "value": "yes",
+        "evidence": "Post-call analytics auto-generates an AI summary and configured disposition metrics with confidence and reasoning"
+      },
+      "call_qa": {
+        "value": "partial",
+        "evidence": "Analytics dashboards and pre-production evaluations; no automated QA scoring/alerts on live calls described"
+      },
+      "human_call_intelligence": {
+        "value": "unknown",
+        "evidence": "Analysis of human reps' calls not mentioned"
+      },
+      "telephony_included": {
+        "value": "yes",
+        "evidence": "Rent numbers in-app ($10/month); docs note Indian numbers need regulatory compliance approval (e.g. GST docs) before activation"
+      }
+    },
+    "languages_claimed": "'Voices in 31 languages'; Pulse STT 38 languages, Lightning TTS 15+; FAQ: 'English, Spanish, French, German, Portuguese, Hindi, and more'",
+    "india_compliance": "Indian phone numbers require regulatory compliance approval (identity/business documents such as GST) before activation; ISO 27001, SOC 2 Type 2, GDPR, HIPAA; DLT/TRAI/DPDP not mentioned",
+    "ratings": {
+      "g2": {
+        "score": 4.7,
+        "reviews": 30,
+        "note": "search snippet for smallest.ai (company-level listing); G2 listing returned 403"
+      },
+      "capterra": null
+    },
+    "scale": {
+      "customers_claimed": "Named customers include RingCentral and Truecaller (press); no count on site",
+      "total_funding_usd_m": 21,
+      "last_round": "Series A $13M led by Seligman Ventures, Jul 2026 (total 'more than $21M')"
+    },
+    "notable_2025_2026": "Jul 2026: raised $13M Series A led by Seligman Ventures with Sierra Ventures and 3one4 Capital",
+    "notable_source": "https://raising.fi/news/smallest-ai-series-a-july-2026",
+    "sources": {
+      "pricing": "https://smallest.ai/pricing",
+      "capabilities": "https://smallest.ai/atoms ; https://docs.smallest.ai/voice-agents/platform/create-agent/tools-overview ; https://docs.smallest.ai/voice-agents/platform/deploy/phone-numbers ; https://docs.smallest.ai/voice-agents/platform/troubleshooting/faq ; https://docs.smallest.ai/voice-agents/developer-guide/operate/analytics/post-call-analytics.md ; https://docs.smallest.ai/voice-agents/integrate/integrations.md",
+      "ratings": "https://www.g2.com/products/smallest-ai/reviews",
+      "scale": "https://raising.fi/news/smallest-ai-series-a-july-2026"
+    },
+    "as_of": "2026-10-22"
+  },
+  {
+    "name": "SubVerse AI",
+    "website": "https://subverseai.com/",
+    "hq_country": "unknown",
+    "founded_year": null,
+    "segment": "enterprise-conversational-ai",
+    "target_customers": "Enterprises in insurance, banking/payments, logistics, manufacturing and travel; 'AI that owns business outcomes - not just conversations'",
+    "pricing": {
+      "public_pricing": false,
+      "entry_price": null,
+      "per_minute_from": null,
+      "free_trial": null,
+      "price_basis": "quote only"
+    },
+    "capabilities": {
+      "hindi_hinglish": {
+        "value": "yes",
+        "evidence": "Official blog: agents converse in Hindi, Hinglish, Marathi, Tamil, Bengali with switching inside the same conversation"
+      },
+      "indic_languages": {
+        "value": "partial",
+        "evidence": "Blog names Marathi, Tamil, Bengali beyond Hindi 'and more'; no documented language list"
+      },
+      "outbound_inbound": {
+        "value": "yes",
+        "evidence": "SIP integration docs: receive calls and place outbound calls from your own numbers; Trigger Call API"
+      },
+      "live_transfer": {
+        "value": "yes",
+        "evidence": "SIP REFER transfer of a live call to your agent queue/extension, with optional call summary for context"
+      },
+      "mid_call_actions": {
+        "value": "yes",
+        "evidence": "Agents run function calls (logged with arguments/results); REST API, Freshdesk, ServiceNow, Shopify integrations"
+      },
+      "no_code_builder": {
+        "value": "yes",
+        "evidence": "Dashboard agent setup plus node-based Orchestration workflow builder (quickstart in ~10 minutes)"
+      },
+      "api_webhooks": {
+        "value": "yes",
+        "evidence": "Public API (Trigger Call, Trigger Chat, Get Session) plus webhooks for real-time event notifications"
+      },
+      "built_in_crm": {
+        "value": "unknown",
+        "evidence": "No native lead/contact pipeline described; integrates with external CRMs"
+      },
+      "lead_source_connectors": {
+        "value": "unknown",
+        "evidence": "No Meta/Google lead-form connectors documented"
+      },
+      "whatsapp_followup": {
+        "value": "yes",
+        "evidence": "Native WhatsApp Business channel and orchestration nodes; Trigger Chat API starts WhatsApp conversations"
+      },
+      "post_call_analysis": {
+        "value": "partial",
+        "evidence": "Session AI Insight gives summary and sentiment plus status; extracted fields/disposition not detailed in docs read"
+      },
+      "call_qa": {
+        "value": "yes",
+        "evidence": "Blog: every call transcript scored by a secondary AI model on compliance, sentiment, accuracy - '100% coverage'"
+      },
+      "human_call_intelligence": {
+        "value": "unknown",
+        "evidence": "QA described as 'AI to watch the AI'; scoring of human reps' calls not stated"
+      },
+      "telephony_included": {
+        "value": "partial",
+        "evidence": "Docs require bringing SIP trunk/numbers (Twilio, Telnyx, Plivo, Ozonetel); vendor-provided numbers not mentioned"
+      }
+    },
+    "languages_claimed": "'multilingual' (site); blog: 'Hindi, Hinglish, Marathi, Tamil, Bengali, and more'",
+    "india_compliance": null,
+    "ratings": {
+      "g2": null,
+      "capterra": null
+    },
+    "scale": {
+      "customers_claimed": "50+ trusted enterprise clients; blog cites 10M+ calls per month",
+      "total_funding_usd_m": null,
+      "last_round": null
+    },
+    "notable_2025_2026": null,
+    "notable_source": null,
+    "sources": {
+      "pricing": "https://subverseai.com",
+      "capabilities": "https://subverseai.com/our-platform ; https://docs.subverseai.com/llms.txt ; https://docs.subverseai.com/integrations/sip.md ; https://docs.subverseai.com/monitor/session-history.md ; https://subverseai.com/blogs/how-subverse-ai-is-powering-indias-next-gen-voice-agents-insights-inspired-by-elevenlabs-indian-voice-ai-infrastructure ; https://subverseai.com/blogs/how-bfsi-cxos-can-scale-voice-ai-from-pilot-to-10m-calls-per-month-or-inside-the-subverse-ai-reddit-ama",
+      "ratings": null,
+      "scale": "https://subverseai.com"
+    },
+    "as_of": "2026-10-22"
+  },
+  {
+    "name": "VoiceGenie",
+    "website": "https://voicegenie.ai/",
+    "hq_country": "unknown",
+    "founded_year": null,
+    "segment": "voice-agent-platform",
+    "target_customers": "Startups and enterprises automating sales and support calls (real estate, healthcare, finance, insurance, logistics, collections, recruitment); '1,200+ teams'",
+    "pricing": {
+      "public_pricing": true,
+      "entry_price": {
+        "amount": 3000,
+        "currency": "INR",
+        "period": "month",
+        "plan_name": "Trial",
+        "notes": "₹3000/month for 250 minutes; Starter ₹12000/1000 min, Growth ₹30000/2500 min, Elite ₹60000/5000 min; extra minutes in 250-min packs (price not listed); whether telephony/numbers/LLM included not stated (docs: bring Twilio/Plivo numbers)"
+      },
+      "per_minute_from": null,
+      "free_trial": true,
+      "price_basis": "monthly bundle"
+    },
+    "capabilities": {
+      "hindi_hinglish": {
+        "value": "yes",
+        "evidence": "Hindi agent page: 'fluent in Hinglish, tuned for regional accents'; switches between Hindi, Hinglish and English"
+      },
+      "indic_languages": {
+        "value": "partial",
+        "evidence": "Enterprise page claims '13+ Indian languages' without naming them; Hindi page invites requests for a regional language"
+      },
+      "outbound_inbound": {
+        "value": "yes",
+        "evidence": "Docs: Outbound and Inbound campaign types; enterprise page: inbound & outbound support"
+      },
+      "live_transfer": {
+        "value": "yes",
+        "evidence": "'Transfer to Human' action calls configured numbers and connects the customer to a live agent; transfer-status API"
+      },
+      "mid_call_actions": {
+        "value": "yes",
+        "evidence": "Book a meeting (Cal.com), send SMS, update records, trigger webhooks/workflows during live calls"
+      },
+      "no_code_builder": {
+        "value": "yes",
+        "evidence": "Assistants configured in the web app: pick voice, language, script or template; actions tab toggles"
+      },
+      "api_webhooks": {
+        "value": "yes",
+        "evidence": "Public API (placeCall, callAnalysisOrStatus, editCampaign) plus post-call webhooks with transcript and gathered info"
+      },
+      "built_in_crm": {
+        "value": "partial",
+        "evidence": "Contact lists and campaigns (CSV, manual, CRM import); lead statuses/pipelines not documented"
+      },
+      "lead_source_connectors": {
+        "value": "partial",
+        "evidence": "Contacts via HubSpot/GoHighLevel import, Zapier, Pabbly, webhooks/API; no native Meta/Google lead-ad connector"
+      },
+      "whatsapp_followup": {
+        "value": "partial",
+        "evidence": "Custom SMS action on trigger phrases; WhatsApp not mentioned"
+      },
+      "post_call_analysis": {
+        "value": "partial",
+        "evidence": "Call Insights auto-answers your defined questions per call; summary/disposition not documented"
+      },
+      "call_qa": {
+        "value": "partial",
+        "evidence": "'Analytics & Sentiments', post-call reports and campaign insights; no QA scoring described"
+      },
+      "human_call_intelligence": {
+        "value": "unknown",
+        "evidence": "Analysis of human reps' calls not mentioned"
+      },
+      "telephony_included": {
+        "value": "partial",
+        "evidence": "Docs: 'We support Twilio and Plivo numbers' - bring your own; enterprise page says pre-integrated dialer, India numbers not stated"
+      }
+    },
+    "languages_claimed": "'50+ languages Supported' (homepage); '13+ Indian languages & 100+ global languages & dialects' (enterprise page); Hindi, Hinglish named",
+    "india_compliance": null,
+    "ratings": {
+      "g2": {
+        "score": 4.4,
+        "reviews": 6,
+        "note": "search snippet; G2 listing returned 403"
+      },
+      "capterra": null
+    },
+    "scale": {
+      "customers_claimed": "1,200+ teams, 3M+ conversations, 12M+ minutes handled",
+      "total_funding_usd_m": null,
+      "last_round": null
+    },
+    "notable_2025_2026": null,
+    "notable_source": null,
+    "sources": {
+      "pricing": "https://voicegenie.ai/pricing",
+      "capabilities": "https://voicegenie.ai ; https://voicegenie.gitbook.io/voicegenie-ai/llms-full.txt ; https://voicegenie.ai/enterprise/voicebots ; https://voicegenie.ai/en/voice-ai-agent-in-hindi",
+      "ratings": "https://www.g2.com/products/voicegenie-ai/reviews",
+      "scale": "https://voicegenie.ai"
+    },
+    "as_of": "2026-10-22"
+  }
+]

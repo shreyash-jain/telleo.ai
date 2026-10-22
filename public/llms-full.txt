@@ -1,6 +1,6 @@
 # Telleo — full site text
 
-Generated 2026-10-13 from https://telleo.ai. Short summary: https://telleo.ai/llms.txt
+Generated 2026-10-22 from https://telleo.ai. Short summary: https://telleo.ai/llms.txt
 
 
 ---
@@ -2463,6 +2463,357 @@ TRAI and DLT Rules for AI Calling: 2026 Guide
 Book a 20-minute demo and we'll build a first agent around your script, or ring our test line and talk to one right now.
 
 Book a demo Call +91 80356 14126
+
+
+---
+
+# Telleo Research: Data on AI Voice Calling
+URL: https://telleo.ai/research/
+
+- Home
+- / Research
+Telleo Research
+
+# Research on AI voice calling
+Sourced, downloadable research on the AI calling market for Indian sales, admissions and support teams. Every score links to the vendor's own pages, the method is published, and the data is free to reuse under CC BY 4.0.
+Platform landscape
+
+## Voice AI Platform Landscape 2026: 37 AI calling platforms compared
+37 Indian and global voice-AI vendors scored on 14 capabilities, from Hinglish and live transfer to CRM, lead-ad connectors and WhatsApp follow-up. Only 2 of 36 document a built-in CRM. Map, full matrix and a free CSV.
+Updated 22 October 2026
+Read the report
+
+- Telleo
+- Indian vendors
+- Global vendors
+
+-
+- 0%0%
+-
+- 25%25%
+-
+- 50%50%
+-
+- 75%75%
+-
+- 100%100%WORKFLOW-FIRSTFULL-STACKPOINT TOOLSCONVERSATION-FIRSTConversation coverage →Business-workflow coverage →PolyAI: conversation 93%, business workflow 36%, 9 of 14 capabilities (Enterprise conversational AI)Thoughtly: conversation 71%, business workflow 43%, 8 of 14 capabilities (Voice-agent platform)Aircall: conversation 86%, business workflow 64%, 10.5 of 14 capabilities (Cloud telephony / contact centre)Dialpad: conversation 57%, business workflow 36%, 6.5 of 14 capabilities (Cloud telephony / contact centre)Talkdesk: conversation 79%, business workflow 43%, 8.5 of 14 capabilities (Cloud telephony / contact centre)Vapi: conversation 64%, business workflow 57%, 8.5 of 14 capabilities (Developer platform)Retell AI: conversation 86%, business workflow 57%, 10 of 14 capabilities (Developer platform)Bland AI: conversation 79%, business workflow 50%, 9 of 14 capabilities (Developer platform)Synthflow: conversation 79%, business workflow 57%, 9.5 of 14 capabilities (Voice-agent platform)ElevenLabs: conversation 93%, business workflow 57%, 10.5 of 14 capabilities (Developer platform)Telnyx: conversation 86%, business workflow 43%, 9 of 14 capabilities (Developer platform)Observe.AI: conversation 64%, business workflow 36%, 7 of 14 capabilities (Enterprise conversational AI)NiCE Cognigy: conversation 71%, business workflow 14%, 6 of 14 capabilities (Enterprise conversational AI)Sierra: conversation 64%, business workflow 29%, 6.5 of 14 capabilities (Enterprise conversational AI)Gong: conversation 7%, business workflow 29%, 2.5 of 14 capabilities (Conversation intelligence)Salesken: conversation 0%, business workflow 29%, 2 of 14 capabilities (Conversation intelligence)Kore.ai: conversation 86%, business workflow 36%, 8.5 of 14 capabilities (Enterprise conversational AI)Gnani.ai: conversation 86%, business workflow 43%, 9 of 14 capabilities (Enterprise conversational AI)Yellow.ai: conversation 79%, business workflow 21%, 7 of 14 capabilities (Enterprise conversational AI)Haptik: conversation 43%, business workflow 21%, 4.5 of 14 capabilities (Enterprise conversational AI)Skit.ai: conversation 71%, business workflow 43%, 8 of 14 capabilities (Enterprise conversational AI)Sarvam AI: conversation 100%, business workflow 36%, 9.5 of 14 capabilities (Voice-agent platform)Rezo.ai: conversation 43%, business workflow 43%, 6 of 14 capabilities (Enterprise conversational AI)Ringg AI: conversation 93%, business workflow 71%, 11.5 of 14 capabilities (Voice-agent platform)Vomyra: conversation 100%, business workflow 57%, 11 of 14 capabilities (Voice-agent platform)Bolna: conversation 100%, business workflow 50%, 10.5 of 14 capabilities (Voice-agent platform)Smallest.ai: conversation 93%, business workflow 43%, 9.5 of 14 capabilities (Voice-agent platform)SubVerse AI: conversation 93%, business workflow 43%, 9.5 of 14 capabilities (Enterprise conversational AI)VoiceGenie: conversation 93%, business workflow 43%, 9.5 of 14 capabilities (Voice-agent platform)Exotel: conversation 86%, business workflow 64%, 10.5 of 14 capabilities (Cloud telephony / contact centre)Ozonetel: conversation 93%, business workflow 57%, 10.5 of 14 capabilities (Cloud telephony / contact centre)Knowlarity: conversation 7%, business workflow 43%, 3.5 of 14 capabilities (Cloud telephony / contact centre)LeadSquared: conversation 71%, business workflow 57%, 9 of 14 capabilities (CRM with AI calling)Meritto: conversation 71%, business workflow 57%, 9 of 14 capabilities (CRM with AI calling)Convin: conversation 57%, business workflow 50%, 7.5 of 14 capabilities (Conversation intelligence)SquadStack: conversation 86%, business workflow 71%, 11 of 14 capabilities (Voice-agent platform)Telleo: conversation 86%, business workflow 100%, 13 of 14 capabilities (Voice-agent platform)Telleo
+
+
+---
+
+# Voice AI Platform Landscape 2026: 37 Vendors | Telleo
+URL: https://telleo.ai/research/voice-ai-platform-landscape-2026/
+
+- Home
+- / Research
+- / Voice AI Platform Landscape 2026
+Telleo Research · Platform landscape
+
+# Voice AI Platform Landscape 2026: 37 AI Calling Platforms Compared
+We compared 37 AI voice-calling platforms from India and abroad on 14 capabilities: what the agent can do on the call, and what happens around it. Most vendors build a good conversation; few run the follow-up. Only 2 of the 36 other vendors document a built-in CRM, 1 document native lead-ad connectors, and 6 document native WhatsApp follow-up.
+By the Telleo research team · Published 22 October 2026 · Updated 22 October 2026 · Download the data (CSV)
+Disclosure. Telleo publishes this report and sells AI voice agents, so we are one of the vendors in this market. Telleo is scored with the same rubric as everyone else, from its own public product pages. Every vendor row links to its sources, the method is published below, and anything we could not verify is marked as not documented rather than guessed. Spot an error? Write to hello@telleo.ai with a link and we will correct it.
+
+## Key findings
+2 of 36
+vendors document a built-in CRM with lead stages; most expect you to push call results into another CRM.
+
+1 of 36
+document native connectors that call a lead straight from a Meta or Google lead form, without Zapier.
+
+6 of 36
+document native WhatsApp follow-up tied to the call, the channel Indian leads actually reply on.
+
+10 of 18
+Indian vendors document Hindi and Hinglish conversations, against 1 of 18 global vendors.
+
+5 of 18
+Indian vendors publish a per-minute price, against 6 of 18 global vendors.
+
+11.5 of 14
+capabilities: the widest coverage among other vendors (Ringg AI).
+
+## The Telleo Voice AI Platform Map
+Each vendor is placed by how much of the call itself it covers (left to right: languages, directions, transfer, mid-call actions, no-code building, API) and how much of the business workflow around the call it covers (bottom to top: CRM, lead sources, WhatsApp, post-call analysis, QA, human-call analysis, Indian telephony). Scores come only from what each vendor documents publicly; the method is below. Telleo appears on the map with the same rubric, scored from its own product pages.
+Conversation coverage vs. business-workflow coverage, 2026 37 platforms. Conversation: Hindi + Hinglish, 5+ Indian languages, Outbound + inbound, Live transfer, Mid-call actions, No-code builder, API + webhooks. Workflow: Built-in CRM, Lead-ad connectors, WhatsApp follow-up, Post-call analysis, AI call QA, Human-call analysis, Indian telephony included.
+- Telleo
+- Indian vendors
+- Global vendors
+
+-
+- 0%0%
+-
+- 25%25%
+-
+- 50%50%
+-
+- 75%75%
+-
+- 100%100%WORKFLOW-FIRSTFULL-STACKPOINT TOOLSCONVERSATION-FIRSTConversation coverage →Business-workflow coverage →PolyAI: conversation 93%, business workflow 36%, 9 of 14 capabilities (Enterprise conversational AI)Thoughtly: conversation 71%, business workflow 43%, 8 of 14 capabilities (Voice-agent platform)Aircall: conversation 86%, business workflow 64%, 10.5 of 14 capabilities (Cloud telephony / contact centre)Dialpad: conversation 57%, business workflow 36%, 6.5 of 14 capabilities (Cloud telephony / contact centre)Talkdesk: conversation 79%, business workflow 43%, 8.5 of 14 capabilities (Cloud telephony / contact centre)Vapi: conversation 64%, business workflow 57%, 8.5 of 14 capabilities (Developer platform)VapiRetell AI: conversation 86%, business workflow 57%, 10 of 14 capabilities (Developer platform)Bland AI: conversation 79%, business workflow 50%, 9 of 14 capabilities (Developer platform)Synthflow: conversation 79%, business workflow 57%, 9.5 of 14 capabilities (Voice-agent platform)ElevenLabs: conversation 93%, business workflow 57%, 10.5 of 14 capabilities (Developer platform)Telnyx: conversation 86%, business workflow 43%, 9 of 14 capabilities (Developer platform)Observe.AI: conversation 64%, business workflow 36%, 7 of 14 capabilities (Enterprise conversational AI)Observe.AINiCE Cognigy: conversation 71%, business workflow 14%, 6 of 14 capabilities (Enterprise conversational AI)NiCE CognigySierra: conversation 64%, business workflow 29%, 6.5 of 14 capabilities (Enterprise conversational AI)SierraGong: conversation 7%, business workflow 29%, 2.5 of 14 capabilities (Conversation intelligence)GongSalesken: conversation 0%, business workflow 29%, 2 of 14 capabilities (Conversation intelligence)SaleskenKore.ai: conversation 86%, business workflow 36%, 8.5 of 14 capabilities (Enterprise conversational AI)Gnani.ai: conversation 86%, business workflow 43%, 9 of 14 capabilities (Enterprise conversational AI)Yellow.ai: conversation 79%, business workflow 21%, 7 of 14 capabilities (Enterprise conversational AI)Yellow.aiHaptik: conversation 43%, business workflow 21%, 4.5 of 14 capabilities (Enterprise conversational AI)HaptikSkit.ai: conversation 71%, business workflow 43%, 8 of 14 capabilities (Enterprise conversational AI)Sarvam AI: conversation 100%, business workflow 36%, 9.5 of 14 capabilities (Voice-agent platform)Sarvam AIRezo.ai: conversation 43%, business workflow 43%, 6 of 14 capabilities (Enterprise conversational AI)Rezo.aiRingg AI: conversation 93%, business workflow 71%, 11.5 of 14 capabilities (Voice-agent platform)Ringg AIVomyra: conversation 100%, business workflow 57%, 11 of 14 capabilities (Voice-agent platform)VomyraBolna: conversation 100%, business workflow 50%, 10.5 of 14 capabilities (Voice-agent platform)Smallest.ai: conversation 93%, business workflow 43%, 9.5 of 14 capabilities (Voice-agent platform)SubVerse AI: conversation 93%, business workflow 43%, 9.5 of 14 capabilities (Enterprise conversational AI)VoiceGenie: conversation 93%, business workflow 43%, 9.5 of 14 capabilities (Voice-agent platform)Exotel: conversation 86%, business workflow 64%, 10.5 of 14 capabilities (Cloud telephony / contact centre)Ozonetel: conversation 93%, business workflow 57%, 10.5 of 14 capabilities (Cloud telephony / contact centre)Knowlarity: conversation 7%, business workflow 43%, 3.5 of 14 capabilities (Cloud telephony / contact centre)KnowlarityLeadSquared: conversation 71%, business workflow 57%, 9 of 14 capabilities (CRM with AI calling)Meritto: conversation 71%, business workflow 57%, 9 of 14 capabilities (CRM with AI calling)Convin: conversation 57%, business workflow 50%, 7.5 of 14 capabilities (Conversation intelligence)ConvinSquadStack: conversation 86%, business workflow 71%, 11 of 14 capabilities (Voice-agent platform)SquadStackTelleo: conversation 86%, business workflow 100%, 13 of 14 capabilities (Voice-agent platform)Telleo
+
+-
+- 0%0%
+-
+- 25%25%
+-
+- 50%50%
+-
+- 75%75%
+-
+- 100%100%WORKFLOW-FIRSTFULL-STACKPOINT TOOLSCONVERSATION-FIRSTConversation →Workflow →PolyAI: conversation 93%, business workflow 36%, 9 of 14 capabilities (Enterprise conversational AI)Thoughtly: conversation 71%, business workflow 43%, 8 of 14 capabilities (Voice-agent platform)Aircall: conversation 86%, business workflow 64%, 10.5 of 14 capabilities (Cloud telephony / contact centre)Dialpad: conversation 57%, business workflow 36%, 6.5 of 14 capabilities (Cloud telephony / contact centre)Talkdesk: conversation 79%, business workflow 43%, 8.5 of 14 capabilities (Cloud telephony / contact centre)Vapi: conversation 64%, business workflow 57%, 8.5 of 14 capabilities (Developer platform)VapiRetell AI: conversation 86%, business workflow 57%, 10 of 14 capabilities (Developer platform)Bland AI: conversation 79%, business workflow 50%, 9 of 14 capabilities (Developer platform)Synthflow: conversation 79%, business workflow 57%, 9.5 of 14 capabilities (Voice-agent platform)ElevenLabs: conversation 93%, business workflow 57%, 10.5 of 14 capabilities (Developer platform)Telnyx: conversation 86%, business workflow 43%, 9 of 14 capabilities (Developer platform)Observe.AI: conversation 64%, business workflow 36%, 7 of 14 capabilities (Enterprise conversational AI)NiCE Cognigy: conversation 71%, business workflow 14%, 6 of 14 capabilities (Enterprise conversational AI)NiCE CognigySierra: conversation 64%, business workflow 29%, 6.5 of 14 capabilities (Enterprise conversational AI)Gong: conversation 7%, business workflow 29%, 2.5 of 14 capabilities (Conversation intelligence)GongSalesken: conversation 0%, business workflow 29%, 2 of 14 capabilities (Conversation intelligence)Kore.ai: conversation 86%, business workflow 36%, 8.5 of 14 capabilities (Enterprise conversational AI)Gnani.ai: conversation 86%, business workflow 43%, 9 of 14 capabilities (Enterprise conversational AI)Yellow.ai: conversation 79%, business workflow 21%, 7 of 14 capabilities (Enterprise conversational AI)Haptik: conversation 43%, business workflow 21%, 4.5 of 14 capabilities (Enterprise conversational AI)Skit.ai: conversation 71%, business workflow 43%, 8 of 14 capabilities (Enterprise conversational AI)Sarvam AI: conversation 100%, business workflow 36%, 9.5 of 14 capabilities (Voice-agent platform)Rezo.ai: conversation 43%, business workflow 43%, 6 of 14 capabilities (Enterprise conversational AI)Ringg AI: conversation 93%, business workflow 71%, 11.5 of 14 capabilities (Voice-agent platform)Ringg AIVomyra: conversation 100%, business workflow 57%, 11 of 14 capabilities (Voice-agent platform)Bolna: conversation 100%, business workflow 50%, 10.5 of 14 capabilities (Voice-agent platform)Smallest.ai: conversation 93%, business workflow 43%, 9.5 of 14 capabilities (Voice-agent platform)SubVerse AI: conversation 93%, business workflow 43%, 9.5 of 14 capabilities (Enterprise conversational AI)VoiceGenie: conversation 93%, business workflow 43%, 9.5 of 14 capabilities (Voice-agent platform)Exotel: conversation 86%, business workflow 64%, 10.5 of 14 capabilities (Cloud telephony / contact centre)Ozonetel: conversation 93%, business workflow 57%, 10.5 of 14 capabilities (Cloud telephony / contact centre)Knowlarity: conversation 7%, business workflow 43%, 3.5 of 14 capabilities (Cloud telephony / contact centre)LeadSquared: conversation 71%, business workflow 57%, 9 of 14 capabilities (CRM with AI calling)Meritto: conversation 71%, business workflow 57%, 9 of 14 capabilities (CRM with AI calling)Convin: conversation 57%, business workflow 50%, 7.5 of 14 capabilities (Conversation intelligence)SquadStack: conversation 86%, business workflow 71%, 11 of 14 capabilities (Voice-agent platform)Telleo: conversation 86%, business workflow 100%, 13 of 14 capabilities (Voice-agent platform)Telleo
+
+Source: Telleo Research, vendor websites and documentation read on 22 October 2026. Yes = 1, partial = 0.5, not documented = 0. Hover a point for its scores; the full table is below.
+Show the data as a table
+Vendor | Region | Conversation % | Workflow % | Of 14 |
+
+Telleo | India | 86 | 100 | 13 |
+Ringg AI | India | 93 | 71 | 11.5 |
+SquadStack | India | 86 | 71 | 11 |
+Vomyra | India | 100 | 57 | 11 |
+Aircall | Global | 86 | 64 | 10.5 |
+Bolna | India | 100 | 50 | 10.5 |
+ElevenLabs | Global | 93 | 57 | 10.5 |
+Exotel | India | 86 | 64 | 10.5 |
+Ozonetel | India | 93 | 57 | 10.5 |
+Retell AI | Global | 86 | 57 | 10 |
+Sarvam AI | India | 100 | 36 | 9.5 |
+Smallest.ai | India | 93 | 43 | 9.5 |
+SubVerse AI | India | 93 | 43 | 9.5 |
+Synthflow | Global | 79 | 57 | 9.5 |
+VoiceGenie | India | 93 | 43 | 9.5 |
+Bland AI | Global | 79 | 50 | 9 |
+Gnani.ai | India | 86 | 43 | 9 |
+LeadSquared | India | 71 | 57 | 9 |
+Meritto | India | 71 | 57 | 9 |
+PolyAI | Global | 93 | 36 | 9 |
+Telnyx | Global | 86 | 43 | 9 |
+Kore.ai | Global | 86 | 36 | 8.5 |
+Talkdesk | Global | 79 | 43 | 8.5 |
+Vapi | Global | 64 | 57 | 8.5 |
+Skit.ai | Global | 71 | 43 | 8 |
+Thoughtly | Global | 71 | 43 | 8 |
+Convin | India | 57 | 50 | 7.5 |
+Observe.AI | Global | 64 | 36 | 7 |
+Yellow.ai | Global | 79 | 21 | 7 |
+Dialpad | Global | 57 | 36 | 6.5 |
+Sierra | Global | 64 | 29 | 6.5 |
+NiCE Cognigy | Global | 71 | 14 | 6 |
+Rezo.ai | India | 43 | 43 | 6 |
+Haptik | India | 43 | 21 | 4.5 |
+Knowlarity | India | 7 | 43 | 3.5 |
+Gong | Global | 7 | 29 | 2.5 |
+Salesken | India | 0 | 29 | 2 |
+
+15 of the 36 other vendors reach at least half of both axes (Aircall, Vapi, Retell AI, Bland AI, Synthflow, ElevenLabs, Ringg AI, Vomyra, Bolna, Exotel, Ozonetel, LeadSquared, Meritto, Convin, SquadStack). Developer platforms sit in the conversation-first corner: strong agents and APIs, but the CRM, lead sources and follow-up are left for you to build. Cloud telephony, contact-centre and conversation-intelligence products lean the other way: they analyse and route calls well, and AI agents are newer for them.
+
+## Which capabilities are rare
+Share of 36 vendors that document each capability natively Telleo excluded. Partial support (an add-on, an integration or a limited version) is in the table.
+- Live transfer 89% (32 of 36)
+- Mid-call actions 89% (32 of 36)
+- Outbound + inbound 83% (30 of 36)
+- No-code builder 75% (27 of 36)
+- API + webhooks 58% (21 of 36)
+- Post-call analysis 50% (18 of 36)
+- Human-call analysis 42% (15 of 36)
+- AI call QA 36% (13 of 36)
+- Hindi + Hinglish 31% (11 of 36)
+- 5+ Indian languages 28% (10 of 36)
+- Indian telephony included 28% (10 of 36)
+- WhatsApp follow-up 17% (6 of 36)
+- Built-in CRM 6% (2 of 36)
+- Lead-ad connectors 3% (1 of 36)
+Source: Telleo Research, vendor documentation, 22 October 2026.
+Show the data as a table
+Capability | Native (yes) | Partial | Share native |
+
+Hindi + Hinglish | 11 | 14 | 31% |
+5+ Indian languages | 10 | 11 | 28% |
+Outbound + inbound | 30 | 3 | 83% |
+Live transfer | 32 | 1 | 89% |
+Mid-call actions | 32 | 1 | 89% |
+No-code builder | 27 | 3 | 75% |
+API + webhooks | 21 | 9 | 58% |
+Built-in CRM | 2 | 17 | 6% |
+Lead-ad connectors | 1 | 11 | 3% |
+WhatsApp follow-up | 6 | 23 | 17% |
+Post-call analysis | 18 | 16 | 50% |
+AI call QA | 13 | 17 | 36% |
+Human-call analysis | 15 | 1 | 42% |
+Indian telephony included | 10 | 13 | 28% |
+
+Outbound and inbound calling (30 of 36), APIs (21) and post-call analysis (18) are now common. What decides whether a call turns into revenue is much rarer: a CRM the call writes into (2), leads that arrive from ads without glue code (1), WhatsApp follow-up (6) and Indian numbers supplied by the vendor (10). Only 1 vendor document both AI calls in both directions and a built-in CRM (Meritto). A team that needs the whole loop today usually buys a voice platform, a CRM and a WhatsApp provider, and connects them itself.
+
+## Coverage by type of platform
+Average capabilities covered, out of 14, by type of platform
+- Indian voice-agent platforms 10.4 of 14 (7)
+- Indian enterprise conversational AI 7.3 of 14 (4)
+- Indian cloud telephony & contact centre 8.2 of 14 (3)
+- CRMs with AI calling 9.0 of 14 (2)
+- Global developer platforms 9.4 of 14 (5)
+- Global voice-agent platforms 8.8 of 14 (2)
+- Global contact-centre software 8.5 of 14 (3)
+- Global enterprise conversational AI 7.4 of 14 (7)
+- Conversation intelligence 4.0 of 14 (3)
+- Telleo 13 of 14
+Source: Telleo Research, 22 October 2026. Averages of the scores in the matrix below.
+Show the data as a table
+Type | Vendors | Average of 14 |
+
+Indian voice-agent platforms | 7 | 10.4 |
+Indian enterprise conversational AI | 4 | 7.3 |
+Indian cloud telephony & contact centre | 3 | 8.2 |
+CRMs with AI calling | 2 | 9.0 |
+Global developer platforms | 5 | 9.4 |
+Global voice-agent platforms | 2 | 8.8 |
+Global contact-centre software | 3 | 8.5 |
+Global enterprise conversational AI | 7 | 7.4 |
+Conversation intelligence | 3 | 4.0 |
+Telleo | 1 | 13.0 |
+
+## Full capability matrix
+● yes · ◐ partial (add-on, integration, higher plan or limited) · ○ not offered · – not documented publicly. Sorted by capabilities covered. Hover a symbol for the evidence; the CSV has every value and its source.
+Vendor | Hindi + Hinglish | 5+ Indian languages | Outbound + inbound | Live transfer | Mid-call actions | No-code builder | API + webhooks | Built-in CRM | Lead-ad connectors | WhatsApp follow-up | Post-call analysis | AI call QA | Human-call analysis | Indian telephony included | Of 14 | Lowest per-minute price | Entry price |
+
+Telleo Voice-agent platform · India | ● Yes | ◐ Partial | ● Yes | ● Yes | ◐ Partial | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | 13 | ₹3.49/mintelephony, speech and LLM included | ₹3,499/mo |
+Ringg AI Voice-agent platform · India | ◐ Partial | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ◐ Partial | ◐ Partial | ● Yes | ● Yes | ● Yes | – Not documented | ● Yes | 11.5 | ₹6/mintelephony, speech and LLM included | ₹6/min |
+SquadStack Voice-agent platform · India | ● Yes | ● Yes | ◐ Partial | ● Yes | ● Yes | ◐ Partial | ● Yes | ◐ Partial | ◐ Partial | ● Yes | ◐ Partial | ◐ Partial | ● Yes | ● Yes | 11 | ₹2/minhomepage FAQ range ₹2–5; quote after discovery | Quote only |
+Vomyra Voice-agent platform · India | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ◐ Partial | ● Yes | ● Yes | ◐ Partial | – Not documented | – Not documented | ● Yes | 11 | Not published | ₹15,000/mo |
+Aircall Cloud telephony / contact centre · France | ◐ Partial | ◐ Partial | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ◐ Partial | ◐ Partial | ◐ Partial | ● Yes | ◐ Partial | ● Yes | ◐ Partial | 10.5 | $0.19/mininclusions not itemised; volume rate | $100/mo |
+Bolna Voice-agent platform · India | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ◐ Partial | ◐ Partial | ◐ Partial | ● Yes | – Not documented | – Not documented | ● Yes | 10.5 | $0.06/mintelephony and platform fee extra | $0.06/min |
+ElevenLabs Developer platform · United States | ● Yes | ◐ Partial | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ◐ Partial | ◐ Partial | ◐ Partial | ● Yes | ● Yes | – Not documented | ◐ Partial | 10.5 | $0.08/minLLM and telephony extra | $6/mo |
+Exotel Cloud telephony / contact centre · India | ● Yes | ◐ Partial | ● Yes | ● Yes | ● Yes | ● Yes | ◐ Partial | ◐ Partial | – Not documented | ◐ Partial | ◐ Partial | ● Yes | ● Yes | ● Yes | 10.5 | Not published | Quote only |
+Ozonetel Cloud telephony / contact centre · India | ◐ Partial | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | – Not documented | – Not documented | ◐ Partial | ◐ Partial | ● Yes | ● Yes | ● Yes | 10.5 | Not published | Quote only |
+Retell AI Developer platform · United States | ◐ Partial | ◐ Partial | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ◐ Partial | ◐ Partial | ◐ Partial | ● Yes | ● Yes | – Not documented | ◐ Partial | 10 | $0.07/mintelephony extra | $0.07/min |
+Sarvam AI Voice-agent platform · India | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | – Not documented | – Not documented | ◐ Partial | ◐ Partial | ◐ Partial | – Not documented | ● Yes | 9.5 | ₹3/mintelephony and numbers extra | ₹3.5/min |
+Smallest.ai Voice-agent platform · India | ● Yes | ◐ Partial | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ◐ Partial | – Not documented | – Not documented | ● Yes | ◐ Partial | – Not documented | ● Yes | 9.5 | $0.09/mintelephony and numbers extra | $0.09/min |
+SubVerse AI Enterprise conversational AI · India | ● Yes | ◐ Partial | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | – Not documented | – Not documented | ● Yes | ◐ Partial | ● Yes | – Not documented | ◐ Partial | 9.5 | Not published | Quote only |
+Synthflow Voice-agent platform · Germany | ◐ Partial | ○ No | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ◐ Partial | ◐ Partial | ◐ Partial | ● Yes | ● Yes | – Not documented | ◐ Partial | 9.5 | Not published | $30,000/yr |
+VoiceGenie Voice-agent platform · India | ● Yes | ◐ Partial | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ◐ Partial | ◐ Partial | ◐ Partial | ◐ Partial | ◐ Partial | – Not documented | ◐ Partial | 9.5 | Not published | ₹3,000/mo |
+Bland AI Developer platform · United States | ◐ Partial | ○ No | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ◐ Partial | – Not documented | ◐ Partial | ● Yes | ● Yes | – Not documented | ◐ Partial | 9 | $0.12/mintelephony extra | No monthly fee |
+Gnani.ai Enterprise conversational AI · India | ◐ Partial | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ◐ Partial | – Not documented | – Not documented | ◐ Partial | ● Yes | ◐ Partial | ● Yes | – Not documented | 9 | Not published | Quote only |
+LeadSquared CRM with AI calling · India | ◐ Partial | – Not documented | ◐ Partial | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | – Not documented | ◐ Partial | ● Yes | ● Yes | ◐ Partial | – Not documented | 9 | Not published | Quote only |
+Meritto CRM with AI calling · India | ● Yes | ● Yes | ● Yes | ◐ Partial | ◐ Partial | ● Yes | – Not documented | ● Yes | ◐ Partial | ● Yes | ● Yes | ◐ Partial | – Not documented | – Not documented | 9 | Not published | Quote only |
+PolyAI Enterprise conversational AI · United Kingdom | ◐ Partial | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | – Not documented | – Not documented | ◐ Partial | ◐ Partial | ● Yes | – Not documented | ◐ Partial | 9 | Not published | Quote only |
+Telnyx Developer platform · United States | ◐ Partial | ◐ Partial | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | – Not documented | – Not documented | ◐ Partial | ● Yes | ◐ Partial | – Not documented | ● Yes | 9 | $0.05/minLLM and telephony extra | No monthly fee |
+Kore.ai Enterprise conversational AI · United States | ◐ Partial | ◐ Partial | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | – Not documented | – Not documented | – Not documented | ◐ Partial | ◐ Partial | ● Yes | ◐ Partial | 8.5 | Not published | Quote only |
+Talkdesk Cloud telephony / contact centre · United States | ◐ Partial | ◐ Partial | ● Yes | ● Yes | ● Yes | ● Yes | ◐ Partial | – Not documented | – Not documented | ◐ Partial | ◐ Partial | ◐ Partial | ● Yes | ◐ Partial | 8.5 | Not published | Quote only |
+Vapi Developer platform · United States | – Not documented | – Not documented | ● Yes | ● Yes | ● Yes | ◐ Partial | ● Yes | ◐ Partial | ◐ Partial | ◐ Partial | ● Yes | ● Yes | – Not documented | ◐ Partial | 8.5 | $0.05/minhosting fee only; speech, LLM and telephony extra | No monthly fee |
+Skit.ai Enterprise conversational AI · United States | ◐ Partial | ● Yes | ● Yes | ● Yes | ● Yes | – Not documented | ◐ Partial | – Not documented | – Not documented | ◐ Partial | ◐ Partial | ● Yes | ● Yes | – Not documented | 8 | Not published | Quote only |
+Thoughtly Voice-agent platform · United States | – Not documented | – Not documented | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | ◐ Partial | ◐ Partial | ◐ Partial | ◐ Partial | ◐ Partial | – Not documented | ◐ Partial | 8 | Not published | Quote only |
+Convin Conversation intelligence · India | ● Yes | – Not documented | ● Yes | ● Yes | ● Yes | – Not documented | – Not documented | – Not documented | – Not documented | ● Yes | ● Yes | ◐ Partial | ● Yes | – Not documented | 7.5 | Not published | Quote only |
+Observe.AI Enterprise conversational AI · United States | – Not documented | – Not documented | ● Yes | ● Yes | ● Yes | ● Yes | ◐ Partial | – Not documented | – Not documented | – Not documented | ● Yes | ◐ Partial | ● Yes | – Not documented | 7 | Not published | Quote only |
+Yellow.ai Enterprise conversational AI · United States | ◐ Partial | ◐ Partial | ● Yes | ● Yes | ● Yes | ● Yes | ◐ Partial | ◐ Partial | – Not documented | – Not documented | ◐ Partial | ◐ Partial | – Not documented | – Not documented | 7 | Not published | Quote only |
+Dialpad Cloud telephony / contact centre · United States | ○ No | ○ No | ◐ Partial | ● Yes | ● Yes | ● Yes | ◐ Partial | ◐ Partial | – Not documented | – Not documented | ◐ Partial | – Not documented | ● Yes | ◐ Partial | 6.5 | Not published | Quote only |
+Sierra Enterprise conversational AI · United States | – Not documented | – Not documented | ● Yes | ● Yes | ● Yes | ● Yes | ◐ Partial | – Not documented | – Not documented | ◐ Partial | ◐ Partial | ● Yes | – Not documented | – Not documented | 6.5 | Not published | Quote only |
+NiCE Cognigy Enterprise conversational AI · Germany | – Not documented | – Not documented | ● Yes | ● Yes | ● Yes | ● Yes | ● Yes | – Not documented | – Not documented | ◐ Partial | – Not documented | ◐ Partial | – Not documented | – Not documented | 6 | Not published | Quote only |
+Rezo.ai Enterprise conversational AI · India | – Not documented | – Not documented | ● Yes | ● Yes | ● Yes | – Not documented | – Not documented | – Not documented | – Not documented | ◐ Partial | ● Yes | ◐ Partial | ● Yes | – Not documented | 6 | Not published | Quote only |
+Haptik Enterprise conversational AI · India | – Not documented | – Not documented | ● Yes | ● Yes | ● Yes | – Not documented | – Not documented | – Not documented | – Not documented | ◐ Partial | ◐ Partial | ◐ Partial | – Not documented | – Not documented | 4.5 | Not published | Quote only |
+Knowlarity Cloud telephony / contact centre · India | – Not documented | – Not documented | – Not documented | – Not documented | – Not documented | ◐ Partial | – Not documented | ◐ Partial | – Not documented | ◐ Partial | – Not documented | – Not documented | ● Yes | ● Yes | 3.5 | Not published | Quote only |
+Gong Conversation intelligence · United States | ○ No | ○ No | ○ No | ○ No | ○ No | ○ No | ◐ Partial | – Not documented | – Not documented | – Not documented | ● Yes | ○ No | ● Yes | – Not documented | 2.5 | Not published | Quote only |
+Salesken Conversation intelligence · India | ○ No | ○ No | ○ No | ○ No | ○ No | ○ No | – Not documented | – Not documented | – Not documented | – Not documented | ● Yes | ○ No | ● Yes | – Not documented | 2 | Not published | Quote only |
+
+Prices are copied as each vendor publishes them, in their own currency, and rarely include the same things: some include telephony, speech and the language model, others charge for each separately. The line under each per-minute price says what it covers; the CSV has the full notes. Read them before comparing two numbers.
+
+## What changed in 2025-26
+
+- Sarvam AI: Reported a $234M first close of a $300M Series B at a $1.5B valuation (June 2026), and publishes per-minute voice-agent pricing from ₹3 a minute. source
+- Ringg AI: Raised a $10M Series A extension led by Peak XV Partners (August 2026), after a $5.5M round in January. source
+- Bolna: Raised a $6.3M seed round led by General Catalyst, with Y Combinator and Blume Ventures (January 2026). source
+- Gnani.ai: Raised a $10M Series B first close led by Aavishkaar Capital (March 2026) and was selected under the IndiaAI Mission to build a voice foundation model. source
+- Meritto: Launched Mio AI Voice, an enrolment-calling agent built into its education CRM (December 2025). source
+- Exotel: Launched Harmony, a CX platform that puts voice, messaging, call analysis and human hand-off in one product (November 2025). source
+- Telnyx: Started selling Indian mobile numbers in four telecom circles that work with its voice AI agents (September 2026). source
+- Yellow.ai: Agreed to list on Nasdaq through a merger with Bluerock Acquisition Corp. at about $550M pro forma equity value (August 2026). source
+- Haptik: Launched WhatsApp and voice AI agents for small businesses through Interakt, from ₹10,000 (September 2025). source
+- NiCE Cognigy: NICE completed its acquisition of Cognigy on 8 September 2025; Cognigy is now part of CXone Mpower. source
+- ElevenLabs: Raised a $500M Series D at an $11B valuation (February 2026); its agents page now names Hindi, Tamil and Hinglish and offers India data residency. source
+- Vapi: Raised a $50M Series B led by Peak XV (May 2026), as reported by SiliconANGLE. source
+- Aircall: Acquired the voice-AI startup Vogent to build out its AI Voice Agent (May 2026). source
+- PolyAI: Raised an $86M Series D (December 2025) and opened a self-serve model API at 2¢ a minute in 2026. source
+- Synthflow: Its pricing page now lists only Enterprise contracts, from $30,000 a year, after a $20M Series A in June 2025. source
+
+## When another platform is the better fit
+Breadth is not the only thing that matters. Based on this research, these needs are better served elsewhere:
+
+- Developers who want full control of the model, tools and telephony: Vapi, Retell AI, Bland AI, Telnyx and ElevenLabs let you pick each component, call your own APIs mid-call and bring your own SIP trunk. Telleo is a finished product, not a toolkit.
+- Tool calling during the call (look up an order, check a slot in your system): Most developer and enterprise platforms document general mid-call tool calling. Telleo's agent can send a WhatsApp during the call, but it does not call your APIs mid-call.
+- Many Indian languages live from day one: Sarvam AI, Gnani.ai, Ringg AI, Bolna, SquadStack and Meritto document 9 to 12 Indian languages. Telleo runs Hindi, English and Hinglish live and sets up other languages on request.
+- Banks, insurers and others that need certifications: Gnani.ai, Sarvam AI, Skit.ai and Rezo.ai cite SOC 2 and ISO 27001. Telleo does not hold these certifications.
+- Large contact centres with human agents, routing and workforce management: Talkdesk, NiCE Cognigy, Exotel and Ozonetel are built around the human contact centre, with AI agents added on.
+- Debt collection: Skit.ai now focuses on collections, with checks on every call and scoring of human collectors.
+- Analysing human sales calls only: Gong, Salesken and Convin specialise in recording, scoring and coaching human reps; Telleo's analysis of human calls is part of a calling product.
+- Teams already running LeadSquared or Meritto: Both now include an AI voice agent that writes straight into the CRM you already use.
+
+## Method
+
+- Vendors: 37 platforms that Indian sales, admissions and support teams shortlist for AI calling: Indian voice-agent startups, Indian enterprise conversational AI, Indian cloud telephony and CRMs that added AI calling, global developer platforms, global business voice agents, contact-centre suites and conversation-intelligence tools. Air AI was on the list, but air.ai no longer hosts a voice-agent product, so it is not scored.
+- Evidence: each vendor's own product, pricing, documentation and help pages, read on 22 October 2026. Funding and 2025-26 events come from company announcements and business press. Review-site ratings are in the CSV and were never used as evidence of a capability.
+- Scoring: yes = 1, partial = 0.5, not offered or not documented = 0. The conversation axis covers 7 capabilities and the workflow axis 7; each is shown as a percentage. The definition of yes and partial for every capability is in the table below.
+- Telleo is scored with the same rubric from its own public product pages. It is the publisher of this report, so treat its position as a vendor claim you can check: it scores partial on Indian languages beyond Hindi and English (set up on request) and partial on mid-call actions (it can send a WhatsApp during the call, but has no general tool calling).
+Capability | Yes means | Partial means |
+
+Hindi + Hinglish | Agent documented to converse in Hindi and in code-mixed Hindi-English | Hindi only, or Hinglish only through a generic multilingual model |
+5+ Indian languages | Five or more Indian languages beyond Hindi and English, live | Two to four, or on request |
+Outbound + inbound | Both outbound and inbound AI calls | One direction only |
+Live transfer | Warm or live transfer to a human during the call | Callback scheduling only, or transfer on enterprise plans only |
+Mid-call actions | The agent books, calls an API or tool, or sends a message during the call | One narrow action, or actions only after the call |
+No-code builder | Business users build and edit agents without code | Templates, but editing needs developers, or the builder is in beta |
+API + webhooks | Public API to start calls or manage agents, and outbound webhooks | One of the two, or API on request |
+Built-in CRM | Native lead or contact management with stages | Contact or campaign lists only |
+Lead-ad connectors | Native connectors that start calls from Meta lead ads, Google lead forms or web forms | Only through Zapier, Make or a generic webhook |
+WhatsApp follow-up | Native WhatsApp messages tied to calls | Through a third party, or SMS only |
+Post-call analysis | Automatic outcome, summary and extracted fields per call | Transcript and recording only |
+AI call QA | Automated quality scoring or health flags for the AI agent's calls | Analytics dashboards only |
+Human-call analysis | Transcribes and scores calls made by human reps | Records or transcribes human calls only |
+Indian telephony included | Indian phone numbers and calling supplied by the vendor | Numbers outside India only, or bring your own carrier for India |
+
+### Limits
+
+- The map measures breadth, not depth or quality. A vendor with one excellent capability can score lower than one with many basic ones, and none of this measures how natural an agent sounds. Call each vendor's demo line before you buy.
+- “Not documented” scores zero. A vendor may offer something it does not describe publicly; tell us and we will update the record with a source.
+- Enterprise vendors document less in public than self-serve vendors, so they may be under-scored.
+- Prices change often and are shown as published, in their own currency, without conversion.
+Related: Telleo compared with telecallers, IVR and other platforms · Telleo pricing · All Telleo research
+
+## Sources
+
+- [1] Telleo: product, pricing and documentation pages — Telleo (self-assessed) (Vendor)
+- [2] PolyAI: product, pricing and documentation pages — PolyAI (Vendor)
+- [3] Thoughtly: product, pricing and documentation pages — Thoughtly (Vendor)
+- [4] Aircall: product, pricing and documentation pages — Aircall (Vendor)
+- [5] Dialpad: product, pricing and documentation pages — Dialpad (Vendor)
+- [6] Talkdesk: product, pricing and documentation pages — Talkdesk (Vendor)
+- [7] Vapi: product, pricing and documentation pages — Vapi (Vendor)
+- [8] Retell AI: product, pricing and documentation pages — Retell AI (Vendor)
+- [9] Bland AI: product, pricing and documentation pages — Bland AI (Vendor)
+- [10] Synthflow: product, pricing and documentation pages — Synthflow (Vendor)
+- [11] ElevenLabs: product, pricing and documentation pages — ElevenLabs (Vendor)
+- [12] Telnyx: product, pricing and documentation pages — Telnyx (Vendor)
+- [13] Observe.AI: product, pricing and documentation pages — Observe.AI (Vendor)
+- [14] NiCE Cognigy: product, pricing and documentation pages — NiCE Cognigy (Vendor)
+- [15] Sierra: product, pricing and documentation pages — Sierra (Vendor)
+- [16] Gong: product, pricing and documentation pages — Gong (Vendor)
+- [17] Salesken: product, pricing and documentation pages — Salesken (Vendor)
+- [18] Kore.ai: product, pricing and documentation pages — Kore.ai (Vendor)
+- [19] Gnani.ai: product, pricing and documentation pages — Gnani.ai (Vendor)
+- [20] Yellow.ai: product, pricing and documentation pages — Yellow.ai (Vendor)
+- [21] Haptik: product, pricing and documentation pages — Haptik (Vendor)
+- [22] Skit.ai: product, pricing and documentation pages — Skit.ai (Vendor)
+- [23] Sarvam AI: product, pricing and documentation pages — Sarvam AI (Vendor)
+- [24] Rezo.ai: product, pricing and documentation pages — Rezo.ai (Vendor)
+- [25] Ringg AI: product, pricing and documentation pages — Ringg AI (Vendor)
+- [26] Vomyra: product, pricing and documentation pages — Vomyra (Vendor)
+- [27] Bolna: product, pricing and documentation pages — Bolna (Vendor)
+- [28] Smallest.ai: product, pricing and documentation pages — Smallest.ai (Vendor)
+- [29] SubVerse AI: product, pricing and documentation pages — SubVerse AI (Vendor)
+- [30] VoiceGenie: product, pricing and documentation pages — VoiceGenie (Vendor)
+- [31] Exotel: product, pricing and documentation pages — Exotel (Vendor)
+- [32] Ozonetel: product, pricing and documentation pages — Ozonetel (Vendor)
+- [33] Knowlarity: product, pricing and documentation pages — Knowlarity (Vendor)
+- [34] LeadSquared: product, pricing and documentation pages — LeadSquared (Vendor)
+- [35] Meritto: product, pricing and documentation pages — Meritto (Vendor)
+- [36] Convin: product, pricing and documentation pages — Convin (Vendor)
+- [37] SquadStack: product, pricing and documentation pages — SquadStack (Vendor)
 
 
 ---
@@ -5438,7 +5789,7 @@ Telephony | Included on Telleo's lines (Plivo). Optional dedicated AI line with 
 CRM and follow-up | Built-in CRM: leads from Meta and Google lead forms, webhooks and CSV; round-robin assignment; rules to assign, retry or stop; meetings auto-booked; WhatsApp and email sent only when the caller agreed. | Integrations listed on their site include HubSpot, Google Sheets, Calendly, Shopify, Notion and Typeform, plus webhooks, an API and WhatsApp send tools during or after a call. |
 Call analysis | Every AI call analysed free: outcome from your list, summary, 1 to 10 lead rating, extracted answers, callback requests and agreed meeting times. Human calls can be analysed and scored too, per minute of recording. | Custom post-call analysis fields, call history and an analytics dashboard. Advanced analytics at ₹2 per call. |
 Quality monitoring | A green, amber or red health verdict on every AI call with a plain headline, such as long silence or transfer failed. | Per their homepage: QA, analytics and alerts on all conversations, with flags such as hallucination and interruptions. |
-Developer tools | No public API or SDK. Connects to anything that can send or receive a webhook. | REST API, webhooks, an MCP server, and web, React Native and Flutter widgets. |
+Developer tools | A REST API to start calls (one at a time or up to 1,000 in a batch) and read outcomes, with signed webhooks for results. No SDK or MCP server. | REST API, webhooks, an MCP server, and web, React Native and Flutter widgets. |
 Security and compliance | No certifications claimed. We register DLT with you. Health verdicts and diagnostics are admin-only; full phone numbers on the call log can be restricted by role. | Per their docs: SOC 2 Type II audit completed, ISO 27001 certified, GDPR and HIPAA compliant, with a public trust centre. Per their pricing page, on-premise or virtual private cloud deployment is available on the Enterprise plan, and their FAQ says it costs an additional fee. |
 Best for | Indian sales, admissions and service teams calling in Hindi, English or Hinglish who want calling and CRM in one tool. | Businesses that need many languages, several channels, developer control or enterprise security paperwork. |
 
@@ -5454,7 +5805,7 @@ Best for | Indian sales, admissions and service teams calling in Hindi, English 
 
 - You need languages beyond the three Telleo runs in production, or international ones like French or Spanish.
 - You want chat, WhatsApp or website agents as well as voice.
-- Your team wants a REST API, an MCP server or mobile widgets.
+- Your team wants an MCP server, SDKs or mobile widgets.
 - Your procurement needs published certifications such as SOC 2 Type II or ISO 27001, or on-prem deployment.
 - You want a vendor with named enterprise case studies. Ringg's site lists PolicyBazaar, Practo, PharmEasy, smallcase, PlatinumRx and Ekart.
 - You prefer billing prorated by the second on connected minutes.
@@ -5489,7 +5840,7 @@ Can I use my own telephony provider? +
 Ringg supports bring-your-own telephony with Plivo, Exotel, Twilio and SIP. Telleo includes telephony on its own lines, with an optional dedicated AI line on your own Plivo sub-account. Your human team can stay on Airtel IQ or Exotel.
 
 Does Telleo have an API like Ringg? +
-No public API or SDK today. Telleo connects to other systems through webhooks and HTTP request steps in its workflows. If you need a full developer API, Ringg offers one.
+Yes, for calling. The Telleo API starts calls one at a time or up to 1,000 in a batch, fills the agent's script with each contact's name and details, and posts every outcome to your webhook, signed. Docs are at docs.telleo.ai. There is no SDK or MCP server; Ringg offers both.
 
 Is Telleo SOC 2 or ISO 27001 certified? +
 Telleo does not claim any certifications. Ringg's docs state it has completed a SOC 2 Type II audit and is ISO 27001 certified. If certifications are a hard requirement, weigh that.
@@ -5545,7 +5896,7 @@ Voices and models | 80+ voices across 7 speech engines, including Google Chirp3-
 Channels | Phone calls, outbound and inbound (via an IVR option), plus WhatsApp template and email sends. | Phone calls, WhatsApp voice calls (per their docs), browser test calls and WhatsApp follow-up messages. |
 CRM and follow-up | Built-in CRM: leads from Meta and Google lead forms, webhooks and CSV; round-robin assignment; rules to assign, retry or stop; meetings auto-booked; WhatsApp and email sent only when the caller agreed. | Integrations with Zoho CRM, HubSpot, Salesforce, Google Sheets, Google Calendar, Cal.com, WhatsApp, Razorpay, Slack, Zapier and Make, plus webhooks and a REST API. |
 Call analysis | Every AI call analysed free, with a green, amber or red health verdict. Human calls can be analysed and scored too, per minute of recording. | Per their pricing page, "Full analytics" from the Developer plan. Transcripts are available through the API and MCP server. |
-Developer tools | No public API or SDK. Connects to anything that can send or receive a webhook. | REST API (15 endpoints), webhooks, a hosted MCP server and a Web SDK. |
+Developer tools | A REST API to start calls (one at a time or up to 1,000 in a batch) and read outcomes, with signed webhooks for results. No SDK or MCP server. | REST API (15 endpoints), webhooks, a hosted MCP server and a Web SDK. |
 Security and compliance | No certifications claimed. We register DLT with you. Health verdicts and diagnostics are admin-only; full phone numbers on the call log can be restricted by role. | Public security page: API-key or OAuth 2.1 access, encryption in transit and at rest, role-based access, audit logs and a DPA. Security review on Enterprise. Live calls need business KYC first. |
 Best for | Teams with modest or seasonal volume who want calling, CRM and follow-up in one tool. | High-volume calling to Indian numbers at a flat price, voice cloning, resellers and developer-led teams. |
 
@@ -5563,7 +5914,7 @@ Best for | Teams with modest or seasonal volume who want calling, CRM and follow
 - You want mobile-series (98/94) caller IDs, voice cloning or a choice of frontier speech models.
 - You need more languages than Telleo runs in production.
 - You want to resell voice agents under your own brand. Vomyra includes white-label access on its Business plan.
-- You need a REST API, an MCP server or ready integrations with Zoho CRM, HubSpot or Salesforce.
+- You need an MCP server or ready integrations with Zoho CRM, HubSpot or Salesforce.
 - You want per-second billing.
 
 ## Two different pricing bets
@@ -5571,7 +5922,7 @@ Vomyra's headline offer is unlimited calling: Unlimited Solo is ₹19,999 a mont
 Telleo charges per minute. The annual plan is ₹19,999 a year upfront, then ₹3.49 a minute with no monthly minimum, so a quiet month costs nothing in usage. Comparing list prices as published, Telleo's annual plan costs less than Unlimited Solo until you use about 5,250 minutes a month. Above that, a flat plan starts to win. Telleo's prices exclude 18% GST; Vomyra's pricing page does not say either way.
 
 ## Where Vomyra is stronger
-Vomyra offers things Telleo does not: Indian mobile-series numbers, voice cloning, a choice of speech-to-speech models, 70+ languages, a REST API and MCP server, white-label resale, and ready connectors for Zoho CRM, HubSpot and Salesforce. It also names customers on its site, including Bikanervala, Balmer Lawrie and ANI.
+Vomyra offers things Telleo does not: Indian mobile-series numbers, voice cloning, a choice of speech-to-speech models, 70+ languages, an MCP server, white-label resale, and ready connectors for Zoho CRM, HubSpot and Salesforce. It also names customers on its site, including Bikanervala, Balmer Lawrie and ANI.
 
 ## Where Telleo is different
 Telleo puts the CRM and the call in one place. Leads arrive from Meta and Google lead forms, websites or CSV; the agent calls; and outcome rules assign, retry or stop. Meetings agreed on the call are booked, and WhatsApp or email goes out only when the caller said yes.
@@ -5595,7 +5946,7 @@ Can Telleo clone my voice? +
 No. Telleo offers 80+ ready voices across 7 speech engines, with a preview of the exact voice before calls go out. Vomyra lists voice cloning on its Unlimited plans.
 
 Does Telleo connect to Zoho, HubSpot or Salesforce? +
-Not natively. Telleo has its own built-in CRM and connects to other systems through webhooks. Vomyra lists ready integrations with Zoho CRM, HubSpot and Salesforce.
+Not natively. Telleo has its own built-in CRM, and other systems connect through webhooks or the Telleo API, which starts calls and posts each outcome back. Vomyra lists ready integrations with Zoho CRM, HubSpot and Salesforce.
 
 When were these facts checked? +
 On 25 September 2026, on Vomyra's website and docs. Vendors change pricing and features often, so please confirm on vomyra.com.
@@ -5649,7 +6000,7 @@ Hindi and Hinglish | In production, with the tuning done: barge-in on phone line
 CRM and follow-up | Built in: lead sources, round-robin assignment, retries, bookings, WhatsApp and email. | Build it or connect one. Retell lists integrations such as HubSpot, Make and n8n; otherwise webhooks and APIs. |
 Call analysis | Outcome, summary, lead rating and extracted answers on every AI call, free. Human calls analysed per minute of recording. | Retell lists post-call analysis, and AI quality assurance at $0.10/min after the first 100 free minutes. With a framework, you build it. |
 Quality monitoring | A green, amber or red health verdict on every AI call with a plain headline. | Vapi lists critical monitoring and call simulation; Retell lists simulation testing. With a framework, you build dashboards and alerts. |
-Control | You configure the agent and choose its voice and speech engine; Telleo runs the pipeline. No public API or SDK; webhooks for integration. | Full control of models, prompts, tools, data flow and hosting. Pipecat and LiveKit Agents can run on your own servers. |
+Control | You configure the agent and choose its voice and speech engine; Telleo runs the pipeline. A REST API starts calls and returns outcomes, with signed webhooks; no SDK. | Full control of models, prompts, tools, data flow and hosting. Pipecat and LiveKit Agents can run on your own servers. |
 Compliance | No certifications claimed. We register DLT with you. | Retell: "SOC 2 certified, HIPAA-ready". Vapi: HIPAA option at $2,000/month. Self-hosted frameworks: whatever your own setup achieves. |
 Best for | Sales, admissions and service teams that want results from calling, not a voice AI project. | Product and engineering teams building voice into their own product. |
 
@@ -5663,7 +6014,7 @@ Best for | Sales, admissions and service teams that want results from calling, n
 ## Choose building your own agent on Vapi, Retell AI, Pipecat or LiveKit if…
 
 - Voice AI is part of your own product and you need control of every component.
-- You need a public API, custom tools during the call or deep integration with your own systems.
+- You need custom tools during the call, or the voice pipeline wired deep into your own systems.
 - You want to choose specific models, voices or carriers, or host everything yourself.
 - You need compliance options such as HIPAA agreements that a platform publishes.
 - You need languages Telleo does not yet run in production.
@@ -5692,7 +6043,7 @@ Are Pipecat and LiveKit Agents really free? +
 The frameworks are open source: Pipecat under the BSD-2 licence and LiveKit Agents under Apache 2.0. You still pay for the AI services, telephony and servers you use, and for the engineers who run them.
 
 Does Telleo have an API? +
-No public API or SDK. Telleo connects to other systems through webhooks and HTTP request steps in its workflows. If your use needs a full developer API, a developer platform is the better fit.
+Yes. The Telleo API starts calls and batches, passes each contact's details into the agent's script, and posts the outcome to your webhook, signed (docs at docs.telleo.ai). There is no SDK, and the agent cannot call your own tools during a call; if you need that, a developer platform is the better fit.
 
 Which speech engines does Telleo use? +
 Telleo offers 80+ voices across 7 speech engines: Google Chirp3-HD, Sarvam Bulbul, Smallest Lightning (standard and Pro), Rumik, Microsoft Edge and Deepgram Aura-2 for English. Voice preview plays the exact engine and voice that will go out on the call.

@@ -1,0 +1,525 @@
+[
+  {
+    "name": "PolyAI (Agent Studio)",
+    "website": "https://poly.ai",
+    "hq_country": "United Kingdom",
+    "founded_year": 2017,
+    "segment": "enterprise-conversational-ai",
+    "target_customers": "Enterprises: 'dialog agents that handle your most critical enterprise conversations' in hotels, retail, banking, healthcare, telecom, utilities",
+    "pricing": {
+      "public_pricing": true,
+      "entry_price": {
+        "amount": 0.02,
+        "currency": "USD",
+        "period": "minute",
+        "plan_name": "Dialog-RSN-1 API",
+        "notes": "Page shows '2¢' per connected minute, billed per second (token prices in $: $2/1M input, $5/1M output). Telephony and orchestration NOT included; 10 concurrent calls. This is the model API; the Agentic Dialog Platform (Agent Studio) is custom-quoted per minute by sales."
+      },
+      "per_minute_from": {
+        "amount": 0.02,
+        "currency": "USD",
+        "notes": "2¢/connected minute for Dialog-RSN-1 API model only + text tokens; voice output free until 19 Nov; telephony/orchestration excluded. Platform per-minute rate not published."
+      },
+      "free_trial": true,
+      "price_basis": "per minute"
+    },
+    "capabilities": {
+      "hindi_hinglish": {
+        "value": "partial",
+        "evidence": "Languages page lists Hindi; no mention of Hinglish or code-mixed speech (multilingual docs describe switching between languages)"
+      },
+      "indic_languages": {
+        "value": "yes",
+        "evidence": "Languages page lists Bengali, Gujarati, Kannada, Malayalam, Marathi, Tamil, Telugu, Urdu alongside Hindi"
+      },
+      "outbound_inbound": {
+        "value": "yes",
+        "evidence": "Inbound voice agents plus documented Outbound Calling API / Agents API to trigger outbound calls"
+      },
+      "live_transfer": {
+        "value": "yes",
+        "evidence": "Docs: mid-call handoff to human via SIP REFER/INVITE with context passed in SIP headers or Handoff API"
+      },
+      "mid_call_actions": {
+        "value": "yes",
+        "evidence": "Tools/functions call APIs mid-conversation; built-in actions incl. send SMS, tool call, handoff; demo changes a booking"
+      },
+      "no_code_builder": {
+        "value": "yes",
+        "evidence": "Agent Studio: 'No-code to full code, without changing platform'"
+      },
+      "api_webhooks": {
+        "value": "yes",
+        "evidence": "Public Platform/Agents API, Outbound API, Conversations API and a Webhooks API with signed endpoints"
+      },
+      "built_in_crm": {
+        "value": "unknown",
+        "evidence": "No native lead/contact pipeline documented; integrates with Zendesk, ServiceNow, Salesforce-type systems"
+      },
+      "lead_source_connectors": {
+        "value": "unknown",
+        "evidence": "No Meta/Google lead-form connectors documented"
+      },
+      "whatsapp_followup": {
+        "value": "partial",
+        "evidence": "Homepage lists WhatsApp among channels; WhatsApp follow-up tied to voice calls not documented (SMS is)"
+      },
+      "post_call_analysis": {
+        "value": "partial",
+        "evidence": "Per-conversation transcripts, recordings, variables, function calls and quality scores; auto summaries/dispositions not documented"
+      },
+      "call_qa": {
+        "value": "yes",
+        "evidence": "PolyScore automated quality score on each conversation plus custom AI Scores (1-5) graded after every call"
+      },
+      "human_call_intelligence": {
+        "value": "unknown",
+        "evidence": "No feature for analysing human-rep calls documented"
+      },
+      "telephony_included": {
+        "value": "partial",
+        "evidence": "Numbers can be bought from PolyAI in UK, US, Canada, Australia, Ireland; India not listed (BYO SIP/Twilio otherwise)"
+      }
+    },
+    "languages_claimed": "'Multilingual Dialog Agents in 75+ Languages' (page title); list of 42 incl. Hindi, Bengali, Gujarati, Kannada, Malayalam, Marathi, Tamil, Telugu, Urdu",
+    "india_compliance": null,
+    "ratings": {
+      "g2": {
+        "score": 5.0,
+        "reviews": 12,
+        "note": "search snippet"
+      },
+      "capterra": null
+    },
+    "scale": {
+      "customers_claimed": "100+ enterprises, 2,000+ live deployments in 45 languages and 25+ countries (Series D release, Dec 2025); site: 100M+ calls a year",
+      "total_funding_usd_m": 200,
+      "last_round": "Series D $86M, Dec 2025 (total reported as 'over $200M'; CB Insights $204.5M)"
+    },
+    "notable_2025_2026": "Raised $86M Series D (Dec 2025) co-led by Georgian, Hedosophia and Khosla; launched self-serve Dialog-RSN-1 API at 2¢/min in 2026",
+    "notable_source": "https://siliconangle.com/2025/12/15/call-center-chatbot-startup-polyai-raises-86m-750m-valuation/",
+    "sources": {
+      "pricing": "https://poly.ai/pricing",
+      "capabilities": "https://poly.ai ; https://poly.ai/languages ; https://docs.poly.ai/llms.txt ; https://docs.poly.ai/voice-channel/handoffs.md ; https://docs.poly.ai/analytics/ai-scores.md ; https://docs.poly.ai/voice-channel/numbers/how-to-buy-number.md",
+      "ratings": "https://www.g2.com/products/polyai/reviews",
+      "scale": "https://poly.ai/about ; https://tech.eu/2025/12/15/polyai-raises-86m/"
+    },
+    "as_of": "2026-10-22"
+  },
+  {
+    "name": "Thoughtly",
+    "website": "https://www.thoughtly.com",
+    "hq_country": "United States",
+    "founded_year": null,
+    "segment": "voice-agent-platform",
+    "target_customers": "Revenue teams (CMOs, CROs, RevOps) in education, insurance, mortgage, real estate: agents that 'qualify leads, and book meetings automatically'",
+    "pricing": {
+      "public_pricing": false,
+      "entry_price": {
+        "amount": null,
+        "currency": null,
+        "period": null,
+        "plan_name": "Flex",
+        "notes": "Pricing page lists Flex / Scale / Enterprise with no prices ('Talk to sales', 'Get a quote'). Flex: 10 concurrent calls, 'unlimited' voice/SMS/email, bring-your-own carrier (Twilio, Telnyx), choice of GPT/Claude/Gemini, REST API + webhooks."
+      },
+      "per_minute_from": null,
+      "free_trial": null,
+      "price_basis": "quote only"
+    },
+    "capabilities": {
+      "hindi_hinglish": {
+        "value": "unknown",
+        "evidence": "No language list published; Hindi/Hinglish not mentioned"
+      },
+      "indic_languages": {
+        "value": "unknown",
+        "evidence": "Multilingual promptbook says agents can speak 'any language' but names none; no Indian languages listed"
+      },
+      "outbound_inbound": {
+        "value": "yes",
+        "evidence": "Phone numbers carry separate inbound and outbound agent profiles; API 'Call a contact' and bulk calls"
+      },
+      "live_transfer": {
+        "value": "yes",
+        "evidence": "Agent Builder Transfer node (Phone Router / Agent Transfer); 'Warm transfers can include context for the receiving team'"
+      },
+      "mid_call_actions": {
+        "value": "yes",
+        "evidence": "Mid-call actions look up data, write CRM records, book via scheduler integrations, call webhooks; mid-call SMS promptbook"
+      },
+      "no_code_builder": {
+        "value": "yes",
+        "evidence": "Drag-and-drop Agent Builder that requires no coding"
+      },
+      "api_webhooks": {
+        "value": "yes",
+        "evidence": "REST API (create contact, call a contact, search calls) plus webhook subscribe/unsubscribe endpoints"
+      },
+      "built_in_crm": {
+        "value": "partial",
+        "evidence": "Audiences/contact management with tags; positioned as two-way sync with external CRMs (Salesforce, HubSpot, Zoho, GHL)"
+      },
+      "lead_source_connectors": {
+        "value": "partial",
+        "evidence": "Native Typeform integration; Meta/Google lead ads not listed; Zapier/Make and REST API for others"
+      },
+      "whatsapp_followup": {
+        "value": "partial",
+        "evidence": "Native WhatsApp Business integration (send message/template actions); linkage to calls not documented"
+      },
+      "post_call_analysis": {
+        "value": "partial",
+        "evidence": "History shows recordings, transcripts, statuses, summary/outcome/variable filters; scoring automation writes results to CRM"
+      },
+      "call_qa": {
+        "value": "partial",
+        "evidence": "Automation can score each call on custom criteria (qualification, sentiment, outcome); analytics dashboard of usage"
+      },
+      "human_call_intelligence": {
+        "value": "unknown",
+        "evidence": "No feature for analysing human-rep calls documented"
+      },
+      "telephony_included": {
+        "value": "partial",
+        "evidence": "Numbers purchasable 'across US and international regions' (India not mentioned); pricing lists BYO carrier Twilio/Telnyx"
+      }
+    },
+    "languages_claimed": "Multilingual: agents can detect the caller's language and speak 'any language' (no list published)",
+    "india_compliance": null,
+    "ratings": {
+      "g2": {
+        "score": 4.6,
+        "reviews": 42,
+        "note": "search snippet; homepage also shows G2 4.6"
+      },
+      "capterra": null
+    },
+    "scale": {
+      "customers_claimed": "Logos incl. Siemens, Farmers Insurance, Ace Hardware, edX, 2U; no count published",
+      "total_funding_usd_m": 8.5,
+      "last_round": "Seed $5.5M, Apr 2026 (total '$8+ million')"
+    },
+    "notable_2025_2026": "Raised $5.5M seed (Apr 2026) led by Armory Square Ventures, total $8M+, to build omnichannel agents for revenue teams",
+    "notable_source": "https://www.thoughtly.com/blog/thoughtly-raises-usd8m-to-build-omnichannel-agents-for-revenue-teams/",
+    "sources": {
+      "pricing": "https://www.thoughtly.com/pricing",
+      "capabilities": "https://www.thoughtly.com ; https://docs.thoughtly.com/llms.txt ; https://docs.thoughtly.com/agents/nodes.md ; https://docs.thoughtly.com/agents/actions ; https://docs.thoughtly.com/integrations/getting-started.md ; https://docs.thoughtly.com/integrations/communication/whatsapp-business.md ; https://docs.thoughtly.com/platform/history.md",
+      "ratings": "https://www.g2.com/products/thoughtly/reviews",
+      "scale": "https://www.thoughtly.com/blog/thoughtly-raises-usd8m-to-build-omnichannel-agents-for-revenue-teams/"
+    },
+    "as_of": "2026-10-22"
+  },
+  {
+    "name": "Aircall (AI Voice Agent)",
+    "website": "https://aircall.io",
+    "hq_country": "France",
+    "founded_year": 2014,
+    "segment": "ccaas-telephony",
+    "target_customers": "Sales and support teams at 23,000+ businesses; 'AI Voice Agent built natively into business phones'",
+    "pricing": {
+      "public_pricing": true,
+      "entry_price": {
+        "amount": 100,
+        "currency": "USD",
+        "period": "month",
+        "plan_name": "AI Voice Agents (standalone)",
+        "notes": "'$100 per month minimum'; pay-as-you-go $0.49/min; bundles 500 min $175, 2,500 min $725/month. Phone seats: Essentials $30, Professional $50 per license/month (3-user min, 'Save 25% by paying annually'), each incl. 50 AI Voice Agent min/month and 1 number."
+      },
+      "per_minute_from": {
+        "amount": 0.19,
+        "currency": "USD",
+        "notes": "10,000+ min at 'custom rates starting from $0.19/min'; PAYG $0.49/min ($0.39/min above 2,500 min per FAQ). Inclusions of LLM/TTS not itemised."
+      },
+      "free_trial": true,
+      "price_basis": "per minute"
+    },
+    "capabilities": {
+      "hindi_hinglish": {
+        "value": "partial",
+        "evidence": "Help centre lists Hindi as a beta language for AI Voice Agent; no Hinglish mention"
+      },
+      "indic_languages": {
+        "value": "partial",
+        "evidence": "Only Hindi and Tamil listed, both beta"
+      },
+      "outbound_inbound": {
+        "value": "yes",
+        "evidence": "AI Agents handle inbound and outbound calls; outbound triggered by events or the AIVA outbound-calls API"
+      },
+      "live_transfer": {
+        "value": "yes",
+        "evidence": "Transfers to a user/team/number with call context; inbound modes Immediate / Help first / After intake; outbound cold transfer"
+      },
+      "mid_call_actions": {
+        "value": "yes",
+        "evidence": "Books meetings during the call, looks up orders, updates contact records, creates tickets (HubSpot, Salesforce, Zendesk, Shopify)"
+      },
+      "no_code_builder": {
+        "value": "yes",
+        "evidence": "'launch an AI voice agent in minutes, with no code' from templates with plain-language instructions"
+      },
+      "api_webhooks": {
+        "value": "yes",
+        "evidence": "Public REST API incl. AI outbound-call endpoint; webhooks incl. ai_voice_agent.started/ended/escalated/summary events"
+      },
+      "built_in_crm": {
+        "value": "partial",
+        "evidence": "Shared contacts and outbound campaign objects (API/webhook events); pipelines live in integrated CRMs"
+      },
+      "lead_source_connectors": {
+        "value": "partial",
+        "evidence": "Outbound calls triggered via API or CRM events; no native Meta/Google lead-form connector documented"
+      },
+      "whatsapp_followup": {
+        "value": "partial",
+        "evidence": "Native WhatsApp add-on ($10/seat) and AI Messaging Agents on WhatsApp; call-linked WhatsApp follow-up not documented"
+      },
+      "post_call_analysis": {
+        "value": "yes",
+        "evidence": "AI Insights (summary, key topics, action items, sentiment) auto-generated for AI Voice Agent calls; intake results in Workspace"
+      },
+      "call_qa": {
+        "value": "partial",
+        "evidence": "Agent dashboards track resolution rate, CX score, transfer rate; auto-surfaces content gaps; no per-call QA scorecards stated"
+      },
+      "human_call_intelligence": {
+        "value": "yes",
+        "evidence": "AI Assist transcripts, summaries, coaching insights; AI Assist Pro real-time coaching; call_evaluation webhook events"
+      },
+      "telephony_included": {
+        "value": "partial",
+        "evidence": "Numbers in 100+ countries included with plans; India not on country coverage list"
+      }
+    },
+    "languages_claimed": "'38 languages' (product page); help centre: 25 generally available + 11 beta incl. Hindi and Tamil (beta)",
+    "india_compliance": "No India number offering listed; help centre notes Indian toll-free numbers cannot be called from Aircall (search snippet)",
+    "ratings": {
+      "g2": {
+        "score": 4.4,
+        "reviews": 1678,
+        "note": "search snippet, G2 seller page"
+      },
+      "capterra": null
+    },
+    "scale": {
+      "customers_claimed": "23,000+ businesses (May 2026 release)",
+      "total_funding_usd_m": 226,
+      "last_round": "Series D $120M, Jun 2021"
+    },
+    "notable_2025_2026": "Acquired Vogent (May 2026), a San Francisco voice-AI startup, to strengthen its AI Voice Agent stack",
+    "notable_source": "https://aircall.io/blog/news/aircall-vogent/",
+    "sources": {
+      "pricing": "https://aircall.io/pricing/",
+      "capabilities": "https://aircall.io/products/ai/voice-agent/ ; https://support.aircall.io/hc/en-gb/articles/25979264664221-What-is-Aircall-s-AI-Voice-Agent ; https://developer.aircall.io/docs/ai-outbound-calls ; https://developers.aircall.io/api-references ; https://aircall.io/products/ai-overview/ ; https://aircall.io/countries/",
+      "ratings": "https://www.g2.com/sellers/aircall",
+      "scale": "https://aircall.io/blog/news/aircall-vogent/ ; https://www.builtinnyc.com/articles/aircall-raises-120m-new-york-hiring"
+    },
+    "as_of": "2026-10-22"
+  },
+  {
+    "name": "Dialpad (Dialpad Resolve / AI Agents)",
+    "website": "https://www.dialpad.com",
+    "hq_country": "United States",
+    "founded_year": 2011,
+    "segment": "ccaas-telephony",
+    "target_customers": "'AI platform for customer experience': business phone, contact-centre and sales teams",
+    "pricing": {
+      "public_pricing": false,
+      "entry_price": {
+        "amount": null,
+        "currency": null,
+        "period": null,
+        "plan_name": "Dialpad Resolve (AI Agents)",
+        "notes": "AI agents: custom, conversation-based pool of AI Agent Credits; 'Credits are used only when AI delivers value'; no rate published. Seat plans public (USD/user/month): Connect Standard $15, Pro $25; Sell from $39; Support from $89 on pricing page."
+      },
+      "per_minute_from": null,
+      "free_trial": true,
+      "price_basis": "quote only"
+    },
+    "capabilities": {
+      "hindi_hinglish": {
+        "value": "no",
+        "evidence": "Help-centre language list (page blocked; read via search snippet) names English, Spanish, French, Japanese + early-access EU/Asian; no Hindi"
+      },
+      "indic_languages": {
+        "value": "no",
+        "evidence": "No Indian language in Dialpad AI language lists (search snippet); agentic agents launched English-only"
+      },
+      "outbound_inbound": {
+        "value": "partial",
+        "evidence": "AI agent pages document inbound answering; outbound reminders/follow-up only mentioned as a use case"
+      },
+      "live_transfer": {
+        "value": "yes",
+        "evidence": "Routes by intent and hands off to people 'with full context already captured'"
+      },
+      "mid_call_actions": {
+        "value": "yes",
+        "evidence": "Can 'book, reschedule, or confirm a time directly during the call'; agents take configured actions and trigger workflows"
+      },
+      "no_code_builder": {
+        "value": "yes",
+        "evidence": "'Dialpad's no-code builder' configures AI Agent behaviour in plain language"
+      },
+      "api_webhooks": {
+        "value": "partial",
+        "evidence": "Public REST API and webhook event subscriptions for calls/SMS/contacts; no AI-agent API documented"
+      },
+      "built_in_crm": {
+        "value": "partial",
+        "evidence": "Contacts managed in-product/API; pipelines via Salesforce, HubSpot, Zoho integrations"
+      },
+      "lead_source_connectors": {
+        "value": "unknown",
+        "evidence": "No Meta/Google lead-form triggers documented"
+      },
+      "whatsapp_followup": {
+        "value": "unknown",
+        "evidence": "WhatsApp not mentioned; channels listed are voice, chat, SMS/MMS"
+      },
+      "post_call_analysis": {
+        "value": "partial",
+        "evidence": "AI Recaps, call summaries and post-call automation exist; not documented for AI Agent calls specifically"
+      },
+      "call_qa": {
+        "value": "unknown",
+        "evidence": "AI Scorecards auto-grade conversations but page does not say they cover AI-agent calls"
+      },
+      "human_call_intelligence": {
+        "value": "yes",
+        "evidence": "AI transcripts, AI Recaps, AI Scorecards auto-QA and Live Coach for human agents"
+      },
+      "telephony_included": {
+        "value": "partial",
+        "evidence": "Local numbers in '50+ countries' (70 listed); India not on coverage list"
+      }
+    },
+    "languages_claimed": "Dialpad AI: English, Spanish, French, Japanese; Dutch, German, Italian, Portuguese, Korean, Swedish, Mandarin, Vietnamese, Indonesian early-adopter (help centre via search snippet)",
+    "india_compliance": null,
+    "ratings": {
+      "g2": {
+        "score": 4.4,
+        "reviews": 4893,
+        "note": "search snippet, G2 seller page (all Dialpad products); Dialpad Connect 4.4/4,216"
+      },
+      "capterra": null
+    },
+    "scale": {
+      "customers_claimed": "not stated on vendor pages read",
+      "total_funding_usd_m": 418,
+      "last_round": "Series F $170M, Dec 2021 (Reuters; aggregators cite up to ~$476M)"
+    },
+    "notable_2025_2026": "Launched Agentic AI Platform (Oct 2025) with autonomous voice and chat agents; product since renamed Dialpad Resolve",
+    "notable_source": "https://secure.businesswire.com/news/home/20251009990531/en/Dialpad-Launches-Its-Agentic-AI-Platform-Ending-the-Chatbot-Era-and-Redefining-the-Future-of-Customer-Service",
+    "sources": {
+      "pricing": "https://www.dialpad.com/pricing/",
+      "capabilities": "https://www.dialpad.com/ai-voice/ ; https://www.dialpad.com/voice/ ; https://www.dialpad.com/llm-info/ ; https://www.dialpad.com/features/ai-scorecards/ ; https://developers.dialpad.com/ ; https://www.dialpad.com/coverage/ ; https://help.dialpad.com/v1/docs/dialpad-ai (snippet only, 403)",
+      "ratings": "https://www.g2.com/sellers/dialpad",
+      "scale": "https://www.dialpad.com/llm-info/ ; https://www.nippon.com/en/news/reu20211216KBN2IV1DL/"
+    },
+    "as_of": "2026-10-22"
+  },
+  {
+    "name": "Talkdesk (AI Agents / Autopilot)",
+    "website": "https://www.talkdesk.com",
+    "hq_country": "United States",
+    "founded_year": 2011,
+    "segment": "ccaas-telephony",
+    "target_customers": "'Trusted by global enterprises' in financial services, healthcare, retail, utilities; contact centres",
+    "pricing": {
+      "public_pricing": false,
+      "entry_price": {
+        "amount": null,
+        "currency": null,
+        "period": null,
+        "plan_name": "Autopilot / CXA AI Agents",
+        "notes": "AI agent pricing not published (contact sales). Seat plans (USD per user/month): Digital Essentials $85, Voice Essentials $105, Elite $165, Industry Experience Clouds $225."
+      },
+      "per_minute_from": null,
+      "free_trial": null,
+      "price_basis": "quote only"
+    },
+    "capabilities": {
+      "hindi_hinglish": {
+        "value": "partial",
+        "evidence": "Hindi listed for intent-based Autopilot Voice; not on Agentic Voice list; 'Hindi (Latin)' only for Copilot"
+      },
+      "indic_languages": {
+        "value": "partial",
+        "evidence": "Intent-based Autopilot Voice lists 8 Indian languages; newer Agentic Voice lists only Urdu (India)"
+      },
+      "outbound_inbound": {
+        "value": "yes",
+        "evidence": "Inbound Autopilot voice agents plus 'Agentic Outbound' proactive AI agents (May 2026)"
+      },
+      "live_transfer": {
+        "value": "yes",
+        "evidence": "Autopilot can 'intelligently transfer the customer and context to the right agent'"
+      },
+      "mid_call_actions": {
+        "value": "yes",
+        "evidence": "Agents act via integrations, e.g. changed a delivery address in the order system mid-call; CRM lookup"
+      },
+      "no_code_builder": {
+        "value": "yes",
+        "evidence": "Autopilot is no-code: 'No complex scripting or conversation flows needed'; agents built from a single prompt"
+      },
+      "api_webhooks": {
+        "value": "partial",
+        "evidence": "REST APIs (API access in plans) and webhook-style event APIs; no API documented to start AI-agent calls"
+      },
+      "built_in_crm": {
+        "value": "unknown",
+        "evidence": "Positions CRM integrations; no native lead pipeline documented"
+      },
+      "lead_source_connectors": {
+        "value": "unknown",
+        "evidence": "No Meta/Google lead-form triggers documented"
+      },
+      "whatsapp_followup": {
+        "value": "partial",
+        "evidence": "Numbers can be used with WhatsApp services (help centre); WhatsApp follow-up tied to AI calls not documented"
+      },
+      "post_call_analysis": {
+        "value": "partial",
+        "evidence": "Automated post-call summaries (Copilot); AI-agent sessions give transcripts, sentiment, intents dashboard"
+      },
+      "call_qa": {
+        "value": "partial",
+        "evidence": "CXA Operations Center monitors live AI interactions and execution with guardrails; no per-call AI QA score stated"
+      },
+      "human_call_intelligence": {
+        "value": "yes",
+        "evidence": "Interaction Analytics transcribes and analyses 100% of interactions; Quality Management and Copilot for agents"
+      },
+      "telephony_included": {
+        "value": "partial",
+        "evidence": "Numbers in ~160 countries incl. India by request with documents; domestic outbound from Indian numbers stopped Aug 2024"
+      }
+    },
+    "languages_claimed": "'59+ languages' (Autopilot page); Agentic Voice list incl. Urdu (India), no Hindi; intent-based Autopilot Voice: Hindi, Bengali, Gujarati, Kannada, Malayalam, Marathi, Tamil, Telugu",
+    "india_compliance": "Help centre: Indian numbers need documentation; from Aug 1, 2024 no domestic outbound calls from existing Indian numbers (inbound unaffected) - notice via search snippet",
+    "ratings": {
+      "g2": {
+        "score": 4.4,
+        "reviews": 2536,
+        "note": "search snippet"
+      },
+      "capterra": null
+    },
+    "scale": {
+      "customers_claimed": "3,000+ global customers",
+      "total_funding_usd_m": 498,
+      "last_round": "Series D $230M, Aug 2021"
+    },
+    "notable_2025_2026": "Launched proactive outbound AI agents for retail and financial services (May 27, 2026) on its CXA platform",
+    "notable_source": "https://www.talkdesk.com/news-and-press/press-releases/outbound-ai-agents/",
+    "sources": {
+      "pricing": "https://www.talkdesk.com/pricing/",
+      "capabilities": "https://www.talkdesk.com/cloud-contact-center/self-service-experience/autopilot/ ; https://www.talkdesk.com/contact-center-platform/ai/ ; https://support.talkdesk.com/hc/en-us/articles/14732294347547-AI-Supported-Languages ; https://support.talkdesk.com/hc/en-us/articles/205454185-Phone-Numbers-Worldwide-Coverage ; https://docs.talkdesk.com/docs/api-access",
+      "ratings": "https://www.g2.com/products/talkdesk/reviews",
+      "scale": "https://www.talkdesk.com/about-us/ ; https://techcrunch.com/2021/08/12/talkdesks-valuation-jumps-to-10b-with-series-d-for-smart-contact-centers"
+    },
+    "as_of": "2026-10-22"
+  }
+]

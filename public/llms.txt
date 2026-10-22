@@ -18,6 +18,11 @@ Key facts: pricing ₹3.99/min on monthly plans from ₹3,499/month, or ₹3.49/
 - [Security, data handling and calling compliance](https://telleo.ai/security/)
 - [30-question FAQ](https://telleo.ai/faq/)
 
+## Research
+
+- [Voice AI Platform Landscape 2026: 37 AI calling platforms from India and abroad scored on 14 capabilities, with sources and a CC BY 4.0 CSV](https://telleo.ai/research/voice-ai-platform-landscape-2026/)
+- [Dataset (CSV)](https://telleo.ai/research/voice-ai-platform-landscape-2026.csv)
+
 ## Use cases
 
 - [Lead Qualification](https://telleo.ai/use-cases/lead-qualification/)

@@ -45,6 +45,7 @@ export const RESOURCE_NAV = [
   { href: "/engine-v2/", label: "What's new: Engine v2" },
   { href: "/how-it-works/", label: "How it works" },
   { href: "https://docs.telleo.ai", label: "API docs" },
+  { href: "/research/voice-ai-platform-landscape-2026/", label: "Voice AI landscape 2026" },
   { href: "/blog/", label: "Blog" },
   { href: "/faq/", label: "FAQ" },
   { href: "/compare/", label: "Compare" },

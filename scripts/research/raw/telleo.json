@@ -1,0 +1,105 @@
+[
+  {
+    "name": "Telleo",
+    "website": "https://telleo.ai",
+    "hq_country": "India",
+    "founded_year": 2026,
+    "segment": "voice-agent-platform",
+    "target_customers": "Indian businesses that call leads and customers at volume: education, real estate, lending, healthcare and more",
+    "pricing": {
+      "public_pricing": true,
+      "entry_price": {
+        "amount": 3499,
+        "currency": "INR",
+        "period": "month",
+        "plan_name": "Starter",
+        "notes": "Monthly minimum billing at ₹3.99/min, telephony included; ₹19,999/year plan at ₹3.49/min with no minimum. Excludes 18% GST and DLT registration."
+      },
+      "per_minute_from": {
+        "amount": 3.49,
+        "currency": "INR",
+        "notes": "Annual plan; includes telephony, speech, LLM and voice for standard voices; billed in 30-second pulses"
+      },
+      "free_trial": null,
+      "price_basis": "per minute (monthly minimum or annual platform fee)"
+    },
+    "capabilities": {
+      "hindi_hinglish": {
+        "value": "yes",
+        "evidence": "Hindi, English and Hinglish in production, with gender-correct Hindi grammar and honorifics"
+      },
+      "indic_languages": {
+        "value": "partial",
+        "evidence": "Nine more Indian languages supported by the voice engines and set up on request; not yet proven in production"
+      },
+      "outbound_inbound": {
+        "value": "yes",
+        "evidence": "Outbound from workflows, campaigns or one click; inbound via an IVR on a Telleo number"
+      },
+      "live_transfer": {
+        "value": "yes",
+        "evidence": "Live transfer to per-agent handoff numbers after a bridge line"
+      },
+      "mid_call_actions": {
+        "value": "partial",
+        "evidence": "Sends an approved WhatsApp template mid-call when the caller accepts; meetings are booked after the call, no general tool calling"
+      },
+      "no_code_builder": {
+        "value": "yes",
+        "evidence": "No-code agent builder with AI-drafted scripts, templates and voice preview"
+      },
+      "api_webhooks": {
+        "value": "yes",
+        "evidence": "REST API at api.telleo.ai/v1 (single and batch calls, status, usage) and webhooks; docs at docs.telleo.ai"
+      },
+      "built_in_crm": {
+        "value": "yes",
+        "evidence": "Built-in CRM with lead statuses, owners, pipelines and round-robin assignment (Annual plan or Pro + CRM)"
+      },
+      "lead_source_connectors": {
+        "value": "yes",
+        "evidence": "Native Meta lead ads, Google lead forms and website-form webhook connectors that can trigger a call"
+      },
+      "whatsapp_followup": {
+        "value": "yes",
+        "evidence": "Approved WhatsApp templates sent after or during the call when the caller accepted"
+      },
+      "post_call_analysis": {
+        "value": "yes",
+        "evidence": "Disposition from your list, summary, 1-10 lead score and extracted answers on every connected call"
+      },
+      "call_qa": {
+        "value": "yes",
+        "evidence": "Green/amber/red health verdict per AI call with the reason (silence, missed answers, voicemail, failed transfer)"
+      },
+      "human_call_intelligence": {
+        "value": "yes",
+        "evidence": "Transcribes and scores reps' calls (click-to-call or uploaded) against a rubric, with coaching tips"
+      },
+      "telephony_included": {
+        "value": "yes",
+        "evidence": "Calls run on Telleo's lines in India; no SIMs, dialers or carrier contracts"
+      }
+    },
+    "languages_claimed": "Hindi, English, Hinglish live; Tamil, Telugu, Marathi, Bengali, Gujarati, Kannada, Malayalam, Punjabi, Odia on request",
+    "india_compliance": "Registers DLT with the customer (₹5,900/yr at actuals); calling hours enforced (default 9 am-9 pm)",
+    "ratings": {
+      "g2": null,
+      "capterra": null
+    },
+    "scale": {
+      "customers_claimed": null,
+      "total_funding_usd_m": null,
+      "last_round": null
+    },
+    "notable_2025_2026": "Relaunched as Telleo in October 2026, with Engine v2 and a public AI calling API.",
+    "notable_source": "https://telleo.ai/engine-v2/",
+    "sources": {
+      "pricing": "https://telleo.ai/pricing/",
+      "capabilities": "https://telleo.ai/ai-voice-agents/ ; https://telleo.ai/automations/ ; https://telleo.ai/call-intelligence/ ; https://docs.telleo.ai",
+      "ratings": null,
+      "scale": null
+    },
+    "as_of": "2026-10-22"
+  }
+]

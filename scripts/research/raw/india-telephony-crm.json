@@ -1,0 +1,690 @@
+[
+  {
+    "name": "Exotel (Intelligent Voice Agents / Harmony)",
+    "website": "https://exotel.com",
+    "hq_country": "India",
+    "founded_year": 2011,
+    "segment": "ccaas-telephony",
+    "target_customers": "Enterprise contact centres in India and the Middle East; logos incl. HDFC Bank, ICICI Bank, Flipkart, Swiggy, Zomato, Uber",
+    "pricing": {
+      "public_pricing": true,
+      "entry_price": {
+        "amount": 70,
+        "currency": "USD",
+        "period": null,
+        "plan_name": "XPrime (Enterprise Contact Center)",
+        "notes": "Page shows '$70' with no billing period stated; XPrime includes 'native chat and voice bot'. Voice Streaming (AgentStream) is excluded and sold separately; no AI voice-agent per-minute price published."
+      },
+      "per_minute_from": null,
+      "free_trial": true,
+      "price_basis": "monthly bundle"
+    },
+    "capabilities": {
+      "hindi_hinglish": {
+        "value": "yes",
+        "evidence": "AI Voicebot page says the bot is 'fluent in Hindi, English, and Hinglish'."
+      },
+      "indic_languages": {
+        "value": "partial",
+        "evidence": "Claims 'regional & global language support' but docs name only English and Hindi; other Indian languages not listed."
+      },
+      "outbound_inbound": {
+        "value": "yes",
+        "evidence": "Docs: bots answer inbound calls on an assigned number; outbound runs via Campaigns with contact lists and a Voicebot applet."
+      },
+      "live_transfer": {
+        "value": "yes",
+        "evidence": "Unresolved calls transfer to a human agent / agent groups with a conversation summary and captured inputs."
+      },
+      "mid_call_actions": {
+        "value": "yes",
+        "evidence": "Agent uses APIs for real-time actions: checks availability to book/reschedule appointments, shares payment links."
+      },
+      "no_code_builder": {
+        "value": "yes",
+        "evidence": "Bots are created in the console from a custom prompt plus uploaded files, with Identity/Objective/Behaviour and config tabs."
+      },
+      "api_webhooks": {
+        "value": "partial",
+        "evidence": "APIs for real-time actions and Voicebot applet WebSocket/HTTPS endpoint documented; outbound webhooks for voice agents not described."
+      },
+      "built_in_crm": {
+        "value": "partial",
+        "evidence": "Contact-centre plans include contact lists, dialers and CRM integrations; no native lead pipeline described for voice agents."
+      },
+      "lead_source_connectors": {
+        "value": "unknown",
+        "evidence": "No Meta/Google lead-form connectors that trigger AI calls found on the pages read."
+      },
+      "whatsapp_followup": {
+        "value": "partial",
+        "evidence": "Contact centre 'unifies voice, SMS, WhatsApp'; WhatsApp follow-up tied to voice-agent calls is not described."
+      },
+      "post_call_analysis": {
+        "value": "partial",
+        "evidence": "Recordings, transcripts, resolution status and unresolved-reason breakdown; per-call extracted fields/dispositions not described."
+      },
+      "call_qa": {
+        "value": "yes",
+        "evidence": "Voicebot analytics show bot health (Healthy/Warning/Critical), resolution rate, latency, tool success; Harmony AQM evaluates AI-handled calls."
+      },
+      "human_call_intelligence": {
+        "value": "yes",
+        "evidence": "Conversation Quality Analysis scores calls against SOPs/quality parameters and surfaces coaching for human agents."
+      },
+      "telephony_included": {
+        "value": "yes",
+        "evidence": "Indian virtual numbers used for bot campaigns; AgentStream page claims DLT, TRAI and UL-VNO compliance (search snippet)."
+      }
+    },
+    "languages_claimed": "Hindi, English and Hinglish; 'regional & global language support' (no full list published)",
+    "india_compliance": "AgentStream page (search snippet) states PCI DSS, DLT, TRAI and UL-VNO compliance; Exotel BFSI blog says onboarding includes DLT-registered 140/1600-series numbers.",
+    "ratings": {
+      "g2": {
+        "score": 4.4,
+        "reviews": 90
+      },
+      "capterra": null
+    },
+    "scale": {
+      "customers_claimed": "25B+ interactions a year (homepage); 7,000+ enterprises (exec interview, Aug 2026)",
+      "total_funding_usd_m": 87.1,
+      "last_round": "Series D, $40M led by Steadview Capital, Jan 2022"
+    },
+    "notable_2025_2026": "Launched Harmony, an AI-native CX platform unifying voice, messaging, conversational intelligence and human-in-the-loop, on 19 Nov 2025; Middle East rollout Feb 2026.",
+    "notable_source": "https://exotel.com/newsroom/exotel-harmony-ai-cx-platform-launch/",
+    "sources": {
+      "pricing": "https://exotel.com/pricing/ ; https://exotel.com/pricing/enterprise-contact-center/",
+      "capabilities": "https://exotel.com/products/gen-ai-powered-voicebot/ ; https://exotel.com/products/gen-ai-voice-agents/ ; https://docs.exotel.com/intelligent-voice-agents ; https://exotel.com/products/conversation-quality-analysis/ ; https://exotel.com/products/ai-and-automation/ ; https://exotel.com/products/agentstream-voice-streaming/ (search snippet)",
+      "ratings": "https://www.g2.com/products/exotel-customer-communication-platform/reviews (search snippet; G2 seller page shows 4.3 across 340 reviews for all Exotel products)",
+      "scale": "https://exotel.com/ ; https://inc42.com/company/exotel/funding/"
+    },
+    "as_of": "2026-10-22"
+  },
+  {
+    "name": "Ozonetel (Voice AI Agents / CloudAgent)",
+    "website": "https://ozonetel.com",
+    "hq_country": "India",
+    "founded_year": 2007,
+    "segment": "ccaas-telephony",
+    "target_customers": "Contact centres of all sizes; 'Trusted CX Partner for 3,500+ Global Brands' (e.g. Dish TV)",
+    "pricing": {
+      "public_pricing": false,
+      "entry_price": {
+        "amount": 25,
+        "currency": "USD",
+        "period": null,
+        "plan_name": "CloudAgent (per agent)",
+        "notes": "Ozonetel's own comparison page: 'Starts at $25 per agent', minimum 3 agents, pay as you go, no annual commitment; body text also says a comparable plan 'starts at $45'. Period not stated. ozonetel.com/pricing redirects to an internal IP. Voice AI Agents pricing not published."
+      },
+      "per_minute_from": null,
+      "free_trial": true,
+      "price_basis": "quote only"
+    },
+    "capabilities": {
+      "hindi_hinglish": {
+        "value": "partial",
+        "evidence": "Dish TV deployment covers 'Hindi and 10+ regional languages'; Hinglish/code-mixing not mentioned."
+      },
+      "indic_languages": {
+        "value": "yes",
+        "evidence": "Voicebot for Dish TV covers '10+ Indian languages'; homepage claims '24 Vernacular Languages'; agent page '12+ languages'."
+      },
+      "outbound_inbound": {
+        "value": "yes",
+        "evidence": "Voice AI Agents page: 'Inbound + outbound calling' (reminders, renewals, cross-sell)."
+      },
+      "live_transfer": {
+        "value": "yes",
+        "evidence": "'Seamless human handoff with full context transfer'; 'smart routing to agents when needed'."
+      },
+      "mid_call_actions": {
+        "value": "yes",
+        "evidence": "AI 'fetches live data during calls' via 'real-time API integrations with business apps'."
+      },
+      "no_code_builder": {
+        "value": "yes",
+        "evidence": "Voice AI Agents built with a 'no-code, visual drag-and-drop designer'."
+      },
+      "api_webhooks": {
+        "value": "yes",
+        "evidence": "Voice AI Agents page lists 'RESTful API access' and 'Webhook support'."
+      },
+      "built_in_crm": {
+        "value": "unknown",
+        "evidence": "Integrates with Salesforce, Zoho, HubSpot, Dynamics with automatic post-call CRM updates; native lead pipeline not described."
+      },
+      "lead_source_connectors": {
+        "value": "unknown",
+        "evidence": "No Meta/Google lead-form connectors that trigger AI calls found on the pages read."
+      },
+      "whatsapp_followup": {
+        "value": "partial",
+        "evidence": "Separate WhatsApp Business Solution product; WhatsApp tied to voice-agent calls not described."
+      },
+      "post_call_analysis": {
+        "value": "partial",
+        "evidence": "Full transcripts within 15 minutes and automatic CRM updates post-call; AI-call summaries/dispositions not described."
+      },
+      "call_qa": {
+        "value": "yes",
+        "evidence": "'AI Monitoring AI (Auto-QA)' audits interactions with human-aligned scoring; audits 100% of AI and human conversations."
+      },
+      "human_call_intelligence": {
+        "value": "yes",
+        "evidence": "Quality audits across human agents plus Agent Assist with auto transcript, summary and coaching notes."
+      },
+      "telephony_included": {
+        "value": "yes",
+        "evidence": "Ozonetel lists toll-free number services and virtual/IVR numbers with an India toll-free line; DIDs/SIP trunks provided."
+      }
+    },
+    "languages_claimed": "'24 Vernacular Languages' (homepage); Voice AI Agents 'across 12+ languages'; 'Hindi and 10+ regional languages' (Dish TV)",
+    "india_compliance": null,
+    "ratings": {
+      "g2": {
+        "score": 4.6,
+        "reviews": 620
+      },
+      "capterra": null
+    },
+    "scale": {
+      "customers_claimed": "3,500+ global brands",
+      "total_funding_usd_m": 5.0,
+      "last_round": "Series A, $5M from Stakeboat Capital, Oct 2021"
+    },
+    "notable_2025_2026": null,
+    "notable_source": null,
+    "sources": {
+      "pricing": "https://ozonetel.com/?p=17806 (Ozonetel vs Talkdesk comparison page; /pricing/ unreachable)",
+      "capabilities": "https://ozonetel.com/ ; https://ozonetel.com/voice-and-chatbots-powered-by-chatgpt/ ; https://ozonetel.com/ai/ ; https://ozonetel.com/conversational-intelligence/",
+      "ratings": "https://g2.com/compare/exotel-customer-communication-platform-vs-ozonetel (search snippet)",
+      "scale": "https://ozonetel.com/ ; https://inc42.com/company/ozonetel-communications/funding"
+    },
+    "as_of": "2026-10-22"
+  },
+  {
+    "name": "Knowlarity (ChatBot/VoiceBot)",
+    "website": "https://www.knowlarity.com",
+    "hq_country": "India",
+    "founded_year": 2009,
+    "segment": "ccaas-telephony",
+    "target_customers": "Small businesses, startups and enterprises; 'trusted by over 6000+ businesses across 65+ countries'",
+    "pricing": {
+      "public_pricing": true,
+      "entry_price": {
+        "amount": 1499,
+        "currency": "INR",
+        "period": "month",
+        "plan_name": "Softphone Solution with WebRTC - Unlimited Inbound + Paid Outbound",
+        "notes": "Monthly cost per agent, 10 agents, 1-year minimum contract, quarterly advance; telephony plans only. Page says 'For pricing on ChatBot/VoiceBot please contact us.'"
+      },
+      "per_minute_from": null,
+      "free_trial": true,
+      "price_basis": "quote only"
+    },
+    "capabilities": {
+      "hindi_hinglish": {
+        "value": "unknown",
+        "evidence": "Bot page only says 'resolve customer queries in multiple languages'; Hindi/Hinglish not named."
+      },
+      "indic_languages": {
+        "value": "unknown",
+        "evidence": "No Indian languages listed for the VoiceBot."
+      },
+      "outbound_inbound": {
+        "value": "unknown",
+        "evidence": "Bot page does not state AI call direction; outbound calling product is recorded-IVR/OBD, not an AI agent."
+      },
+      "live_transfer": {
+        "value": "unknown",
+        "evidence": "No human handoff described for the VoiceBot."
+      },
+      "mid_call_actions": {
+        "value": "unknown",
+        "evidence": "Bot page mentions assisting form-filling over call/chat; no mid-call API/booking actions described."
+      },
+      "no_code_builder": {
+        "value": "partial",
+        "evidence": "Intents are created/edited by importing/exporting an Excel file or URL; no visual voice-agent builder described."
+      },
+      "api_webhooks": {
+        "value": "unknown",
+        "evidence": "No public API or webhooks documented for the VoiceBot (Voice API listed only for speech analytics)."
+      },
+      "built_in_crm": {
+        "value": "partial",
+        "evidence": "Tentacle lead management: contact lists, telecaller calling campaigns, reports; pipelines/stages not described."
+      },
+      "lead_source_connectors": {
+        "value": "unknown",
+        "evidence": "No Meta/Google lead-form connectors found on the pages read."
+      },
+      "whatsapp_followup": {
+        "value": "partial",
+        "evidence": "Bots 'send reminders on WhatsApp' and WhatsApp Business API is sold; link to AI call outcomes not described."
+      },
+      "post_call_analysis": {
+        "value": "unknown",
+        "evidence": "No per-call summary/disposition described for VoiceBot calls."
+      },
+      "call_qa": {
+        "value": "unknown",
+        "evidence": "No QA of bot calls described."
+      },
+      "human_call_intelligence": {
+        "value": "yes",
+        "evidence": "Speech Analytics transcribes calls, spots keywords, analyses per-agent performance ('People Intelligence') and real-time alerts."
+      },
+      "telephony_included": {
+        "value": "yes",
+        "evidence": "Sells Indian virtual numbers, toll-free numbers and contact-centre calling with INR rate cards."
+      }
+    },
+    "languages_claimed": "VoiceBot: 'multiple languages' (unnamed); Speech Analytics: 'Analyze and convert 125 languages'",
+    "india_compliance": "Automated outbound calling page says calls 'comply with the TRAI regulation'; no DLT/DPDP statement found.",
+    "ratings": {
+      "g2": null,
+      "capterra": null
+    },
+    "scale": {
+      "customers_claimed": "6000+ organizations across 65 countries; 300+ employees",
+      "total_funding_usd_m": null,
+      "last_round": "Acquired by Gupshup, Feb 2022 (reported ~$100M)"
+    },
+    "notable_2025_2026": null,
+    "notable_source": null,
+    "sources": {
+      "pricing": "https://www.knowlarity.com/pricing/voice ; https://www.knowlarity.com/pricing/ai",
+      "capabilities": "https://www.knowlarity.com/ai/bots ; https://www.knowlarity.com/ai/speech-analytics ; https://www.knowlarity.com/voice/telesales-lead-management ; https://www.knowlarity.com/voice/automated-outbound-calling-solutions (read via curl; WebFetch failed on TLS certificate)",
+      "ratings": "not found",
+      "scale": "https://www.knowlarity.com/pricing/ai ; https://www.businesswire.com/news/home/20220202005128/en"
+    },
+    "as_of": "2026-10-22"
+  },
+  {
+    "name": "LeadSquared (Invorto Voice Bot)",
+    "website": "https://www.leadsquared.com",
+    "hq_country": "India",
+    "founded_year": null,
+    "segment": "crm-with-ai-calling",
+    "target_customers": "Sales/marketing CRM for high-velocity BFSI, education and healthcare teams; Invorto 'speaks, qualifies, and books meetings' with leads",
+    "pricing": {
+      "public_pricing": false,
+      "entry_price": null,
+      "per_minute_from": null,
+      "free_trial": null,
+      "price_basis": "per minute"
+    },
+    "capabilities": {
+      "hindi_hinglish": {
+        "value": "partial",
+        "evidence": "Help docs: Sarvam (Saaras) transcription offers a code-mixed mode for Indian conversations; supported languages not listed."
+      },
+      "indic_languages": {
+        "value": "unknown",
+        "evidence": "No list of Indian languages for Invorto found; marketing says 'multiple languages and regional accents'."
+      },
+      "outbound_inbound": {
+        "value": "partial",
+        "evidence": "Outbound voice campaigns from CSV documented; Phone Numbers module registers DIDs, but inbound flow not confirmed."
+      },
+      "live_transfer": {
+        "value": "yes",
+        "evidence": "Call Transfer tool sends a live call to a human or another bot; warm transfer passes a summary first."
+      },
+      "mid_call_actions": {
+        "value": "yes",
+        "evidence": "Bot config includes tools; marketing says Invorto qualifies and 'books meetings' on the call."
+      },
+      "no_code_builder": {
+        "value": "yes",
+        "evidence": "Bots configured in UI: prompt, model, reference content, tools, language & voice, insights; transfer triggers in plain language."
+      },
+      "api_webhooks": {
+        "value": "yes",
+        "evidence": "API key for calling Invorto APIs directly; webhook/callback URL receives insights, transcript and recording after each call."
+      },
+      "built_in_crm": {
+        "value": "yes",
+        "evidence": "Native LeadSquared CRM; Invorto described as syncing outcomes to the CRM."
+      },
+      "lead_source_connectors": {
+        "value": "unknown",
+        "evidence": "Could not confirm a Meta/Google lead-ads connector that triggers Invorto calls."
+      },
+      "whatsapp_followup": {
+        "value": "partial",
+        "evidence": "Native WhatsApp via Converse/WhatsApp connectors; WhatsApp tied to Invorto calls not described."
+      },
+      "post_call_analysis": {
+        "value": "yes",
+        "evidence": "After each call Invorto extracts summary, outcome, sentiment, call score and custom fields."
+      },
+      "call_qa": {
+        "value": "yes",
+        "evidence": "Per-call call score plus evaluations that score e.g. persona consistency; usage and analytics dashboards."
+      },
+      "human_call_intelligence": {
+        "value": "partial",
+        "evidence": "Insight campaigns transcribe uploaded recordings and extract configured fields; human-rep coaching not described."
+      },
+      "telephony_included": {
+        "value": "unknown",
+        "evidence": "Phone Numbers module registers DID numbers; whether LeadSquared supplies Indian numbers is not stated."
+      }
+    },
+    "languages_claimed": "'Multiple languages and regional accents' (unnamed); code-mixed Indian transcription via Sarvam Saaras",
+    "india_compliance": null,
+    "ratings": {
+      "g2": {
+        "score": 4.5,
+        "reviews": 303
+      },
+      "capterra": null
+    },
+    "scale": {
+      "customers_claimed": "1600+ organizations (LeadSquared US sales page); 2,000+ customers (June 2022 release)",
+      "total_funding_usd_m": 188,
+      "last_round": "Series C, $153M led by WestBridge Capital, Jun 2022"
+    },
+    "notable_2025_2026": null,
+    "notable_source": null,
+    "sources": {
+      "pricing": "https://help.leadsquared.com/track-usage-in-the-invorto-voice-bot/ (search snippet: billed on talk time; rate not published; www.leadsquared.com/pricing returned 403)",
+      "capabilities": "https://help.leadsquared.com/invorto-voice-bot-feature-guide/ ; https://help.leadsquared.com/invorto-creating-a-voice-bot/ ; https://help.leadsquared.com/create-and-manage-tools-and-call-transfers-on-invorto/ ; https://help.leadsquared.com/invorto-creating-an-insight-campaign/ ; https://help.leadsquared.com/leadsquared-converse/ (all via search snippets; site returned 403/Cloudflare challenge to WebFetch)",
+      "ratings": "https://www.g2.com/products/leadsquared-sales-crm/reviews (search snippet)",
+      "scale": "https://www.leadsquared.com/news/leadsquared-joins-the-unicorn-club-with-153-million-funding-from-westbridge-capital/ ; https://techcrunch.com/2022/06/21/saas-platform-leadsquared-becomes-unicorn-with-153-million-fresh-funding"
+    },
+    "as_of": "2026-10-22"
+  },
+  {
+    "name": "Meritto (Mio AI Voice)",
+    "website": "https://www.meritto.com",
+    "hq_country": "India",
+    "founded_year": 2017,
+    "segment": "crm-with-ai-calling",
+    "target_customers": "Education institutions' admissions/enrollment teams; '1000+ education institutions'",
+    "pricing": {
+      "public_pricing": false,
+      "entry_price": null,
+      "per_minute_from": null,
+      "free_trial": null,
+      "price_basis": "quote only"
+    },
+    "capabilities": {
+      "hindi_hinglish": {
+        "value": "yes",
+        "evidence": "Mio AI Voice switches 'between English, Hindi, and Hinglish mid-call based on how the student responds'."
+      },
+      "indic_languages": {
+        "value": "yes",
+        "evidence": "Lists Tamil, Telugu, Kannada, Malayalam, Bengali, Marathi, Gujarati, Punjabi, Odia; more on request."
+      },
+      "outbound_inbound": {
+        "value": "yes",
+        "evidence": "Outbound qualification/reactivation calls; AI Callback Agent answers students who call back after a missed AI call."
+      },
+      "live_transfer": {
+        "value": "partial",
+        "evidence": "Agent flags when a human should take over and captures counsellor callback requests; live transfer not described."
+      },
+      "mid_call_actions": {
+        "value": "partial",
+        "evidence": "Captures campus-visit dates and schedules callbacks; CRM stage and task updates written after the call."
+      },
+      "no_code_builder": {
+        "value": "yes",
+        "evidence": "Pre-built agents; 'setup is configuration, not a development project'; teams can build their own agent."
+      },
+      "api_webhooks": {
+        "value": "unknown",
+        "evidence": "No public API or webhooks for Mio AI Voice documented."
+      },
+      "built_in_crm": {
+        "value": "yes",
+        "evidence": "Native to Meritto Education CRM; outcomes, lead stage changes and follow-up tasks written back automatically."
+      },
+      "lead_source_connectors": {
+        "value": "partial",
+        "evidence": "Meritto CRM claims '200+ lead sources' integrated; auto-triggering AI calls from Meta/Google forms not stated."
+      },
+      "whatsapp_followup": {
+        "value": "yes",
+        "evidence": "Meritto sells native WhatsApp Business API; Mio demo transcript shows the voice agent sending a WhatsApp link."
+      },
+      "post_call_analysis": {
+        "value": "yes",
+        "evidence": "Auto-generated call summaries, dispositions (qualified, callback) and extracted fields like programme interest."
+      },
+      "call_qa": {
+        "value": "partial",
+        "evidence": "Outcome dashboard compares agent performance; 'review every conversation'; no automated QA scoring described."
+      },
+      "human_call_intelligence": {
+        "value": "unknown",
+        "evidence": "Mio AI Coach scores leads, not counsellor calls; no human-call analysis described."
+      },
+      "telephony_included": {
+        "value": "unknown",
+        "evidence": "Telephony/numbers for Mio AI Voice not mentioned."
+      }
+    },
+    "languages_claimed": "English, Hindi, Hinglish, Tamil, Telugu, Kannada, Malayalam, Bengali, Marathi, Gujarati, Punjabi, Odia; 'more on request'",
+    "india_compliance": "Calls placed 'within TRAI-compliant windows'; 'Compliant by design' with ISO, GDPR, AICPA logos; DLT/DPDP not mentioned.",
+    "ratings": {
+      "g2": {
+        "score": 4.8,
+        "reviews": 20
+      },
+      "capterra": null
+    },
+    "scale": {
+      "customers_claimed": "1000+ education institutions across India, Southeast Asia and UAE",
+      "total_funding_usd_m": null,
+      "last_round": null
+    },
+    "notable_2025_2026": "Launched Mio AI Voice, an autonomous enrollment calling agent built into its Education CRM, on 15 Dec 2025 in Bengaluru.",
+    "notable_source": "https://www.devdiscourse.com/article/technology/3731348-meritto-introduces-integrated-mio-ai-voice-agents-for-education",
+    "sources": {
+      "pricing": "https://www.getmio.ai/ (no pricing published; contact sales)",
+      "capabilities": "https://www.getmio.ai/mio-ai-voice-agent/ ; https://www.getmio.ai/ ; https://www.getmio.ai/mio-ai-sales-coaching-agent/ ; https://www.meritto.com/",
+      "ratings": "https://www.g2.com/products/meritto/reviews (search snippet)",
+      "scale": "https://www.meritto.com/ ; https://www.devdiscourse.com/article/technology/3731348-meritto-introduces-integrated-mio-ai-voice-agents-for-education"
+    },
+    "as_of": "2026-10-22"
+  },
+  {
+    "name": "Convin (AI Phone Call Agent)",
+    "website": "https://convin.ai",
+    "hq_country": "India",
+    "founded_year": null,
+    "segment": "conversation-intelligence",
+    "target_customers": "Contact centres in BFSI, edtech, D2C and SaaS (e.g. Kotak Life, Physics Wallah, Fyers, Vyapar)",
+    "pricing": {
+      "public_pricing": false,
+      "entry_price": null,
+      "per_minute_from": null,
+      "free_trial": null,
+      "price_basis": "quote only"
+    },
+    "capabilities": {
+      "hindi_hinglish": {
+        "value": "yes",
+        "evidence": "AI Phone Call Agent speaks 'English, Hindi, Hinglish' and switches languages mid-call."
+      },
+      "indic_languages": {
+        "value": "unknown",
+        "evidence": "Site claims 70+ languages, but no Indian languages beyond Hindi are named for the call agent."
+      },
+      "outbound_inbound": {
+        "value": "yes",
+        "evidence": "Claims '90% Inbound/Outbound Call Automation'."
+      },
+      "live_transfer": {
+        "value": "yes",
+        "evidence": "Hands off to a human agent when a lead shows intent, passing call context."
+      },
+      "mid_call_actions": {
+        "value": "yes",
+        "evidence": "Books demos, appointments, visits or callbacks during the call and sends reminders."
+      },
+      "no_code_builder": {
+        "value": "unknown",
+        "evidence": "Call flows 'can be built and customized'; no self-serve/no-code builder described."
+      },
+      "api_webhooks": {
+        "value": "unknown",
+        "evidence": "No public API or webhooks documented for the call agent."
+      },
+      "built_in_crm": {
+        "value": "unknown",
+        "evidence": "Agent auto-updates the customer's CRM; no native lead pipeline described."
+      },
+      "lead_source_connectors": {
+        "value": "unknown",
+        "evidence": "No Meta/Google lead-form triggers described."
+      },
+      "whatsapp_followup": {
+        "value": "yes",
+        "evidence": "WhatsApp, SMS and email messages triggered automatically by call outcomes."
+      },
+      "post_call_analysis": {
+        "value": "yes",
+        "evidence": "AI call summary with key points, decisions, objections and next steps; CRM updated automatically."
+      },
+      "call_qa": {
+        "value": "partial",
+        "evidence": "AI-powered call audits described generally; QA scoring specific to the AI agent's own calls not stated."
+      },
+      "human_call_intelligence": {
+        "value": "yes",
+        "evidence": "Core product: conversation intelligence, automated QA of 100% of agent calls, real-time assist and coaching/LMS."
+      },
+      "telephony_included": {
+        "value": "unknown",
+        "evidence": "Telephony and Indian numbers not mentioned on the agent page."
+      }
+    },
+    "languages_claimed": "Agent: English, Hindi, Hinglish; site-wide '70+ languages'",
+    "india_compliance": null,
+    "ratings": {
+      "g2": null,
+      "capterra": null
+    },
+    "scale": {
+      "customers_claimed": "80+ companies (Aug 2024 funding release); homepage names Kotak Life, Physics Wallah, Fyers, Vyapar",
+      "total_funding_usd_m": null,
+      "last_round": "Series A, $6.5M led by India Quotient, Aug 2024"
+    },
+    "notable_2025_2026": null,
+    "notable_source": null,
+    "sources": {
+      "pricing": "https://convin.ai/pricing",
+      "capabilities": "https://convin.ai/ ; https://convin.ai/product/automated-virtual-ai-agents",
+      "ratings": "not found (homepage claims an unattributed '4.7/5 rating')",
+      "scale": "https://entrackr.com/2024/08/convin-raises-6-5-mn-in-series-a-round-led-by-india-quotient"
+    },
+    "as_of": "2026-10-22"
+  },
+  {
+    "name": "SquadStack (Voice AI agents + human advisors)",
+    "website": "https://squadstack.ai",
+    "hq_country": "India",
+    "founded_year": null,
+    "segment": "voice-agent-platform",
+    "target_customers": "Consumer brands and BFSI sales teams; '60+ consumer brands' incl. Kotak Mahindra Bank, IndiaMART, Flipkart, Swiggy",
+    "pricing": {
+      "public_pricing": false,
+      "entry_price": null,
+      "per_minute_from": {
+        "amount": 2,
+        "currency": "INR",
+        "notes": "Homepage FAQ: voice AI priced per minute, 'typically ₹2 to ₹5', with setup costs for enterprise deployments. Pricing page: billed only for live AI talk time, one-time setup fee per use case, quote after discovery call."
+      },
+      "free_trial": null,
+      "price_basis": "per minute"
+    },
+    "capabilities": {
+      "hindi_hinglish": {
+        "value": "yes",
+        "evidence": "Supports Hindi and code-mixed speech such as Hinglish and Taminglish with mid-sentence switching."
+      },
+      "indic_languages": {
+        "value": "yes",
+        "evidence": "Nine languages: Hindi, English, Tamil, Telugu, Kannada, Marathi, Malayalam, Gujarati, Bengali."
+      },
+      "outbound_inbound": {
+        "value": "partial",
+        "evidence": "Outbound campaigns and lead outreach are the focus; inbound AI calling not described."
+      },
+      "live_transfer": {
+        "value": "yes",
+        "evidence": "'Complex conversations still warm-transfer to a human, by design'; human advisor pod handles handoffs."
+      },
+      "mid_call_actions": {
+        "value": "yes",
+        "evidence": "Agents qualify leads, open accounts, book appointments and take payment commitments on the call."
+      },
+      "no_code_builder": {
+        "value": "partial",
+        "evidence": "No self-serve builder; agents set up by a forward-deployed engineer; 'Control Tower' exposes 100+ configurations."
+      },
+      "api_webhooks": {
+        "value": "yes",
+        "evidence": "Lead and workflow APIs: webhooks and JSON APIs, plus custom connectors."
+      },
+      "built_in_crm": {
+        "value": "partial",
+        "evidence": "Offers 'Lead Management & Omnichannel Outreach' / AI Lead Manager; pipeline features not detailed. Two-way sync with Salesforce, Zoho, HubSpot."
+      },
+      "lead_source_connectors": {
+        "value": "partial",
+        "evidence": "Leads arrive via webhooks, JSON APIs and third-party connectors built per client; no native Meta/Google lead-ad connector named."
+      },
+      "whatsapp_followup": {
+        "value": "yes",
+        "evidence": "Call, WhatsApp, SMS and in-app channels share context for follow-ups."
+      },
+      "post_call_analysis": {
+        "value": "partial",
+        "evidence": "Reporting, analytics and voice-of-customer insights; per-call summary/disposition fields not explicitly described."
+      },
+      "call_qa": {
+        "value": "partial",
+        "evidence": "'AI plus human quality audits across 23 parameters'; QA page doesn't say AI-agent calls are scored."
+      },
+      "human_call_intelligence": {
+        "value": "yes",
+        "evidence": "AI Call Quality Analysis scores agent calls on 23 quality parameters with transcripts."
+      },
+      "telephony_included": {
+        "value": "yes",
+        "evidence": "Dialer included in price; multi-operator routing over Exotel, Knowlarity, Ozonetel, Gupshup with failover."
+      }
+    },
+    "languages_claimed": "9 languages: Hindi, English, Tamil, Telugu, Kannada, Marathi, Malayalam, Gujarati, Bengali; code-mixed Hinglish/Taminglish",
+    "india_compliance": "TRAI DND scrubbing and 9:30 AM-8:30 PM calling window enforced; DLT registered headers and pre-approved templates; DPDP consent gating, opt-out and India data residency; ISO 27001/27701, SOC 2 Type II; RBI recovery-agent guidelines.",
+    "ratings": {
+      "g2": {
+        "score": 4.3,
+        "reviews": 2
+      },
+      "capterra": null
+    },
+    "scale": {
+      "customers_claimed": "60+ consumer brands; '50 lakh+' AI calls daily",
+      "total_funding_usd_m": 24.7,
+      "last_round": "Series B, $17.5M led by Bertelsmann India Investments, Aug 2022"
+    },
+    "notable_2025_2026": null,
+    "notable_source": null,
+    "sources": {
+      "pricing": "https://squadstack.ai/pricing ; https://squadstack.ai/ (FAQ)",
+      "capabilities": "https://squadstack.ai/ ; https://squadstack.ai/call-quality-analysis ; https://squadstack.ai/pricing",
+      "ratings": "https://www.g2.com/products/squadstack/reviews (search snippet; G2 says not enough reviews)",
+      "scale": "https://squadstack.ai/ ; https://www.cbinsights.com/company/squadstack/financials ; https://www.peoplematters.in/article/funding-investment/squadstack-raises-175-mn-in-series-b-led-by-bertelsmann-india-investments-34843"
+    },
+    "as_of": "2026-10-22"
+  }
+]
