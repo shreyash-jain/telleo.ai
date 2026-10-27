@@ -1,6 +1,6 @@
 # Telleo — full site text
 
-Generated 2026-10-22 from https://telleo.ai. Short summary: https://telleo.ai/llms.txt
+Generated 2026-10-27 from https://telleo.ai. Short summary: https://telleo.ai/llms.txt
 
 
 ---
@@ -386,6 +386,45 @@ Scales for a campaign spike | Same day | Hire and train | Yes |
 Handles a complex negotiation | No, it transfers to your team | Yes | No |
 
 Telleo vs telecallers Telleo vs IVR Telleo vs Ringg AI Telleo vs Vomyra Telleo vs build your own
+
+Telleo Research
+
+## Where 37 AI calling platforms sit.
+We scored 36 Indian and global voice-AI vendors, and Telleo, on the same 14 capabilities: how well the agent converses, and how much of the business workflow around the call it runs.
+
+document a built-in CRM2 of 36document a built-in CRM
+connect lead ads natively1 of 36connect lead ads natively
+follow up on WhatsApp6 of 36follow up on WhatsApp
+Read the landscape Download CSV
+Every score links to the vendor's own pages. Telleo is scored with the same rubric from its public pages (13 of 14); the method and limits are in the report.
+
+- Telleo
+- Indian vendors
+- Global vendors
+
+-
+- 0%0%
+-
+- 25%25%
+-
+- 50%50%
+-
+- 75%75%
+-
+- 100%100%WORKFLOW-FIRSTFULL-STACKPOINT TOOLSCONVERSATION-FIRSTConversation coverage →Business-workflow coverage →PolyAI: conversation 93%, business workflow 36%, 9 of 14 capabilities (Enterprise conversational AI)Thoughtly: conversation 71%, business workflow 43%, 8 of 14 capabilities (Voice-agent platform)Aircall: conversation 86%, business workflow 64%, 10.5 of 14 capabilities (Cloud telephony / contact centre)Dialpad: conversation 57%, business workflow 36%, 6.5 of 14 capabilities (Cloud telephony / contact centre)Talkdesk: conversation 79%, business workflow 43%, 8.5 of 14 capabilities (Cloud telephony / contact centre)Vapi: conversation 64%, business workflow 57%, 8.5 of 14 capabilities (Developer platform)VapiRetell AI: conversation 86%, business workflow 57%, 10 of 14 capabilities (Developer platform)Bland AI: conversation 79%, business workflow 50%, 9 of 14 capabilities (Developer platform)Synthflow: conversation 79%, business workflow 57%, 9.5 of 14 capabilities (Voice-agent platform)ElevenLabs: conversation 93%, business workflow 57%, 10.5 of 14 capabilities (Developer platform)Telnyx: conversation 86%, business workflow 43%, 9 of 14 capabilities (Developer platform)Observe.AI: conversation 64%, business workflow 36%, 7 of 14 capabilities (Enterprise conversational AI)Observe.AINiCE Cognigy: conversation 71%, business workflow 14%, 6 of 14 capabilities (Enterprise conversational AI)NiCE CognigySierra: conversation 64%, business workflow 29%, 6.5 of 14 capabilities (Enterprise conversational AI)SierraGong: conversation 7%, business workflow 29%, 2.5 of 14 capabilities (Conversation intelligence)GongSalesken: conversation 0%, business workflow 29%, 2 of 14 capabilities (Conversation intelligence)SaleskenKore.ai: conversation 86%, business workflow 36%, 8.5 of 14 capabilities (Enterprise conversational AI)Gnani.ai: conversation 86%, business workflow 43%, 9 of 14 capabilities (Enterprise conversational AI)Yellow.ai: conversation 79%, business workflow 21%, 7 of 14 capabilities (Enterprise conversational AI)Yellow.aiHaptik: conversation 43%, business workflow 21%, 4.5 of 14 capabilities (Enterprise conversational AI)HaptikSkit.ai: conversation 71%, business workflow 43%, 8 of 14 capabilities (Enterprise conversational AI)Sarvam AI: conversation 100%, business workflow 36%, 9.5 of 14 capabilities (Voice-agent platform)Rezo.ai: conversation 43%, business workflow 43%, 6 of 14 capabilities (Enterprise conversational AI)Rezo.aiRingg AI: conversation 93%, business workflow 71%, 11.5 of 14 capabilities (Voice-agent platform)Ringg AIVomyra: conversation 100%, business workflow 57%, 11 of 14 capabilities (Voice-agent platform)VomyraBolna: conversation 100%, business workflow 50%, 10.5 of 14 capabilities (Voice-agent platform)Smallest.ai: conversation 93%, business workflow 43%, 9.5 of 14 capabilities (Voice-agent platform)SubVerse AI: conversation 93%, business workflow 43%, 9.5 of 14 capabilities (Enterprise conversational AI)VoiceGenie: conversation 93%, business workflow 43%, 9.5 of 14 capabilities (Voice-agent platform)Exotel: conversation 86%, business workflow 64%, 10.5 of 14 capabilities (Cloud telephony / contact centre)Ozonetel: conversation 93%, business workflow 57%, 10.5 of 14 capabilities (Cloud telephony / contact centre)Knowlarity: conversation 7%, business workflow 43%, 3.5 of 14 capabilities (Cloud telephony / contact centre)KnowlarityLeadSquared: conversation 71%, business workflow 57%, 9 of 14 capabilities (CRM with AI calling)Meritto: conversation 71%, business workflow 57%, 9 of 14 capabilities (CRM with AI calling)Convin: conversation 57%, business workflow 50%, 7.5 of 14 capabilities (Conversation intelligence)ConvinSquadStack: conversation 86%, business workflow 71%, 11 of 14 capabilities (Voice-agent platform)SquadStackTelleo: conversation 86%, business workflow 100%, 13 of 14 capabilities (Voice-agent platform)Telleo
+
+-
+- 0%0%
+-
+- 25%25%
+-
+- 50%50%
+-
+- 75%75%
+-
+- 100%100%WORKFLOW-FIRSTFULL-STACKPOINT TOOLSCONVERSATION-FIRSTConversation →Workflow →PolyAI: conversation 93%, business workflow 36%, 9 of 14 capabilities (Enterprise conversational AI)Thoughtly: conversation 71%, business workflow 43%, 8 of 14 capabilities (Voice-agent platform)Aircall: conversation 86%, business workflow 64%, 10.5 of 14 capabilities (Cloud telephony / contact centre)Dialpad: conversation 57%, business workflow 36%, 6.5 of 14 capabilities (Cloud telephony / contact centre)Talkdesk: conversation 79%, business workflow 43%, 8.5 of 14 capabilities (Cloud telephony / contact centre)Vapi: conversation 64%, business workflow 57%, 8.5 of 14 capabilities (Developer platform)VapiRetell AI: conversation 86%, business workflow 57%, 10 of 14 capabilities (Developer platform)Bland AI: conversation 79%, business workflow 50%, 9 of 14 capabilities (Developer platform)Synthflow: conversation 79%, business workflow 57%, 9.5 of 14 capabilities (Voice-agent platform)ElevenLabs: conversation 93%, business workflow 57%, 10.5 of 14 capabilities (Developer platform)Telnyx: conversation 86%, business workflow 43%, 9 of 14 capabilities (Developer platform)Observe.AI: conversation 64%, business workflow 36%, 7 of 14 capabilities (Enterprise conversational AI)NiCE Cognigy: conversation 71%, business workflow 14%, 6 of 14 capabilities (Enterprise conversational AI)NiCE CognigySierra: conversation 64%, business workflow 29%, 6.5 of 14 capabilities (Enterprise conversational AI)Gong: conversation 7%, business workflow 29%, 2.5 of 14 capabilities (Conversation intelligence)GongSalesken: conversation 0%, business workflow 29%, 2 of 14 capabilities (Conversation intelligence)Kore.ai: conversation 86%, business workflow 36%, 8.5 of 14 capabilities (Enterprise conversational AI)Gnani.ai: conversation 86%, business workflow 43%, 9 of 14 capabilities (Enterprise conversational AI)Yellow.ai: conversation 79%, business workflow 21%, 7 of 14 capabilities (Enterprise conversational AI)Haptik: conversation 43%, business workflow 21%, 4.5 of 14 capabilities (Enterprise conversational AI)Skit.ai: conversation 71%, business workflow 43%, 8 of 14 capabilities (Enterprise conversational AI)Sarvam AI: conversation 100%, business workflow 36%, 9.5 of 14 capabilities (Voice-agent platform)Rezo.ai: conversation 43%, business workflow 43%, 6 of 14 capabilities (Enterprise conversational AI)Ringg AI: conversation 93%, business workflow 71%, 11.5 of 14 capabilities (Voice-agent platform)Ringg AIVomyra: conversation 100%, business workflow 57%, 11 of 14 capabilities (Voice-agent platform)Bolna: conversation 100%, business workflow 50%, 10.5 of 14 capabilities (Voice-agent platform)Smallest.ai: conversation 93%, business workflow 43%, 9.5 of 14 capabilities (Voice-agent platform)SubVerse AI: conversation 93%, business workflow 43%, 9.5 of 14 capabilities (Enterprise conversational AI)VoiceGenie: conversation 93%, business workflow 43%, 9.5 of 14 capabilities (Voice-agent platform)Exotel: conversation 86%, business workflow 64%, 10.5 of 14 capabilities (Cloud telephony / contact centre)Ozonetel: conversation 93%, business workflow 57%, 10.5 of 14 capabilities (Cloud telephony / contact centre)Knowlarity: conversation 7%, business workflow 43%, 3.5 of 14 capabilities (Cloud telephony / contact centre)LeadSquared: conversation 71%, business workflow 57%, 9 of 14 capabilities (CRM with AI calling)Meritto: conversation 71%, business workflow 57%, 9 of 14 capabilities (CRM with AI calling)Convin: conversation 57%, business workflow 50%, 7.5 of 14 capabilities (Conversation intelligence)SquadStack: conversation 86%, business workflow 71%, 11 of 14 capabilities (Voice-agent platform)Telleo: conversation 86%, business workflow 100%, 13 of 14 capabilities (Voice-agent platform)Telleo
+
+Share of 7 conversation and 7 business-workflow capabilities each vendor documents publicly. Hover a point for details.
 
 Fits how you work
 
