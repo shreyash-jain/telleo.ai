@@ -13,7 +13,7 @@ const EXAMPLES = [
     s: "1,000 new leads a month · 55% answer · 2 minutes each = 1,100 minutes",
     rows: [
       ["Starter", "1,100 × ₹3.99 = ₹4,389/month (above the ₹3,499 minimum)"],
-      ["Annual", "1,100 × ₹3.49 = ₹3,839 + ₹19,999/year (≈ ₹1,667/month) = ≈ ₹5,506/month"],
+      ["Annual", "1,100 × ₹3.49 = ₹3,839 + ₹29,999/year (≈ ₹2,500/month) = ≈ ₹6,339/month"],
     ],
     v: "Starter is cheaper here if you don't need the CRM. Pick Annual when you want the CRM and automations too.",
   },
@@ -23,18 +23,18 @@ const EXAMPLES = [
     rows: [
       ["Pro", "1,750 × ₹3.99 + 1,550 × ₹3.49 = ₹12,392/month"],
       ["Pro + CRM, monthly", "₹12,392 + ₹2,000 CRM = ₹14,392/month"],
-      ["Annual (CRM included)", "3,300 × ₹3.49 = ₹11,517 + ≈ ₹1,667 = ≈ ₹13,184/month"],
+      ["Annual (CRM included)", "3,300 × ₹3.49 = ₹11,517 + ≈ ₹2,500 = ≈ ₹14,017/month"],
     ],
-    v: "With the CRM, Annual saves about ₹1,200 a month over Pro + CRM, and has no monthly minimum.",
+    v: "With the CRM, Annual saves about ₹375 a month over Pro + CRM, and has no monthly minimum.",
   },
   {
     t: "A seasonal business",
     s: "8,000 minutes a month for 4 peak months, almost nothing for the other 8",
     rows: [
       ["Pro + CRM, all year", "4 × ₹30,795 + 8 × ₹8,999 minimum = ₹1,95,172/year"],
-      ["Annual", "32,000 × ₹3.49 = ₹1,11,680 + ₹19,999 = ₹1,31,679/year"],
+      ["Annual", "32,000 × ₹3.49 = ₹1,11,680 + ₹29,999 = ₹1,41,679/year"],
     ],
-    v: "Annual saves about ₹63,500 a year because quiet months cost nothing in minutes.",
+    v: "Annual saves about ₹53,500 a year because quiet months cost nothing in minutes.",
   },
 ];
 
@@ -86,7 +86,7 @@ export default function Page() {
             itemListElement: [
               { "@type": "Offer", name: "Starter", price: "3499", priceCurrency: "INR", description: "Monthly minimum billing; ₹3.99 per minute; excludes GST" },
               { "@type": "Offer", name: "Pro", price: "6999", priceCurrency: "INR", description: "Monthly minimum billing; ₹3.99 per minute, ₹3.49 beyond 1,750 minutes; excludes GST" },
-              { "@type": "Offer", name: "Annual", price: "19999", priceCurrency: "INR", description: "Per year; ₹3.49 per minute, no minimum; CRM included; excludes GST" },
+              { "@type": "Offer", name: "Annual", price: "29999", priceCurrency: "INR", description: "Per year; ₹3.49 per minute, no minimum; CRM included; excludes GST" },
             ],
           },
         }}

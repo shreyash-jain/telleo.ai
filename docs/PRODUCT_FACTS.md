@@ -154,7 +154,7 @@ All prices exclude 18% GST. DLT / PE registration (Indian telecom regulation) �
 | Starter | ₹3,499 / month minimum billing | ₹3.99/min (~875 min) · trial plan, up to 3 months · AI calling, lead import/export, recordings & history |
 | Pro | ₹6,999 / month minimum billing | ₹3.99/min (~1,750 min) · + direct human calling, full voice dashboard, advanced call controls |
 | Pro + CRM (monthly) | ₹8,999 / month | ₹6,999 voice minimum + ₹2,000 CRM · no annual lock-in |
-| Annual (recommended) | ₹19,999 / year upfront | **₹3.49/min flat from minute one, no minimum** — pay nothing for minutes in quiet months · **includes the full CRM** (vacademy.io/voice: "CRM + Voice Annual") |
+| Annual (recommended) | ₹29,999 / year upfront | **₹3.49/min flat from minute one, no minimum** — pay nothing for minutes in quiet months · **includes the full CRM** (vacademy.io/voice: "CRM + Voice Annual") |
 | Enterprise | Custom | volume rates, dedicated line — talk to us |
 
 Volume rate ₹3.49/min applies to usage beyond 1,750 minutes in a month. The platform adds a per-engine surcharge

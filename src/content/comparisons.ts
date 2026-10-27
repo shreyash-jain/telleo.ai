@@ -28,7 +28,7 @@ export const COMPARISONS: Comparison[] = [
       {
         dimension: "Cost basis",
         telleo:
-          "Per minute of call. ₹3.49/min on the annual plan (₹19,999/year upfront, no monthly minimum) or ₹3.99/min on monthly plans. Prices exclude 18% GST.",
+          "Per minute of call. ₹3.49/min on the annual plan (₹29,999/year upfront, no monthly minimum) or ₹3.99/min on monthly plans. Prices exclude 18% GST.",
         other:
           "Monthly salary plus incentives, hiring, training and supervision. Salary sites list average telecaller pay at about ₹16,000 to ₹17,500 a month (Indeed India, AmbitionBox).",
       },
@@ -132,7 +132,7 @@ export const COMPARISONS: Comparison[] = [
         heading: "What each costs",
         body: [
           "Salary sites give a rough guide. Indeed India lists an average of ₹16,310 a month for a caller, based on 1.9k salaries from job postings (updated 3 July 2026). AmbitionBox lists ₹2.1 lakh a year, about ₹17.5k a month, for a telecaller, based on 23.8k salaries. Pay varies by city, experience and company, and the full cost of a seat also includes incentives, hiring, training and supervision.",
-          "Telleo is priced per minute of call. On the annual plan you pay ₹19,999 a year upfront and ₹3.49 a minute from the first minute, with no monthly minimum. Prices exclude 18% GST, and DLT/PE registration is ₹5,900 a year at actuals. It is not a like-for-like swap: an AI agent does not replace a good telecaller's judgement, but it can take the calls that do not need it.",
+          "Telleo is priced per minute of call. On the annual plan you pay ₹29,999 a year upfront and ₹3.49 a minute from the first minute, with no monthly minimum. Prices exclude 18% GST, and DLT/PE registration is ₹5,900 a year at actuals. It is not a like-for-like swap: an AI agent does not replace a good telecaller's judgement, but it can take the calls that do not need it.",
         ],
       },
       {
@@ -357,7 +357,7 @@ export const COMPARISONS: Comparison[] = [
       {
         dimension: "Entry price",
         telleo:
-          "Starter (trial plan, up to 3 months): ₹3,499/month minimum billing at ₹3.99/min. Annual: ₹19,999/year upfront, then ₹3.49/min from minute one, with the full CRM included. Starter and Pro do not include the CRM; Pro + CRM is ₹8,999/month. Prices exclude 18% GST.",
+          "Starter (trial plan, up to 3 months): ₹3,499/month minimum billing at ₹3.99/min. Annual: ₹29,999/year upfront, then ₹3.49/min from minute one, with the full CRM included. Starter and Pro do not include the CRM; Pro + CRM is ₹8,999/month. Prices exclude 18% GST.",
         other:
           "Free credits on sign-up. Phone number ₹499 per month. Advanced analytics ₹2 per call. Their page notes final amounts may vary with exchange rates and taxes.",
       },
@@ -459,7 +459,7 @@ export const COMPARISONS: Comparison[] = [
         heading: "Pricing compared",
         body: [
           "Ringg publishes ₹6 per connected minute for voice agents, prorated by the second, with STT, TTS, LLM, telephony and basic analytics bundled. A phone number is ₹499 a month, advanced analytics is ₹2 per call, and five concurrent calls are included. Their FAQ says pricing is based on usage and a monthly minimum commitment; the minimum is not stated.",
-          "Telleo's annual plan is ₹19,999 a year upfront, then ₹3.49 a minute from the first minute, with no monthly minimum. Monthly plans bill at ₹3.99 a minute, with a minimum of ₹3,499 (Starter, a trial plan for up to 3 months) or ₹6,999 (Pro). Telleo bills in 30-second pulses at the per-minute rate, and prices exclude 18% GST. Which works out cheaper depends on your call lengths and volume, so compare on your own pattern.",
+          "Telleo's annual plan is ₹29,999 a year upfront, then ₹3.49 a minute from the first minute, with no monthly minimum. Monthly plans bill at ₹3.99 a minute, with a minimum of ₹3,499 (Starter, a trial plan for up to 3 months) or ₹6,999 (Pro). Telleo bills in 30-second pulses at the per-minute rate, and prices exclude 18% GST. Which works out cheaper depends on your call lengths and volume, so compare on your own pattern.",
         ],
       },
       {
@@ -513,7 +513,7 @@ export const COMPARISONS: Comparison[] = [
     faqs: [
       {
         q: "Is Telleo cheaper than Ringg AI?",
-        a: "On published per-minute rates, Telleo's ₹3.49 to ₹3.99 a minute (excluding GST) is lower than Ringg's ₹6 per connected minute. But Ringg prorates by the second while Telleo bills in 30-second pulses, Ringg has a monthly minimum whose amount is not published, Telleo's monthly plans have a ₹3,499 or ₹6,999 minimum, and Telleo's annual plan has a ₹19,999 upfront fee. Compare on your own call volume and call lengths.",
+        a: "On published per-minute rates, Telleo's ₹3.49 to ₹3.99 a minute (excluding GST) is lower than Ringg's ₹6 per connected minute. But Ringg prorates by the second while Telleo bills in 30-second pulses, Ringg has a monthly minimum whose amount is not published, Telleo's monthly plans have a ₹3,499 or ₹6,999 minimum, and Telleo's annual plan has a ₹29,999 upfront fee. Compare on your own call volume and call lengths.",
       },
       {
         q: "Does Ringg AI support Hindi?",
@@ -564,7 +564,7 @@ export const COMPARISONS: Comparison[] = [
       {
         dimension: "Entry price",
         telleo:
-          "Starter (trial plan, up to 3 months): ₹3,499/month minimum billing at ₹3.99/min. Annual: ₹19,999/year upfront, then ₹3.49/min, with the full CRM included. Starter and Pro do not include the CRM; Pro + CRM is ₹8,999/month. Prices exclude 18% GST.",
+          "Starter (trial plan, up to 3 months): ₹3,499/month minimum billing at ₹3.99/min. Annual: ₹29,999/year upfront, then ₹3.49/min, with the full CRM included. Starter and Pro do not include the CRM; Pro + CRM is ₹8,999/month. Prices exclude 18% GST.",
         other:
           "₹599 for a 7-day trial with 500 credits. Developer ₹15,000/month with 2,500 minutes. Unlimited Solo ₹19,999/month, Team ₹39,999/month, Business ₹79,999/month. Concurrency 2, 2, 6 and 15 calls respectively.",
       },
@@ -658,7 +658,7 @@ export const COMPARISONS: Comparison[] = [
         heading: "Two different pricing bets",
         body: [
           "Vomyra's headline offer is unlimited calling: Unlimited Solo is ₹19,999 a month for one agent and two concurrent calls, covering Indian numbers within TRAI-permitted hours under a fair-use policy with an eight-hour daily window. Its pricing page says prices shown are on an annual plan.",
-          "Telleo charges per minute. The annual plan is ₹19,999 a year upfront, then ₹3.49 a minute with no monthly minimum, so a quiet month costs nothing in usage. Comparing list prices as published, Telleo's annual plan costs less than Unlimited Solo until you use about 5,250 minutes a month. Above that, a flat plan starts to win. Telleo's prices exclude 18% GST; Vomyra's pricing page does not say either way.",
+          "Telleo charges per minute. The annual plan is ₹29,999 a year upfront, then ₹3.49 a minute with no monthly minimum, so a quiet month costs nothing in usage. Comparing list prices as published, Telleo's annual plan costs less than Unlimited Solo until you use about 5,000 minutes a month. Above that, a flat plan starts to win. Telleo's prices exclude 18% GST; Vomyra's pricing page does not say either way.",
         ],
       },
       {
@@ -705,7 +705,7 @@ export const COMPARISONS: Comparison[] = [
     faqs: [
       {
         q: "Is Vomyra's unlimited plan cheaper than Telleo?",
-        a: "It depends on volume. Comparing list prices as published, Telleo's annual plan (₹19,999 a year plus ₹3.49 a minute) costs less than Vomyra's Unlimited Solo (₹19,999 a month, shown on an annual plan) until you use about 5,250 minutes a month. Above that, the unlimited plan works out cheaper, within its fair-use terms and two-call concurrency.",
+        a: "It depends on volume. Comparing list prices as published, Telleo's annual plan (₹29,999 a year plus ₹3.49 a minute) costs less than Vomyra's Unlimited Solo (₹19,999 a month, shown on an annual plan) until you use about 5,000 minutes a month. Above that, the unlimited plan works out cheaper, within its fair-use terms and two-call concurrency.",
       },
       {
         q: "What does \"unlimited\" cover on Vomyra?",
@@ -763,7 +763,7 @@ export const COMPARISONS: Comparison[] = [
       {
         dimension: "Entry cost",
         telleo:
-          "Starter ₹3,499/month minimum billing (a trial plan, up to 3 months), Pro ₹6,999/month, or ₹19,999/year on the annual plan. The full CRM and workflow automations come with the annual plan, or with Pro + CRM at ₹8,999/month.",
+          "Starter ₹3,499/month minimum billing (a trial plan, up to 3 months), Pro ₹6,999/month, or ₹29,999/year on the annual plan. The full CRM and workflow automations come with the annual plan, or with Pro + CRM at ₹8,999/month.",
         other:
           "Vapi: $0 to start with $5 free credits; support packages from $29/month. Retell: $10 free credits and 20 free concurrent calls. Pipecat and LiveKit Agents: free and open source.",
       },

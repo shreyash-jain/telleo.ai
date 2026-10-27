@@ -67,7 +67,7 @@ export default function Page() {
           [
             "Per minute with a minimum or platform fee",
             "A per-minute rate, plus a monthly minimum or yearly fee.",
-            "Telleo: ₹3.99 a minute with a ₹3,499 or ₹6,999 monthly minimum, or ₹19,999 a year plus ₹3.49 a minute. Vapi: $0.05 a minute hosting fee plus model costs; its Pro package has a $999 monthly minimum.",
+            "Telleo: ₹3.99 a minute with a ₹3,499 or ₹6,999 monthly minimum, or ₹29,999 a year plus ₹3.49 a minute. Vapi: $0.05 a minute hosting fee plus model costs; its Pro package has a $999 monthly minimum.",
             "Whether unused minimum is lost at month end, and what the platform fee includes.",
           ],
           [
@@ -185,11 +185,11 @@ export default function Page() {
         head={["Plan", "Arithmetic", "Year total"]}
         rows={[
           ["Pro, monthly", "4 × ₹12,392 busy months + 8 × ₹6,999 minimum (300 × ₹3.99 = ₹1,197, below the minimum)", "₹1,05,560"],
-          ["Annual", "₹19,999 upfront + 15,600 minutes × ₹3.49 (₹54,444)", "₹74,443"],
+          ["Annual", "₹29,999 upfront + 15,600 minutes × ₹3.49 (₹54,444)", "₹84,443"],
         ]}
       />
       <p>
-        The annual plan is ₹31,117 cheaper over the year, before GST, because quiet months cost nothing beyond the minutes used. With steady, high volume the gap closes: both plans charge ₹3.49 for every minute past 1,750, so at 3,300 minutes every month the annual plan works out to about ₹13,184 a month with the upfront fee spread over twelve months, against ₹12,392 on Pro. Check what each plan includes on the <Link href="/pricing/">pricing page</Link> before you choose.
+        The annual plan is ₹21,117 cheaper over the year, before GST, because quiet months cost nothing beyond the minutes used. With steady, high volume the gap closes: both plans charge ₹3.49 for every minute past 1,750, so at 3,300 minutes every month the annual plan works out to about ₹14,017 a month with the upfront fee spread over twelve months, against ₹12,392 on Pro. Check what each plan includes on the <Link href="/pricing/">pricing page</Link> before you choose.
       </p>
 
       <h2 id="compare-quotes">How to compare two quotes</h2>
@@ -205,7 +205,7 @@ export default function Page() {
 
       <WhereTelleoFits>
         <p>
-          Telleo prices in rupees, per minute. <strong>Starter</strong> is ₹3,499 a month minimum at ₹3.99 a minute (a trial plan for up to three months); <strong>Pro</strong> is ₹6,999 a month minimum at ₹3.99, with ₹3.49 a minute beyond 1,750 minutes; <strong>Pro + CRM</strong> is ₹8,999 a month with no annual lock-in; the <strong>Annual</strong> plan is ₹19,999 a year with ₹3.49 a minute from the first minute and no minimum. All prices exclude 18% GST.
+          Telleo prices in rupees, per minute. <strong>Starter</strong> is ₹3,499 a month minimum at ₹3.99 a minute (a trial plan for up to three months); <strong>Pro</strong> is ₹6,999 a month minimum at ₹3.99, with ₹3.49 a minute beyond 1,750 minutes; <strong>Pro + CRM</strong> is ₹8,999 a month with no annual lock-in; the <strong>Annual</strong> plan is ₹29,999 a year with ₹3.49 a minute from the first minute and no minimum. All prices exclude 18% GST.
         </p>
         <p>
           Phone lines are included, analysis of every AI call is included at no extra charge, and calls stop when your balance runs out, so a bill cannot run away overnight. Details are on the <Link href="/pricing/">pricing page</Link>.
