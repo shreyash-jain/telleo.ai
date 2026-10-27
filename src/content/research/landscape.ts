@@ -117,6 +117,8 @@ export const MAP_LABELS: Record<string, MapPoint["labelSide"]> = {
   Convin: "left", "Yellow.ai": "right", "NiCE Cognigy": "right", Sierra: "left", Gong: "right", Salesken: "above",
   Knowlarity: "right", "Rezo.ai": "right", Haptik: "right", "Observe.AI": "right",
 };
+/* Home page band: larger text in a narrower card, so the right-edge Sarvam AI label is dropped. */
+export const HOME_MAP_LABELS = Object.fromEntries(Object.entries(MAP_LABELS).filter(([n]) => n !== "Sarvam AI"));
 export const PHONE_MAP_LABELS: Record<string, MapPoint["labelSide"]> = {
   Telleo: "left", "Ringg AI": "below", Vapi: "left", Gong: "right", "NiCE Cognigy": "right",
 };

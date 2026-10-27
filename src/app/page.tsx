@@ -15,6 +15,10 @@ import { Check, CheckList, FaqList, Icon, SectionHeading } from "@/components/ui
 import { USE_CASES } from "@/content/useCases";
 import { INDUSTRIES } from "@/content/industries";
 import { POSTS, postPath } from "@/content/posts";
+import { LandscapeMap, Legend } from "@/components/research/charts";
+import {
+  HOME_MAP_LABELS, LANDSCAPE_CSV, LANDSCAPE_SLUG, OTHERS, PHONE_MAP_LABELS, TELLEO, VENDORS, capCount, landscapeMapPoints,
+} from "@/content/research/landscape";
 import { TEST_LINE, TEST_LINE_DISPLAY, bookHref } from "@/lib/site";
 
 const HBR = "https://hbr.org/2011/03/the-short-life-of-online-sales-leads";
@@ -474,6 +478,71 @@ export default function Home() {
           <Link href="/compare/telleo-vs-ringg/" className="chip hover:border-brand">Telleo vs Ringg AI</Link>
           <Link href="/compare/telleo-vs-vomyra/" className="chip hover:border-brand">Telleo vs Vomyra</Link>
           <Link href="/compare/telleo-vs-build-your-own/" className="chip hover:border-brand">Telleo vs build your own</Link>
+        </div>
+      </section>
+
+      {/* ───────────── Research: platform map ───────────── */}
+      <section className="wrap pb-20 md:pb-28" aria-labelledby="landscape-heading">
+        <div className="grid items-center gap-8 rounded-3xl border border-line bg-paper p-4 sm:p-6 md:p-10 lg:grid-cols-[0.85fr_1.15fr] lg:gap-10">
+          <div>
+            <SectionHeading
+              id="landscape-heading"
+              eyebrow="Telleo Research"
+              title={`Where ${VENDORS.length} AI calling platforms sit.`}
+              lede={`We scored ${OTHERS.length} Indian and global voice-AI vendors, and Telleo, on the same 14 capabilities: how well the agent converses, and how much of the business workflow around the call it runs.`}
+            />
+            <dl className="mt-8 grid gap-3 sm:grid-cols-3 sm:gap-4">
+              {[
+                { v: `${capCount("built_in_crm")} of ${OTHERS.length}`, l: "document a built-in CRM" },
+                { v: `${capCount("lead_source_connectors")} of ${OTHERS.length}`, l: "connect lead ads natively" },
+                { v: `${capCount("whatsapp_followup")} of ${OTHERS.length}`, l: "follow up on WhatsApp" },
+              ].map((s) => (
+                <div key={s.l} className="flex items-baseline gap-3 rounded-2xl border border-line bg-white px-4 py-3 sm:block sm:p-4">
+                  <dt className="sr-only">{s.l}</dt>
+                  <dd className="shrink-0 text-2xl font-extrabold tracking-tight text-ink">{s.v}</dd>
+                  <dd className="text-sm leading-snug text-slate-600 sm:mt-1">{s.l}</dd>
+                </div>
+              ))}
+            </dl>
+            <div className="mt-8 flex flex-wrap items-center gap-3">
+              <Link href={`/research/${LANDSCAPE_SLUG}/`} className="btn btn-primary">
+                Read the landscape <ArrowRight className="h-4 w-4" />
+              </Link>
+              <a href={LANDSCAPE_CSV} download className="btn btn-outline">Download CSV</a>
+            </div>
+            <p className="mt-5 text-xs leading-relaxed text-slate-500">
+              Every score links to the vendor&apos;s own pages. Telleo is scored with the same rubric from its public pages
+              ({TELLEO.breadth} of 14); the method and limits are in the report.
+            </p>
+          </div>
+          <figure className="rounded-2xl border border-line bg-white p-3 sm:p-4 md:p-6">
+            <Legend keys={["telleo", "india", "global"]} />
+            <div className="hidden sm:block">
+              <LandscapeMap
+                ariaLabel={`Map of ${VENDORS.length} AI calling platforms by conversation and business-workflow coverage. Telleo scores ${TELLEO.conversation}% and ${TELLEO.workflow}%.`}
+                xLabel="Conversation coverage"
+                yLabel="Business-workflow coverage"
+                zones={["Workflow-first", "Full-stack", "Point tools", "Conversation-first"]}
+                points={landscapeMapPoints(HOME_MAP_LABELS)}
+                textScale={1.2}
+                minWidthClass="min-w-0"
+              />
+            </div>
+            <div className="sm:hidden">
+              <LandscapeMap
+                ariaLabel={`Map of ${VENDORS.length} AI calling platforms by conversation and business-workflow coverage.`}
+                xLabel="Conversation"
+                yLabel="Workflow"
+                zones={["Workflow-first", "Full-stack", "Point tools", "Conversation-first"]}
+                points={landscapeMapPoints(PHONE_MAP_LABELS)}
+                textScale={1.5}
+                minWidthClass="min-w-0"
+              />
+            </div>
+            <figcaption className="mt-3 text-xs text-slate-500">
+              Share of 7 conversation and 7 business-workflow capabilities each vendor documents publicly. Hover a point for details.
+            </figcaption>
+          </figure>
         </div>
       </section>
 
