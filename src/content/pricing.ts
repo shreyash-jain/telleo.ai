@@ -55,7 +55,7 @@ export const PLANS: Plan[] = [
   {
     key: "annual",
     name: "Annual",
-    price: "₹19,999",
+    price: "₹29,999",
     cadence: "/year, paid upfront",
     rate: "₹3.49/min",
     rateNote: "Flat from the first minute · no monthly minimum",

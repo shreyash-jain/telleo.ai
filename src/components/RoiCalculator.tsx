@@ -38,7 +38,7 @@ export function RoiCalculator() {
   const r = useMemo(() => {
     const connected = leads * (connect / 100);
     const minutes = connected * mins;
-    const telleo = minutes * RATE_ANNUAL + 19999 / 12;
+    const telleo = minutes * RATE_ANNUAL + 29999 / 12;
     const callers = Math.max(1, Math.ceil(leads / (perDay * 25)));
     const team = callers * salary;
     return { connected, minutes, telleo, callers, team, perLead: telleo / Math.max(1, leads) };
@@ -58,7 +58,7 @@ export function RoiCalculator() {
           <p className="text-xs font-bold uppercase tracking-wider text-slate-400">Telleo on the annual plan</p>
           <p className="h-display mt-2 text-5xl text-white">{inr(r.telleo)}<span className="text-lg font-semibold text-slate-400">/month</span></p>
           <p className="mt-2 text-sm text-slate-400">
-            {Math.round(r.minutes).toLocaleString("en-IN")} minutes at ₹{RATE_ANNUAL}/min + the ₹19,999 yearly fee spread over 12 months. About {inr(r.perLead)} per lead.
+            {Math.round(r.minutes).toLocaleString("en-IN")} minutes at ₹{RATE_ANNUAL}/min + the ₹29,999 yearly fee spread over 12 months. About {inr(r.perLead)} per lead.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-3">

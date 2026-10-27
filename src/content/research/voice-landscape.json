@@ -49,7 +49,7 @@
      "currency": "INR",
      "period": "month",
      "plan_name": "Starter",
-     "notes": "Monthly minimum billing at ₹3.99/min, telephony included; ₹19,999/year plan at ₹3.49/min with no minimum. Excludes 18% GST and DLT registration."
+     "notes": "Monthly minimum billing at ₹3.99/min, telephony included; ₹29,999/year plan at ₹3.49/min with no minimum. Excludes 18% GST and DLT registration."
     },
     "per_minute_from": {
      "amount": 3.49,

@@ -21,7 +21,7 @@ const FAQS = [
   { q: "Does an AI telecaller replace my team?", a: "It takes the first call and the repetitive follow-ups, so your team spends its time on leads that are ready to talk. Live transfer and outcome rules hand those leads to a person, during the call or as soon as it ends." },
   { q: "How fast does it call a new lead?", a: "When a workflow starts the call as the lead arrives, the first call typically goes out in about a minute, inside your calling hours. A running bulk campaign shares the same queue and can delay it." },
   { q: "Can my team keep calling from Exotel or Airtel IQ?", a: "Yes. The AI calls run on a separate Telleo line, so your team can keep its click-to-call setup, or use Telleo's click-to-call on the Pro plan." },
-  { q: "What does an AI telecaller cost?", a: "Plans start at ₹3,499 a month minimum billing at ₹3.99 a minute. The annual plan is ₹19,999 a year with a flat ₹3.49 a minute and no monthly minimum. Prices exclude 18% GST; DLT registration is ₹5,900 a year at actuals. Rates are for our standard voices." },
+  { q: "What does an AI telecaller cost?", a: "Plans start at ₹3,499 a month minimum billing at ₹3.99 a minute. The annual plan is ₹29,999 a year with a flat ₹3.49 a minute and no monthly minimum. Prices exclude 18% GST; DLT registration is ₹5,900 a year at actuals. Rates are for our standard voices." },
   { q: "What about TRAI rules on automated calls?", a: "We register DLT with you and you choose the calling windows. TRAI's September 2026 amendment will require every business using automated (A2P) calls to declare them to its telecom provider, with the caller IDs used. Its A2P provisions take effect 60 days after Gazette publication; talk to us about how it applies to your setup." },
 ];
 
