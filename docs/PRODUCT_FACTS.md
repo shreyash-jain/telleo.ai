@@ -166,6 +166,10 @@ by default (Sarvam voices cost more, Edge less); say "rates are for our standard
 - Customer logos, testimonials, case-study results, call volumes, ratings, "trusted by N companies".
 - Certifications: SOC 2, ISO 27001, HIPAA, GDPR/TCPA compliance, "encrypted at rest".
 - "Your data stays in India" (only the live voice pipeline is in Mumbai).
+- **Which companies make Telleo's voices** (owner, 2026-10-28). Speak of voices by name, gender and language;
+  the count of speech engines may be stated. Citing a vendor's public docs or prices as an industry source in a
+  blog post is fine.
+- That a sample call is a real call. Only `public/audio/telleo-sample-call-admissions-2.mp3` is a real call.
 - Latency in milliseconds, "unlimited calling", "70+ languages", "clone your voice".
 - An SDK/MCP server, or native integrations with Salesforce, HubSpot, Zoho, LeadSquared, Shopify etc.
   (Say instead: "anything that can send or receive a webhook".)
@@ -220,3 +224,15 @@ by default (Sarvam voices cost more, Edge less); say "rates are for our standard
   telephone-band EQ, voice modulation, replay + simulator CI gates. Platform: 30 s billing pulse, pause/resume
   queue, engaged-call routing + follow-up gist, AI-qualified → pool, regenerate script from notes, API.
   NOT claimed: Navana TTS (not in the voice catalog yet), caller-gender detection (shadow mode).
+
+## 11. Voice samples on the site (added 2026-10-28)
+
+- **Sample calls** (home page, `#sample-calls`): four use cases (lead qualification, appointment booking, payment
+  reminder, feedback survey) in Hinglish, English and Bengali. Scripted conversations voiced end to end with
+  Telleo's own voices, the caller included, through the telephone band; the businesses, people and prices are
+  invented. Always label them samples.
+- **Voice library** (`/voices-and-languages/#voice-library`): a selection of the 80+ voices, each saying the same
+  three lines (sales call, payment reminder, feedback call), and only in the languages that voice speaks on a
+  live call today. Bengali clips come only from voices whose engine takes the agent's language on a live call;
+  Bengali stays "set up with you on request".
+- Both are rendered by `scripts/samples/` (see its README) and listed in `src/content/voiceSamples.ts`.

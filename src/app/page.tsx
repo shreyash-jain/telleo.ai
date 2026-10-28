@@ -7,6 +7,7 @@ import {
 import { HeroCallDemo } from "@/components/HeroCallDemo";
 import { RotatingWords, SamplePlayer } from "@/components/Interactive";
 import { RoiCalculator } from "@/components/RoiCalculator";
+import { SampleCalls } from "@/components/SampleCalls";
 import { PricingCards } from "@/components/Pricing";
 import { DemoForm } from "@/components/DemoForm";
 import { Clients } from "@/components/Clients";
@@ -179,6 +180,20 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ───────────── Sample calls ───────────── */}
+      <section id="sample-calls" className="scroll-mt-20 border-b border-line bg-paper">
+        <div className="wrap py-20 md:py-28">
+          <SectionHeading
+            eyebrow="Sample calls"
+            title="Hear Telleo on your kind of call."
+            lede="Four everyday calls, each in Hinglish, English and Bengali. Pick one and follow the transcript as it plays."
+          />
+          <div className="mt-10">
+            <SampleCalls />
+          </div>
+        </div>
+      </section>
+
       {/* ───────────── The problem ───────────── */}
       <section className="wrap py-20 md:py-28">
         <div className="grid gap-12 lg:grid-cols-[1fr_1.1fr] lg:items-center">
@@ -302,7 +317,7 @@ export default function Home() {
               lede="Telleo grew out of admissions calling, where parents interrupt, switch languages and say “haan” mid-sentence. Every rule below exists because a real call went wrong without it."
             />
             <div className="flex flex-wrap gap-3 lg:justify-end">
-              <Link href="/voices-and-languages/" className="btn btn-primary">Hear the voices <AudioLines className="h-4 w-4" /></Link>
+              <Link href="/voices-and-languages/#voice-library" className="btn btn-primary">Hear the voices <AudioLines className="h-4 w-4" /></Link>
               <a href={`tel:${TEST_LINE}`} className="btn btn-ghost-dark"><PhoneCall className="h-4 w-4 text-brand" /> Test it yourself</a>
             </div>
           </div>

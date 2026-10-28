@@ -1,7 +1,9 @@
-import { AudioLines, Gauge, Mic, SlidersHorizontal } from "lucide-react";
+import { AudioLines, Mic, SlidersHorizontal } from "lucide-react";
 import { PageShell, FeatureRow, pageMetadata } from "@/components/PageShell";
 import { SamplePlayer } from "@/components/Interactive";
 import { CheckList, Transcript } from "@/components/ui";
+import { VoiceLibrary } from "@/components/VoiceLibrary";
+import { LIBRARY } from "@/content/voiceSamples";
 
 export const metadata = pageMetadata("/voices-and-languages/");
 
@@ -13,18 +15,10 @@ const LANGS = [
   { l: "Marathi · Gujarati · Bengali · Punjabi · Odia", s: "On request", n: "Supported by the voice engines; set up and tested with you first." },
 ];
 
-const ENGINES = [
-  { e: "Google Chirp3-HD", n: "The default for new agents. Natural Hindi voices, picked by ear." },
-  { e: "Sarvam Bulbul", n: "Indian-built voices with the widest Hindi palette." },
-  { e: "Smallest Lightning", n: "Standard voice set for Hindi and English." },
-  { e: "Smallest Lightning Pro", n: "Pro voice set for Hindi and English." },
-  { e: "Rumik", n: "Preset male and female voices; audition on your script before choosing." },
-  { e: "Microsoft Edge voices", n: "A handful of Hindi and Indian-English voices." },
-  { e: "Deepgram Aura-2", n: "English voices with an American accent, for English-only calls." },
-];
 
 const FAQS = [
-  { q: "How many voices are there?", a: "More than 80, male and female, across seven speech engines. You can audition any of them before you choose, and the preview uses the same engine, voice and pace the call will use (the phone-line shaping is added on the live call)." },
+  { q: "How many voices are there?", a: "More than 80, male and female. You can hear a selection on this page, and audition any of them in the agent editor before you choose; the preview uses the same voice and pace the call will use." },
+  { q: "Will a voice sound the same on a real call?", a: "It is the same voice. A phone line carries less of it than your speakers do, so a call sounds narrower; switch on “On a phone line” above to hear the difference. Live calls also add a faint room tone, so the agent sounds like someone at a calling desk." },
   { q: "Can the agent switch languages mid-call?", a: "Callers often mix Hindi and English, and a Hinglish agent handles that naturally. Each agent has a main language; it stays in it rather than drifting, which keeps calls consistent." },
   { q: "Why write Hindi in Devanagari?", a: "Indian voice engines pronounce Hindi best when it is written in Devanagari, with English business words like demo, fees or booking kept in English. Romanised Hindi reads worse on the phone, so Telleo's scripts and replies follow that rule." },
   { q: "Can you clone our own voice?", a: "Not today. Choose from the voice library; we can help you pick one that fits your brand and your callers." },
@@ -55,6 +49,41 @@ export default function Page() {
       }
       faqs={FAQS}
     >
+      <section id="voice-library" className="wrap scroll-mt-24 py-20 md:py-24">
+        <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
+          <div className="max-w-3xl">
+            <p className="eyebrow">The voice library</p>
+            <h2 className="h-section mt-3 text-ink">Hear the voices before you choose one.</h2>
+            <p className="mt-4 text-lg leading-relaxed text-slate-600">
+              {LIBRARY.length} of our voices, each saying the same everyday lines, so you can compare them by ear in
+              Hinglish, English and Bengali. Switch on “On a phone line” to hear them the way your customers will.
+            </p>
+          </div>
+          <div className="grid grid-cols-3 gap-3 text-center">
+            {[
+              { I: Mic, t: "80+", d: "voices in all" },
+              { I: AudioLines, t: "12", d: "Indian languages" },
+              { I: SlidersHorizontal, t: "4", d: "modulation levels" },
+            ].map((x) => (
+              <div key={x.d} className="card px-4 py-3">
+                <x.I className="mx-auto h-5 w-5 text-brand-700" />
+                <p className="mt-1.5 text-2xl font-extrabold text-ink">{x.t}</p>
+                <p className="text-xs text-slate-500">{x.d}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="mt-10">
+          <VoiceLibrary />
+        </div>
+        <p className="mt-6 max-w-3xl text-sm leading-relaxed text-slate-500">
+          Hindi, English and Hinglish are live today. Bengali, Tamil, Telugu, Marathi, Gujarati, Kannada, Malayalam,
+          Punjabi and Odia are set up with you and tested on your calls first. In the agent editor every voice can
+          also be auditioned on your own opening line, with its pace and a modulation level (Off, Subtle,
+          Conversational, Lively) for how much it rises and falls.
+        </p>
+      </section>
+
       <section className="wrap py-20 md:py-24">
         <p className="eyebrow">Languages</p>
         <h2 className="h-section mt-3 max-w-3xl text-ink">Three languages live. Nine more on request.</h2>
@@ -128,42 +157,6 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="wrap py-20 md:py-24">
-        <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr]">
-          <div>
-            <p className="eyebrow">The voice library</p>
-            <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-ink md:text-4xl">80+ voices across seven speech engines.</h2>
-            <p className="mt-4 text-lg leading-relaxed text-slate-600">Pick by ear. Every voice can be auditioned with your own opening line before you save the agent, and the preview uses the same engine and settings as the live call.</p>
-            <div className="mt-8 grid grid-cols-3 gap-3 text-center">
-              {[
-                { I: Mic, t: "80+", d: "voices" },
-                { I: AudioLines, t: "7", d: "engines" },
-                { I: SlidersHorizontal, t: "4", d: "modulation levels" },
-              ].map((x) => (
-                <div key={x.d} className="card p-4">
-                  <x.I className="mx-auto h-5 w-5 text-brand-700" />
-                  <p className="mt-2 text-2xl font-extrabold text-ink">{x.t}</p>
-                  <p className="text-xs text-slate-500">{x.d}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-          <div>
-            <ul className="divide-y divide-line overflow-hidden rounded-2xl border border-line">
-              {ENGINES.map((x) => (
-                <li key={x.e} className="flex items-start gap-4 px-5 py-4">
-                  <Gauge className="mt-0.5 h-5 w-5 shrink-0 text-brand-700" />
-                  <div>
-                    <p className="font-bold text-ink">{x.e}</p>
-                    <p className="text-sm text-slate-600">{x.n}</p>
-                  </div>
-                </li>
-              ))}
-            </ul>
-            <p className="mt-4 text-sm text-slate-500">Also per agent: speaking pace and a modulation level (Off, Subtle, Conversational, Lively) for how much the voice rises and falls.</p>
-          </div>
-        </div>
-      </section>
     </PageShell>
   );
 }

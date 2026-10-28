@@ -592,7 +592,7 @@ export const COMPARISONS: Comparison[] = [
       {
         dimension: "Voices and models",
         telleo:
-          "80+ voices across 7 speech engines, including Google Chirp3-HD, Sarvam Bulbul and Smallest. Voice preview plays the exact voice before calls go out.",
+          "80+ male and female voices across 7 speech engines, picked for Indian phone calls. Voice preview plays the exact voice before calls go out.",
         other:
           "Choice of models including AWS Nova 2 Sonic, OpenAI GPT Realtime, Azure Voice Live, ElevenLabs and Cartesia. Voice cloning included from Unlimited Solo.",
       },
@@ -890,8 +890,8 @@ export const COMPARISONS: Comparison[] = [
         a: "Yes. The Telleo API starts calls and batches, passes each contact's details into the agent's script, and posts the outcome to your webhook, signed (docs at docs.telleo.ai). There is no SDK, and the agent cannot call your own tools during a call; if you need that, a developer platform is the better fit.",
       },
       {
-        q: "Which speech engines does Telleo use?",
-        a: "Telleo offers 80+ voices across 7 speech engines: Google Chirp3-HD, Sarvam Bulbul, Smallest Lightning (standard and Pro), Rumik, Microsoft Edge and Deepgram Aura-2 for English. Voice preview plays the exact engine and voice that will go out on the call.",
+        q: "Which voices does Telleo offer?",
+        a: "Telleo offers 80+ male and female voices across 7 speech engines, and you can hear 60 of them in Hinglish, English and Bengali on the voices page. Voice preview plays the exact voice that will go out on the call.",
       },
       {
         q: "Can I start with Telleo and build my own later?",

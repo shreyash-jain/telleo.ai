@@ -1,6 +1,6 @@
 # Telleo — full site text
 
-Generated 2026-10-27 from https://telleo.ai. Short summary: https://telleo.ai/llms.txt
+Generated 2026-10-28 from https://telleo.ai. Short summary: https://telleo.ai/llms.txt
 
 
 ---
@@ -111,6 +111,34 @@ Built for teams that live on the phone
 - Automotive
 - Travel & hospitality
 - Recruitment
+
+Sample calls
+
+## Hear Telleo on your kind of call.
+Four everyday calls, each in Hinglish, English and Bengali. Pick one and follow the transcript as it plays.
+
+Use case
+Lead qualification Qualify a fresh enquiry and book the next step. Appointment booking Turn an enquiry into a confirmed visit with a time. Payment reminder Remind, agree a date and send a payment link. Feedback survey Collect a rating and the reason behind it.
+Language
+Hinglish English Bengali
+
+Lead qualification · Hinglish
+AI agent: Ann (female voice)
+0:00 / 0:55
+
+- AI agent नमस्ते, क्या मेरी बात Rohan जी से हो रही है? मैं Brightpath Academy से Ann बोल रही हूँ। कल आपने हमारे JEE course का form भरा था। क्या अभी दो minute बात हो सकती है?
+- Caller हाँ, बोलिए।
+- AI agent Thank you! आपका बच्चा अभी किस class में है?
+- Caller बेटी है, eleventh में। Physics को लेकर थोड़ी tension है।
+- AI agent जी, eleventh, और physics पर थोड़ा extra ध्यान चाहिए। आप online batch पसंद करेंगे, या Andheri वाले हमारे centre पर classes?
+- Caller Offline ही ठीक रहेगा। Fees कितनी है?
+- AI agent Two year program की fees पंचानवे हज़ार रुपये है, और इस Sunday एक scholarship test है जिससे चालीस percent तक की छूट मिल सकती है। क्या मैं पहले एक free counselling session book कर दूँ?
+- Caller हाँ, Saturday ठीक रहेगा।
+- AI agent Saturday सुबह ग्यारह बजे, या शाम चार बजे?
+- Caller ग्यारह बजे ठीक है।
+- AI agent हो गया। Saturday सुबह ग्यारह बजे आपका session book है, और address के साथ scholarship test का link मैं WhatsApp पर भेज दूँगी। धन्यवाद, आपका दिन अच्छा रहे!
+An admissions enquiry from a coaching institute's website form, qualified and booked into a counselling session. A sample: the business and the caller are made up, and the caller is voiced by AI too.
+Hear all the voices in English, Hinglish and Bengali
 
 The problem
 
@@ -1472,6 +1500,87 @@ Hinglish · female voice Telleo agent · transcript
 Hear a real AI admissions call
 5:13
 
+The voice library
+
+## Hear the voices before you choose one.
+60 of our voices, each saying the same everyday lines, so you can compare them by ear in Hinglish, English and Bengali. Switch on “On a phone line” to hear them the way your customers will.
+
+80+
+voices in all
+
+12
+Indian languages
+
+4
+modulation levels
+
+Language
+Hinglish English Bengali
+
+Voice
+All Female Male
+
+What they say
+Sales call Payment reminder Feedback call
+
+On a phone line
+Every voice says“नमस्ते, मैं Greenwood Homes से … बोल रही/रहा हूँ। आपने हमारे two BHK flats के बारे में enquiry की थी, तो क्या इस Saturday सुबह ग्यारह बजे site visit का time ठीक रहेगा?”…with its own name. Showing 52 of 60 voices.
+
+- Amit Male · EN HI
+- Ammu Female · EN HI BN
+- Anand Male · EN HI
+- Ananya Female · EN HI
+- Anirban Male · EN HI BN
+- Ann Female · EN HI BN
+- Basava Male · EN HI BN
+- Bijay Male · EN HI BN
+- Champa Female · EN HI BN
+- Devansh Male · EN HI
+- Diya Female · EN HI
+- Elango Male · EN HI BN
+- Falguni Female · EN HI BN
+- Imogen Female · EN HI
+- Imran Male · EN HI BN
+- Ishita Female · EN HI
+- Jayita Female · EN HI BN
+- Kabir Male · HI
+- Karan Male · EN HI
+- Kavya Female · EN HI
+- Kishan Male · EN HI BN
+- Kriti Female · EN HI
+- Manasi Female · EN HI
+- Mandar Male · EN HI
+- Mani Male · HI
+- Maria Female · EN HI BN
+- Mathan Male · EN HI
+- Meera Female · EN HI
+- Mrunal Female · EN HI
+- Murugan Male · EN HI BN
+- Netra Female · EN HI BN
+- Nikhil Male · EN HI
+- Nila Female · EN HI BN
+- Nirupma Female · EN HI
+- Pranav Male · EN HI
+- Ratan Male · HI
+- Ritu Female · EN HI
+- Rohit Male · EN HI
+- Sameer Male · EN HI
+- Savio Male · EN HI BN
+- Shabnam Female · EN HI BN
+- Shubh Male · HI
+- Sneha Female · EN HI
+- Srinu Male · EN HI BN
+- Sunny Male · EN HI
+- Tanya Female · EN HI
+- Temjen Male · EN HI BN
+- Vanaja Female · EN HI BN
+- Vikram Male · EN HI
+- Vipul Male · HI
+- Xavier Male · EN HI BN
+- Zoya Female · EN HI BN
+
+Hindi, English and Hinglish are live today. Bengali, Tamil, Telugu, Marathi, Gujarati, Kannada, Malayalam, Punjabi and Odia are set up with you and tested on your calls first. In the agent editor every voice can also be auditioned on your own opening line, with its pace and a modulation level (Off, Subtle, Conversational, Lively) for how much it rises and falls.
+
 Languages
 
 ## Three languages live. Nine more on request.
@@ -1515,45 +1624,12 @@ Sounds like a phone call
 Studio-quality AI voices sound wrong on a phone call: too crisp, too close, too quiet in the background. Telleo shapes the voice to the telephone band and adds a faint room tone, so the agent sounds like someone at a calling desk.
 The live voice pipeline runs on servers in Mumbai, next to the Indian phone network.
 
-The voice library
-
-## 80+ voices across seven speech engines.
-Pick by ear. Every voice can be auditioned with your own opening line before you save the agent, and the preview uses the same engine and settings as the live call.
-80+
-voices
-
-7
-engines
-
-4
-modulation levels
-
-- Google Chirp3-HD
-The default for new agents. Natural Hindi voices, picked by ear.
-
-- Sarvam Bulbul
-Indian-built voices with the widest Hindi palette.
-
-- Smallest Lightning
-Standard voice set for Hindi and English.
-
-- Smallest Lightning Pro
-Pro voice set for Hindi and English.
-
-- Rumik
-Preset male and female voices; audition on your script before choosing.
-
-- Microsoft Edge voices
-A handful of Hindi and Indian-English voices.
-
-- Deepgram Aura-2
-English voices with an American accent, for English-only calls.
-
-Also per agent: speaking pace and a modulation level (Off, Subtle, Conversational, Lively) for how much the voice rises and falls.
-
 ## Frequently asked questions
 How many voices are there? +
-More than 80, male and female, across seven speech engines. You can audition any of them before you choose, and the preview uses the same engine, voice and pace the call will use (the phone-line shaping is added on the live call).
+More than 80, male and female. You can hear a selection on this page, and audition any of them in the agent editor before you choose; the preview uses the same voice and pace the call will use.
+
+Will a voice sound the same on a real call? +
+It is the same voice. A phone line carries less of it than your speakers do, so a call sounds narrower; switch on “On a phone line” above to hear the difference. Live calls also add a faint room tone, so the agent sounds like someone at a calling desk.
 
 Can the agent switch languages mid-call? +
 Callers often mix Hindi and English, and a Hinglish agent handles that naturally. Each agent has a main language; it stays in it rather than drifting, which keeps calls consistent.
@@ -5931,7 +6007,7 @@ Entry price | Starter (trial plan, up to 3 months): ₹3,499/month minimum billi
 Setup | No-code agent builder. Draft a script from a plain-language brief, or start from a use-case template (education-first today). | No-code. Per their site, you give your website URL and their setup agent builds a team of AI agents. |
 Languages | Hindi, English and Hinglish in production. Nine more Indian languages set up with you on request. | Per their site, 70+ languages. Their docs name Hindi, Tamil, Telugu, Kannada, Bengali, Marathi, Gujarati and Indian English, with Hinglish code-switching. |
 Phone numbers and telephony | Included on Telleo's lines (Plivo). Optional dedicated AI line with your own caller ID. | Managed Indian mobile-series numbers (98 and 94), or bring your own carrier over SIP, such as Plivo, Twilio or Telnyx. Their integrations page also lists Exotel, Ozonetel and DialShree. |
-Voices and models | 80+ voices across 7 speech engines, including Google Chirp3-HD, Sarvam Bulbul and Smallest. Voice preview plays the exact voice before calls go out. | Choice of models including AWS Nova 2 Sonic, OpenAI GPT Realtime, Azure Voice Live, ElevenLabs and Cartesia. Voice cloning included from Unlimited Solo. |
+Voices and models | 80+ male and female voices across 7 speech engines, picked for Indian phone calls. Voice preview plays the exact voice before calls go out. | Choice of models including AWS Nova 2 Sonic, OpenAI GPT Realtime, Azure Voice Live, ElevenLabs and Cartesia. Voice cloning included from Unlimited Solo. |
 Channels | Phone calls, outbound and inbound (via an IVR option), plus WhatsApp template and email sends. | Phone calls, WhatsApp voice calls (per their docs), browser test calls and WhatsApp follow-up messages. |
 CRM and follow-up | Built-in CRM: leads from Meta and Google lead forms, webhooks and CSV; round-robin assignment; rules to assign, retry or stop; meetings auto-booked; WhatsApp and email sent only when the caller agreed. | Integrations with Zoho CRM, HubSpot, Salesforce, Google Sheets, Google Calendar, Cal.com, WhatsApp, Razorpay, Slack, Zapier and Make, plus webhooks and a REST API. |
 Call analysis | Every AI call analysed free, with a green, amber or red health verdict. Human calls can be analysed and scored too, per minute of recording. | Per their pricing page, "Full analytics" from the Developer plan. Transcripts are available through the API and MCP server. |
@@ -6084,8 +6160,8 @@ The frameworks are open source: Pipecat under the BSD-2 licence and LiveKit Agen
 Does Telleo have an API? +
 Yes. The Telleo API starts calls and batches, passes each contact's details into the agent's script, and posts the outcome to your webhook, signed (docs at docs.telleo.ai). There is no SDK, and the agent cannot call your own tools during a call; if you need that, a developer platform is the better fit.
 
-Which speech engines does Telleo use? +
-Telleo offers 80+ voices across 7 speech engines: Google Chirp3-HD, Sarvam Bulbul, Smallest Lightning (standard and Pro), Rumik, Microsoft Edge and Deepgram Aura-2 for English. Voice preview plays the exact engine and voice that will go out on the call.
+Which voices does Telleo offer? +
+Telleo offers 80+ male and female voices across 7 speech engines, and you can hear 60 of them in Hinglish, English and Bengali on the voices page. Voice preview plays the exact voice that will go out on the call.
 
 Can I start with Telleo and build my own later? +
 Yes. Every AI call has a full transcript, recording can be switched on for every call, and the call log supports search, filters and export.
