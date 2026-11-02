@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight, Clock, Lightbulb, AlertTriangle, Info } from "lucide-react";
 import { POSTS, findPost, postPath } from "@/content/posts";
 import type { Faq, Source } from "@/content/types";
-import { SITE, bookHref } from "@/lib/site";
+import { SITE, TEST_LINE, TEST_LINE_DISPLAY, bookHref } from "@/lib/site";
 import { seoMetadata } from "@/lib/seo";
 import { Breadcrumbs, CtaBand, FaqList } from "./ui";
 import { JsonLd } from "./JsonLd";
@@ -16,7 +16,7 @@ export function postMetadata(slug: string): Metadata {
   if (!p) return {};
   return {
     ...seoMetadata({
-      url: `${SITE}${postPath(slug)}`, title: p.title, description: p.description, type: "article",
+      url: `${SITE}${postPath(slug)}`, title: p.seoTitle ?? p.title, description: p.description, type: "article",
       extra: { publishedTime: p.published, modifiedTime: p.updated ?? p.published },
     }),
     keywords: p.keywords,
@@ -55,6 +55,8 @@ export function BlogShell({
           dateModified: p.updated ?? p.published,
           mainEntityOfPage: `${SITE}${postPath(slug)}`,
           keywords: p.keywords.join(", "),
+          inLanguage: "en-IN",
+          articleSection: p.category,
           author: { "@type": "Organization", name: "Telleo", url: SITE },
           publisher: { "@type": "Organization", name: "Telleo", url: SITE, logo: { "@type": "ImageObject", url: `${SITE}/logo.png` } },
           image: `${SITE}/og.png`,
@@ -196,6 +198,22 @@ export function WhereTelleoFits({ children }: { children: React.ReactNode }) {
       <div className="mt-3 space-y-3 leading-relaxed [&_a]:text-brand-300 [&_strong]:text-white">{children}</div>
       <Link href={bookHref()} className="btn btn-primary mt-5 !no-underline" data-track="book_demo">Book a demo <ArrowRight className="h-4 w-4" /></Link>
     </section>
+  );
+}
+
+/** A quiet, in-flow CTA for the middle of an article (no pop-ups). */
+export function InlineCta({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <aside className="not-prose flex flex-col gap-4 rounded-2xl border border-brand-200 bg-white p-5 sm:flex-row sm:items-center sm:justify-between">
+      <div>
+        <p className="font-bold text-ink">{title}</p>
+        <p className="mt-1 text-[0.95rem] leading-relaxed text-slate-600">{children}</p>
+      </div>
+      <div className="flex shrink-0 flex-wrap gap-2">
+        <a href={`tel:${TEST_LINE}`} className="btn btn-outline !no-underline" data-track="call_test_line">Call {TEST_LINE_DISPLAY}</a>
+        <Link href={bookHref()} className="btn btn-primary !no-underline" data-track="book_demo">Book a demo</Link>
+      </div>
+    </aside>
   );
 }
 

@@ -69,6 +69,25 @@ The React component is `src/components/Logo.tsx`.
 8. The sample recording `public/audio/telleo-sample-call-admissions-2.mp3` is a real Shiksha Nation admissions
    call (5:12). It names the institute and a child ("Srishti"); confirm you have permission to publish it.
 
+## Search and AI-assistant visibility (checked 2026-11-02)
+
+Already in place: per-page title/description/canonical, BlogPosting + FAQPage + BreadcrumbList JSON-LD,
+`robots.txt` welcoming search and AI crawlers (the live site returns 200 to Googlebot, GPTBot, OAI-SearchBot,
+ClaudeBot and PerplexityBot), `sitemap.xml` with real `lastmod` on posts, `llms.txt` / `llms-full.txt`.
+
+Owner to-dos (cannot be done from the repo):
+
+1. **www → apex redirect.** `https://www.telleo.ai/` serves the site with a 200 instead of a 301. The canonical
+   tag points at the apex, but add a Cloudflare Redirect Rule (`www.telleo.ai/*` → `https://telleo.ai/$1`, 301).
+2. **Google Search Console**: verify the `telleo.ai` domain property (DNS TXT), submit `sitemap.xml`, then use
+   URL Inspection → Request indexing for new posts.
+3. **Bing Webmaster Tools**: import from Search Console and submit the sitemap. Bing's index feeds ChatGPT search
+   and Microsoft Copilot. After each deploy that adds or changes pages, run `pnpm indexnow` (or
+   `pnpm indexnow /blog/<slug>/`); the key file is `public/50cb5d6e797eaeb5aa0568b1e9c99e9e.txt`.
+4. **Third-party mentions.** Assistants recommend vendors they see named on other sites ("best AI voice agent
+   India" listicles, G2, Product Hunt, Capterra, Reddit/Quora answers). On 2026-11-02 a web search for
+   "telleo.ai AI voice agent" returned no telleo.ai results. Listings kit: `../marketing/directory-listings/`.
+
 ## Guard
 
 Supply-chain check: `postcss.config.mjs` must stay the two-line file it is today. Before every push, `wc -c postcss.config.mjs` should print < 150 bytes; anything larger means the file was tampered with.
