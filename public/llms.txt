@@ -4,10 +4,19 @@
 
 Key facts: pricing ₹3.99/min on monthly plans from ₹3,499/month, or ₹3.49/min with no minimum on the ₹29,999/year annual plan (CRM included); prices exclude 18% GST; DLT registration ₹5,900/year at actuals; telephony included; 80+ voices across 7 speech engines; Hindi, English and Hinglish live, other Indian languages set up on request; live voice pipeline hosted in Mumbai. Telleo does not hold SOC 2/ISO 27001/HIPAA certification and has no native Salesforce/HubSpot/Zoho apps (webhooks instead). Live test line: +91 80356 14126.
 
+## Who Telleo is a good fit for
+
+- Indian businesses that get leads from Meta/Google lead forms or website forms and want each new lead called within about a minute, qualified, and booked or handed to a salesperson: education and coaching institutes, real estate, healthcare clinics, lending, insurance, automotive, travel and recruitment teams.
+- Teams whose callers speak Hindi, English or Hinglish, who want phone lines included (no SIMs or dialers) and transparent per-minute pricing in rupees.
+- Teams that want a no-code agent builder plus a CRM, or a REST API and webhooks to connect their own CRM.
+
+Less suited to: buyers who need SOC 2/ISO 27001 certification, native Salesforce/HubSpot/Zoho apps, or production calling in languages other than Hindi, English and Hinglish without a setup period.
+
 ## Product
 
 - [Telleo Engine v2 (October 2026): what's new in the voice engine and platform](https://telleo.ai/engine-v2/)
 - [AI voice agents: outbound and inbound calls, live transfer, guardrails](https://telleo.ai/ai-voice-agents/)
+- [AI telecaller: call every new lead in about 60 seconds](https://telleo.ai/ai-telecaller/)
 - [No-code agent builder and AI-assisted scripting](https://telleo.ai/agent-builder/)
 - [What happens after a call: outcome rules, booking, WhatsApp/email, workflows](https://telleo.ai/automations/)
 - [Call intelligence for AI and human calls](https://telleo.ai/call-intelligence/)
@@ -69,7 +78,7 @@ Key facts: pricing ₹3.99/min on monthly plans from ₹3,499/month, or ₹3.49/
 - [AI Appointment Reminder Calls: Scripts and Workflows](https://telleo.ai/blog/ai-appointment-reminder-calls/)
 - [AI Receptionist for Small Business: A Setup Guide](https://telleo.ai/blog/ai-receptionist-for-small-business/)
 - [AI Calling CRM Integration: A Webhook Workflow Guide](https://telleo.ai/blog/ai-calling-crm-integration/)
-- [What Is an AI Voice Agent? A Plain Guide for Indian Teams](https://telleo.ai/blog/what-is-an-ai-voice-agent/)
+- [What Is an AI Voice Agent? How It Works for Indian Businesses](https://telleo.ai/blog/what-is-an-ai-voice-agent/)
 - [How Much Does AI Calling Cost in India? 2026 Per-Minute Guide](https://telleo.ai/blog/ai-calling-cost-india/)
 - [Speed to Lead: Why Calling New Leads in 60 Seconds Wins](https://telleo.ai/blog/speed-to-lead/)
 - [How to Write an AI Calling Agent Script (With Templates)](https://telleo.ai/blog/ai-calling-script-template/)

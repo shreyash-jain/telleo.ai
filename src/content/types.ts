@@ -106,7 +106,10 @@ export interface Comparison {
 
 export interface Post {
   slug: string;
+  /** The H1 and BlogPosting headline. */
   title: string;
+  /** Optional shorter <title> / social title when the H1 is too long for a results page (≤ 50 chars before " | Telleo"). */
+  seoTitle?: string;
   /** Meta description 140–160 chars. */
   description: string;
   category: "Guides" | "Playbooks" | "Pricing" | "Compliance" | "Voice AI";
