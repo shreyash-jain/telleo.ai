@@ -14,6 +14,9 @@ const mono = JetBrains_Mono({ subsets: ["latin"], weight: ["400", "500"], variab
 /** Same GTM container as vacademy.io and tutezy.ai; configure Telleo triggers there. */
 const GTM_ID = "GTM-5C4DDJ6W";
 
+/** GA4 property shared with vacademy.io and evalezy.com; the admin dashboard reads telleo.ai visitors from it. */
+const GA4_ID = "G-5PTM41JPLC";
+
 const DESCRIPTION =
   "Telleo's AI voice agents call new leads in about a minute, qualify them, book meetings and hand hot leads to your team, in Hindi, English and Hinglish.";
 
@@ -109,6 +112,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <noscript>
           <iframe src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`} height="0" width="0" style={{ display: "none", visibility: "hidden" }} title="gtm" />
         </noscript>
+        <Script id="ga4-src" src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`} strategy="afterInteractive" />
+        <Script id="ga4-config" strategy="afterInteractive">
+          {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA4_ID}');`}
+        </Script>
         <Tracking />
         <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-full focus:bg-ink focus:px-4 focus:py-2 focus:text-white">
           Skip to content
