@@ -1,30 +1,43 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { ArrowLeft, ArrowRight, Check, Copy, Languages, Loader2, PhoneCall, PhoneOff, Sparkles } from "lucide-react";
+import {
+  ArrowLeft, ArrowRight, Building2, Check, Copy, Languages, Loader2, PhoneCall, PhoneOff, Sparkles, User,
+} from "lucide-react";
 import { DIAL_DISPLAY, DIAL_NUMBER, fetchDemoStatus, LANGUAGES, submitDemoLead, type DemoStatus } from "@/lib/aiDemoCall";
 import { track } from "@/lib/track";
+
+/*
+ * One question per screen, for a phone held in one hand at an exhibition stall: big type,
+ * big targets, the Next button right under the field (so the keyboard never hides it),
+ * Enter to advance, swipe right to go back, and answers kept for "try another language".
+ *
+ * No phone number is asked. The backend links the next inbound call to the oldest form
+ * waiting from the last few minutes, so the page dials the moment the form is saved.
+ */
 
 const DRAFT_KEY = "telleo_try_ai_call";
 const POLL_MS = 3000;
 const POLL_MAX_MS = 25 * 60 * 1000;
 const TEL = `tel:${DIAL_NUMBER.replace(/[^+\d]/g, "")}`;
 
-const field =
-  "w-full rounded-xl border border-white/10 bg-white/[0.06] px-4 py-3.5 text-base text-white placeholder:text-slate-500 outline-none transition focus:border-brand focus:ring-4 focus:ring-brand/20";
+type Step = "name" | "org" | "language" | "call";
+const QUESTIONS = ["name", "org", "language"] as const;
 
 interface Draft {
   name: string;
   organisation: string;
-  phone: string;
   language: string;
 }
 
+const EMPTY: Draft = { name: "", organisation: "", language: "" };
+
 function loadDraft(): Draft {
   try {
-    return { name: "", organisation: "", phone: "", language: "", ...JSON.parse(localStorage.getItem(DRAFT_KEY) || "{}") };
+    const d = JSON.parse(localStorage.getItem(DRAFT_KEY) || "{}");
+    return { name: d.name || "", organisation: d.organisation || "", language: d.language || "" };
   } catch {
-    return { name: "", organisation: "", phone: "", language: "" };
+    return EMPTY;
   }
 }
 
@@ -36,229 +49,317 @@ function saveDraft(d: Draft) {
   }
 }
 
-const tenDigits = (p: string) => {
-  const d = p.replace(/\D/g, "");
-  const t = d.length === 12 && d.startsWith("91") ? d.slice(2) : d.length === 11 && d.startsWith("0") ? d.slice(1) : d;
-  return /^[6-9]\d{9}$/.test(t) ? t : null;
-};
-
 export function TryAiCall() {
-  const [draft, setDraft] = useState<Draft>({ name: "", organisation: "", phone: "", language: "" });
-  const [step, setStep] = useState<"form" | "call">("form");
-  const [sending, setSending] = useState(false);
+  const [draft, setDraft] = useState<Draft>(EMPTY);
+  const [step, setStep] = useState<Step>("name");
+  const [dir, setDir] = useState<1 | -1>(1);
   const [error, setError] = useState("");
-  const [requestId, setRequestId] = useState<string | null>(null);
+  const [sending, setSending] = useState(false);
+  const [leadId, setLeadId] = useState<string | null>(null);
   const [offline, setOffline] = useState(false);
-  const [repeat, setRepeat] = useState(false);
   const [status, setStatus] = useState<DemoStatus | null>(null);
+  const touchX = useRef<number | null>(null);
 
-  useEffect(() => {
-    setDraft(loadDraft());
-  }, []);
+  useEffect(() => setDraft(loadDraft()), []);
 
   // Poll the call status while the visitor is on the call screen.
   useEffect(() => {
-    if (step !== "call" || !requestId) return;
+    if (step !== "call" || !leadId) return;
     const started = Date.now();
     let stop = false;
+    let timer = 0;
     const tick = async () => {
       if (stop) return;
-      const s = await fetchDemoStatus(requestId);
+      const s = await fetchDemoStatus(leadId);
       if (s) setStatus(s);
       if (s === "ENDED" || s === "EXPIRED" || Date.now() - started > POLL_MAX_MS) return;
       timer = window.setTimeout(tick, POLL_MS);
     };
-    let timer = window.setTimeout(tick, POLL_MS);
+    timer = window.setTimeout(tick, POLL_MS);
     return () => {
       stop = true;
       window.clearTimeout(timer);
     };
-  }, [step, requestId]);
+  }, [step, leadId]);
 
   useEffect(() => {
     if (status === "CONNECTED") track("try_ai_call_connected", { language: draft.language });
     if (status === "ENDED") track("try_ai_call_ended", { language: draft.language });
   }, [status, draft.language]);
 
-  const update = (k: keyof Draft, v: string) => setDraft((d) => ({ ...d, [k]: v }));
-
-  async function onSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    const phone = tenDigits(draft.phone);
-    if (draft.name.trim().length < 2) return setError("Please enter your name.");
-    if (draft.organisation.trim().length < 2) return setError("Please enter your institute or organisation name.");
-    if (!phone) return setError("Please enter a valid 10-digit mobile number.");
-    if (!draft.language) return setError("Please choose a language.");
+  const update = (k: keyof Draft, v: string) => {
     setError("");
+    setDraft((d) => ({ ...d, [k]: v }));
+  };
+
+  const index = QUESTIONS.indexOf(step as (typeof QUESTIONS)[number]);
+
+  function go(to: Step, d: 1 | -1) {
+    setDir(d);
+    setError("");
+    setStep(to);
+  }
+
+  function next() {
+    if (step === "name" && draft.name.trim().length < 2) return setError("Please tell us your name.");
+    if (step === "org" && draft.organisation.trim().length < 2) return setError("Please enter your institute's name.");
+    if (index >= 0 && index < QUESTIONS.length - 1) go(QUESTIONS[index + 1], 1);
+  }
+
+  function back() {
+    if (index > 0) go(QUESTIONS[index - 1], -1);
+  }
+
+  async function submit(language: string) {
+    if (sending) return;
+    if (draft.name.trim().length < 2) return go("name", -1);
+    if (draft.organisation.trim().length < 2) return go("org", -1);
     setSending(true);
-    saveDraft(draft);
-    const label = LANGUAGES.find((l) => l.code === draft.language)?.label || draft.language;
-    const res = await submitDemoLead({ name: draft.name.trim(), organisation: draft.organisation.trim(), phone, language: label });
+    const d = { ...draft, language };
+    saveDraft(d);
+    const label = LANGUAGES.find((l) => l.code === language)?.label || language;
+    const res = await submitDemoLead({ name: d.name.trim(), organisation: d.organisation.trim(), language: label });
     setSending(false);
     if (!res.ok && res.error !== "network") return setError(res.error);
-    const leadId = res.ok ? res.leadId : null;
-    setRequestId(leadId);
-    setStatus(leadId ? "PENDING" : null);
-    setRepeat(res.ok && !leadId);
+    const id = res.ok ? res.leadId : null;
+    setLeadId(id);
+    setStatus(id ? "PENDING" : null);
     setOffline(!res.ok);
-    setStep("call");
-    track("try_ai_call_request", { language: draft.language, saved: res.ok, repeat: res.ok && !leadId });
-    // Open the dialer straight away; the big button stays for phones that block this.
+    go("call", 1);
+    track("try_ai_call_request", { language, saved: res.ok });
+    // Dial at once: the form waits only a few minutes for its call.
     window.location.href = TEL;
   }
 
-  const lang = LANGUAGES.find((l) => l.code === draft.language);
-
-  if (step === "call") {
-    return (
-      <CallScreen
-        org={draft.organisation.trim()}
-        phone={tenDigits(draft.phone) || draft.phone}
-        language={lang ? `${lang.nativeLabel}${lang.nativeLabel !== lang.label ? ` · ${lang.label}` : ""}` : ""}
-        status={status}
-        offline={offline}
-        repeat={repeat}
-        onBack={() => {
-          setStep("form");
-          setStatus(null);
-          setRequestId(null);
-        }}
-      />
-    );
+  function pickLanguage(code: string) {
+    update("language", code);
+    // Tapping a language is the answer: no extra Next tap.
+    window.setTimeout(() => submit(code), 180);
   }
 
+  const onTouchStart = (e: React.TouchEvent) => {
+    touchX.current = e.touches[0].clientX;
+  };
+  const onTouchEnd = (e: React.TouchEvent) => {
+    if (touchX.current == null) return;
+    const dx = e.changedTouches[0].clientX - touchX.current;
+    touchX.current = null;
+    if (dx > 70 && step !== "call") back();
+  };
+
+  const lang = LANGUAGES.find((l) => l.code === draft.language);
+  const firstName = draft.name.trim().split(/\s+/)[0] || "";
+  const org = draft.organisation.trim();
+
   return (
-    <div className="animate-rise">
-      <p className="eyebrow eyebrow-dark">Live demo</p>
-      <h1 className="h-display mt-3 text-[2.1rem] leading-tight md:text-5xl">Hear your AI admission counsellor, live.</h1>
-      <p className="mt-4 text-lg leading-relaxed text-slate-300">
-        Tell us your institute&apos;s name, pick a language and call. Our AI answers as <span className="text-white">your</span> admission counsellor.
-      </p>
-
-      <form onSubmit={onSubmit} className="mt-8 space-y-4" noValidate>
-          <label className="block">
-            <span className="mb-1.5 block text-sm font-semibold text-slate-300">Your name</span>
-            <input className={field} value={draft.name} onChange={(e) => update("name", e.target.value)} autoComplete="name" maxLength={80} placeholder="Anil Kumar" />
-          </label>
-          <label className="block">
-            <span className="mb-1.5 block text-sm font-semibold text-slate-300">Institute / organisation name</span>
-            <input className={field} value={draft.organisation} onChange={(e) => update("organisation", e.target.value)} autoComplete="organization" maxLength={120} placeholder="Sunrise Public School" />
-          </label>
-          <label className="block">
-            <span className="mb-1.5 block text-sm font-semibold text-slate-300">Your mobile number</span>
-            <div className="flex gap-2">
-              <span className="flex items-center rounded-xl border border-white/10 bg-white/[0.04] px-3.5 text-slate-300">+91</span>
-              <input className={field} value={draft.phone} onChange={(e) => update("phone", e.target.value)} inputMode="tel" autoComplete="tel-national" maxLength={14} placeholder="98765 43210" />
+    <div className="flex min-h-[calc(100svh-7rem)] flex-col" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
+      {step !== "call" && (
+        <header className="mb-7">
+          <p className="eyebrow eyebrow-dark">Live demo · AI admission counsellor</p>
+          <div className="mt-4 flex items-center gap-3">
+            <button
+              onClick={back}
+              aria-label="Back"
+              className={`-ml-2 rounded-full p-2 text-slate-300 transition hover:bg-white/10 ${index > 0 ? "" : "invisible"}`}
+            >
+              <ArrowLeft className="h-5 w-5" />
+            </button>
+            <div className="flex flex-1 gap-1.5" aria-label={`Step ${index + 1} of ${QUESTIONS.length}`}>
+              {QUESTIONS.map((q, i) => (
+                <span key={q} className={`h-1.5 flex-1 rounded-full transition-colors duration-300 ${i <= index ? "bg-brand" : "bg-white/15"}`} />
+              ))}
             </div>
-            <span className="mt-1.5 block text-xs text-slate-500">Call from this number, so the AI knows it&apos;s you.</span>
-          </label>
+            <span className="w-8 text-right text-xs tabular-nums text-slate-400">{index + 1}/{QUESTIONS.length}</span>
+          </div>
+        </header>
+      )}
 
-          <fieldset>
-            <legend className="mb-2 flex items-center gap-2 text-sm font-semibold text-slate-300">
-              <Languages className="h-4 w-4 text-brand" /> Language
-            </legend>
-            <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+      <div key={step} className={dir === 1 ? "slide-in-right" : "slide-in-left"}>
+        {step === "name" && (
+          <Question icon={<User className="h-6 w-6" />} title="Hear your own AI admission counsellor, live." hint="First, what should she call you?">
+            <BigInput value={draft.name} onChange={(v) => update("name", v)} onEnter={next} placeholder="Your name" autoComplete="name" maxLength={80} />
+          </Question>
+        )}
+
+        {step === "org" && (
+          <Question
+            icon={<Building2 className="h-6 w-6" />}
+            title={firstName ? `Hi ${firstName}! Which institute is this for?` : "Which institute is this for?"}
+            hint="She'll pick up as this institute's admission counsellor."
+          >
+            <BigInput value={draft.organisation} onChange={(v) => update("organisation", v)} onEnter={next} placeholder="e.g. Sunrise Public School" autoComplete="organization" maxLength={120} />
+          </Question>
+        )}
+
+        {step === "language" && (
+          <Question icon={<Languages className="h-6 w-6" />} title="Which language should she speak?" hint="Tap one and your phone will dial.">
+            <div className="grid grid-cols-2 gap-2.5">
               {LANGUAGES.map((l) => {
                 const on = draft.language === l.code;
                 return (
                   <button
                     key={l.code}
                     type="button"
-                    onClick={() => update("language", l.code)}
+                    disabled={sending}
+                    onClick={() => pickLanguage(l.code)}
                     aria-pressed={on}
-                    className={`rounded-xl border px-3 py-3 text-left transition ${on ? "border-brand bg-brand/15 ring-2 ring-brand/40" : "border-white/10 bg-white/[0.04] hover:bg-white/[0.08]"}`}
+                    className={`min-h-[4.25rem] rounded-2xl border px-4 py-3 text-left transition active:scale-[0.97] disabled:opacity-60 ${on ? "border-brand bg-brand/15 ring-2 ring-brand/40" : "border-white/10 bg-white/[0.05] hover:bg-white/[0.09]"}`}
                   >
-                    <span className="block text-base font-bold leading-tight">{l.nativeLabel}</span>
+                    <span className="block text-lg font-bold leading-tight">{l.nativeLabel}</span>
                     {l.nativeLabel !== l.label && <span className="block text-xs text-slate-400">{l.label}</span>}
                   </button>
                 );
               })}
             </div>
-          </fieldset>
+            {sending && (
+              <p className="mt-4 flex items-center gap-2 text-sm text-slate-300">
+                <Loader2 className="h-4 w-4 animate-spin" /> Getting your counsellor ready…
+              </p>
+            )}
+          </Question>
+        )}
 
-          {error && <p className="rounded-xl bg-rose/15 px-4 py-3 text-sm text-rose-50">{error}</p>}
+        {step === "call" && (
+          <CallScreen
+            org={org}
+            language={lang ? `${lang.nativeLabel}${lang.nativeLabel !== lang.label ? ` · ${lang.label}` : ""}` : ""}
+            status={status}
+            offline={offline}
+            onEdit={() => go("name", -1)}
+            onAnotherLanguage={() => go("language", -1)}
+          />
+        )}
+      </div>
 
-          <button
-            type="submit"
-            disabled={sending}
-            className="flex w-full items-center justify-center gap-2 rounded-2xl bg-brand px-6 py-4 text-lg font-extrabold text-ink shadow-lg shadow-brand/25 transition hover:bg-brand-300 disabled:opacity-70"
-            data-track="try_ai_call_submit"
-          >
-            {sending ? <Loader2 className="h-5 w-5 animate-spin" /> : <PhoneCall className="h-5 w-5" />}
-            {sending ? "Getting your counsellor ready…" : "Call now"}
-          </button>
-          <p className="text-center text-xs text-slate-500">A normal voice call to a Bengaluru number. Standard call charges apply.</p>
-      </form>
+      {error && step !== "call" && (
+        <p role="alert" className="mt-4 rounded-xl bg-rose/15 px-4 py-3 text-sm text-rose-50">{error}</p>
+      )}
+
+      {(step === "name" || step === "org") && (
+        <button
+          onClick={next}
+          className="mt-6 flex w-full items-center justify-center gap-2 rounded-2xl bg-brand px-6 py-4 text-lg font-extrabold text-ink shadow-lg shadow-brand/25 transition active:scale-[0.98]"
+          data-track={`try_ai_call_next_${step}`}
+        >
+          Next <ArrowRight className="h-5 w-5" />
+        </button>
+      )}
+
+      {step !== "call" && (
+        <p className="mt-auto pt-8 text-center text-xs text-slate-500">
+          A normal voice call to a Bengaluru number. Standard call charges apply.
+        </p>
+      )}
     </div>
   );
 }
 
+function Question({ icon, title, hint, children }: { icon: React.ReactNode; title: string; hint: string; children: React.ReactNode }) {
+  return (
+    <section>
+      <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand/15 text-brand">{icon}</span>
+      <h1 className="h-display mt-5 text-[1.9rem] leading-[1.15] md:text-4xl">{title}</h1>
+      <p className="mt-2 text-base text-slate-400">{hint}</p>
+      <div className="mt-6">{children}</div>
+    </section>
+  );
+}
+
+function BigInput({
+  value, onChange, onEnter, ...rest
+}: {
+  value: string;
+  onChange: (v: string) => void;
+  onEnter: () => void;
+} & Omit<React.InputHTMLAttributes<HTMLInputElement>, "value" | "onChange">) {
+  const ref = useRef<HTMLInputElement>(null);
+  // Focus on arrival so the keyboard is already up; the delay lets the slide finish first,
+  // otherwise iOS scrolls the half-animated card.
+  useEffect(() => {
+    const t = window.setTimeout(() => ref.current?.focus({ preventScroll: true }), 250);
+    return () => window.clearTimeout(t);
+  }, []);
+  return (
+    <input
+      ref={ref}
+      value={value}
+      onChange={(e) => onChange(e.target.value)}
+      onKeyDown={(e) => {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          onEnter();
+        }
+      }}
+      enterKeyHint="next"
+      className="w-full min-w-0 rounded-2xl border border-white/10 bg-white/[0.06] px-4 py-4 text-xl text-white placeholder:text-slate-500 outline-none transition focus:border-brand focus:ring-4 focus:ring-brand/20"
+      {...rest}
+    />
+  );
+}
+
 function CallScreen({
-  org, phone, language, status, offline, repeat, onBack,
+  org, language, status, offline, onEdit, onAnotherLanguage,
 }: {
   org: string;
-  phone: string;
   language: string;
   status: DemoStatus | null;
   offline: boolean;
-  repeat: boolean;
-  onBack: () => void;
+  onEdit: () => void;
+  onAnotherLanguage: () => void;
 }) {
-  const tel = TEL;
   const ended = status === "ENDED";
+  const live = status === "CONNECTED";
   const expired = status === "EXPIRED";
 
   return (
-    <div className="animate-rise">
-      <button onClick={onBack} className="flex items-center gap-1.5 text-sm text-slate-400 hover:text-white">
-        <ArrowLeft className="h-4 w-4" /> Change details
-      </button>
-
+    <section className="flex flex-col">
       <StatusChip status={status} offline={offline} />
 
-      <h1 className="h-display mt-4 text-3xl leading-tight md:text-4xl">
-        {ended ? "Thanks for trying Telleo!" : status === "CONNECTED" ? "You're live. Listen in!" : `Calling ${org}'s AI counsellor`}
+      <h1 className="h-display mt-4 text-[2rem] leading-[1.15] md:text-4xl">
+        {ended ? "Thanks for trying Telleo!" : live ? "You're live. Listen in!" : `Calling ${org}'s AI counsellor`}
       </h1>
-      {!ended && (
-        <p className="mt-3 text-slate-300">
-          {language && <>She&apos;ll speak <span className="font-semibold text-white">{language}</span> and introduce herself as {org}&apos;s admission counsellor. </>}
-          Play a parent or student and ask her anything.
+      {!ended && !expired && (
+        <p className="mt-3 text-base leading-relaxed text-slate-300">
+          {language && <>She&apos;ll speak <span className="font-semibold text-white">{language}</span> and greet you as {org}&apos;s admission counsellor. </>}
+          Play a parent or a student and ask her anything.
         </p>
       )}
 
-      {!ended && (
+      {!ended && !expired && (
         <a
-          href={tel}
-          className="relative mt-8 flex w-full items-center justify-center gap-3 rounded-2xl bg-brand px-6 py-5 text-xl font-extrabold text-ink shadow-lg shadow-brand/30"
+          href={TEL}
+          className="relative mt-8 flex w-full items-center justify-center gap-3 rounded-2xl bg-brand px-6 py-5 text-xl font-extrabold text-ink shadow-lg shadow-brand/30 active:scale-[0.98]"
           data-track="try_ai_call_dial"
         >
-          <span className="absolute inset-0 animate-ring rounded-2xl border-2 border-brand" />
-          <PhoneCall className="h-6 w-6" /> {status === "CONNECTED" ? "Call again" : "Call now"}
+          {!live && <span className="pointer-events-none absolute inset-0 animate-ring rounded-2xl border-2 border-brand" />}
+          <PhoneCall className="h-6 w-6" /> {live ? "Call again" : "Call now"}
         </a>
       )}
 
-      <div className="mt-6 rounded-2xl border border-white/10 bg-white/[0.04] p-5">
-        <p className="text-sm text-slate-400">Didn&apos;t the call start? Dial this number from <span className="text-white">+91 {phone}</span>:</p>
-        <NumberCard number={DIAL_DISPLAY} dial={DIAL_NUMBER} />
-      </div>
+      {!ended && !expired && (
+        <div className="mt-5 rounded-2xl border border-white/10 bg-white/[0.04] p-5">
+          <p className="text-sm text-slate-400">Call didn&apos;t start? Dial this number now:</p>
+          <NumberCard />
+          <p className="mt-3 text-xs text-slate-500">Please call within the next few minutes so she knows it&apos;s you.</p>
+        </div>
+      )}
 
       {offline && !ended && (
         <p className="mt-4 rounded-xl bg-amber/15 px-4 py-3 text-sm text-amber-50">
-          We couldn&apos;t save your details just now. The AI will still answer, but in Hinglish and without your institute&apos;s name.
-        </p>
-      )}
-      {repeat && !ended && (
-        <p className="mt-4 rounded-xl bg-white/[0.06] px-4 py-3 text-sm text-slate-300">
-          Welcome back! This number has tried the demo before, so the AI will use the institute and language from your first try.
+          We couldn&apos;t save your details just now. She&apos;ll still answer, but won&apos;t know your institute.
         </p>
       )}
       {expired && (
-        <p className="mt-4 rounded-xl bg-amber/15 px-4 py-3 text-sm text-amber-50">
-          This request timed out. Tap <span className="font-semibold">Change details</span> and call again.
-        </p>
+        <div className="mt-6 rounded-2xl bg-amber/15 p-5 text-amber-50">
+          <p className="font-semibold">This try timed out.</p>
+          <p className="mt-1 text-sm">Pick your language again and call straight away.</p>
+          <button onClick={onAnotherLanguage} className="mt-4 flex w-full items-center justify-center gap-2 rounded-2xl bg-brand px-6 py-4 font-extrabold text-ink">
+            <Languages className="h-5 w-5" /> Try again
+          </button>
+        </div>
       )}
 
-      {ended && (
+      {ended ? (
         <div className="mt-8 space-y-3">
           <a
             href={`/demo/?company=${encodeURIComponent(org)}`}
@@ -267,12 +368,19 @@ function CallScreen({
           >
             <Sparkles className="h-5 w-5" /> Get this for {org} <ArrowRight className="h-5 w-5" />
           </a>
-          <button onClick={onBack} className="flex w-full items-center justify-center gap-2 rounded-2xl border border-white/15 px-6 py-4 font-bold hover:bg-white/[0.06]">
+          <button onClick={onAnotherLanguage} className="flex w-full items-center justify-center gap-2 rounded-2xl border border-white/15 px-6 py-4 font-bold active:bg-white/[0.06]">
             <Languages className="h-5 w-5" /> Try another language
           </button>
         </div>
+      ) : (
+        !expired && (
+          <div className="mt-6 flex justify-center gap-6 text-sm">
+            <button onClick={onEdit} className="text-slate-400 underline-offset-4 hover:text-white hover:underline">Edit details</button>
+            <button onClick={onAnotherLanguage} className="text-slate-400 underline-offset-4 hover:text-white hover:underline">Change language</button>
+          </div>
+        )
       )}
-    </div>
+    </section>
   );
 }
 
@@ -286,23 +394,22 @@ function StatusChip({ status, offline }: { status: DemoStatus | null; offline: b
   };
   const s = map[status];
   return (
-    <span className={`mt-6 inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-sm font-semibold ${s.cls}`}>
+    <span className={`inline-flex w-fit items-center gap-2 rounded-full px-3 py-1.5 text-sm font-semibold ${s.cls}`}>
       {s.icon} {s.text}
     </span>
   );
 }
 
-function NumberCard({ number, dial }: { number: string; dial: string }) {
+function NumberCard() {
   const [copied, setCopied] = useState(false);
   const ref = useRef<HTMLSpanElement>(null);
 
   async function copy() {
-    const plain = dial.replace(/[^+\d]/g, "");
     try {
-      await navigator.clipboard.writeText(plain);
+      await navigator.clipboard.writeText(DIAL_NUMBER.replace(/[^+\d]/g, ""));
       setCopied(true);
     } catch {
-      // No clipboard API (older iOS, http): select the number so the visitor can copy it.
+      // No clipboard API (older iOS, in-app browsers): select the number so it can be copied.
       const el = ref.current;
       if (el) {
         const range = document.createRange();
@@ -318,11 +425,11 @@ function NumberCard({ number, dial }: { number: string; dial: string }) {
 
   return (
     <div className="mt-3 flex items-center justify-between gap-3">
-      <span ref={ref} className="select-all font-mono text-2xl font-bold tracking-wide md:text-3xl">{number}</span>
+      <span ref={ref} className="select-all font-mono text-[1.6rem] font-bold tracking-wide sm:text-3xl">{DIAL_DISPLAY}</span>
       <button
         type="button"
         onClick={copy}
-        className="flex shrink-0 items-center gap-1.5 rounded-xl border border-white/15 px-3.5 py-2.5 text-sm font-bold hover:bg-white/[0.08]"
+        className="flex min-h-11 shrink-0 items-center gap-1.5 rounded-xl border border-white/15 px-4 text-sm font-bold active:bg-white/[0.08]"
         data-track="try_ai_call_copy_btn"
       >
         {copied ? <Check className="h-4 w-4 text-brand" /> : <Copy className="h-4 w-4" />}

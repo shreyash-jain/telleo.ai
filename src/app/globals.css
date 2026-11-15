@@ -290,3 +290,18 @@
   .research-prose a { color: var(--color-brand-700); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
   .research-prose strong { color: var(--color-ink); }
 }
+
+/* /try-ai-call slider: one question per screen. */
+@keyframes slide-in-right {
+  from { opacity: 0; transform: translateX(28px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+@keyframes slide-in-left {
+  from { opacity: 0; transform: translateX(-28px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+.slide-in-right { animation: slide-in-right 0.28s ease-out both; }
+.slide-in-left { animation: slide-in-left 0.28s ease-out both; }
+@media (prefers-reduced-motion: reduce) {
+  .slide-in-right, .slide-in-left { animation: none; }
+}
