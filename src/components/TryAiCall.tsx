@@ -2,19 +2,13 @@
 
 import { useEffect, useRef, useState } from "react";
 import { ArrowLeft, ArrowRight, Check, Copy, Languages, Loader2, PhoneCall, PhoneOff, Sparkles } from "lucide-react";
-import {
-  createDemoRequest,
-  fetchDemoConfig,
-  fetchDemoStatus,
-  FALLBACK_CONFIG,
-  type DemoConfig,
-  type DemoStatus,
-} from "@/lib/aiDemoCall";
+import { DIAL_DISPLAY, DIAL_NUMBER, fetchDemoStatus, LANGUAGES, submitDemoLead, type DemoStatus } from "@/lib/aiDemoCall";
 import { track } from "@/lib/track";
 
 const DRAFT_KEY = "telleo_try_ai_call";
 const POLL_MS = 3000;
 const POLL_MAX_MS = 25 * 60 * 1000;
+const TEL = `tel:${DIAL_NUMBER.replace(/[^+\d]/g, "")}`;
 
 const field =
   "w-full rounded-xl border border-white/10 bg-white/[0.06] px-4 py-3.5 text-base text-white placeholder:text-slate-500 outline-none transition focus:border-brand focus:ring-4 focus:ring-brand/20";
@@ -49,23 +43,17 @@ const tenDigits = (p: string) => {
 };
 
 export function TryAiCall() {
-  const [config, setConfig] = useState<DemoConfig | null>(null);
   const [draft, setDraft] = useState<Draft>({ name: "", organisation: "", phone: "", language: "" });
   const [step, setStep] = useState<"form" | "call">("form");
   const [sending, setSending] = useState(false);
   const [error, setError] = useState("");
   const [requestId, setRequestId] = useState<string | null>(null);
   const [offline, setOffline] = useState(false);
+  const [repeat, setRepeat] = useState(false);
   const [status, setStatus] = useState<DemoStatus | null>(null);
 
   useEffect(() => {
     setDraft(loadDraft());
-    fetchDemoConfig()
-      .then(setConfig)
-      .catch(() => {
-        setConfig(FALLBACK_CONFIG);
-        setOffline(true);
-      });
   }, []);
 
   // Poll the call status while the visitor is on the call screen.
@@ -77,7 +65,7 @@ export function TryAiCall() {
       if (stop) return;
       const s = await fetchDemoStatus(requestId);
       if (s) setStatus(s);
-      if (s === "ENDED" || s === "EXPIRED" || s === "SUPERSEDED" || Date.now() - started > POLL_MAX_MS) return;
+      if (s === "ENDED" || s === "EXPIRED" || Date.now() - started > POLL_MAX_MS) return;
       timer = window.setTimeout(tick, POLL_MS);
     };
     let timer = window.setTimeout(tick, POLL_MS);
@@ -104,37 +92,32 @@ export function TryAiCall() {
     setError("");
     setSending(true);
     saveDraft(draft);
-    const res = await createDemoRequest({ name: draft.name.trim(), organisation: draft.organisation.trim(), phone, language: draft.language });
+    const label = LANGUAGES.find((l) => l.code === draft.language)?.label || draft.language;
+    const res = await submitDemoLead({ name: draft.name.trim(), organisation: draft.organisation.trim(), phone, language: label });
     setSending(false);
     if (!res.ok && res.error !== "network") return setError(res.error);
-    setStatus(res.ok ? "PENDING" : null);
-    setRequestId(res.ok ? res.data.requestId : null);
+    const leadId = res.ok ? res.leadId : null;
+    setRequestId(leadId);
+    setStatus(leadId ? "PENDING" : null);
+    setRepeat(res.ok && !leadId);
     setOffline(!res.ok);
     setStep("call");
-    track("try_ai_call_request", { language: draft.language, saved: res.ok });
+    track("try_ai_call_request", { language: draft.language, saved: res.ok, repeat: res.ok && !leadId });
     // Open the dialer straight away; the big button stays for phones that block this.
-    if (config) window.location.href = `tel:${config.dialNumber.replace(/[^+\d]/g, "")}`;
+    window.location.href = TEL;
   }
 
-  if (!config) {
-    return (
-      <div className="flex min-h-[50svh] items-center justify-center text-slate-400">
-        <Loader2 className="h-6 w-6 animate-spin" />
-      </div>
-    );
-  }
-
-  const lang = config.languages.find((l) => l.code === draft.language);
+  const lang = LANGUAGES.find((l) => l.code === draft.language);
 
   if (step === "call") {
     return (
       <CallScreen
-        config={config}
         org={draft.organisation.trim()}
         phone={tenDigits(draft.phone) || draft.phone}
         language={lang ? `${lang.nativeLabel}${lang.nativeLabel !== lang.label ? ` · ${lang.label}` : ""}` : ""}
         status={status}
         offline={offline}
+        repeat={repeat}
         onBack={() => {
           setStep("form");
           setStatus(null);
@@ -152,14 +135,7 @@ export function TryAiCall() {
         Tell us your institute&apos;s name, pick a language and call. Our AI answers as <span className="text-white">your</span> admission counsellor.
       </p>
 
-      {!config.enabled ? (
-        <div className="mt-8 rounded-2xl border border-white/10 bg-white/[0.04] p-6">
-          <p className="font-bold">The live demo is paused right now.</p>
-          <p className="mt-1 text-slate-400">You can still call our AI agent:</p>
-          <NumberCard number={config.displayNumber} dial={config.dialNumber} />
-        </div>
-      ) : (
-        <form onSubmit={onSubmit} className="mt-8 space-y-4" noValidate>
+      <form onSubmit={onSubmit} className="mt-8 space-y-4" noValidate>
           <label className="block">
             <span className="mb-1.5 block text-sm font-semibold text-slate-300">Your name</span>
             <input className={field} value={draft.name} onChange={(e) => update("name", e.target.value)} autoComplete="name" maxLength={80} placeholder="Anil Kumar" />
@@ -182,7 +158,7 @@ export function TryAiCall() {
               <Languages className="h-4 w-4 text-brand" /> Language
             </legend>
             <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
-              {config.languages.map((l) => {
+              {LANGUAGES.map((l) => {
                 const on = draft.language === l.code;
                 return (
                   <button
@@ -212,26 +188,25 @@ export function TryAiCall() {
             {sending ? "Getting your counsellor ready…" : "Call now"}
           </button>
           <p className="text-center text-xs text-slate-500">A normal voice call to a Bengaluru number. Standard call charges apply.</p>
-        </form>
-      )}
+      </form>
     </div>
   );
 }
 
 function CallScreen({
-  config, org, phone, language, status, offline, onBack,
+  org, phone, language, status, offline, repeat, onBack,
 }: {
-  config: DemoConfig;
   org: string;
   phone: string;
   language: string;
   status: DemoStatus | null;
   offline: boolean;
+  repeat: boolean;
   onBack: () => void;
 }) {
-  const tel = `tel:${config.dialNumber.replace(/[^+\d]/g, "")}`;
+  const tel = TEL;
   const ended = status === "ENDED";
-  const expired = status === "EXPIRED" || status === "SUPERSEDED";
+  const expired = status === "EXPIRED";
 
   return (
     <div className="animate-rise">
@@ -264,12 +239,17 @@ function CallScreen({
 
       <div className="mt-6 rounded-2xl border border-white/10 bg-white/[0.04] p-5">
         <p className="text-sm text-slate-400">Didn&apos;t the call start? Dial this number from <span className="text-white">+91 {phone}</span>:</p>
-        <NumberCard number={config.displayNumber} dial={config.dialNumber} />
+        <NumberCard number={DIAL_DISPLAY} dial={DIAL_NUMBER} />
       </div>
 
       {offline && !ended && (
         <p className="mt-4 rounded-xl bg-amber/15 px-4 py-3 text-sm text-amber-50">
           We couldn&apos;t save your details just now. The AI will still answer, but in Hinglish and without your institute&apos;s name.
+        </p>
+      )}
+      {repeat && !ended && (
+        <p className="mt-4 rounded-xl bg-white/[0.06] px-4 py-3 text-sm text-slate-300">
+          Welcome back! This number has tried the demo before, so the AI will use the institute and language from your first try.
         </p>
       )}
       {expired && (
@@ -303,7 +283,6 @@ function StatusChip({ status, offline }: { status: DemoStatus | null; offline: b
     CONNECTED: { text: "Connected", cls: "bg-brand/20 text-brand-200", icon: <span className="h-2 w-2 animate-pulse rounded-full bg-brand" /> },
     ENDED: { text: "Call ended", cls: "bg-white/10 text-slate-300", icon: <PhoneOff className="h-3.5 w-3.5" /> },
     EXPIRED: { text: "Timed out", cls: "bg-amber/20 text-amber-50", icon: <PhoneOff className="h-3.5 w-3.5" /> },
-    SUPERSEDED: { text: "Replaced by a newer request", cls: "bg-amber/20 text-amber-50", icon: <PhoneOff className="h-3.5 w-3.5" /> },
   };
   const s = map[status];
   return (
