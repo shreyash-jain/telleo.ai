@@ -36,15 +36,47 @@ export function VaaniHero({ name }: { name?: string }) {
     return () => window.clearInterval(t);
   }, []);
   return (
-    <div className="flex items-center gap-4">
-      <VaaniAvatar size="lg" speaking />
-      <div className="relative rounded-2xl rounded-bl-sm bg-white px-4 py-3 text-ink shadow-xl">
+    <div className="flex flex-col items-center">
+      <VaaniAnimation className="h-52 w-52 sm:h-60 sm:w-60" />
+      <div className="relative -mt-7 rounded-2xl bg-white px-5 py-3 text-center text-ink shadow-xl">
         <span key={i} className="greet-in block text-lg font-extrabold leading-tight">
           {GREETINGS[i]}{name ? ` ${name}` : ""}
         </span>
         <span className="mt-0.5 block text-xs font-semibold text-slate-500">I&apos;m Vaani, your AI counsellor</span>
       </div>
     </div>
+  );
+}
+
+/**
+ * The animated Vaani (public/try-ai-call/vaani.webp, a looping lossless animated WebP rendered
+ * for this page) with a transparent background, so it sits straight on the page's grid and
+ * glow. The file animates only her face, the waveform and the icon pops; the voice rings and
+ * the bob are CSS here, because baked into the file they changed every pixel of every frame.
+ * Reduced-motion visitors get a still frame. Regenerate with scripts/make-vaani-animation.py.
+ */
+export function VaaniAnimation({ className = "" }: { className?: string }) {
+  return (
+    <span className={`relative block ${className}`}>
+      {/* rings centred on her avatar disc: 48% of the image, centre at 50% / 47% */}
+      <span className="pointer-events-none absolute left-[26%] top-[23%] h-[48%] w-[48%]" aria-hidden>
+        <span className="absolute inset-0 motion-safe:animate-ring rounded-full border-2 border-brand/60" />
+        <span className="absolute inset-0 motion-safe:animate-ring rounded-full border-2 border-brand/40" style={{ animationDelay: "0.8s" }} />
+        <span className="absolute inset-0 motion-safe:animate-ring rounded-full border-2 border-brand/30" style={{ animationDelay: "1.6s" }} />
+      </span>
+      <picture className="float-soft relative block h-full w-full">
+        <source media="(prefers-reduced-motion: reduce)" srcSet="/try-ai-call/vaani-still.webp" />
+        <img
+          src="/try-ai-call/vaani.webp"
+          alt="Vaani, the AI admission counsellor, talking"
+          width={300}
+          height={300}
+          decoding="async"
+          fetchPriority="high"
+          className="h-full w-full"
+        />
+      </picture>
+    </span>
   );
 }
 

@@ -6,7 +6,7 @@ import {
 } from "lucide-react";
 import { DIAL_DISPLAY, DIAL_NUMBER, fetchDemoStatus, LANGUAGES, submitDemoLead, type DemoStatus } from "@/lib/aiDemoCall";
 import { track } from "@/lib/track";
-import { Confetti, RingingPhone, VaaniAvatar, VaaniHero, Waveform } from "./TryAiCallVisuals";
+import { Confetti, RingingPhone, VaaniAnimation, VaaniAvatar, VaaniHero, Waveform } from "./TryAiCallVisuals";
 
 /*
  * One question per screen, for a phone held in one hand at an exhibition stall: big type,
@@ -325,8 +325,8 @@ function CallScreen({
           <VaaniAvatar size="xl" />
         ) : live ? (
           <>
-            <VaaniAvatar size="xl" speaking />
-            <span className="flex items-center gap-2 text-sm font-semibold text-brand-200">
+            <VaaniAnimation className="h-56 w-56" />
+            <span className="-mt-4 flex items-center gap-2 text-sm font-semibold text-brand-200">
               <Waveform bars={7} className="text-brand" /> Vaani is speaking
             </span>
           </>
