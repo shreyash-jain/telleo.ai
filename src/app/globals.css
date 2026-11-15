@@ -302,6 +302,39 @@
 }
 .slide-in-right { animation: slide-in-right 0.28s ease-out both; }
 .slide-in-left { animation: slide-in-left 0.28s ease-out both; }
+@keyframes greet-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes float-soft {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+@keyframes blink-soft {
+  0%, 92%, 100% { transform: scaleY(1); }
+  95% { transform: scaleY(0.1); }
+}
+@keyframes talk {
+  0%, 100% { transform: scaleY(1); }
+  50% { transform: scaleY(2.4); }
+}
+@keyframes wiggle {
+  0%, 60%, 100% { transform: rotate(0); }
+  10%, 30%, 50% { transform: rotate(-14deg); }
+  20%, 40% { transform: rotate(14deg); }
+}
+@keyframes confetti {
+  0% { opacity: 1; transform: translate(0, 0) rotate(0); }
+  80% { opacity: 1; }
+  100% { opacity: 0; transform: translate(var(--x), calc(var(--y) + 120px)) rotate(var(--r)); }
+}
+.greet-in { animation: greet-in 0.35s ease-out both; }
+.float-soft { animation: float-soft 3s ease-in-out infinite; }
+.blink-soft { transform-box: fill-box; transform-origin: center; animation: blink-soft 4s infinite; }
+.talk { transform-box: fill-box; transform-origin: center; animation: talk 0.35s ease-in-out infinite; }
+.wiggle { animation: wiggle 1.4s ease-in-out infinite; }
+.confetti { animation: confetti 1.4s cubic-bezier(0.2, 0.7, 0.3, 1) both; }
 @media (prefers-reduced-motion: reduce) {
-  .slide-in-right, .slide-in-left { animation: none; }
+  .slide-in-right, .slide-in-left, .greet-in, .float-soft, .blink-soft, .talk, .wiggle, .confetti { animation: none; }
+  .confetti { display: none; }
 }
