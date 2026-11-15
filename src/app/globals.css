@@ -302,39 +302,65 @@
 }
 .slide-in-right { animation: slide-in-right 0.28s ease-out both; }
 .slide-in-left { animation: slide-in-left 0.28s ease-out both; }
-@keyframes greet-in {
-  from { opacity: 0; transform: translateY(6px); }
-  to { opacity: 1; transform: translateY(0); }
+/* /try-ai-call voice orb: a morphing gradient sphere with a slow colour sweep. */
+.orb {
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 32% 28%, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0) 22%),
+    radial-gradient(circle at 70% 75%, #3b82f6 0%, rgba(59, 130, 246, 0) 55%),
+    radial-gradient(circle at 25% 80%, #7c6cf2 0%, rgba(124, 108, 242, 0) 50%),
+    radial-gradient(circle at 50% 50%, #6fdfab 0%, #14c47c 45%, #0a8656 100%);
+  box-shadow:
+    inset -10px -14px 32px rgba(10, 15, 28, 0.45),
+    inset 8px 10px 24px rgba(255, 255, 255, 0.25),
+    0 0 48px rgba(20, 196, 124, 0.35);
+  animation: orb-morph 9s ease-in-out infinite, orb-breathe 3.2s ease-in-out infinite;
+  overflow: hidden;
 }
-@keyframes float-soft {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-5px); }
+.orb::before {
+  content: "";
+  position: absolute;
+  inset: -20%;
+  background: conic-gradient(from 0deg, transparent 0deg, rgba(124, 108, 242, 0.55) 70deg, transparent 140deg,
+    rgba(59, 130, 246, 0.5) 210deg, transparent 280deg, rgba(166, 236, 202, 0.55) 330deg, transparent 360deg);
+  filter: blur(10px);
+  mix-blend-mode: screen;
+  animation: orb-spin 7s linear infinite;
 }
-@keyframes blink-soft {
-  0%, 92%, 100% { transform: scaleY(1); }
-  95% { transform: scaleY(0.1); }
+.orb-speaking { animation: orb-morph 4s ease-in-out infinite, orb-breathe 0.9s ease-in-out infinite; }
+.orb-speaking::before { animation-duration: 3.5s; }
+.orb-glow { animation: orb-glow 3.2s ease-in-out infinite; }
+.orb-glow-fast { animation-duration: 0.9s; }
+@keyframes orb-morph {
+  0%, 100% { border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%; }
+  25% { border-radius: 56% 44% 52% 48% / 47% 55% 45% 53%; }
+  50% { border-radius: 46% 54% 44% 56% / 55% 46% 54% 45%; }
+  75% { border-radius: 52% 48% 57% 43% / 45% 52% 48% 55%; }
 }
-@keyframes talk {
-  0%, 100% { transform: scaleY(1); }
-  50% { transform: scaleY(2.4); }
+@keyframes orb-breathe {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.045); }
 }
-@keyframes wiggle {
-  0%, 60%, 100% { transform: rotate(0); }
-  10%, 30%, 50% { transform: rotate(-14deg); }
-  20%, 40% { transform: rotate(14deg); }
+@keyframes orb-spin {
+  to { transform: rotate(360deg); }
 }
-@keyframes confetti {
-  0% { opacity: 1; transform: translate(0, 0) rotate(0); }
-  80% { opacity: 1; }
-  100% { opacity: 0; transform: translate(var(--x), calc(var(--y) + 120px)) rotate(var(--r)); }
+@keyframes orb-glow {
+  0%, 100% { opacity: 0.55; transform: scale(0.95); }
+  50% { opacity: 0.9; transform: scale(1.08); }
 }
-.greet-in { animation: greet-in 0.35s ease-out both; }
-.float-soft { animation: float-soft 3s ease-in-out infinite; }
-.blink-soft { transform-box: fill-box; transform-origin: center; animation: blink-soft 4s infinite; }
-.talk { transform-box: fill-box; transform-origin: center; animation: talk 0.35s ease-in-out infinite; }
-.wiggle { animation: wiggle 1.4s ease-in-out infinite; }
-.confetti { animation: confetti 1.4s cubic-bezier(0.2, 0.7, 0.3, 1) both; }
+.typing-caret {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  margin-left: 2px;
+  vertical-align: -0.12em;
+  background: currentColor;
+  animation: caret-blink 1s steps(2, start) infinite;
+}
+@keyframes caret-blink {
+  to { visibility: hidden; }
+}
 @media (prefers-reduced-motion: reduce) {
-  .slide-in-right, .slide-in-left, .greet-in, .float-soft, .blink-soft, .talk, .wiggle, .confetti { animation: none; }
-  .confetti { display: none; }
+  .slide-in-right, .slide-in-left, .orb, .orb::before, .orb-glow, .typing-caret { animation: none; }
 }
+

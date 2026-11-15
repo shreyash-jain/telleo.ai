@@ -6,7 +6,7 @@ import {
 } from "lucide-react";
 import { DIAL_DISPLAY, DIAL_NUMBER, fetchDemoStatus, LANGUAGES, submitDemoLead, type DemoStatus } from "@/lib/aiDemoCall";
 import { track } from "@/lib/track";
-import { Confetti, RingingPhone, VaaniAnimation, VaaniAvatar, VaaniHero, Waveform } from "./TryAiCallVisuals";
+import { Connecting, DoneBadge, LiveCallCard, VoiceOrb, Waveform } from "./TryAiCallVisuals";
 
 /*
  * One question per screen, for a phone held in one hand at an exhibition stall: big type,
@@ -178,7 +178,7 @@ export function TryAiCall() {
       <div key={step} className={dir === 1 ? "slide-in-right" : "slide-in-left"}>
         {step === "name" && (
           <Question
-            visual={<VaaniHero name={firstName} />}
+            visual={<div className="mb-6"><LiveCallCard mode="preview" compact /></div>}
             title="Hear your own AI admission counsellor, live."
             hint="First, what should she call you?"
           >
@@ -188,7 +188,7 @@ export function TryAiCall() {
 
         {step === "org" && (
           <Question
-            visual={<VaaniAvatar size="md" />}
+            visual={<VoiceOrb size={56} />}
             title={firstName ? `Hi ${firstName}! Which institute is this for?` : "Which institute is this for?"}
             hint="She'll pick up as this institute's admission counsellor."
           >
@@ -197,7 +197,7 @@ export function TryAiCall() {
         )}
 
         {step === "language" && (
-          <Question visual={<VaaniAvatar size="md" speaking />} title="Which language should she speak?" hint="Tap one and your phone will dial.">
+          <Question visual={<VoiceOrb size={56} speaking />} title="Which language should she speak?" hint="Tap one and your phone will dial.">
             <div className="grid grid-cols-2 gap-2.5">
               {LANGUAGES.map((l) => {
                 const on = draft.language === l.code;
@@ -228,6 +228,7 @@ export function TryAiCall() {
         {step === "call" && (
           <CallScreen
             org={org}
+            langCode={draft.language}
             language={lang ? `${lang.nativeLabel}${lang.nativeLabel !== lang.label ? ` · ${lang.label}` : ""}` : ""}
             status={status}
             offline={offline}
@@ -304,9 +305,10 @@ function BigInput({
 }
 
 function CallScreen({
-  org, language, status, offline, onEdit, onAnotherLanguage,
+  org, language, langCode, status, offline, onEdit, onAnotherLanguage,
 }: {
   org: string;
+  langCode: string;
   language: string;
   status: DemoStatus | null;
   offline: boolean;
@@ -319,21 +321,17 @@ function CallScreen({
 
   return (
     <section className="relative flex flex-col">
-      {ended && <Confetti />}
       <div className="mb-6 flex flex-col items-center gap-3 pt-2 text-center">
         {ended ? (
-          <VaaniAvatar size="xl" />
+          <DoneBadge />
         ) : live ? (
-          <>
-            <VaaniAnimation className="h-56 w-56" />
-            <span className="-mt-4 flex items-center gap-2 text-sm font-semibold text-brand-200">
-              <Waveform bars={7} className="text-brand" /> Vaani is speaking
-            </span>
-          </>
+          <div className="w-full text-left">
+            <LiveCallCard mode="live" org={org} language={langCode} />
+          </div>
         ) : expired ? (
-          <VaaniAvatar size="xl" />
+          <VoiceOrb size={104} />
         ) : (
-          <RingingPhone />
+          <Connecting />
         )}
         <StatusChip status={status} offline={offline} />
       </div>
