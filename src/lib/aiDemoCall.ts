@@ -1,8 +1,10 @@
 /**
  * "Try the AI call" (exhibition QR page). The form saves the visitor as a lead in the
  * "Telleo – Try AI call (Exhibition)" list on the Telleo demo institute, using the same open
- * lead endpoint as leadSubmit.ts. When that phone rings the demo line, the AI answers as the
- * admission counsellor of the organisation they typed, in the language they picked.
+ * lead endpoint as leadSubmit.ts. No phone is asked: the backend matches the next inbound
+ * call to the oldest form waiting from the last few minutes, writes the caller's number onto
+ * the lead, and answers as the admission counsellor of the organisation they typed, in the
+ * language they picked. So the visitor should dial right after submitting.
  * Browser-side, like leadSubmit.ts.
  */
 import { TEST_LINE, TEST_LINE_DISPLAY } from "./site";
@@ -17,7 +19,6 @@ const DEMO_AUDIENCE_ID = "1d7e7d4d-60b8-4865-aff9-4550d43d3ce5";
 // Custom-field ids on that list (ids, not names).
 const FIELD = {
   fullName: "145b36f8-2e7b-4f50-b579-91b5d872e56c",
-  phone: "abe29247-0e9c-4623-a19a-3416e117ceef",
   organisation: "c750cc32-a2ad-4521-bc5e-d140aae43b0d",
   language: "53958528-8be4-4f95-9168-c3d26e8897e4",
 } as const;
@@ -48,19 +49,17 @@ export const LANGUAGES: DemoLanguage[] = [
 export type DemoStatus = "PENDING" | "CONNECTED" | "ENDED" | "EXPIRED";
 
 export type SubmitResult =
-  | { ok: true; leadId: string | null } // null = this phone was already on the list
+  | { ok: true; leadId: string | null } // null = the server reported a duplicate
   | { ok: false; error: string };
 
 const isLeadId = (s: string) => /^[0-9a-f-]{32,36}$/i.test(s.trim());
 
-/** Saves the visitor as a lead. `phone` is the 10-digit Indian mobile. */
+/** Saves the visitor as a lead (no phone: the call supplies it). */
 export async function submitDemoLead(input: {
   name: string;
   organisation: string;
-  phone: string;
   language: string;
 }): Promise<SubmitResult> {
-  const mobile = `+91${input.phone}`;
   try {
     const res = await fetch(`${API_BASE}/admin-core-service/open/v1/audience/lead/submit`, {
       method: "POST",
@@ -71,13 +70,12 @@ export async function submitDemoLead(input: {
         source_id: utmNote() || "try-ai-call",
         custom_field_values: {
           [FIELD.fullName]: input.name,
-          [FIELD.phone]: mobile,
           [FIELD.organisation]: input.organisation,
           [FIELD.language]: input.language,
         },
         user_dto: {
           id: "", username: "", email: "", full_name: input.name, address_line: "", city: "", region: "",
-          pin_code: "", mobile_number: mobile, date_of_birth: null, gender: "", password: "",
+          pin_code: "", mobile_number: "", date_of_birth: null, gender: "", password: "",
           profile_pic_file_id: "", roles: [], last_login_time: null, root_user: false,
         },
       }),
