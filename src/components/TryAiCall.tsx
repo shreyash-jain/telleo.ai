@@ -2,10 +2,11 @@
 
 import { useEffect, useRef, useState } from "react";
 import {
-  ArrowLeft, ArrowRight, Building2, Check, Copy, Languages, Loader2, PhoneCall, PhoneOff, Sparkles, User,
+  ArrowLeft, ArrowRight, Check, Copy, Languages, Loader2, PhoneCall, PhoneOff, Sparkles,
 } from "lucide-react";
 import { DIAL_DISPLAY, DIAL_NUMBER, fetchDemoStatus, LANGUAGES, submitDemoLead, type DemoStatus } from "@/lib/aiDemoCall";
 import { track } from "@/lib/track";
+import { Confetti, RingingPhone, VaaniAvatar, VaaniHero, Waveform } from "./TryAiCallVisuals";
 
 /*
  * One question per screen, for a phone held in one hand at an exhibition stall: big type,
@@ -176,14 +177,18 @@ export function TryAiCall() {
 
       <div key={step} className={dir === 1 ? "slide-in-right" : "slide-in-left"}>
         {step === "name" && (
-          <Question icon={<User className="h-6 w-6" />} title="Hear your own AI admission counsellor, live." hint="First, what should she call you?">
+          <Question
+            visual={<VaaniHero name={firstName} />}
+            title="Hear your own AI admission counsellor, live."
+            hint="First, what should she call you?"
+          >
             <BigInput value={draft.name} onChange={(v) => update("name", v)} onEnter={next} placeholder="Your name" autoComplete="name" maxLength={80} />
           </Question>
         )}
 
         {step === "org" && (
           <Question
-            icon={<Building2 className="h-6 w-6" />}
+            visual={<VaaniAvatar size="md" />}
             title={firstName ? `Hi ${firstName}! Which institute is this for?` : "Which institute is this for?"}
             hint="She'll pick up as this institute's admission counsellor."
           >
@@ -192,7 +197,7 @@ export function TryAiCall() {
         )}
 
         {step === "language" && (
-          <Question icon={<Languages className="h-6 w-6" />} title="Which language should she speak?" hint="Tap one and your phone will dial.">
+          <Question visual={<VaaniAvatar size="md" speaking />} title="Which language should she speak?" hint="Tap one and your phone will dial.">
             <div className="grid grid-cols-2 gap-2.5">
               {LANGUAGES.map((l) => {
                 const on = draft.language === l.code;
@@ -203,10 +208,11 @@ export function TryAiCall() {
                     disabled={sending}
                     onClick={() => pickLanguage(l.code)}
                     aria-pressed={on}
-                    className={`min-h-[4.25rem] rounded-2xl border px-4 py-3 text-left transition active:scale-[0.97] disabled:opacity-60 ${on ? "border-brand bg-brand/15 ring-2 ring-brand/40" : "border-white/10 bg-white/[0.05] hover:bg-white/[0.09]"}`}
+                    className={`relative min-h-[4.25rem] rounded-2xl border px-4 py-3 text-left transition active:scale-[0.97] disabled:opacity-60 ${on ? "border-brand bg-brand/15 ring-2 ring-brand/40" : "border-white/10 bg-white/[0.05] hover:bg-white/[0.09]"}`}
                   >
                     <span className="block text-lg font-bold leading-tight">{l.nativeLabel}</span>
                     {l.nativeLabel !== l.label && <span className="block text-xs text-slate-400">{l.label}</span>}
+                    {on && <Waveform bars={4} className="absolute right-3 top-1/2 -translate-y-1/2 text-brand" />}
                   </button>
                 );
               })}
@@ -254,10 +260,10 @@ export function TryAiCall() {
   );
 }
 
-function Question({ icon, title, hint, children }: { icon: React.ReactNode; title: string; hint: string; children: React.ReactNode }) {
+function Question({ visual, title, hint, children }: { visual: React.ReactNode; title: string; hint: string; children: React.ReactNode }) {
   return (
     <section>
-      <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand/15 text-brand">{icon}</span>
+      {visual}
       <h1 className="h-display mt-5 text-[1.9rem] leading-[1.15] md:text-4xl">{title}</h1>
       <p className="mt-2 text-base text-slate-400">{hint}</p>
       <div className="mt-6">{children}</div>
@@ -312,8 +318,25 @@ function CallScreen({
   const expired = status === "EXPIRED";
 
   return (
-    <section className="flex flex-col">
-      <StatusChip status={status} offline={offline} />
+    <section className="relative flex flex-col">
+      {ended && <Confetti />}
+      <div className="mb-6 flex flex-col items-center gap-3 pt-2 text-center">
+        {ended ? (
+          <VaaniAvatar size="xl" />
+        ) : live ? (
+          <>
+            <VaaniAvatar size="xl" speaking />
+            <span className="flex items-center gap-2 text-sm font-semibold text-brand-200">
+              <Waveform bars={7} className="text-brand" /> Vaani is speaking
+            </span>
+          </>
+        ) : expired ? (
+          <VaaniAvatar size="xl" />
+        ) : (
+          <RingingPhone />
+        )}
+        <StatusChip status={status} offline={offline} />
+      </div>
 
       <h1 className="h-display mt-4 text-[2rem] leading-[1.15] md:text-4xl">
         {ended ? "Thanks for trying Telleo!" : live ? "You're live. Listen in!" : `Calling ${org}'s AI counsellor`}
