@@ -52,6 +52,7 @@ export function Nav() {
       className={`fixed inset-x-0 top-0 z-50 transition-colors duration-200 ${
         overDark ? "bg-transparent" : "border-b border-line bg-white/90 backdrop-blur-md"
       }`}
+      style={{ top: "var(--didac-offset, 0px)" }}
       onMouseLeave={() => setOpen(null)}
     >
       <div className="wrap flex h-16 items-center justify-between gap-4 md:h-[4.5rem]">
@@ -171,7 +172,7 @@ export function Nav() {
 
       {/* Mobile drawer */}
       {mobile && (
-        <div className="fixed inset-x-0 bottom-0 top-16 overflow-y-auto bg-white lg:hidden">
+        <div className="fixed inset-x-0 bottom-0 top-16 overflow-y-auto bg-white lg:hidden" style={{ top: "calc(4rem + var(--didac-offset, 0px))" }}>
           <div className="wrap space-y-6 py-6">
             <MobileGroup title="Product" items={PRODUCT_NAV.map((p) => ({ href: p.href, label: p.label }))} />
             <MobileGroup title="Use cases" items={USE_CASE_NAV.map((u) => ({ href: `/use-cases/${u.slug}/`, label: u.label }))} />

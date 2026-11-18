@@ -1,3 +1,4 @@
+import { DidacStrip, DidacStripScript } from "@/components/DidacStrip";
 import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans, Noto_Sans_Devanagari, JetBrains_Mono } from "next/font/google";
 import Script from "next/script";
@@ -101,11 +102,12 @@ const jsonLd = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en-IN" className={`${jakarta.variable} ${deva.variable} ${mono.variable}`}>
+    <html lang="en-IN" suppressHydrationWarning className={`${jakarta.variable} ${deva.variable} ${mono.variable}`}>
       <head>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       </head>
       <body>
+        <DidacStripScript />
         <Script id="gtm" strategy="afterInteractive">
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${GTM_ID}');`}
         </Script>
@@ -120,6 +122,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-full focus:bg-ink focus:px-4 focus:py-2 focus:text-white">
           Skip to content
         </a>
+        {/* DIDAC India 2026 notice (25–27 Nov). Remove after the event. */}
+        <DidacStrip />
         <Nav />
         <div id="main" className="pt-16 md:pt-[4.5rem]">{children}</div>
         <Footer />
