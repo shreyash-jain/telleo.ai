@@ -4,7 +4,7 @@
  *
  * Telleo is sold two ways (docs/PRODUCT_FACTS.md §12). These plans are the API plans. The Dashboard
  * plans are Evalezy's, kept in the platform database and read live (lib/productOffer.ts).
- * `buyKey` is the plan's id in the app (product.telleo plans, platform migration V734): keep them equal,
+ * `buyKey` is the plan's id in the app (product.telleo plans in the platform database): keep them equal,
  * or the Buy button opens the wrong checkout. An API plan's id starts with "api-".
  */
 export type Track = "dashboard" | "api";

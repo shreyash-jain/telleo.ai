@@ -1,6 +1,6 @@
 /**
- * Telleo's Dashboard plans are Evalezy's, kept in the platform database (product.telleo, platform
- * migration V734), so the site reads them live from the public offer the sign-up page also uses.
+ * Telleo's Dashboard plans are Evalezy's, kept in the platform database (product.telleo),
+ * so the site reads them live from the public offer the sign-up page also uses.
  * Browser-side on purpose (see leadSubmit.ts: a Worker subrequest to this host loops at the edge).
  */
 const API_BASE = "https://backend-stage.vacademy.io";
