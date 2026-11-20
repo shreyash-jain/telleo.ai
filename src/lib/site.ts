@@ -18,6 +18,20 @@ export const SALES_EMAIL = "hello@telleo.ai";
 /** Booking page for "Book a demo". Empty = every CTA goes to the /demo/ form. */
 export const BOOKING_URL = "";
 export const bookHref = () => BOOKING_URL || "/demo/";
+
+/**
+ * Telleo self sign-up (PRODUCT_FACTS §12): the Telleo-branded host of the dashboard. `mode` is how the
+ * visitor will use Telleo (the setup screen then skips that question); `buy` is an app plan id
+ * (content/pricing.ts buyKey): sign up, then that plan's checkout, with no free trial.
+ */
+export const SIGNUP_URL = "https://telleo.vacademy.io/signup/start";
+export const signupHref = (opts: { mode?: "dashboard" | "api"; buy?: string; source?: string } = {}) => {
+  const q = new URLSearchParams({ product: "telleo" });
+  if (opts.mode) q.set("mode", opts.mode);
+  if (opts.buy) q.set("buy", opts.buy);
+  q.set("source", opts.source ?? "website");
+  return `${SIGNUP_URL}?${q.toString()}`;
+};
 export const whatsappHref = (text = "Hi, I'd like to see a Telleo demo.") =>
   `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
 

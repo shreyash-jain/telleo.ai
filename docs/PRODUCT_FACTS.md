@@ -236,3 +236,17 @@ by default (Sarvam voices cost more, Edge less); say "rates are for our standard
   live call today. Bengali clips come only from voices whose engine takes the agent's language on a live call;
   Bengali stays "set up with you on request".
 - Both are rendered by `scripts/samples/` (see its README) and listed in `src/content/voiceSamples.ts`.
+
+## 12. Self sign-up and two ways to buy (added 2026-11-20)
+
+- **Self sign-up is live** at `https://telleo.vacademy.io/signup/start?product=telleo` (platform V714,
+  17 Nov 2026). Email (code or Google), name, company and phone; no payment to start.
+- **Free trial: 7 days with 50 credits, about 10 minutes of AI calling** (5 credits a minute). Then a plan.
+- **Two ways to use Telleo**, picked on the pricing page or on the first setup screen, both with the free trial:
+  - **Dashboard:** answer a few questions and Telleo drafts the first agent, then upload leads, call them and
+    see every call in the dashboard. **Plans are Evalezy's** (owner, 2026-11-20), kept in the platform
+    database (`product.telleo`) and shown live on the pricing page; never hard-code their prices.
+  - **API:** calls from the customer's own software with an API key (section 10). **The API plans are the
+    section 7 price list** (Starter, Pro, Annual, Enterprise), app plan ids `api-starter`, `api-pro`,
+    `api-annual`.
+- "Buy" on the site signs the visitor up and opens that plan's checkout; such an account gets no free trial.

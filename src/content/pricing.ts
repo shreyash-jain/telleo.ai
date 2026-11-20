@@ -1,9 +1,18 @@
 /**
  * Public price list. Mirrors vacademy.io/voice (Sept 2026) — change both together.
  * All prices exclude 18% GST.
+ *
+ * Telleo is sold two ways (docs/PRODUCT_FACTS.md §12). These plans are the API plans. The Dashboard
+ * plans are Evalezy's, kept in the platform database and read live (lib/productOffer.ts).
+ * `buyKey` is the plan's id in the app (product.telleo plans in the platform database): keep them equal,
+ * or the Buy button opens the wrong checkout. An API plan's id starts with "api-".
  */
+export type Track = "dashboard" | "api";
+
 export interface Plan {
   key: string;
+  /** Plan id in the app for "Buy"; none = no Buy button (Enterprise). */
+  buyKey?: string;
   name: string;
   price: string;
   cadence: string;
@@ -19,6 +28,7 @@ export interface Plan {
 export const PLANS: Plan[] = [
   {
     key: "starter",
+    buyKey: "api-starter",
     name: "Starter",
     price: "₹3,499",
     cadence: "/month minimum billing",
@@ -37,6 +47,7 @@ export const PLANS: Plan[] = [
   },
   {
     key: "pro",
+    buyKey: "api-pro",
     name: "Pro",
     price: "₹6,999",
     cadence: "/month minimum billing",
@@ -54,6 +65,7 @@ export const PLANS: Plan[] = [
   },
   {
     key: "annual",
+    buyKey: "api-annual",
     name: "Annual",
     price: "₹29,999",
     cadence: "/year, paid upfront",
@@ -87,6 +99,25 @@ export const PLANS: Plan[] = [
     cta: "Contact us",
   },
 ];
+
+export const TRACKS: { key: Track; label: string; blurb: string }[] = [
+  {
+    key: "dashboard",
+    label: "Dashboard",
+    blurb: "Telleo drafts your first agent; upload leads, call them and see every call in the dashboard.",
+  },
+  {
+    key: "api",
+    label: "API only",
+    blurb: "Place calls from your own software with an API key. No dashboard needed.",
+  },
+];
+
+/** The API plans: the published price list above. */
+export const API_PLANS = PLANS;
+
+/** The free trial every sign-up gets, dashboard or API (PRODUCT_FACTS §12). */
+export const FREE_TRIAL = "7-day free trial with 50 credits, about 10 minutes of AI calling";
 
 /** Monthly CRM + voice option sits between Pro and Annual. */
 export const CRM_MONTHLY = {
