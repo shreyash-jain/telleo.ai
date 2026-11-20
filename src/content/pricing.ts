@@ -2,7 +2,8 @@
  * Public price list. Mirrors vacademy.io/voice (Sept 2026) — change both together.
  * All prices exclude 18% GST.
  *
- * Telleo is sold two ways (docs/PRODUCT_FACTS.md §12): the Dashboard (PLANS) and the API (API_PLANS).
+ * Telleo is sold two ways (docs/PRODUCT_FACTS.md §12). These plans are the API plans. The Dashboard
+ * plans are Evalezy's, kept in the platform database and read live (lib/productOffer.ts).
  * `buyKey` is the plan's id in the app (product.telleo plans, platform migration V734): keep them equal,
  * or the Buy button opens the wrong checkout. An API plan's id starts with "api-".
  */
@@ -12,8 +13,6 @@ export interface Plan {
   key: string;
   /** Plan id in the app for "Buy"; none = no Buy button (Enterprise). */
   buyKey?: string;
-  /** Price not published yet: no Buy button, only the free trial. */
-  priceTbd?: boolean;
   name: string;
   price: string;
   cadence: string;
@@ -29,7 +28,7 @@ export interface Plan {
 export const PLANS: Plan[] = [
   {
     key: "starter",
-    buyKey: "starter",
+    buyKey: "api-starter",
     name: "Starter",
     price: "₹3,499",
     cadence: "/month minimum billing",
@@ -48,7 +47,7 @@ export const PLANS: Plan[] = [
   },
   {
     key: "pro",
-    buyKey: "pro",
+    buyKey: "api-pro",
     name: "Pro",
     price: "₹6,999",
     cadence: "/month minimum billing",
@@ -66,7 +65,7 @@ export const PLANS: Plan[] = [
   },
   {
     key: "annual",
-    buyKey: "annual",
+    buyKey: "api-annual",
     name: "Annual",
     price: "₹29,999",
     cadence: "/year, paid upfront",
@@ -101,86 +100,6 @@ export const PLANS: Plan[] = [
   },
 ];
 
-/**
- * API-only plans: calls from your own software, no dashboard. Same shapes as the dashboard plans,
- * priced below them. Prices are not published yet (PRODUCT_FACTS §12): when they are, set price,
- * cadence, rate and rateNote, drop priceTbd, and add the same plans to product.telleo with
- * access_mode API (health dashboard → Products → Telleo).
- */
-export const API_PLANS: Plan[] = [
-  {
-    key: "api-starter",
-    buyKey: "api-starter",
-    priceTbd: true,
-    name: "API Starter",
-    price: "Coming soon",
-    cadence: "",
-    rate: "Below Starter",
-    rateNote: "Price coming soon · start on the free trial today",
-    blurb: "Place AI calls from your own software on one list or campaign.",
-    features: [
-      "A REST API and signed webhooks",
-      "One call or a batch of up to 1,000 per request",
-      "Outcome, summary, transcript and recording link on every call",
-      "Telephony included, no SIMs or dialers",
-      "Free test mode",
-    ],
-    cta: "Start free trial",
-  },
-  {
-    key: "api-pro",
-    buyKey: "api-pro",
-    priceTbd: true,
-    name: "API Pro",
-    price: "Coming soon",
-    cadence: "",
-    rate: "Below Pro",
-    rateNote: "Price coming soon · start on the free trial today",
-    blurb: "For products that place AI calls every day.",
-    features: [
-      "Everything in API Starter",
-      "More minutes every month",
-      "Idempotency keys and webhook retries",
-      "Your calling hours and per-number limits apply",
-    ],
-    cta: "Start free trial",
-  },
-  {
-    key: "api-annual",
-    buyKey: "api-annual",
-    priceTbd: true,
-    name: "API Annual",
-    price: "Coming soon",
-    cadence: "",
-    rate: "Below Annual",
-    rateNote: "Price coming soon · pay per use, no monthly minimum",
-    blurb: "The API at our best rate. Pay nothing for minutes in quiet months.",
-    features: [
-      "Everything in API Pro",
-      "Pure pay-per-use calling",
-      "No monthly minimum",
-    ],
-    cta: "Start free trial",
-    highlight: true,
-    footnote: "Recommended",
-  },
-  {
-    key: "api-enterprise",
-    name: "API Enterprise",
-    price: "Custom",
-    cadence: "",
-    rate: "Volume rates",
-    rateNote: "For high-volume calling from your platform",
-    blurb: "High-volume API calling on a dedicated line.",
-    features: [
-      "Everything in API Annual",
-      "Dedicated AI calling line and caller ID",
-      "Volume per-minute pricing",
-    ],
-    cta: "Contact us",
-  },
-];
-
 export const TRACKS: { key: Track; label: string; blurb: string }[] = [
   {
     key: "dashboard",
@@ -194,7 +113,8 @@ export const TRACKS: { key: Track; label: string; blurb: string }[] = [
   },
 ];
 
-export const PLANS_BY_TRACK: Record<Track, Plan[]> = { dashboard: PLANS, api: API_PLANS };
+/** The API plans: the published price list above. */
+export const API_PLANS = PLANS;
 
 /** The free trial every sign-up gets, dashboard or API (PRODUCT_FACTS §12). */
 export const FREE_TRIAL = "7-day free trial with 50 credits, about 10 minutes of AI calling";

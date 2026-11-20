@@ -244,8 +244,9 @@ by default (Sarvam voices cost more, Edge less); say "rates are for our standard
 - **Free trial: 7 days with 50 credits, about 10 minutes of AI calling** (5 credits a minute). Then a plan.
 - **Two ways to use Telleo**, picked on the pricing page or on the first setup screen, both with the free trial:
   - **Dashboard:** answer a few questions and Telleo drafts the first agent, then upload leads, call them and
-    see every call in the dashboard. Plans are section 7 (Starter, Pro, Annual, Enterprise).
-  - **API:** calls from the customer's own software with an API key (section 10). Same plan shapes as the
-    dashboard (API Starter, API Pro, API Annual), priced below the dashboard plans. **API prices are not
-    published yet**: say "price coming soon", never a number.
+    see every call in the dashboard. **Plans are Evalezy's** (owner, 2026-11-20), kept in the platform
+    database (`product.telleo`) and shown live on the pricing page; never hard-code their prices.
+  - **API:** calls from the customer's own software with an API key (section 10). **The API plans are the
+    section 7 price list** (Starter, Pro, Annual, Enterprise), app plan ids `api-starter`, `api-pro`,
+    `api-annual`.
 - "Buy" on the site signs the visitor up and opens that plan's checkout; such an account gets no free trial.
