@@ -51,6 +51,8 @@ const INCLUDED: [string, boolean, string][] = [
 ];
 
 const FAQS = [
+  { q: "Is there a free trial?", a: "Yes. Every sign-up starts with a 7-day free trial with 50 credits, about 10 minutes of AI calling, on the dashboard or the API. You don't pay to start. Choose \"Buy\" instead to go straight to a plan's checkout, without the trial." },
+  { q: "What is the difference between Dashboard and API plans?", a: "Dashboard plans include the Telleo dashboard: Telleo drafts your first agent from a few questions, and you upload leads, call them and see every call there. API plans are for calling from your own software with an API key: a REST API and signed webhooks, without the dashboard. API plans follow the same shapes as the dashboard plans, priced below them; their prices are coming soon." },
   { q: "How are minutes counted?", a: "In 30-second pulses of connected conversation, at the per-minute rate: a 40-second call bills as one minute, a 20-second call as half a minute. Calls that aren't answered don't use minutes. Workflow calls are retried after your gap; re-run a campaign to call its unanswered leads again." },
   { q: "What does the Starter minimum mean?", a: "Starter bills at least ₹3,499 a month, which covers about 875 minutes at ₹3.99. Use more and you pay for what you use; use less and the minimum applies. It's meant as an entry plan for up to three months." },
   { q: "When does ₹3.49 a minute apply?", a: "On the Annual plan, from the first minute. On monthly plans, for every minute beyond 1,750 in a month." },
@@ -66,7 +68,7 @@ export default function Page() {
       path="/pricing/"
       eyebrow="Pricing"
       h1="Pay for the minutes your agents talk. The few extras are listed below."
-      lede="Telephony, speech, voices, transcripts and analysis of AI calls are all in the per-minute rate. From ₹3.99 a minute on monthly plans, or ₹3.49 a minute with no minimum on the annual plan."
+      lede="Telephony, speech, voices, transcripts and analysis of AI calls are all in the per-minute rate. From ₹3.99 a minute on monthly plans, or ₹3.49 a minute with no minimum on the annual plan. Use Telleo through the dashboard or only through the API, and start with a 7-day free trial either way."
       faqs={FAQS}
       faqTitle="Pricing questions"
     >
