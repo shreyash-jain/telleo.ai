@@ -81,10 +81,17 @@ export function Nav() {
           <Trigger k="resources" label="Resources" />
         </nav>
 
-        <div className="hidden items-center gap-2 lg:flex">
-          <a href={`tel:${TEST_LINE}`} className={`flex items-center gap-2 rounded-full px-3 py-2 text-sm font-semibold transition ${text}`} data-track="call_test_line">
-            <PhoneCall className="h-4 w-4 text-brand" />
-            <span className="hidden xl:inline">Talk to our AI:</span> {TEST_LINE_DISPLAY}
+        <div className="hidden shrink-0 items-center gap-2 lg:flex">
+          {/* Shown from xl only: at lg the two CTAs plus the number don't fit and the number got squeezed. */}
+          <a
+            href={`tel:${TEST_LINE}`}
+            title="Talk to our AI"
+            aria-label={`Talk to our AI: ${TEST_LINE_DISPLAY}`}
+            className={`hidden shrink-0 items-center gap-2 whitespace-nowrap rounded-full px-3 py-2 text-sm font-semibold transition xl:flex ${text}`}
+            data-track="call_test_line"
+          >
+            <PhoneCall className="h-4 w-4 shrink-0 text-brand" />
+            {TEST_LINE_DISPLAY}
           </a>
           <a
             href={signupHref({ source: "website_nav" })}
@@ -92,7 +99,8 @@ export function Nav() {
             data-track="signup"
             data-track-label="nav"
           >
-            Start free trial
+            <span className="hidden xl:inline">Start free trial</span>
+            <span className="xl:hidden">Free trial</span>
           </a>
           <Link href={bookHref()} className="btn btn-primary !py-2.5" data-track="book_demo">
             Book a demo
