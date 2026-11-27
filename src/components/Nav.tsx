@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { ArrowRight, ChevronDown, Menu, PhoneCall, X } from "lucide-react";
 import { Logo } from "./Logo";
 import { COMPARE_NAV, INDUSTRY_NAV, PRODUCT_NAV, RESOURCE_NAV, USE_CASE_NAV } from "@/lib/nav";
-import { TEST_LINE, TEST_LINE_DISPLAY, bookHref } from "@/lib/site";
+import { TEST_LINE, TEST_LINE_DISPLAY, bookHref, signupHref } from "@/lib/site";
 
 type MenuKey = "product" | "solutions" | "resources" | null;
 
@@ -85,6 +85,14 @@ export function Nav() {
           <a href={`tel:${TEST_LINE}`} className={`flex items-center gap-2 rounded-full px-3 py-2 text-sm font-semibold transition ${text}`} data-track="call_test_line">
             <PhoneCall className="h-4 w-4 text-brand" />
             <span className="hidden xl:inline">Talk to our AI:</span> {TEST_LINE_DISPLAY}
+          </a>
+          <a
+            href={signupHref({ source: "website_nav" })}
+            className={`btn !py-2.5 ${overDark ? "btn-ghost-dark" : "btn-outline"}`}
+            data-track="signup"
+            data-track-label="nav"
+          >
+            Start free trial
           </a>
           <Link href={bookHref()} className="btn btn-primary !py-2.5" data-track="book_demo">
             Book a demo
@@ -183,6 +191,9 @@ export function Nav() {
             />
             <div className="grid gap-3 pb-8">
               <Link href={bookHref()} className="btn btn-primary btn-lg w-full" data-track="book_demo">Book a demo</Link>
+              <a href={signupHref({ source: "website_nav" })} className="btn btn-outline btn-lg w-full" data-track="signup" data-track-label="nav_mobile">
+                Start free trial
+              </a>
               <a href={`tel:${TEST_LINE}`} className="btn btn-outline btn-lg w-full" data-track="call_test_line">
                 <PhoneCall className="h-4 w-4 text-brand-700" /> Talk to our AI: {TEST_LINE_DISPLAY}
               </a>
